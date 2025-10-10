@@ -1,6 +1,8 @@
 # PZE-character-interactions-project
 Team project (PZE) focused on extracting and analyzing character interactions in novels.
 
+### Team 5
+
 Team Members:
 - Michał Żelazko, Manager
 - Norbert Zabost, Documentation
