@@ -20,6 +20,7 @@ Exploration of:
 
 English and Polish Public domain books are available at https://www.gutenberg.org/ and https://wolnelektury.pl/.
 
+We have lecture presentations from the Natural Language Processing course, kindly shared with us by dr. Katsiaryna Kosarava.
 ### Related work
 - A comprehensive overview of the methods used for creating character networks - [Extraction and Analysis of Fictional Character Networks](papers/Extraction%20and%20Analysis%20of%20Fictional%20Character%20Networks.pdf)
 - Character network analysis based on "A Song of Ice and Fire" novels and "Game of Thrones" series - https://networkofthrones.com/
