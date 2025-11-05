@@ -5,15 +5,6 @@ import re
 
 nlp = spacy.load("en_core_web_sm")
 
-def download_book():
-    url = "https://www.gutenberg.org/files/1342/1342-0.txt"
-    response = requests.get(url)
-    text = response.text
-    
-    start = text.find("CHAPTER I")
-    end = text.find("End of the Project Gutenberg")
-    return text[start:end] if start != -1 and end != -1 else text
-
 def extract_characters():
     """Manual character list with variants for Pride and Prejudice"""
     character_dict = {
@@ -163,8 +154,9 @@ def analyze_interactions(interactions, character_dict):
         print(f"  {pair[0]} <-> {pair[1]}: {count} interactions")
 
 def main():
-    print("Downloading Pride and Prejudice...")
-    text = download_book()
+    text_path = "./data/pride_and_prejudice_cleaned.txt"
+    with open(text_path, "r", encoding="utf-8") as f:
+        text = f.read()
     
     character_dict = extract_characters()
     print(f"Tracking {len(character_dict)} main characters")

@@ -1,25 +1,5 @@
 from collections import defaultdict
 
-def strip_gutenberg_headers(text):
-
-    start_marker = "*** START OF THE PROJECT GUTENBERG"
-    end_marker = "*** END OF THE PROJECT GUTENBERG"
-    
-    start_idx = text.find(start_marker)
-    if start_idx != -1:
-        # Move to the line after the start marker
-        text = text[start_idx + len(start_marker):]
-        # Cut from the next newline to remove the remaining part of the marker line
-        newline_idx = text.find('\n')
-        if newline_idx != -1:
-            text = text[newline_idx + 1:]
-    
-    end_idx = text.find(end_marker)
-    if end_idx != -1:
-        text = text[:end_idx]
-    
-    return text.strip()
-
 def ner_stanford(text_path):
     try:
         import stanza
@@ -33,7 +13,6 @@ def ner_stanford(text_path):
 
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = strip_gutenberg_headers(text)
 
     # text = text[:20000]
     doc = nlp(text)
@@ -72,7 +51,6 @@ def ner_spacy(text_path):
 
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = strip_gutenberg_headers(text)
 
     doc = nlp(text)
 
@@ -107,6 +85,6 @@ def ner_spacy(text_path):
 
 
 if __name__ == "__main__":
-    text_path = "./data/pride_and_prejudice.txt"
+    text_path = "./data/pride_and_prejudice_cleaned.txt"
     ner_stanford(text_path)
     ner_spacy(text_path)
