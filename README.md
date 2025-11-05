@@ -1,4 +1,12 @@
-# PZE-character-interactions-project
+<p align="center">
+  <img src="book-cover.jpg" width="300"/>
+</p>
+
+# Interactions of Characters in Pride and Prejudice Novel
+
+*Project for the course "Projekt Zespołowy (II Stopień)" at UKSW.*
+
+
 ## Team 5
 
 Team Members:
@@ -10,11 +18,15 @@ Team Members:
 
 
 ## Current State of The Project
-<!--tests.py --> 
- ### Tasks
-Exploration of:
-- books/plays/TV scripts 
-- NLP (Natural Language Processing) tools e.g. SpaCy, NLTK, Flair
+
+### What is done
+
+- Researched related work to identify state-of-the-art (SOTA) methods  
+- Tested two Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results](./results))  
+- Performed initial tests for interaction detection ([interactions.py](./interactions.py))
+### Tasks
+- Finish character extraction
+
 <!-- NER (Named Entity Recognition) tools as BookNLP, Stanford NER, Illinois NER or IXA-NERC. -->
 ## Research
 
