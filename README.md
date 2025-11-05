@@ -20,7 +20,7 @@ Team Members:
 ## Current State of The Project
 
 ### What is done
-
+- Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods  
 - Tested two Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results](./results))  
 - Performed initial tests for interaction detection ([interactions.py](./interactions.py))
