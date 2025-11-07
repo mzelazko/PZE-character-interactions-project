@@ -9,7 +9,11 @@ def ner_stanford(text_path):
         ) from e
 
     stanza.download('en')
-    nlp = stanza.Pipeline(lang='en', processors='tokenize,ner')
+    nlp = stanza.Pipeline(
+        lang='en',
+        processors='tokenize,ner',
+        device='cpu' # for newer GPUs set to 'cuda'
+        )
 
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
@@ -52,7 +56,10 @@ def ner_spacy(text_path):
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
 
+    # text = text[:20000]
+
     doc = nlp(text)
+    
 
     # Extract PERSON entities
     characters = set([ent.text for ent in doc.ents if ent.label_ == "PERSON"])
@@ -83,8 +90,47 @@ def ner_spacy(text_path):
             for idx, sent in occs:
                 f.write(f"[{idx}] {sent}\n")
 
+#
+def ner_GLiNER2(text_path):
+    try:
+        from gliner import GLiNER
+    except ImportError as e:
+        raise SystemExit(
+            "GLiNER isn't installed. Install with: pip install gliner2"
+        ) from e
+    
+    model = GLiNER.from_pretrained("urchade/gliner_medium-v2.1")
+
+    with open(text_path, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    #text = text[:20000]
+
+    # Most GLiNER models should work best when entity types are in lower case or title case
+    labels = ["person"]
+
+    chunk_size = 1500  # model takes max 384 tokens
+    all_entities = []
+
+    for start in range(0, len(text), chunk_size):
+        chunk = text[start:start + chunk_size]
+        entities = model.predict_entities(chunk, labels, threshold=0.5)
+        all_entities.extend(entities)
+
+    from collections import Counter
+
+    counter = Counter((e["text"], e["label"]) for e in all_entities)
+    output_path = "./results/gliner_characters.txt"
+
+    with open(output_path, "w", encoding="utf-8") as f:
+            for (txt, lbl), cnt in counter.most_common():
+                f.write(f"{txt}\t{lbl}\t{cnt}\n")
+
+    print(f"Saved {len(counter)} unique entities to {output_path}")    
+    
 
 if __name__ == "__main__":
     text_path = "./data/pride_and_prejudice_cleaned.txt"
-    ner_stanford(text_path)
-    ner_spacy(text_path)
+    # ner_stanford(text_path)
+    # ner_spacy(text_path)
+    # ner_GLiNER2(text_path)

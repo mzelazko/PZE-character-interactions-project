@@ -1,22 +1,10 @@
-Addison
 Adieu
 Anne
 Anne Darcy
 Annesley
 Anne’s
-Argemone
-Argemone Lavington
 Ashworth
-Austen
-Austen Leigh
-Austen’s
 Bakewell
-Barbara
-Barbara
-Grant
-Bates
-Beatrix
-Beatrix Esmond
 Bennet
 Bennets
 Bennet’s
@@ -24,7 +12,6 @@ Bingley
 Bingleys
 Bingleys’
 Bingley’s
-Burney
 CAROLINE BINGLEY
 Caroline
 Caroline Bingley
@@ -41,12 +28,9 @@ Charlotte
 Lucas
 Charlotte Lucas
 Charlotte’s
-Coleridge
 Collins
 Collinses
 Collins’s
-Cosway
-Crawford
 Darcy
 Darcy_
 Darcy’s
@@ -54,74 +38,48 @@ Dawson
 De Bourgh
 De Bourgh’s
 Denny
-Diana
-Diana Vernon
 Don’t
 Dovedale
 E. GARDINER
-Edmund
 Eliza
 Eliza Bennet
 Elizabeth
-Elizabeth
-Bennet
 Elizabeth Bennet
 Elizabeth Bennet’s
 Elizabeth’s
-Eltons
-Emma
 F.
-Fanny
-Fielding
 Fitzwilliam
 Fitzwilliam Darcy
 Fitzwilliam’s
-Fordyce
 Forster
 Forsters
 Forster’s
-Frank Churchill
 GARDINER
-GEORGE ALLEN
 Gardiner
 Gardiners
 Gardiner’s
 George
-George Allen
-George Allen.
-George Saintsbury
 George Wickham
 Georgiana
 Georgiana Darcy
 God’s
-Goldwin Smith
 Gouldings
 Grantley’s
 Harriet
-Henry Tilney
 Hill
 His_
-Hugh Thomson
-Hugh Thomson_
 Hunsford
 Hurst
 Hursts
 Hurst’s
 I_
-J. Comyns Carr
 Jane
-Jane Austen
-Jane Austen’s
 Jane Bennet
-Jane Fairfax
 Jane--one
 Jane’s
 Jenkinson
 Jenkinson’s
 John
-John
-Thorpe
-John Dashwood
 Jones
 Jones’s
 Kent
@@ -169,32 +127,23 @@ Lydia
 Lydia Bennet
 Lydia’s
 M. GARDINER
-M. de Maupassant
-M^{rs} Bennet
 Mamma
 Maria
 Maria Lucas
 Maria’s
 Mary
 Mary King
-Mary Wollstonecraft
 Mary’s
 Matlock
-Meissonier
-Memling
 Meryton
 Miller’s
 Miss de Bourgh
 Morris
-Musgrove’s
 Nay
 Netherfield
 Nicholls
 Nichols
 Niece
-Norris
-Northanger
-Abbey
 Pemberley
 Pemberley Woods
 Pen
@@ -210,25 +159,17 @@ Robinson
 Robinson’s
 Rosings
 Rosings’
-Rushworth
 Sally
 Sarah
 Scotch
-Scott
-Shapely
 She_
-Smollett
-Spectator
 Stone
-Swift
-Thackeray
 That_
 The _tête-à-tête_
 They_
 Vingt
 W.
 WILLIAM COLLINS
-Walt Whitman
 Watson’s
 We_
 Webbs
@@ -246,8 +187,3 @@ _you_
 a Colonel Fitzwilliam
 a Lady Catherine
 de Bourgh
-the Della
-Cruscans
-the Della Cruscans
-the Lady
-Powerful
