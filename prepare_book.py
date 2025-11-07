@@ -1,6 +1,7 @@
 import re
 
 # Removes preface, Gutenberg boilerplate and all illustration blocks
+# potential additions: remove any '\n' and '\r' characters
 def clean_justice_and_prejudice(text_path):
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()

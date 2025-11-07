@@ -1,2 +1,5 @@
+# NLP tools
 spacy
 stanza
+# NER tools
+gliner2
