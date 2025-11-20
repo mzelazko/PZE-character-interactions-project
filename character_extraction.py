@@ -126,11 +126,33 @@ def ner_GLiNER2(text_path):
             for (txt, lbl), cnt in counter.most_common():
                 f.write(f"{txt}\t{lbl}\t{cnt}\n")
 
-    print(f"Saved {len(counter)} unique entities to {output_path}")    
-    
+    print(f"Saved {len(counter)} unique entities to {output_path}")
+
+def combine_ner_results(stanford_file, spacy_file, gliner_file, output_file):
+    sets = []
+    for file_path in [stanford_file, spacy_file, gliner_file]:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = [line.strip().split("\t")[0] for line in f if line.strip()]
+            sets.append(set(lines))
+
+    comined_characters = set().union(*sets)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        for char in sorted(comined_characters):
+            f.write(char + "\n")
+
+    print(f"Saved {len(comined_characters)} unique characters to {output_file}")
+
 
 if __name__ == "__main__":
     text_path = "./data/pride_and_prejudice_cleaned.txt"
     # ner_stanford(text_path)
     # ner_spacy(text_path)
     # ner_GLiNER2(text_path)
+
+    combine_ner_results(
+        "./results/stanford_characters.txt",
+        "./results/spacy_characters.txt",
+        "./results/gliner_characters.txt",
+        "./results/combined_characters.txt"
+    )

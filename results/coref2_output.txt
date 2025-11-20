@@ -1,0 +1,2110 @@
+Chain 1: Wickham, his, his, Wickham, his, he, his, his, he, his, His, Wickham, he, him, he, He, he, him, his, Wickham, He, he, him, him, his, he, his, his, him, him, he, His, he, He, him, he, he, His, his, he, his, his, he, he
+Chain 2: God, she, she, Her, she, she, she, she, She, her, her, her, she, her, her, she, her, her, She, she, she, she, she, she, she, herself, she, she, her, she, she, herself, her, she, she, She, she, she, she, her, she, She
+Chain 3: Darcy, he, he, his, him, him, he, him, his, he, Darcy, Darcy, Darcy, him, Darcy, Darcy, Darcy, him, his, he, he, he, man, him, him, Darcy, him, He, him, him, him, him, he, He, he, him, him, He, he, him
+Chain 4: Jane, Jane, her, her, she, she, she, her, she, she, Jane, She, Jane, her, she, her, her, her, hers, herself, her, her, her, she, Jane, her, she, she, herself, she, her, her, she, her, She, her, her, she
+Chain 5: Bingley, he, him, He, Bingley, him, he, him, He, he, Bingley, Bingley, his, He, he, he, he, Bingley, he, his, he, he, Bingley, him, Bingley, his, Bingley, he, His, His, Bingley, Bingley, himself, he, himself, him, his
+Chain 6: Elizabeth, her, her, she, herself, her, She, she, she, her, her, her, her, she, her, she, She, Elizabeth, her, She, her, her, her, she, her, she, she, She, herself, her, her, she, her, she, her, her
+Chain 7: Darcy, his, He, his, He, he, his, Darcy, him, he, He, he, his, him, him, him, he, his, him, Darcy, his, his, him, He, Darcy, him, him, him, his, him, his, his, his, His, him
+Chain 8: Elizabeth, her, her, herself, she, she, her, her, her, her, she, she, Elizabeth, she, her, her, her, her, her, Elizabeth, her, Elizabeth, her, Elizabeth, Elizabeth, her, her, Elizabeth, her, Her, her, Elizabeth, her
+Chain 9: Darcy, his, he, his, his, his, he, he, he, his, he, his, his, him, he, himself, his, him, his, he, he, his, he, his, his, his, he, his, he, his, he, his
+Chain 10: Elizabeth, her, she, Her, her, she, Elizabeth, She, her, she, her, she, her, She, she, herself, her, Elizabeth, her, herself, her, she, her, she, She, her, Elizabeth, Elizabeth, Elizabeth, she, her, her
+Chain 11: Elizabeth, herself, her, She, her, her, man, she, her, her, she, her, her, she, her, She, her, her, her, she, she, she, her, She, Her, she, her, her, her, she, her
+Chain 12: Elizabeth, Elizabeth, her, herself, She, Elizabeth, her, She, her, her, Her, her, Elizabeth, Elizabeth, Elizabeth, herself, she, she, her, her, her, Elizabeth, her, Elizabeth, she, her, she, her, Elizabeth, her
+Chain 13: Bennet, he, his, he, him, he, his, Bennet, him, he, he, his, he, himself, he, him, him, he, he, him, his, his, his, his, him, he, he, him, his, he
+Chain 14: Darcy, himself, he, he, he, his, he, he, he, he, him, he, his, him, his, he, his, he, Darcy, he, His, himself, him, his, his, he, His, his, he
+Chain 15: housekeeper, him, his, His, he, he, his, he, he, his, him, his, he, his, his, him, he, he, He, his, he, his, his, him, he, his, his, his, his
+Chain 16: Elizabeth, her, she, Elizabeth, her, She, she, she, her, her, she, Elizabeth, her, her, her, she, her, her, herself, she, her, she, herself, She, herself, she, She, she, She
+Chain 17: Catherine, she, herself, her, she, she, she, she, she, she, She, her, she, she, she, she, her, herself, she, she, her, her, her, Her, her, herself, Catherine, Catherine
+Chain 18: visitor, him, He, he, he, he, his, himself, him, He, his, he, His, He, his, himself, he, him, He, he, he, his, his, he, he, he, he, he
+Chain 19: Bennet, her, Her, herself, her, she, she, her, her, she, she, her, her, she, her, her, She, She, she, Her, she, She, her, She, her, she, she, her
+Chain 20: man, his, he, he, his, him, him, him, he, his, his, himself, his, his, him, he, he, he, he, his, he, his, His, his, his, his
+Chain 21: Elizabeth, her, her, Elizabeth, her, her, She, Elizabeth, her, her, she, She, she, her, Elizabeth, her, her, her, she, she, her, her, her, her, She, she
+Chain 22: Darcy, him, he, he, him, he, he, his, his, he, him, him, his, his, his, his, he, He, him, he, his, he, he, he, he, Darcy
+Chain 23: Jane, She, her, her, her, Jane, Jane, she, she, her, she, herself, Jane, Her, her, she, her, her, she, she, she, She, her, her, Jane
+Chain 24: London, he, him, him, his, His, He, him, him, his, his, his, him, him, him, His, his, his, his, him, him, He, his, he, He
+Chain 25: Elizabeth, she, her, Elizabeth, her, she, her, her, her, her, her, her, Elizabeth, she, she, she, she, her, she, she, she, She, herself, she
+Chain 26: Bingley, his, Bingley, his, he, his, he, his, His, his, his, he, his, his, Bingley, he, He, Bingley, his, his, his, he, Bingley, Bingley
+Chain 27: Darcy, he, he, he, himself, his, he, he, he, his, he, he, man, himself, He, himself, His, Darcy, Darcy, he, him, he, He, him
+Chain 28: Elizabeth, Elizabeth, her, her, her, she, her, She, her, she, she, herself, she, Elizabeth, Elizabeth, her, she, Elizabeth, her, she, She, she, she, her
+Chain 29: his, Darcy, him, he, him, Darcy, Darcy, he, he, him, his, he, he, himself, His, he, his, His, his, him, Darcy, he, himself
+Chain 30: Elizabeth, her, she, her, her, she, her, She, her, her, her, she, her, her, her, She, her, her, herself, She, her, She, her
+Chain 31: Lydia, she, her, she, herself, She, she, she, she, She, she, She, She, she, she, she, she, She, her, her, her, her, she
+Chain 32: Darcy, He, him, him, his, his, he, him, he, he, him, he, his, his, himself, he, he, He, he, him, him, his, him
+Chain 33: Wickham, him, him, Wickham, Wickham, man, he, himself, he, Wickham, he, he, he, he, his, his, Wickham, he, him, Wickham, him, his
+Chain 34: Elizabeth, she, she, she, Elizabeth, herself, She, her, she, She, her, she, her, she, herself, her, herself, her, her, her, her, Elizabeth
+Chain 35: Caroline, she, she, she, she, her, She, she, her, her, she, she, her, she, her, she, her, she, herself, her, she, herself
+Chain 36: Darcy, He, he, him, he, he, him, He, his, Darcy, He, his, he, he, his, his, him, he, himself, him, his, He
+Chain 37: Bennet, her, she, Bennet, her, her, she, her, her, her, She, her, Bennet, she, her, She, her, her, Bennet, her, she
+Chain 38: friend, he, his, him, himself, He, his, him, his, he, he, His, him, he, him, he, him, his, he, his, him
+Chain 39: Bingley, him, he, He, his, Bingley, him, he, his, He, he, he, he, Bingley, his, him, he, his, his, his, women
+Chain 40: Lydia, she, her, she, herself, her, her, she, Lydia, she, she, Lydia, she, her, her, her, She, Lydia, she, Lydia, herself
+Chain 41: London, He, His, he, his, he, his, he, his, he, his, He, himself, He, his, his, he, He, he, he, he
+Chain 42: Elizabeth, herself, her, her, Elizabeth, she, she, she, her, she, She, her, her, her, Elizabeth, her, her, her, her, she, her
+Chain 43: gentleman, He, him, he, he, him, he, he, his, He, him, his, he, he, he, he, him, his, him, his
+Chain 44: Collins, her, her, she, her, she, herself, she, her, she, She, Collins, her, her, she, her, her, she, her, her
+Chain 45: Elizabeth, her, her, she, her, she, she, she, She, her, she, she, person, She, herself, she, she, her, her, she
+Chain 46: Darcy, Darcy, he, his, he, he, his, he, Darcy, he, his, he, His, his, his, His, he, his, his, Darcy
+Chain 47: Wickham, him, his, he, him, his, his, he, him, his, him, he, him, his, he, he, him, His, his, Wickham
+Chain 48: Bennet, she, She, her, her, Her, her, her, Her, Her, her, her, her, she, She, her, she, her, her, her
+Chain 49: Darcy, himself, man, he, he, his, his, him, him, him, he, He, his, he, he, man, His, his, his, his
+Chain 50: Darcy, Darcy, Darcy, his, Darcy, Darcy, He, his, his, he, Darcy, his, him, he, he, Darcy, he, he, he
+Chain 51: Elizabeth, her, Elizabeth, Elizabeth, she, herself, Elizabeth, she, her, She, she, her, her, She, she, her, her, She, Elizabeth
+Chain 52: Catherine, herself, She, her, she, her, she, her, she, her, Her, her, Catherine, Her, Catherine, her, her, her, her
+Chain 53: Bennet, him, his, himself, him, he, Bennet, his, Bennet, his, he, he, he, his, his, his, his, his, him
+Chain 54: Catherine, her, Her, she, her, her, her, her, she, her, her, her, her, She, she, her, her, her, her
+Chain 55: Gardiner, she, her, she, she, Gardiner, her, she, her, her, she, Gardiner, her, her, she, herself, she, she, Gardiner
+Chain 56: Catherine, her, her, she, herself, her, her, Catherine, she, she, her, she, her, she, she, she, herself, Catherine, men
+Chain 57: Darcy, he, Darcy, his, his, his, he, Darcy, him, he, him, he, he, he, his, his, his, he, Darcy
+Chain 58: Elizabeth, she, her, her, her, she, her, her, her, she, her, she, Elizabeth, her, Elizabeth, her, she, she, Elizabeth
+Chain 59: Elizabeth, she, her, her, herself, her, she, Her, her, Elizabeth, she, her, Elizabeth, Elizabeth, her, her, her, Elizabeth, persons
+Chain 60: Darcy, Darcy, Darcy, she, her, her, her, her, her, her, Darcy, her, her, her, she, she, she, Darcy
+Chain 61: Jane, Jane, she, she, she, Jane, she, she, her, She, She, she, her, she, she, she, she, she
+Chain 62: cousin, She, herself, her, She, her, She, She, She, her, her, herself, her, she, she, she, she, her
+Chain 63: Kitty, her, her, her, her, she, she, she, herself, her, herself, Her, her, her, her, Kitty, she, she
+Chain 64: Darcy, His, he, his, him, He, his, him, him, he, him, him, his, He, him, his, he, Darcy
+Chain 65: Elizabeth, Elizabeth, she, herself, she, her, her, she, her, her, She, she, she, she, she, Elizabeth, her, She
+Chain 66: Elizabeth, she, her, her, she, her, Elizabeth, she, she, herself, she, herself, her, her, her, her, her, she
+Chain 67: Darcy, him, he, he, he, he, his, he, he, he, he, he, his, he, him, him, His
+Chain 68: attentions, their, their, their, they, their, they, Their, their, Their, they, themselves, them, They, their, their, their
+Chain 69: Elizabeth, her, her, she, her, she, Her, she, her, her, She, She, she, her, Her, her, her
+Chain 70: friend, her, her, She, her, she, her, her, she, herself, she, she, her, she, herself, she, her
+Chain 71: Philips, her, she, her, she, she, her, her, She, her, Philips, her, she, her, She, she, Philips
+Chain 72: Wickham, he, his, his, Wickham, he, Wickham, him, he, he, He, he, he, him, his, he, himself
+Chain 73: Elizabeth, she, she, her, she, her, Elizabeth, her, she, her, she, Elizabeth, She, she, She, She, her
+Chain 74: Lizzy, her, She, her, her, she, she, she, her, she, Lizzy, she, her, Lizzy, she, she, her
+Chain 75: Fitzwilliam, her, herself, she, she, Her, her, her, she, her, her, she, she, she, her, her, her
+Chain 76: Collinses, they, they, their, They, their, They, them, they, They, their, they, they, they, themselves, they, their
+Chain 77: Elizabeth, her, her, Elizabeth, herself, her, her, she, her, she, her, her, She, she, her, her, Elizabeth
+Chain 78: Elizabeth, she, her, her, she, Her, She, her, she, her, she, her, her, her, her, she, herself
+Chain 79: Elizabeth, her, her, she, her, Elizabeth, her, Elizabeth, her, her, herself, her, she, she, her, she, her
+Chain 80: Lydia, she, she, She, her, her, She, she, her, herself, She, her, her, she, she, her, she
+Chain 81: Lucas, he, his, him, his, his, he, his, he, his, himself, his, him, he, his, him
+Chain 82: Bingley, Bingley, her, she, She, her, her, she, she, She, her, her, her, she, her, she
+Chain 83: Darcy, He, his, He, he, he, his, he, his, him, he, him, Darcy, his, he, him
+Chain 84: rector, he, himself, his, He, his, his, his, he, he, he, his, him, his, he, his
+Chain 85: sisters, they, They, They, they, they, they, They, they, they, their, they, their, they, they, they
+Chain 86: Elizabeth, her, her, her, she, her, she, her, she, her, Her, her, Elizabeth, she, her, Elizabeth
+Chain 87: Elizabeth, Elizabeth, her, her, her, she, she, her, she, her, she, she, she, her, she, her
+Chain 88: Derbyshire, her, her, she, She, she, her, her, her, her, her, her, she, her, her, her
+Chain 89: Elizabeth, her, her, she, her, she, her, she, herself, her, she, herself, She, she, her, she
+Chain 90: Lydia, her, she, she, her, her, her, her, her, her, her, her, her, she, her, her
+Chain 91: Elizabeth, she, her, her, her, she, her, herself, her, her, her, she, her, her, Elizabeth, Elizabeth
+Chain 92: Bennet, him, his, His, he, himself, he, his, he, his, his, his, his, his, himself
+Chain 93: Hurst, his, his, his, his, him, he, he, his, his, he, his, his, him, his
+Chain 94: Charlotte, her, her, her, her, Charlotte, her, herself, she, she, her, Charlotte, she, her, her
+Chain 95: Charlotte, she, herself, her, she, Charlotte, her, she, she, her, her, her, she, her, Charlotte
+Chain 96: Jane, her, she, her, Her, Jane, She, her, her, she, She, she, her, her, her
+Chain 97: aunt, His, his, he, his, he, himself, him, his, him, him, his, him, him, him
+Chain 98: Elizabeth, she, herself, She, her, her, her, Elizabeth, she, her, her, she, she, her, she
+Chain 99: Darcy, his, Darcy, him, him, he, He, he, he, His, he, his, he, he, Darcy
+Chain 100: man, he, his, him, he, He, his, he, his, his, he, he, He, his, he
+Chain 101: Darcy, he, him, his, his, his, his, his, he, his, he, he, his, he, his
+Chain 102: Elizabeth, her, She, her, herself, she, her, She, herself, she, her, her, Elizabeth, her, she
+Chain 103: Darcy, her, Darcy, Darcy, her, her, She, her, her, her, her, her, her, she, her
+Chain 104: Elizabeth, her, her, she, her, she, she, she, she, she, herself, her, she, her, she
+Chain 105: Bennet, she, her, her, her, her, her, her, She, her, she, Her, her, her, Bennet
+Chain 106: Brother, He, he, his, he, he, he, he, his, his, him, him, he, himself, him
+Chain 107: Bennet, she, her, she, her, she, she, She, Bennet, her, she, she, she, She
+Chain 108: Darcy, his, him, him, him, him, Darcy, his, his, Darcy, his, he, Darcy, his
+Chain 109: Catherine, she, her, her, her, her, She, her, she, she, she, her, person, her
+Chain 110: Bingley, she, she, herself, she, her, she, her, she, Bingley, her, her, her, Bingley
+Chain 111: Catherine, Her, her, her, She, she, her, she, Catherine, she, she, her, she, her
+Chain 112: Elizabeth, she, her, she, Her, she, herself, she, her, Elizabeth, her, her, she, she
+Chain 113: Elizabeth, her, She, hers, her, she, herself, her, her, her, her, her, she, she
+Chain 114: gentleman, his, him, His, him, his, him, his, his, his, his, he, he, his
+Chain 115: Wickham, his, he, Wickham, his, him, his, his, him, his, his, him, man, he
+Chain 116: Elizabeth, her, She, her, she, her, She, she, her, Elizabeth, her, her, Elizabeth, Elizabeth
+Chain 117: Darcy, him, Darcy, his, his, his, Darcy, him, he, his, him, He, he, him
+Chain 118: Lydia, she, her, her, her, she, her, she, she, her, her, her, her, her
+Chain 119: Darcy, himself, he, his, him, him, he, his, his, him, his, his, Darcy, his
+Chain 120: chief, him, him, him, his, his, his, him, He, his, his, him, his, his
+Chain 121: person, him, he, he, he, he, his, he, him, his, he, he, himself, He
+Chain 122: Lydia, her, She, she, her, She, her, her, Lydia, she, She, her, She, her
+Chain 123: Wickham, his, himself, He, his, his, his, he, his, His, he, He, he, his
+Chain 124: Darcy, her, She, herself, her, her, She, her, she, her, her, she, her, her
+Chain 125: Darcy, He, he, himself, he, he, man, he, him, He, he, he, his, him
+Chain 126: fool, His, him, his, he, he, him, He, him, him, him, he, him, his
+Chain 127: Darcy, He, He, he, him, his, he, his, his, him, him, him, him, he
+Chain 128: Darcy, his, His, He, man, he, him, his, his, Darcy, him, his, he
+Chain 129: Jane, she, her, her, her, she, her, her, Jane, she, she, her, Jane
+Chain 130: daughter, she, her, She, she, her, her, she, her, She, her, her, her
+Chain 131: spirits, They, their, their, them, their, them, their, they, They, them, their, they
+Chain 132: Bennet, he, himself, his, Bennet, he, Bennet, he, his, he, his, himself, Bennet
+Chain 133: Denny, he, he, Denny, his, him, he, man, him, His, his, he, his
+Chain 134: lover, his, his, his, his, he, his, his, He, his, him, he, his
+Chain 135: she, Bennet, her, she, her, she, her, she, herself, her, She, her, she
+Chain 136: Elizabeth, her, Elizabeth, her, herself, Elizabeth, she, Her, her, she, Elizabeth, her, she
+Chain 137: Bourgh, her, She, she, She, she, she, Bourgh, her, She, she, She, Bourgh
+Chain 138: Collins, she, she, she, her, she, her, her, her, her, she, She, she
+Chain 139: Darcy, Darcy, Darcy, him, he, he, him, his, Darcy, he, he, himself, him
+Chain 140: Bingley, his, his, his, him, him, his, he, him, him, his, his, Bingley
+Chain 141: Lydia, her, her, her, her, she, Her, she, herself, her, her, her, Lydia
+Chain 142: Elizabeth, her, She, her, she, her, she, she, her, she, herself, she, she
+Chain 143: Elizabeth, she, She, her, she, Elizabeth, her, her, Elizabeth, her, herself, Her, she
+Chain 144: Allen, his, he, he, he, his, his, he, He, he, he, his, he
+Chain 145: man, her, She, she, she, she, she, she, herself, she, her, her, she
+Chain 146: Bennet, his, his, he, his, his, him, He, he, his, men, Bennet, Bennet
+Chain 147: Wickham, him, his, he, his, he, man, him, He, Wickham, him, He, he
+Chain 148: Darcy, he, him, his, he, his, he, he, Darcy, Darcy, him, He, he
+Chain 149: uncle, his, him, him, his, His, his, him, him, his, he, he, his
+Chain 150: Bingley, His, him, He, him, he, himself, He, him, he, He, Bingley, He
+Chain 151: Bennet, his, he, his, his, he, he, his, him, him, him, his, he
+Chain 152: visitor, him, he, himself, he, he, himself, He, he, he, his, his, he
+Chain 153: Catherine, she, her, she, her, she, her, her, she, She, her, her, she
+Chain 154: Memling, her, her, She, she, herself, she, she, herself, she, her, her
+Chain 155: Bingley, he, his, he, he, he, him, him, he, he, he, his
+Chain 156: Catherine, She, her, She, her, Catherine, her, She, she, she, She, she
+Chain 157: friend, him, him, his, his, he, his, his, He, him, his, him
+Chain 158: girl, her, she, her, she, her, she, She, her, her, her, her
+Chain 159: Darcy, he, He, He, he, his, his, he, he, His, him, he
+Chain 160: Bennet, her, She, her, her, her, she, Her, her, she, Her, her
+Chain 161: gentleman, himself, his, He, he, himself, him, his, his, his, He, he
+Chain 162: Wickham, his, He, his, he, his, he, his, Wickham, he, His, him
+Chain 163: Darcy, Darcy, Darcy, his, his, his, he, his, him, He, his, his
+Chain 164: Charlotte, she, her, she, she, herself, Charlotte, herself, she, She, she, her
+Chain 165: Catherine, Catherine, her, She, her, she, she, Her, Her, her, she, Catherine
+Chain 166: Anne, her, her, she, her, her, she, she, she, She, her, her
+Chain 167: brother, He, him, him, his, he, his, his, he, he, he, him
+Chain 168: friend, his, He, his, his, him, he, himself, him, him, his, him
+Chain 169: Elizabeth, She, her, she, She, her, she, she, her, she, She, her
+Chain 170: Lizzy, him, he, him, his, he, he, him, he, he, he, Lizzy
+Chain 171: Elizabeth, her, She, herself, she, she, her, her, she, Elizabeth, she, she
+Chain 172: Gardiner, her, her, she, her, she, she, herself, she, she, herself, she
+Chain 173: Elizabeth, her, her, her, her, Elizabeth, herself, she, she, she, her, Elizabeth
+Chain 174: sister, her, she, she, she, She, her, her, her, She, her, her
+Chain 175: Gardiner, he, he, he, he, His, he, he, him, his, his, he
+Chain 176: Bennet, His, he, his, him, his, his, his, his, his, he, him
+Chain 177: girl, Her, her, she, her, her, She, she, herself, she, her, her
+Chain 178: Elizabeth, she, she, she, she, she, man, her, her, Elizabeth, her, she
+Chain 179: dupe, he, he, his, He, his, his, he, his, he, his, him
+Chain 180: Catherine, herself, She, her, she, She, her, she, She, her, she, she
+Chain 181: Darcy, him, his, his, him, he, him, Darcy, He, Darcy, him, his
+Chain 182: Elizabeth, she, her, her, her, she, her, Elizabeth, her, Elizabeth, her, her
+Chain 183: expenses, them, theirs, their, their, they, their, their, Their, them, They, they
+Chain 184: fool, She, her, she, her, her, she, her, she, her, her
+Chain 185: Bingley, Bingley, him, his, he, his, he, Bingley, Bingley, him, him
+Chain 186: Hurst, he, He, his, He, Hurst, his, Hurst, his, him, Hurst
+Chain 187: Bennet, himself, He, His, his, He, he, he, he, his, Bennet
+Chain 188: her, Jane, her, she, she, she, she, she, her, Jane, Jane
+Chain 189: Wickham, him, him, he, him, Wickham, his, he, he, his, his
+Chain 190: Elizabeth, her, her, she, herself, Elizabeth, her, she, her, her, she
+Chain 191: Wickham, Wickham, his, him, his, his, his, his, Wickham, Wickham, Wickham
+Chain 192: Elizabeth, Elizabeth, herself, She, her, her, she, Elizabeth, her, she, her
+Chain 193: Bennet, her, she, herself, her, her, Bennet, she, her, she, she
+Chain 194: Bennet, him, him, he, his, Bennet, his, his, he, he, him
+Chain 195: Elizabeth, She, her, she, herself, her, Elizabeth, her, she, her, Elizabeth
+Chain 196: Charlotte, Charlotte, herself, She, her, Her, her, her, her, she, she
+Chain 197: Lucas, his, his, he, his, he, he, his, he, his, him
+Chain 198: London, she, her, she, she, herself, her, she, her, she, herself
+Chain 199: Jane, her, her, her, Jane, her, she, herself, she, she, her
+Chain 200: Bingley, his, him, his, him, his, he, his, his, him, him
+Chain 201: aunt, his, he, he, he, he, him, he, his, him, He
+Chain 202: Darcy, his, He, he, himself, he, he, He, his, he, he
+Chain 203: power, he, he, his, His, his, him, He, he, his, his
+Chain 204: Jane, She, herself, her, her, she, her, her, her, her, Jane
+Chain 205: Elizabeth, she, Elizabeth, her, her, she, she, her, She, Elizabeth, she
+Chain 206: Gardiner, her, she, herself, She, she, she, her, her, her, Gardiner
+Chain 207: Elizabeth, her, She, her, she, her, herself, she, she, she, her
+Chain 208: Elizabeth, person, his, his, his, his, himself, Elizabeth, him, Elizabeth, Elizabeth
+Chain 209: Elizabeth, Her, She, her, her, her, her, she, she, her, Elizabeth
+Chain 210: Wickham, He, him, himself, he, his, he, his, he, him, him
+Chain 211: Jane, her, Jane, her, her, she, her, her, person, her, she
+Chain 212: Forster, himself, him, his, He, his, he, Forster, himself, him, his
+Chain 213: Gardiner, his, him, his, he, his, Gardiner, himself, his, he, He
+Chain 214: Lydia, Lydia, She, her, her, she, her, her, she, Lydia, her
+Chain 215: Lydia, Lydia, she, She, her, she, she, She, her, Lydia, her
+Chain 216: Jane, her, her, her, she, she, her, she, she, Jane, her
+Chain 217: Darcy, he, he, He, he, he, he, him, his, he, him
+Chain 218: Elizabeth, she, her, She, herself, her, her, she, she, Elizabeth, Elizabeth
+Chain 219: Elizabeth, she, she, her, She, her, her, her, she, She, her
+Chain 220: Wollstonecraft, her, she, her, she, she, her, her, she, her
+Chain 221: Lizzy, his, he, him, He, he, himself, him, man, He
+Chain 222: Darcy, He, his, he, he, Darcy, Darcy, Darcy, He, his
+Chain 223: Jane, Jane, Jane, herself, her, herself, she, she, She, Jane
+Chain 224: Lydia, her, her, She, her, her, her, She, her, Lydia
+Chain 225: man, he, he, his, his, him, his, He, him, his
+Chain 226: Bingley, himself, He, him, his, his, his, he, he, his
+Chain 227: Bennet, his, his, he, his, he, Bennet, him, He, he
+Chain 228: Collins, his, He, he, him, him, he, his, he, his
+Chain 229: Bingley, his, himself, he, he, his, him, he, he, him
+Chain 230: Wickham, he, him, he, he, he, he, he, Wickham, Wickham
+Chain 231: Elizabeth, her, she, her, she, her, she, she, her, she
+Chain 232: William, his, him, his, himself, he, his, he, he, he
+Chain 233: Darcy, Darcy, his, he, him, he, Darcy, He, he, him
+Chain 234: William, him, he, his, he, him, his, William, William, he
+Chain 235: Caroline, her, she, she, she, she, she, her, she, She
+Chain 236: Jane, She, herself, she, she, Jane, herself, she, her, she
+Chain 237: Elizabeth, her, her, she, Elizabeth, she, she, She, Elizabeth, her
+Chain 238: William, his, him, his, William, his, him, his, him, he
+Chain 239: Darcy, his, him, his, his, he, his, him, he, His
+Chain 240: Collins, her, her, Collins, her, She, She, she, she, her
+Chain 241: Catherine, Catherine, Her, she, she, her, Catherine, herself, her, she
+Chain 242: Elizabeth, she, she, her, she, Elizabeth, Elizabeth, her, Elizabeth, herself
+Chain 243: Collins, she, her, her, her, her, her, her, her, her
+Chain 244: Darcy, he, his, Darcy, Darcy, he, his, him, He, he
+Chain 245: Darcy, him, he, him, his, he, man, him, his, he
+Chain 246: Darcy, Darcy, him, his, him, his, Darcy, he, his, his
+Chain 247: Charlotte, her, she, her, her, she, Her, her, her, her
+Chain 248: Lydia, her, her, she, she, she, her, her, her, she
+Chain 249: Elizabeth, Elizabeth, she, her, her, Her, she, her, her, she
+Chain 250: owner, himself, his, his, He, himself, his, his, his, his
+Chain 251: Darcy, his, he, him, he, he, himself, his, he, he
+Chain 252: Darcy, him, he, himself, he, himself, him, his, his, Darcy
+Chain 253: Elizabeth, she, herself, she, her, her, Elizabeth, herself, she, her
+Chain 254: uncle, he, him, He, he, his, him, He, he, he
+Chain 255: Forster, himself, he, his, he, he, He, him, he, him
+Chain 256: Jane, her, her, her, She, she, her, her, She, she
+Chain 257: Bennet, he, his, He, he, him, his, he, he, he
+Chain 258: Wickham, he, his, his, Wickham, his, him, He, He, Wickham
+Chain 259: Lizzy, him, His, His, he, he, his, him, him, he
+Chain 260: Gardiner, him, he, he, person, his, his, his, his, he
+Chain 261: Elizabeth, Elizabeth, Elizabeth, her, her, her, her, she, Elizabeth, she
+Chain 262: Elizabeth, her, her, her, she, her, she, she, her, she
+Chain 263: Elizabeth, she, herself, her, She, her, she, she, her, she
+Chain 264: Elizabeth, her, her, her, her, she, her, she, she, her
+Chain 265: Bennet, her, she, her, her, her, her, her, her, she
+Chain 266: Bingley, he, he, he, him, he, he, he, he
+Chain 267: Lizzy, he, he, his, he, his, him, He, his
+Chain 268: Charlotte, she, she, her, she, she, her, her, her
+Chain 269: Jane, her, her, Her, Jane, Her, her, her, Jane
+Chain 270: Longbourn, his, his, himself, him, he, his, him, he
+Chain 271: Jones, him, him, he, his, he, himself, his, him
+Chain 272: head, she, she, her, her, she, her, She, her
+Chain 273: aunt, her, she, her, she, Her, she, she, her
+Chain 274: Jane, Jane, she, her, Jane, her, her, she, she
+Chain 275: Bennet, himself, his, he, his, his, he, his, he
+Chain 276: gentleman, him, him, him, He, he, his, himself, he
+Chain 277: Bennet, She, her, she, she, her, her, she, her
+Chain 278: Lizzy, Lizzy, she, Lizzy, Lizzy, her, her, her, She
+Chain 279: Bennet, herself, her, she, her, her, her, Bennet, She
+Chain 280: husband, He, himself, his, him, his, he, His, his
+Chain 281: Jane, herself, her, her, Jane, her, her, her, She
+Chain 282: Charlotte, she, she, She, Charlotte, her, she, she, Charlotte
+Chain 283: Bennet, her, she, she, she, she, her, her, she
+Chain 284: Elizabeth, Elizabeth, her, Her, her, she, herself, her, she
+Chain 285: Gardiner, her, herself, her, Gardiner, her, her, she, her
+Chain 286: Elizabeth, She, she, she, herself, her, her, her, she
+Chain 287: Elizabeth, her, her, she, her, her, her, herself, her
+Chain 288: London, he, himself, his, his, he, He, his, country
+Chain 289: her, Charlotte, her, her, She, her, she, her, she
+Chain 290: Catherine, She, Catherine, her, her, her, she, her, her
+Chain 291: Wickham, he, he, he, his, he, He, him, his
+Chain 292: Fitzwilliam, his, his, him, he, he, he, he, he
+Chain 293: Fitzwilliam, she, she, her, her, she, her, she, She
+Chain 294: Darcy, his, His, his, He, his, he, himself, he
+Chain 295: Elizabeth, herself, she, she, She, she, her, She, man
+Chain 296: Charlotte, her, her, herself, She, she, herself, She, her
+Chain 297: Younge, her, her, she, herself, She, her, her, herself
+Chain 298: writer, his, him, his, His, his, him, him, his
+Chain 299: Darcy, his, him, His, his, him, he, his, him
+Chain 300: Elizabeth, Elizabeth, Elizabeth, she, she, she, she, she, she
+Chain 301: Darcy, him, his, his, He, his, his, he, he
+Chain 302: Elizabeth, Her, she, her, she, She, Elizabeth, she, her
+Chain 303: visitor, he, him, he, himself, He, he, he, him
+Chain 304: Collinses, They, they, them, they, them, they, they, them
+Chain 305: Mary, her, her, her, she, herself, Mary, she, herself
+Chain 306: Forster, he, him, him, His, He, his, he, his
+Chain 307: London, he, he, he, his, he, he, he, his
+Chain 308: nieces, their, them, their, Their, them, them, them, them
+Chain 309: Elizabeth, Elizabeth, her, her, her, she, she, her, she
+Chain 310: Forster, him, he, his, his, He, his, he, his
+Chain 311: Lydia, Lydia, she, Her, She, herself, she, her, she
+Chain 312: Darcy, His, his, his, he, he, Darcy, he, he
+Chain 313: Darcy, She, her, herself, She, she, She, her, her
+Chain 314: Jane, she, herself, her, she, her, her, She, her
+Chain 315: Elizabeth, herself, she, she, her, her, Elizabeth, Elizabeth, her
+Chain 316: Philips, Philips, her, she, she, her, her, her, she
+Chain 317: Mary, she, Mary, she, she, her, her, her, she
+Chain 318: wife, Her, She, she, she, herself, her, her
+Chain 319: Bennet, he, he, He, his, he, he, Bennet
+Chain 320: Bingley, her, her, her, She, her, she, her
+Chain 321: Elizabeth, Elizabeth, Elizabeth, herself, She, Elizabeth, she, her
+Chain 322: Bennet, her, herself, Her, she, Bennet, her, she
+Chain 323: Elizabeth, She, her, her, her, her, Elizabeth, Elizabeth
+Chain 324: Darcy, he, he, him, him, Darcy, men, Darcy
+Chain 325: world, his, he, His, His, him, his, his
+Chain 326: Darcy, him, he, his, his, him, his, his
+Chain 327: ladies, their, they, their, they, They, their, their
+Chain 328: Wickham, him, man, his, he, Wickham, Wickham, Wickham
+Chain 329: Elizabeth, her, she, her, she, Her, she, she
+Chain 330: Elizabeth, She, her, her, she, her, she, her
+Chain 331: Elizabeth, her, She, her, Elizabeth, her, her, her
+Chain 332: Elizabeth, her, herself, her, herself, her, her, she
+Chain 333: Bennet, he, he, him, he, he, his, his
+Chain 334: Elizabeth, Elizabeth, Her, her, her, she, her, she
+Chain 335: Bennet, she, her, She, her, Bennet, Bennet, she
+Chain 336: Jane, her, her, she, she, her, her, Jane
+Chain 337: Lizzy, he, he, his, him, he, him, his
+Chain 338: Bennet, she, she, her, she, her, herself, her
+Chain 339: Charlotte, She, her, her, her, her, her, herself
+Chain 340: Allen, his, his, himself, his, he, he, he
+Chain 341: Elizabeth, she, Elizabeth, her, She, her, she, she
+Chain 342: Elizabeth, her, her, she, she, her, her, her
+Chain 343: guardian, her, she, she, her, her, she, She
+Chain 344: Elizabeth, her, her, her, she, she, she, herself
+Chain 345: Fitzwilliam, her, she, herself, her, she, she, she
+Chain 346: Darcy, he, his, him, he, his, He, he
+Chain 347: Darcy, himself, he, Darcy, his, he, his, Darcy
+Chain 348: Elizabeth, she, she, her, she, She, her, she
+Chain 349: Elizabeth, her, She, herself, Her, she, she, her
+Chain 350: Darcy, his, He, himself, his, he, his, his
+Chain 351: Catherine
+and Lydia, they, their, their, them, They, they, they
+Chain 352: spirits, Their, they, their, them, they, them, them
+Chain 353: Lizzy, he, his, him, him, his, his, men
+Chain 354: Elizabeth, her, she, her, her, She, her, her
+Chain 355: Elizabeth, she, her, her, her, her, she, her
+Chain 356: Elizabeth, She, she, her, She, Elizabeth, her, she
+Chain 357: Elizabeth, Her, her, She, Her, her, she, Elizabeth
+Chain 358: Darcy, Darcy, her, She, her, she, Darcy, she
+Chain 359: Elizabeth, her, She, her, her, she, she, men
+Chain 360: horse, She, her, her, her, she, her, She
+Chain 361: Copyright, her, her, she, she, herself, her, she
+Chain 362: Mr. and Mrs. Gardiner, their, they, They, their, They, they, their
+Chain 363: Darcy, she, her, her, her, Darcy, she, Darcy
+Chain 364: Elizabeth, she, she, her, she, Elizabeth, she, Elizabeth
+Chain 365: brother, him, He, his, him, his, his, his
+Chain 366: Bennet, he, he, him, he, he, his, Bennet
+Chain 367: Elizabeth, Elizabeth, she, Elizabeth, her, Elizabeth, herself, Elizabeth
+Chain 368: Gardiner, she, her, Gardiner, her, her, her, Gardiner
+Chain 369: Kitty, his, he, himself, he, his, his, him
+Chain 370: husband, him, his, he, his, his, him, He
+Chain 371: Elizabeth, she, her, her, She, she, her, herself
+Chain 372: Gardiner, his, he, his, his, him, his, he
+Chain 373: Lydia, she, her, she, her, Lydia, she, she
+Chain 374: Elizabeth, she, herself, She, her, Elizabeth, she, her
+Chain 375: Wickham, her, her, her, her, her, Wickham, Wickham
+Chain 376: uncle, him, he, his, he, He, he, him
+Chain 377: Nichols, her, she, She, she, she, she, she
+Chain 378: Elizabeth, Elizabeth, her, her, She, she, her, herself
+Chain 379: Long, her, she, her, She, Long, her, her
+Chain 380: Bennet, she, she, her, Bennet, her, her, her
+Chain 381: lover, His, him, he, He, he, his, his
+Chain 382: horses, them, They, their, They, their, their, them
+Chain 383: Elizabeth, her, herself, She, she, Her, her, her
+Chain 384: visitor, his, his, he, him, he, he, He
+Chain 385: Kitty, Kitty, Kitty, Kitty, she, her, her, she
+Chain 386: Bennet, his, Bennet, him, he, his, him, him
+Chain 387: Bingley, her, She, her, her, her, her, she
+Chain 388: Kitty, her, her, her, she, her, She, she
+Chain 389: Lydia, Lydia, Lydia, she, her, her, her, her
+Chain 390: Addison, Addison, himself, him, he, he, him
+Chain 391: author, his, he, he, his, His, his
+Chain 392: Bennet, his, his, his, he, him, he
+Chain 393: Long, Long, She, her, She, her, her
+Chain 394: pounds, they, themselves, They, their, their, their
+Chain 395: Lizzy, his, he, him, he, his, his
+Chain 396: Jane, she, she, Jane, her, She, her
+Chain 397: Mary, Mary, her, her, she, Mary, her
+Chain 398: Elizabeth, her, Elizabeth, Elizabeth, Her, her, her
+Chain 399: Hurst, he, him, He, his, him, he
+Chain 400: Elizabeth, Elizabeth, her, her, Elizabeth, she, herself
+Chain 401: Darcy, she, she, She, her, her, Her
+Chain 402: Jones, his, Jones, his, he, his, his
+Chain 403: Elizabeth, her, she, she, her, her, her
+Chain 404: Bennet, she, her, she, her, she, her
+Chain 405: Jane, Jane, she, her, her, her, her
+Chain 406: Elizabeth, her, her, her, she, her, Elizabeth
+Chain 407: Darcy, Darcy, his, his, him, he, his
+Chain 408: Elizabeth, Elizabeth, her, Elizabeth, Elizabeth, she, she
+Chain 409: Bennet, Bennet, His, he, he, Bennet, his
+Chain 410: Wickham, him, he, he, he, himself, him
+Chain 411: Elizabeth, Elizabeth, she, she, she, She, Her
+Chain 412: uncle, he, his, He, him, he, him
+Chain 413: Philips, his, he, Philips, he, he, he
+Chain 414: Jane, herself, Jane, she, her, her, she
+Chain 415: Bingley, his, he, his, Bingley, himself, he
+Chain 416: Darcy, Darcy, him, him, he, Darcy, his
+Chain 417: Bennet, her, herself, her, Bennet, she, her
+Chain 418: Bingley, his, his, himself, he, he, he
+Chain 419: Bennet, she, her, her, her, she, Bennet
+Chain 420: Darcy, her, she, her, her, her, her
+Chain 421: Elizabeth, Elizabeth, she, her, she, Elizabeth, Elizabeth
+Chain 422: Jane, Jane, she, she, her, her, she
+Chain 423: Elizabeth, her, her, her, Elizabeth, she, she
+Chain 424: Wickham, his, him, his, him, he, he
+Chain 425: brother, he, his, his, he, He, he
+Chain 426: Maria, she, her, she, her, She, Maria
+Chain 427: Collins, Collins, her, she, herself, her, her
+Chain 428: Elizabeth, her, Elizabeth, she, her, she, she
+Chain 429: world, him, he, him, he, He, He
+Chain 430: Darcy, Darcy, He, his, he, him, he
+Chain 431: friend, her, she, She, her, her, her
+Chain 432: Fitzwilliam, he, him, him, his, Fitzwilliam, he
+Chain 433: Darcy, he, his, he, himself, He, him
+Chain 434: Fitzwilliam, She, her, she, herself, She, she
+Chain 435: Jane, Jane, she, her, she, she, she
+Chain 436: 1894, her, she, She, her, she, she
+Chain 437: brother, she, She, herself, she, she, she
+Chain 438: Jane, Jane, Jane, her, her, her, her
+Chain 439: poultry, he, his, his, he, his, He
+Chain 440: Lydia, Lydia, Lydia, she, herself, her, her
+Chain 441: Brighton, She, She, herself, She, she, herself
+Chain 442: she, Wickham, her, her, she, Wickham, her
+Chain 443: Bennet, his, He, his, his, he, his
+Chain 444: herself, uncle, her, She, her, her, she
+Chain 445: appearance, or his resemblance, they, they, They, their, they, they
+Chain 446: Gardiner, her, she, her, she, she, her
+Chain 447: all, their, They, their, themselves, them, they
+Chain 448: Jane, her, her, her, Jane, her, her
+Chain 449: officer, her, her, Her, she, She, her
+Chain 450: Lydia, Lydia, her, her, she, she, her
+Chain 451: Meryton, man, He, his, he, man, his
+Chain 452: Bennet, him, his, him, he, his, his
+Chain 453: girls, They, they, their, they, they, their
+Chain 454: all, they, Their, them, they, their, Their
+Chain 455: Jane, her, her, she, her, her, she
+Chain 456: husband, He, his, he, his, he, he
+Chain 457: daughter, her, she, She, her, her, her
+Chain 458: niece, she, She, her, She, her, she
+Chain 459: wishes, Their, them, they, Their, They, them
+Chain 460: Elizabeth, She, she, She, her, her, her
+Chain 461: Darcy, he, his, him, him, he, his
+Chain 462: Bingley, He, him, he, he, he, He
+Chain 463: Bennet, her, She, she, her, Her, her
+Chain 464: friend, He, his, his, His, his, his
+Chain 465: Bennet, her, she, She, she, her, she
+Chain 466: Elizabeth, Elizabeth, her, she, Elizabeth, her, she
+Chain 467: Elizabeth, her, her, her, Elizabeth, her, Elizabeth
+Chain 468: Elizabeth, her, she, Her, her, she, she
+Chain 469: Elizabeth, she, She, she, her, She, she
+Chain 470: Kitty, Kitty, Kitty, Kitty, she, her, man
+Chain 471: uncle, him, him, he, his, He, his
+Chain 472: she, Mary, her, she, her, her, she
+Chain 473: Bennet, she, she, her, She, her, herself
+Chain 474: Bennet, Bennet, he, Bennet, his, He
+Chain 475: Lizzy, Lizzy, she, her, Lizzy, her
+Chain 476: Bennet, her, Bennet, She, she, her
+Chain 477: partners, they, They, they, they, They
+Chain 478: Bingley, her, her, her, herself, she
+Chain 479: observation and less pliancy, them, They, they, they, They
+Chain 480: Long, her, her, she, her, she
+Chain 481: horses, They, they, They, them, them
+Chain 482: Jane, her, she, her, She, Jane
+Chain 483: Gardiner, he, he, he, he, his
+Chain 484: Darcy, him, his, his, his, Darcy
+Chain 485: game, his, his, his, his, He
+Chain 486: Bingley, his, him, he, himself, Bingley
+Chain 487: Elizabeth, her, her, her, her, Elizabeth
+Chain 488: Darcy, he, He, he, Darcy, his
+Chain 489: professions, them, they, Their, They, their
+Chain 490: Bennet, her, she, she, she, her
+Chain 491: Bingley, her, her, her, her, she
+Chain 492: Philips, she, she, her, her, Philips
+Chain 493: Darcy, him, him, his, him, him
+Chain 494: Elizabeth, she, her, her, her, she
+Chain 495: Mr., he, his, he, his, he
+Chain 496: partner, him, He, him, He, him
+Chain 497: Wickham, his, he, He, he, his
+Chain 498: Elizabeth, She, Elizabeth, Elizabeth, her, she
+Chain 499: Mary, Mary, Mary, Mary, her, her
+Chain 500: Kitty, his, his, he, him, he
+Chain 501: cousin, her, her, her, She, her
+Chain 502: Caroline, her, she, her, she, she
+Chain 503: Elizabeth, her, she, She, her, she
+Chain 504: Bennet, she, her, her, her, She
+Chain 505: Mary, She, her, herself, she, her
+Chain 506: Jane, herself, she, her, her, her
+Chain 507: Wickham, him, his, his, he, him
+Chain 508: Bingley, he, his, he, him, him
+Chain 509: Jane, she, her, she, she, Jane
+Chain 510: Bennet, her, her, she, her, she
+Chain 511: Lizzy, him, him, he, he, he
+Chain 512: Wickham, He, he, man, he, he
+Chain 513: Wickham, his, His, him, his, his
+Chain 514: girl, She, her, her, her, her
+Chain 515: man, she, Her, her, herself, she
+Chain 516: Elizabeth, her, she, her, her, her
+Chain 517: Charlotte, her, her, Charlotte, Charlotte, country
+Chain 518: Charlotte, her, her, her, her, her
+Chain 519: Elizabeth, she, her, her, She, Elizabeth
+Chain 520: Darcy, he, his, his, his, him
+Chain 521: Bennet, she, she, she, her, She
+Chain 522: Darcy, he, his, his, he, his
+Chain 523: Collins, her, her, she, her, her
+Chain 524: Elizabeth, she, herself, her, her, she
+Chain 525: Darcy, his, he, He, his, He
+Chain 526: Fitzwilliam, he, he, him, Fitzwilliam, himself
+Chain 527: Darcy, he, he, him, He, he
+Chain 528: Wickham, Wickham, His, Wickham, he, his
+Chain 529: Allen, himself, his, His, him, him
+Chain 530: Darcy, herself, she, she, she, she
+Chain 531: Fitzwilliam, Fitzwilliam, himself, his, his, him
+Chain 532: Bennets, their, they, they, Their, their
+Chain 533: Lydia, she, Lydia, Lydia, Lydia, Lydia
+Chain 534: Elizabeth, she, She, her, she, Elizabeth
+Chain 535: Bennet, her, her, her, she, herself
+Chain 536: Elizabeth, She, she, She, she, she
+Chain 537: gentleman, him, his, He, he, him
+Chain 538: views, they, they, them, They, they
+Chain 539: thoughts, them, They, They, they, they
+Chain 540: Darcy, him, him, He, him, his
+Chain 541: Elizabeth, herself, she, she, she, her
+Chain 542: ladies, Their, them, they, their, they
+Chain 543: Bingley, her, she, her, her, Bingley
+Chain 544: Kitty, his, him, His, he, him
+Chain 545: uncle, her, she, she, Her, she
+Chain 546: Darcy, He, his, his, his, him
+Chain 547: Lydia, she, her, her, her, her
+Chain 548: Darcy, He, his, his, his, him
+Chain 549: Lydia, she, her, her, Lydia, Lydia
+Chain 550: Brighton, he, him, him, he, him
+Chain 551: Elizabeth, she, Elizabeth, Elizabeth, Elizabeth, she
+Chain 552: Jane, Jane, her, her, her, Jane
+Chain 553: Gardiners, they, their, their, their, them
+Chain 554: occasions, they, They, they, they, their
+Chain 555: Gardiner, his, he, his, he, his
+Chain 556: Jane and Elizabeth, they, them, them, their, they
+Chain 557: particulars, they, them, they, them, They
+Chain 558: Elizabeth, she, her, Elizabeth, she, she
+Chain 559: Lydia, Her, her, she, her, her
+Chain 560: husband, his, He, him, his, his
+Chain 561: Lydia, she, Her, her, her, her
+Chain 562: uncle, him, He, his, he, him
+Chain 563: Wickham, he, himself, his, him, his
+Chain 564: Wickham, his, He, He, He, him
+Chain 565: Long, she, her, her, she, she
+Chain 566: Bingley, him, his, him, him, him
+Chain 567: Jane, her, her, she, she, her
+Chain 568: Jane, her, she, her, she, she
+Chain 569: Elizabeth, her, her, she, She, her
+Chain 570: Jane, He, himself, his, himself, Jane
+Chain 571: Bennet, she, she, her, her, she
+Chain 572: Elizabeth, Elizabeth, his, his, he, he
+Chain 573: Jane, her, she, Her, her, she
+Chain 574: Jane, she, herself, Jane, Jane, she
+Chain 575: sisters, They, they, they, their, they
+Chain 576: Catherine, her, her, her, she, Catherine
+Chain 577: Bennet, her, she, her, her, Bennet
+Chain 578: acquaintance, she, her, her, She, her
+Chain 579: Elizabeth, her, She, her, her, she
+Chain 580: Mount, It, It, it, it, Mount
+Chain 581: she, Bennet, her, she, her, her
+Chain 582: Catherine, her, her, she, she, her
+Chain 583: Bennet, his, his, him, He, he
+Chain 584: Darcy, he, his, Darcy, Darcy, Darcy
+Chain 585: Catherine, her, she, her, her, she
+Chain 586: Kitty, her, she, Kitty, her
+Chain 587: Bennet, he, he, his, his
+Chain 588: daughters, They, them, they, their
+Chain 589: London, him, he, London, his
+Chain 590: Jane, her, her, she, she
+Chain 591: He, man, he, His, his
+Chain 592: his, He, his, he, him
+Chain 593: House, it, it, its, it
+Chain 594: Hurst, her, her, her, her
+Chain 595: Copyright, her, Her, her, She
+Chain 596: Elizabeth, she, she, Elizabeth, her
+Chain 597: Elizabeth, her, her, she, herself
+Chain 598: Elizabeth, her, she, she, she
+Chain 599: Darcy, his, Darcy, him, he
+Chain 600: Bennet, her, Bennet, she, her
+Chain 601: William, he, man, He, persons
+Chain 602: Elizabeth, her, herself, She, her
+Chain 603: Bingley, him, Bingley, his, his
+Chain 604: Bingley, him, his, he, His
+Chain 605: Bennet, her, her, her, her
+Chain 606: Darcy, him, Darcy, his, he
+Chain 607: Hurst, herself, Hurst, she, herself
+Chain 608: Darcy, him, he, He, himself
+Chain 609: Bingley, Her, she, her, she
+Chain 610: Darcy, Darcy, He, himself, Darcy
+Chain 611: Bennet, her, she, she, herself
+Chain 612: Bennet, he, his, his, his
+Chain 613: Lydia, her, her, her, Lydia
+Chain 614: Bennet, her, Bennet, she, man
+Chain 615: Netherfield, He, his, him, he
+Chain 616: Darcy, Darcy, Darcy, himself, Darcy
+Chain 617: Bingley, Bingley, Bingley, He, He
+Chain 618: Bourgh, he, his, him, his
+Chain 619: Elizabeth, her, She, her, her
+Chain 620: Darcy, Darcy, he, Darcy, him
+Chain 621: Darcy, her, her, her, her
+Chain 622: Darcy, her, her, her, Darcy
+Chain 623: Bingley, Bingley, Bingley, Bingley, himself
+Chain 624: Bingley, Bingley, him, he, Bingley
+Chain 625: Elizabeth, she, Elizabeth, her, she
+Chain 626: Nobody, Her, her, She, she
+Chain 627: Lydia, her, she, herself, her
+Chain 628: Elizabeth, her, her, her, her
+Chain 629: Elizabeth, her, she, she, she
+Chain 630: Charles, he, him, he, his
+Chain 631: Caroline, she, herself, her, her
+Chain 632: Bennet, her, she, she, she
+Chain 633: Elizabeth, her, she, she, her
+Chain 634: Lucas, himself, his, he, he
+Chain 635: Elizabeth, her, she, she, Elizabeth
+Chain 636: Darcy, Her, her, She, her
+Chain 637: Charlotte, Charlotte, her, her, her
+Chain 638: Bennet, she, her, her, she
+Chain 639: Wickham, Wickham, his, he, Wickham
+Chain 640: Elizabeth, her, her, she, she
+Chain 641: Bourgh, him, him, he, him
+Chain 642: William, He, his, his, his
+Chain 643: William, him, he, his, his
+Chain 644: Bourgh, her, she, she, her
+Chain 645: Catherine, her, Catherine, Catherine, Catherine
+Chain 646: Elizabeth, she, her, her, she
+Chain 647: Allen, his, he, his, him
+Chain 648: Darcy, Darcy, Darcy, His, he
+Chain 649: Fitzwilliam, him, his, He, himself
+Chain 650: Darcy, his, him, He, Darcy
+Chain 651: cousins, They, their, them, their
+Chain 652: Elizabeth, her, her, she, she
+Chain 653: friend, him, he, He, his
+Chain 654: friend, him, He, he, his
+Chain 655: Darcy, his, his, he, him
+Chain 656: Elizabeth, he, he, He, he
+Chain 657: envelope, envelope, itself, it, It
+Chain 658: London, him, he, himself, his
+Chain 659: Darcy, him, his, he, his
+Chain 660: Fitzwilliam, her, Fitzwilliam, She, her
+Chain 661: Darcy, His, his, his, his
+Chain 662: Hunsford, his, he, he, he
+Chain 663: Elizabeth, her, She, she, her
+Chain 664: friends, they, them, they, They
+Chain 665: companion, Their, their, they, they
+Chain 666: Forster, Forster, she, herself, Forster
+Chain 667: Jane, her, her, she, herself
+Chain 668: Bennet, She, she, her, she
+Chain 669: Wickham, it, it, it, it
+Chain 670: Kitty, Kitty, her, her, she
+Chain 671: Lydia, her, her, her, Lydia
+Chain 672: Darcy, him, he, He, he
+Chain 673: man, her, she, Her, her
+Chain 674: Lydia, her, Lydia, herself, her
+Chain 675: Elizabeth, her, she, Her, her
+Chain 676: Gardiner, Gardiner, she, her, her
+Chain 677: subject, they, they, they, They
+Chain 678: Elizabeth, she, she, Elizabeth, she
+Chain 679: Reynolds, she, her, Reynolds, her
+Chain 680: smile, it, It, its, it
+Chain 681: Elizabeth, her, her, her, her
+Chain 682: lady, She, she, she, she
+Chain 683: brother, his, him, His, his
+Chain 684: Darcy, his, his, Darcy, his
+Chain 685: aunt and niece, them, their, They, them
+Chain 686: Elizabeth, her, she, her, her
+Chain 687: Darcy, his, he, He, Darcy
+Chain 688: Gardiner, him, he, his, he
+Chain 689: Bingley, she, Bingley, Bingley, Bingley
+Chain 690: thoughts, them, Their, them, their
+Chain 691: Bingley, she, she, her, she
+Chain 692: Darcy, herself, she, she, she
+Chain 693: success, He, him, He, him
+Chain 694: F., he, his, his, him
+Chain 695: F., he, his, he, him
+Chain 696: sister, her, herself, She, she
+Chain 697: Wickham, him, him, he, his
+Chain 698: Derbyshire, she, her, she, her
+Chain 699: Lydia, her, her, Lydia, Lydia
+Chain 700: Gardiner, she, her, her, Gardiner
+Chain 701: man, his, he, he, His
+Chain 702: Lizzie, him, him, his, him
+Chain 703: Jane, her, Jane, she, Jane
+Chain 704: Elizabeth, Her, her, her, Elizabeth
+Chain 705: Wickham, him, him, he, he
+Chain 706: Lydia, she, her, her, her
+Chain 707: Bennet, him, His, him, he
+Chain 708: Elizabeth, she, her, her, she
+Chain 709: Bennet, his, he, Bennet, Bennet
+Chain 710: Forster, him, man, he, himself
+Chain 711: Elizabeth, her, her, She, she
+Chain 712: Bennet, she, her, her, she
+Chain 713: girls, their, They, their, them
+Chain 714: Hill, her, her, her, she
+Chain 715: Lydia, she, She, her, she
+Chain 716: Bennet, his, he, his, him
+Chain 717: Elizabeth, she, her, her, Elizabeth
+Chain 718: Jane, her, she, herself, Jane
+Chain 719: hand, them, their, Their, they
+Chain 720: Lydia, her, she, Her, Lydia
+Chain 721: Goulding, his, he, him, he
+Chain 722: Wickham, his, he, he, his
+Chain 723: Lizzy, his, He, he, himself
+Chain 724: Nothing, it, it, it, it
+Chain 725: her, she, sister, She, her
+Chain 726: Bingley, him, him, him, he
+Chain 727: Kitty, Kitty, man, him, his
+Chain 728: one, it, it, it, It
+Chain 729: lover, he, he, his, He
+Chain 730: Bennet, her, her, her, she
+Chain 731: Jane, Jane, she, her, Jane
+Chain 732: daughter and my
+nephew, They, Their, They, their
+Chain 733: admirer, he, He, he, he
+Chain 734: Christian, his, his, his, his
+Chain 735: Bingley, him, him, his, Bingley
+Chain 736: Bingley and Jane, them, They, They, them
+Chain 737: Those, they, their, them, their
+Chain 738: Darcy, He, his, he, his
+Chain 739: her, Elizabeth, she, she, her
+Chain 740: Darcy, her, her, her, her
+Chain 741: Elizabeth, herself, her, she, her
+Chain 742: Elizabeth, her, Elizabeth, her, her
+Chain 743: fondness, itself, It, its
+Chain 744: Austen, Austen, Austen, Austen
+Chain 745: Maupassant, him, he, his
+Chain 746: Mary, she, Mary, her
+Chain 747: Elizabeth, Woman, her, Elizabeth
+Chain 748: He, Bingley, He, his
+Chain 749: officers, their, They, them
+Chain 750: friend, he, He, him
+Chain 751: ladies, them, their, They
+Chain 752: Bingley, him, his, he
+Chain 753: Bennet, herself, her, her
+Chain 754: Long, her, she, herself
+Chain 755: Mary, Mary, Mary, he
+Chain 756: Bingley, his, him, he
+Chain 757: Bennet, her, her, Her
+Chain 758: Allen, he, he, his
+Chain 759: Elizabeth, She, her, she
+Chain 760: Bennet, her, her, she
+Chain 761: Bennet, she, She, she
+Chain 762: sisters, Their, they, them
+Chain 763: Hurst and her sister, they, they, their
+Chain 764: Bennet, she, she, she
+Chain 765: Elizabeth, her, her, her
+Chain 766: dispositions, their, They, their
+Chain 767: Allen, his, him, him
+Chain 768: Bingley, her, her, Bingley
+Chain 769: Meryton, Meryton, Meryton, Meryton
+Chain 770: Forster and Captain
+Carter, they, they, them
+Chain 771: Bennet, Bennet, she, her
+Chain 772: Bennet, her, she, her
+Chain 773: Jane, her, she, herself
+Chain 774: Hurst and
+Miss Bingley, they, them, their
+Chain 775: Bingley, His, his, him
+Chain 776: exhibition, it, it, It
+Chain 777: library, It, it, it
+Chain 778: Pemberley, Pemberley, Pemberley, Pemberley
+Chain 779: Hurst and Miss Bingley both, they, them, their
+Chain 780: Bennet, her, Bennet, her
+Chain 781: sisters, they, They, their
+Chain 782: kindness, It, it, it
+Chain 783: Netherfield, he, Netherfield, he
+Chain 784: London, country, country, country
+Chain 785: Charlotte, she, She, she
+Chain 786: Bennet, her, her, herself
+Chain 787: Bingley, his, person, Bingley
+Chain 788: Darcy, he, he, his
+Chain 789: Darcy, his, he, Darcy
+Chain 790: Bingley, She, her, she
+Chain 791: sister, She, She, her
+Chain 792: Bingley, she, her, her
+Chain 793: letter, it, it, It
+Chain 794: Kent, him, his, him
+Chain 795: Catherine, person, Catherine, she
+Chain 796: Bourgh, her, her, woman
+Chain 797: Collins, Collins, Collins, Collins
+Chain 798: ones, Their, them, they
+Chain 799: spokesman, He, he, his
+Chain 800: Elizabeth, she, she, her
+Chain 801: Bennet, her, she, her
+Chain 802: Mr., his, him, his
+Chain 803: Elizabeth, she, Elizabeth, woman
+Chain 804: Philips, her, her, Philips
+Chain 805: Lydia, Lydia, she, she
+Chain 806: Wickham, himself, He, Wickham
+Chain 807: Elizabeth, She, she, herself
+Chain 808: Lydia, Lydia, she, she
+Chain 809: night, it, it, It
+Chain 810: Bennet, Bennet, Bennet, her
+Chain 811: Mary, her, she, she
+Chain 812: idea, it, It, idea
+Chain 813: Darcy, his, him, He
+Chain 814: neighbours, their, They, their
+Chain 815: Elizabeth, herself, her, Elizabeth
+Chain 816: Darcy, Darcy, Darcy, he
+Chain 817: Lucas, him, his, his
+Chain 818: bow, it, it, It
+Chain 819: Darcy, he, his, his
+Chain 820: Hurst and her
+sister, their, themselves, They
+Chain 821: Bennet, he, his, he
+Chain 822: Hurst or Miss Bingley, they, them, them
+Chain 823: Elizabeth, her, man, her
+Chain 824: Elizabeth, Elizabeth, her, Elizabeth
+Chain 825: Bourgh, her, her, her
+Chain 826: Catherine, she, Catherine, her
+Chain 827: Collins, Collins, Collins, Collins
+Chain 828: Kitty, he, he, his
+Chain 829: Bingley, his, he, his
+Chain 830: William, his, he, his
+Chain 831: Collins, his, Collins, he
+Chain 832: Caroline, her, she, her
+Chain 833: Bingley, him, his, Bingley
+Chain 834: Jane, Jane, Jane, Jane
+Chain 835: sacrifice, it, it, It
+Chain 836: Elizabeth, her, she, Elizabeth
+Chain 837: estate, it, it, It
+Chain 838: Lucases, They, they, them
+Chain 839: kind, it, It, it
+Chain 840: Darcy, him, Darcy, he
+Chain 841: Elizabeth, her, Elizabeth, Elizabeth
+Chain 842: Elizabeth, she, her, Elizabeth
+Chain 843: Elizabeth, her, her, her
+Chain 844: brother, She, she, she
+Chain 845: Gardiner, she, her, her
+Chain 846: minutes, They, they, them
+Chain 847: Collins, she, her, she
+Chain 848: Charlotte, Charlotte, Charlotte, she
+Chain 849: Elizabeth, her, Elizabeth, her
+Chain 850: Elizabeth, him, him, Elizabeth
+Chain 851: Rosings, them, they, them
+Chain 852: Lucas, his, his, his
+Chain 853: Jenkinson, her, Jenkinson, her
+Chain 854: Catherine, herself, her, her
+Chain 855: Collins, Collins, Collins, Collins
+Chain 856: Darcy, his, him, Darcy
+Chain 857: Bennet, she, She, her
+Chain 858: Anne, Anne, her, her
+Chain 859: Darcy, his, him, He
+Chain 860: Collins, she, she, her
+Chain 861: Collins, him, him, Collins
+Chain 862: Allen, he, his, his
+Chain 863: Fitzwilliam, his, he, him
+Chain 864: Elizabeth, her, Elizabeth, Elizabeth
+Chain 865: She is a
+very great favourite with some ladies of my acquaintance, Mrs. Hurst and
+Miss Bingley, them, them, Their
+Chain 866: Jane, she, she, Jane
+Chain 867: Rosings, they, they, They
+Chain 868: subject, His, he, his
+Chain 869: Jane, She, her, she
+Chain 870: sister, Her, she, she
+Chain 871: Wickham, his, his, himself
+Chain 872: Wickham, his, Wickham, Wickham
+Chain 873: Darcy, his, his, his
+Chain 874: Copyright, she, her, She
+Chain 875: friends, them, They, they
+Chain 876: Bennet, herself, she, she
+Chain 877: Lydia, Lydia, Lydia, her
+Chain 878: Maria, herself, her, her
+Chain 879: Elizabeth, her, her, her
+Chain 880: Lydia, her, her, she
+Chain 881: the, they, they, They
+Chain 882: King, She, her, King
+Chain 883: uncle, She, she, her
+Chain 884: Darcy, her, her, she
+Chain 885: Charlotte, she, her, she
+Chain 886: Lizzy, she, herself, she
+Chain 887: Forster, Forster, her, she
+Chain 888: Lydia, her, her, Lydia
+Chain 889: Lambton, country, Lambton, It
+Chain 890: banks, They, their, They
+Chain 891: parlour, It, it, its
+Chain 892: Darcy, him, him, He
+Chain 893: Darcy, he, his, him
+Chain 894: Elizabeth, her, She, Her
+Chain 895: Bingley, his, his, he
+Chain 896: Darcy, her, her, her
+Chain 897: _, it, it, It
+Chain 898: Elizabeth, she, her, Elizabeth
+Chain 899: Gardiner, Gardiner, her, she
+Chain 900: Darcy, her, she, her
+Chain 901: Pemberley, it, it, Pemberley
+Chain 902: Elizabeth, she, herself, she
+Chain 903: Gardiner, her, her, Gardiner
+Chain 904: Darcy, her, herself, herself
+Chain 905: Darcy, she, Darcy, Darcy
+Chain 906: Bennet, Her, she, her
+Chain 907: Darcy, he, himself, he
+Chain 908: Gardiner, Gardiner, Gardiner, her
+Chain 909: looks and behaviour, they, their, They
+Chain 910: letters, They, themselves, their
+Chain 911: father, them, They, they
+Chain 912: W., her, she, herself
+Chain 913: London, he, his, him
+Chain 914: London, London, His, his
+Chain 915: Kent, his, him, his
+Chain 916: Lydia, her, she, she
+Chain 917: mother, She, She, her
+Chain 918: Forsters, their, their, they
+Chain 919: Gardiner, his, he, he
+Chain 920: Denny, he, Denny, Denny
+Chain 921: friend, he, he, He
+Chain 922: Gardiner, her, her, She
+Chain 923: Gardiner, him, his, his
+Chain 924: Bennet, her, she, her
+Chain 925: Forster, his, He, his
+Chain 926: Elizabeth, her, her, Elizabeth
+Chain 927: father, them, they, Their
+Chain 928: Heaven, they, they, their
+Chain 929: uncle, He, his, he
+Chain 930: uncle and aunt, Their, their, them
+Chain 931: father, he, He, his
+Chain 932: Lydia, her, her, her
+Chain 933: Bennet, her, she, Bennet
+Chain 934: Lydia, herself, she, her
+Chain 935: Lydia, Lydia, She, she
+Chain 936: Philips, the Lucases, and all
+their other neighbours, their, them, they
+Chain 937: husbands, Their, them, their
+Chain 938: ignorance, it, It, it
+Chain 939: Bennet, her, her, she
+Chain 940: Lydia, she, her, she
+Chain 941: Bennet, She, her, her
+Chain 942: spirits, They, them, their
+Chain 943: Each, themselves, their, them
+Chain 944: Elizabeth, her, she, her
+Chain 945: gentlemen, they, They, them
+Chain 946: Bennet, she, she, she
+Chain 947: Bennet, her, her, men
+Chain 948: Kitty, she, Kitty, she
+Chain 949: Bingley, Bingley, Bingley, Bingley
+Chain 950: Elizabeth, her, Elizabeth, her
+Chain 951: Copyright, she, she, her
+Chain 952: Longbourn, it, it, it
+Chain 953: Darcy, he, he, his
+Chain 954: Darcy, his, he, him
+Chain 955: supposition, its, It, it
+Chain 956: Darcy, man, he, _
+Chain 957: Darcy, his, his, Darcy
+Chain 958: _, She, her, her
+Chain 959: Elizabeth, she, herself, She
+Chain 960: Bingley, his, he, Bingley
+Chain 961: nobody, He, him, him
+Chain 962: delay, It, it, it
+Chain 963: Lizzy, Lizzy, her, Lizzy
+Chain 964: Elizabeth, she, her, her
+Chain 965: Bennet, he, his, he
+Chain 966: Elizabeth, she, her, she
+Chain 967: Bingley, his, his, he
+Chain 968: Jane, her, her, Jane
+Chain 969: Darcy, his, his, himself
+Chain 970: Bingley, she, she, her
+Chain 971: Edmund, him, he
+Chain 972: Emma, her, she
+Chain 973: construction, It, it
+Chain 974: Thorpe, the Eltons, Mrs. Norris, and one or two others, their, them
+Chain 975: world, it, It
+Chain 976: Bennet, his, himself
+Chain 977: Swift, Swift, him
+Chain 978: Pride, it, it
+Chain 979: Tilney, his, his
+Chain 980: part, it, It
+Chain 981: Austen, herself, Austen
+Chain 982: Bennet, Bennet, her
+Chain 983: aunt, His, his
+Chain 984: Miller, him, his
+Chain 985: Park, it, it
+Chain 986: neighbourhood, It, it
+Chain 987: nerves, They, them
+Chain 988: Bennet, his, his
+Chain 989: Illustration, it, it
+Chain 990: visit, it, It
+Chain 991: Long, her, she
+Chain 992: _, It, it
+Chain 993: Bennet, she, she
+Chain 994: partner, She, She
+Chain 995: Jane, her, Jane
+Chain 996: Hurst, her, her
+Chain 997: neighbour, They, them
+Chain 998: Bennet, her, her
+Chain 999: Robinson, Robinson, Robinson
+Chain 1000: Darcy, his, he
+Chain 1001: Long, Long, Long
+Chain 1002: Mary, herself, her
+Chain 1003: Copyright, her, she
+Chain 1004: Darcy, his, his
+Chain 1005: Bennet, Bennet, she
+Chain 1006: Bennet, his, his
+Chain 1007: Lydia, her, her
+Chain 1008: Carter, him, he
+Chain 1009: Forster, Forster, she
+Chain 1010: Clarke, it, it
+Chain 1011: Elizabeth, She, her
+Chain 1012: Bennet, her, her
+Chain 1013: Bingley, she, her
+Chain 1014: no, them, Their
+Chain 1015: Bingley, her, Bingley
+Chain 1016: Darcy, he, he
+Chain 1017: Bennet, she, Her
+Chain 1018: ladies, them, They
+Chain 1019: Bingley, Bingley, Bingley
+Chain 1020: Jane, Jane, her
+Chain 1021: Elizabeth, her, her
+Chain 1022: That, it, It
+Chain 1023: shops and public places, They, their
+Chain 1024: Elizabeth, His, Elizabeth
+Chain 1025: Charlotte, she, she
+Chain 1026: sister, She, her
+Chain 1027: Letters, them, they
+Chain 1028: person, he, He
+Chain 1029: Charles, He, his
+Chain 1030: Darcy, Darcy, himself
+Chain 1031: Elizabeth, she, her
+Chain 1032: Bingley, her, Bingley
+Chain 1033: portraits, them, They
+Chain 1034: Elizabeth, She, she
+Chain 1035: Bingley, she, Bingley
+Chain 1036: Hurst, her, her
+Chain 1037: Darcy, he, he
+Chain 1038: Elizabeth, him, him
+Chain 1039: Bingley, she, Her
+Chain 1040: Bingley, his, Bingley
+Chain 1041: Jane, Jane, Jane
+Chain 1042: Darcy, him, he
+Chain 1043: Netherfield, his, he
+Chain 1044: estate, it, It
+Chain 1045: Bourgh, Bourgh, her
+Chain 1046: Collins, Collins, Collins
+Chain 1047: Lydia, Lydia, she
+Chain 1048: Bourgh, her, her
+Chain 1049: Darcy, his, Darcy
+Chain 1050: hat, it, It
+Chain 1051: Jane, her, her
+Chain 1052: Philipses, their, they
+Chain 1053: behaviour, It, it
+Chain 1054: Wickham, he, he
+Chain 1055: Elizabeth, she, she
+Chain 1056: dishonesty, it, It
+Chain 1057: Darcy, He, Darcy
+Chain 1058: Bourgh, Bourgh, Bourgh
+Chain 1059: Catherine, him, he
+Chain 1060: Wickham, he, his
+Chain 1061: cousins, their, They
+Chain 1062: light, it, It
+Chain 1063: Darcy, his, his
+Chain 1064: Wickham, himself, he
+Chain 1065: Jane, herself, her
+Chain 1066: Collins, he, him
+Chain 1067: This, it, it
+Chain 1068: _, He, he
+Chain 1069: Darcy, Darcy, Darcy
+Chain 1070: Jane, her, her
+Chain 1071: Collins, he, he
+Chain 1072: Bourgh, her, Bourgh
+Chain 1073: Collins, Collins, Collins
+Chain 1074: Bingley, Bingley, Bingley
+Chain 1075: mother, it, It
+Chain 1076: Darcy, his, He
+Chain 1077: Mary, Mary, her
+Chain 1078: Elizabeth, her, her
+Chain 1079: her, she, Elizabeth
+Chain 1080: Collins, her, Collins
+Chain 1081: she, Collins, Collins
+Chain 1082: Elizabeth, he, Elizabeth
+Chain 1083: Collins, Collins, Collins
+Chain 1084: Elizabeth, her, she
+Chain 1085: Lizzy, she, Lizzy
+Chain 1086: Allen, he, his
+Chain 1087: society, it, It
+Chain 1088: none, it, It
+Chain 1089: Jane, Jane, she
+Chain 1090: Bingley, her, She
+Chain 1091: Jane, she, her
+Chain 1092: Elizabeth, him, Elizabeth
+Chain 1093: Elizabeth, her, herself
+Chain 1094: engagements, them, They
+Chain 1095: Collins, himself, Collins
+Chain 1096: Collins, he, Collins
+Chain 1097: Elizabeth, they, Elizabeth
+Chain 1098: Collins, Collins, Collins
+Chain 1099: Elizabeth, she, herself
+Chain 1100: Elizabeth and Charlotte, them, them
+Chain 1101: Jane, she, her
+Chain 1102: Elizabeth, Her, her
+Chain 1103: Jane, He, man
+Chain 1104: marriage, It, it
+Chain 1105: Lizzy, she, she
+Chain 1106: Collins, Collins, woman
+Chain 1107: Darcy, her, her
+Chain 1108: Bennet, his, Bennet
+Chain 1109: sister, She, She
+Chain 1110: Elizabeth, Elizabeth, her
+Chain 1111: company, Her, her
+Chain 1112: Jane, his, His
+Chain 1113: Caroline, town, Caroline
+Chain 1114: brother, He, him
+Chain 1115: Elizabeth, her, she
+Chain 1116: Jane, his, Jane
+Chain 1117: Darcy, him, he
+Chain 1118: Nothing, it, it
+Chain 1119: William, his, he
+Chain 1120: Lucas, his, himself
+Chain 1121: information, It, it
+Chain 1122: Jane, she, her
+Chain 1123: Gardiner, Gardiner, her
+Chain 1124: _, It, it
+Chain 1125: Elizabeth, her, she
+Chain 1126: Collins, Collins, Collins
+Chain 1127: opportunity, it, It
+Chain 1128: Elizabeth, Elizabeth, She
+Chain 1129: somebody, her, She
+Chain 1130: Collins, him, Collins
+Chain 1131: Catherine, her, her
+Chain 1132: William, he, he
+Chain 1133: Catherine, her, Her
+Chain 1134: estate, it, It
+Chain 1135: Metcalfe, She, she
+Chain 1136: Elizabeth, Elizabeth, herself
+Chain 1137: William, He, his
+Chain 1138: Catherine, her, Catherine
+Chain 1139: Bourgh, her, She
+Chain 1140: Darcy, his, he
+Chain 1141: advice, It, it
+Chain 1142: Fitzwilliam, she, her
+Chain 1143: Catherine, her, her
+Chain 1144: Fitzwilliam, he, Fitzwilliam
+Chain 1145: distance, it, It
+Chain 1146: Collins, herself, her
+Chain 1147: Bingley, Bingley, person
+Chain 1148: right, It, it
+Chain 1149: Kent, his, him
+Chain 1150: Elizabeth, her, she
+Chain 1151: Darcy, Darcy, his
+Chain 1152: Darcy, Darcy, He
+Chain 1153: friend, He, His
+Chain 1154: Bingley, her, her
+Chain 1155: concealment, It, it
+Chain 1156: DARCY, he, his
+Chain 1157: Wickham, Wickham, Wickham
+Chain 1158: compliment, It, it
+Chain 1159: nobody, his, His
+Chain 1160: uncle, He, he
+Chain 1161: defects, They, them
+Chain 1162: Bourgh, herself, her
+Chain 1163: Collins, her, her
+Chain 1164: power, It, it
+Chain 1165: Elizabeth, she, She
+Chain 1166: Maria, he, he
+Chain 1167: Jane, Jane, Jane
+Chain 1168: Wickham, Wickham, Wickham
+Chain 1169: Elizabeth, herself, her
+Chain 1170: Jane, She, She
+Chain 1171: Kitty, he, him
+Chain 1172: name, Their, Their
+Chain 1173: Jane, Jane, her
+Chain 1174: Lydia, her, she
+Chain 1175: pleasures, They, they
+Chain 1176: Lydia, She, Lydia
+Chain 1177: Bennets, they, they
+Chain 1178: part, it, It
+Chain 1179: thing, It, it
+Chain 1180: Elizabeth, she, her
+Chain 1181: Elizabeth, She, she
+Chain 1182: Darcy, his, his
+Chain 1183: Lydia and her mother, their, their
+Chain 1184: Bennet, her, she
+Chain 1185: Gardiner, she, Gardiner
+Chain 1186: Elizabeth, her, her
+Chain 1187: Gardiner, her, she
+Chain 1188: mind, They, themselves
+Chain 1189: Elizabeth, her, her
+Chain 1190: Gardiner, his, his
+Chain 1191: Gardiner, he, his
+Chain 1192: Reynolds, she, she
+Chain 1193: stables, They, Their
+Chain 1194: Gardiner, man, he
+Chain 1195: astonishment, it, It
+Chain 1196: party, They, them
+Chain 1197: Mr. and Mrs. Gardiner, they, they
+Chain 1198: Wickham, them, Wickham
+Chain 1199: Mr. and Mrs. Gardiner, They, them
+Chain 1200: Neither, their, They
+Chain 1201: aspect, it, Its
+Chain 1202: Gardiner and
+her niece, they, their
+Chain 1203: Darcy, her, her
+Chain 1204: Darcy, him, his
+Chain 1205: eyes, them, They
+Chain 1206: Darcy, himself, women
+Chain 1207: Forster, him, his
+Chain 1208: Lydia, Lydia, Lydia
+Chain 1209: Denny, his, He
+Chain 1210: All, they, them
+Chain 1211: Lizzy, him, he
+Chain 1212: Forster, her, Forster
+Chain 1213: all, They, they
+Chain 1214: London, her, London
+Chain 1215: he, Elizabeth, Elizabeth
+Chain 1216: Wickham, its, Wickham
+Chain 1217: Jane, she, Jane
+Chain 1218: Wickham, it, it
+Chain 1219: Gardiner, his, him
+Chain 1220: tears, their, They
+Chain 1221: welcome, it, It
+Chain 1222: Wickham, Wickham, Wickham
+Chain 1223: Darcy, she, her
+Chain 1224: Lydia, she, she
+Chain 1225: Gardiner, he, his
+Chain 1226: particulars, they, They
+Chain 1227: Kitty, her, She
+Chain 1228: Forster, his, He
+Chain 1229: Elizabeth, She, her
+Chain 1230: Assistance, He, His
+Chain 1231: Gardiner, he, he
+Chain 1232: Bennet, he, his
+Chain 1233: London, London, town
+Chain 1234: Jane, she, her
+Chain 1235: Catherine, Catherine, herself
+Chain 1236: London, them, London
+Chain 1237: Elizabeth and her
+Derbyshire friend, them, their
+Chain 1238: world, His, him
+Chain 1239: courage, it, It
+Chain 1240: that, It, it
+Chain 1241: Lydia, She, her
+Chain 1242: Gardiner, He, he
+Chain 1243: niece, She, her
+Chain 1244: man, his, His
+Chain 1245: Wickham, he, him
+Chain 1246: Lydia, he, him
+Chain 1247: his, Gardiner, his
+Chain 1248: aunt, His, he
+Chain 1249: neither, it, It
+Chain 1250: Bennet, Bennet, herself
+Chain 1251: Bennet, her, Bennet
+Chain 1252: Wickham, she, she
+Chain 1253: Wickham and Lydia, their, their
+Chain 1254: directions, They, they
+Chain 1255: Bennet, her, her
+Chain 1256: Elizabeth, she, she
+Chain 1257: sisters, they, They
+Chain 1258: Bennet, she, her
+Chain 1259: Wickham, he, his
+Chain 1260: Darcy, Darcy, he
+Chain 1261: Wickham, them, Wickham
+Chain 1262: Darcy, he, his
+Chain 1263: Lydia, Lydia, Lydia
+Chain 1264: Wickham, Wickham, Wickham
+Chain 1265: circumstances, They, them
+Chain 1266: father, they, They
+Chain 1267: Jane, her, her
+Chain 1268: Lydia, her, she
+Chain 1269: Darcy, his, He
+Chain 1270: Elizabeth, her, she
+Chain 1271: endeavours, they, They
+Chain 1272: commendation, It, it
+Chain 1273: house, It, it
+Chain 1274: orders, They, they
+Chain 1275: Elizabeth, she, she
+Chain 1276: This, It, It
+Chain 1277: Elizabeth, her, her
+Chain 1278: Philips, it, it
+Chain 1279: That, It, it
+Chain 1280: Elizabeth, she, her
+Chain 1281: Bennet, her, her
+Chain 1282: anxiety, it, It
+Chain 1283: Michaelmas, her, she
+Chain 1284: coveys, them, Their
+Chain 1285: Bennet, her, she
+Chain 1286: Bennet, she, she
+Chain 1287: Bennet, her, her
+Chain 1288: her, Jane, her
+Chain 1289: Jane, her, her
+Chain 1290: Bingley, her, her
+Chain 1291: faces, they, Their
+Chain 1292: wishes
+and affection, their, They
+Chain 1293: Bennet, her, her
+Chain 1294: That, It, it
+Chain 1295: Bennet, she, her
+Chain 1296: Bennet, she, She
+Chain 1297: park, It, it
+Chain 1298: Bennet, her, her
+Chain 1299: doors, them, They
+Chain 1300: Ladyship, it, It
+Chain 1301: Bennet, his, him
+Chain 1302: Darcy, her, she
+Chain 1303: Elizabeth, Elizabeth, she
+Chain 1304: Pemberley, she, Her
+Chain 1305: Darcy, his, his
+Chain 1306: Catherine, her, she
+Chain 1307: Bennet, her, her
+Chain 1308: couple, It, it
+Chain 1309: Catherine, she, her
+Chain 1310: Allen, his, he
+Chain 1311: Bennet, her, Bennet
+Chain 1312: Elizabeth, Elizabeth, Elizabeth
+Chain 1313: Darcy, him, he
+Chain 1314: _, its, It
+Chain 1315: behaviour, It, it
+Chain 1316: Darcy, his, he
+Chain 1317: Georgiana, her, her
+Chain 1318: Darcy, his, him
+Chain 1319: affection, it, It
+Chain 1320: Darcy, him, his
+Chain 1321: Bingley, they, Bingley
+Chain 1322: Elizabeth, her, her
+Chain 1323: father, It, it
+Chain 1324: fellow, It, it
+Chain 1325: communication, Its, it
+Chain 1326: Lord, it, it
+Chain 1327: mind, it, It
+Chain 1328: Jane, she, her
+Chain 1329: Catherine, her, she
+Chain 1330: Darcy, Darcy, Darcy
+Chain 1331: nephew, He, his
+Chain 1332: Jane, Jane, she
+Chain 1333: world, He, his
+Chain 1334: Lydia, her, Lydia
+Chain 1335: Pemberley, Pemberley, Pemberley
+Chain 1336: Georgiana, Georgiana, Georgiana
+Chain 1337: sisters, They, they
+Chain 1338: Carr, his
+Chain 1339: Fanny, Fanny
+Chain 1340: Sensibility, it
+Chain 1341: Pride, its
+Chain 1342: Austen, Austen
+Chain 1343: Prejudice, her
+Chain 1344: Swift, her
+Chain 1345: Mentor, he
+Chain 1346: Smith, her
+Chain 1347: Meissonier, his
+Chain 1348: Austen, Austen
+Chain 1349: Thackeray, her
+Chain 1350: Collins, man
+Chain 1351: Collins, Collins
+Chain 1352: Austen, Austen
+Chain 1353: Elizabeth, herself
+Chain 1354: Pride and Prejudice, their
+Chain 1355: Collins, she
+Chain 1356: Bourgh, her
+Chain 1357: Wickham, Wickham
+Chain 1358: Charlotte, she
+Chain 1359: Darcy, his
+Chain 1360: Darcy, his
+Chain 1361: Cruscans, Cruscans
+Chain 1362: ladies, Their
+Chain 1363: Illustrations, Illustrations
+Chain 1364: horse, She
+Chain 1365: V., V.
+Chain 1366: Catherine, she
+Chain 1367: XXXIV, herself
+Chain 1368: XLIV, herself
+Chain 1369: XLIX, she
+Chain 1370: Long, her
+Chain 1371: Long, she
+Chain 1372: Bingley, he
+Chain 1373: William, him
+Chain 1374: others, They
+Chain 1375: Lydia, he
+Chain 1376: Allen, Allen
+Chain 1377: Bennet, He
+Chain 1378: Bennet, him
+Chain 1379: Long and her nieces, their
+Chain 1380: Bennet, he
+Chain 1381: Lydia, Lydia
+Chain 1382: Bennet, they
+Chain 1383: Bennet, her
+Chain 1384: Bennet, him
+Chain 1385: Lucas, his
+Chain 1386: Bennet, her
+Chain 1387: Bennet, her
+Chain 1388: Elizabeth, her
+Chain 1389: Bingley, his
+Chain 1390: Darcy, him
+Chain 1391: Bingley, his
+Chain 1392: Mary, herself
+Chain 1393: King, her
+Chain 1394: Elizabeth, Elizabeth
+Chain 1395: Bingley, him
+Chain 1396: Affectation, it
+Chain 1397: Elizabeth, their
+Chain 1398: Bingley, Bingley
+Chain 1399: Meryton, Meryton
+Chain 1400: distinction, It
+Chain 1401: Jane, Jane
+Chain 1402: Lizzy, her
+Chain 1403: pride, Pride
+Chain 1404: Lucas, his
+Chain 1405: Jane, Jane
+Chain 1406: this, It
+Chain 1407: This, it
+Chain 1408: Happiness, it
+Chain 1409: Bingley, her
+Chain 1410: Elizabeth, his
+Chain 1411: That, it
+Chain 1412: Lucas, Lucas
+Chain 1413: Meryton, her
+Chain 1414: Lucas, she
+Chain 1415: Darcy, Her
+Chain 1416: William, he
+Chain 1417: William, his
+Chain 1418: Nay, it
+Chain 1419: Pemberley, He
+Chain 1420: Philips, him
+Chain 1421: Lydia, country
+Chain 1422: Philips, his
+Chain 1423: Jane, Jane
+Chain 1424: haste, It
+Chain 1425: friends, They
+Chain 1426: Jones, his
+Chain 1427: Catherine and Lydia, their
+Chain 1428: Lydia, Lydia
+Chain 1429: Carter, he
+Chain 1430: Darcy, his
+Chain 1431: Bingley, Bingley
+Chain 1432: Hurst, She
+Chain 1433: Bingley, he
+Chain 1434: Hurst, her
+Chain 1435: Bennet,--she, she
+Chain 1436: Bingley, Bingley
+Chain 1437: Darcy, his
+Chain 1438: Bennet, She
+Chain 1439: Caroline, his
+Chain 1440: performance, It
+Chain 1441: Elizabeth, his
+Chain 1442: Hurst, her
+Chain 1443: Bingley, Bingley
+Chain 1444: Elizabeth, her
+Chain 1445: Bingley, his
+Chain 1446: Netherfield, Netherfield
+Chain 1447: Bingley, Bingley
+Chain 1448: character, It
+Chain 1449: characters, They
+Chain 1450: Elizabeth, her
+Chain 1451: Darcy, He
+Chain 1452: Bingley, his
+Chain 1453: Lucas, herself
+Chain 1454: Bennet, his
+Chain 1455: Bingley, his
+Chain 1456: Jane, Jane
+Chain 1457: Carter, he
+Chain 1458: Hurst and Mr. Bingley, their
+Chain 1459: pen, He
+Chain 1460: letters, They
+Chain 1461: Darcy, her
+Chain 1462: Nothing, It
+Chain 1463: Darcy, his
+Chain 1464: Bingley, Bingley
+Chain 1465: Hurst, her
+Chain 1466: Elizabeth, Elizabeth
+Chain 1467: Darcy, Darcy
+Chain 1468: Jane, her
+Chain 1469: Bingley, her
+Chain 1470: Bingley, she
+Chain 1471: Bingley, him
+Chain 1472: Darcy, himself
+Chain 1473: That, it
+Chain 1474: Bingley, he
+Chain 1475: understanding, It
+Chain 1476: Darcy, He
+Chain 1477: Tuesday, Tuesday
+Chain 1478: Jane, Jane
+Chain 1479: Bennet, his
+Chain 1480: Lucas, person
+Chain 1481: home, It
+Chain 1482: Hill, It
+Chain 1483: Bingley, her
+Chain 1484: Collins, man
+Chain 1485: Jane and Elizabeth, They
+Chain 1486: Bennet, she
+Chain 1487: England, it
+Chain 1488: Bennet, her
+Chain 1489: Ah, It
+Chain 1490: subject, He
+Chain 1491: girls, They
+Chain 1492: Collins, his
+Chain 1493: Illustration, it
+Chain 1494: Bourgh, her
+Chain 1495: Court, its
+Chain 1496: attentions, They
+Chain 1497: Richard, him
+Chain 1498: he, Forster
+Chain 1499: Meryton, it
+Chain 1500: benefit, It
+Chain 1501: Bennet and her daughters, them
+Chain 1502: Collins, Collins
+Chain 1503: Bennet, she
+Chain 1504: Longbourn, her
+Chain 1505: Elizabeth, Elizabeth
+Chain 1506: Mary, her
+Chain 1507: Lydia, Lydia
+Chain 1508: This, it
+Chain 1509: Bingley, Bingley
+Chain 1510: Bennet, her
+Chain 1511: Elizabeth, Elizabeth
+Chain 1512: Wickham, his
+Chain 1513: Bingley, his
+Chain 1514: Philips, Philips
+Chain 1515: Wickham, Wickham
+Chain 1516: Jane, Jane
+Chain 1517: Catherine, her
+Chain 1518: Catherine and her daughter, them
+Chain 1519: Collins, Collins
+Chain 1520: Catherine, Catherine
+Chain 1521: interval, It
+Chain 1522: Copyright, her
+Chain 1523: Netherfield, her
+Chain 1524: Elizabeth, he
+Chain 1525: Elizabeth, Elizabeth
+Chain 1526: Elizabeth, her
+Chain 1527: Meryton, Meryton
+Chain 1528: pride, It
+Chain 1529: brotherly, It
+Chain 1530: London, his
+Chain 1531: Collins, his
+Chain 1532: success, It
+Chain 1533: Wickham, he
+Chain 1534: Collins, Collins
+Chain 1535: Wickham, Wickham
+Chain 1536: they, Lydia nor Mr. Collins
+Chain 1537: Collins, Collins
+Chain 1538: Wickham, Wickham
+Chain 1539: Darcy, his
+Chain 1540: each, It
+Chain 1541: Darcy, his
+Chain 1542: Jane, persons
+Chain 1543: Bingley, he
+Chain 1544: Bingley, his
+Chain 1545: Netherfield, it
+Chain 1546: Bingley, himself
+Chain 1547: Elizabeth, Elizabeth
+Chain 1548: Collins, Collins
+Chain 1549: Rosings, his
+Chain 1550: Bennets, their
+Chain 1551: Denny, his
+Chain 1552: Lydia, Lydia
+Chain 1553: Charlotte, him
+Chain 1554: rule, It
+Chain 1555: Meryton, She
+Chain 1556: Eliza, her
+Chain 1557: William, William
+Chain 1558: character, She
+Chain 1559: another, They
+Chain 1560: Jane, Jane
+Chain 1561: Wickham, his
+Chain 1562: Darcy, Darcy
+Chain 1563: Catherine, her
+Chain 1564: Elizabeth, him
+Chain 1565: favour, It
+Chain 1566: Lucas, His
+Chain 1567: Elizabeth, her
+Chain 1568: Bennet, she
+Chain 1569: Jane, Jane
+Chain 1570: Bingley, his
+Chain 1571: Mary, her
+Chain 1572: Darcy, he
+Chain 1573: Bennet, Bennet
+Chain 1574: Hurst, her
+Chain 1575: Bingley, his
+Chain 1576: Netherfield, Netherfield
+Chain 1577: Lizzy, she
+Chain 1578: Collins, He
+Chain 1579: Collins, Collins
+Chain 1580: Bennet and Kitty, they
+Chain 1581: Elizabeth, she
+Chain 1582: Jenkinson, she
+Chain 1583: This, it
+Chain 1584: reproach, It
+Chain 1585: Collins, man
+Chain 1586: Collins, Collins
+Chain 1587: Bennet, her
+Chain 1588: Jane, Jane
+Chain 1589: Collins, him
+Chain 1590: Charlotte, Charlotte
+Chain 1591: Kitty, her
+Chain 1592: Charlotte, herself
+Chain 1593: Saturday, Saturday
+Chain 1594: Mr., him
+Chain 1595: This, it
+Chain 1596: Netherfield, she
+Chain 1597: Bingley, his
+Chain 1598: Bingley, she
+Chain 1599: Jane, he
+Chain 1600: _, It
+Chain 1601: Darcy, his
+Chain 1602: Louisa, country
+Chain 1603: Jane, her
+Chain 1604: Darcy, Darcy
+Chain 1605: idea, It
+Chain 1606: hope, They
+Chain 1607: Bingley, he
+Chain 1608: opportunity, It
+Chain 1609: William and Lady Lucas, their
+Chain 1610: William, his
+Chain 1611: Lucas, Lucas
+Chain 1612: Collins, his
+Chain 1613: Longbourn, Longbourn
+Chain 1614: Collins, her
+Chain 1615: Risk, it
+Chain 1616: Elizabeth, he
+Chain 1617: Bennet, he
+Chain 1618: Elizabeth, Elizabeth
+Chain 1619: Elizabeth, herself
+Chain 1620: Collins, him
+Chain 1621: Illustration, it
+Chain 1622: Bennet, Bennet
+Chain 1623: Charlotte, Charlotte
+Chain 1624: Collins, Collins
+Chain 1625: Catherine, she
+Chain 1626: delicacy, It
+Chain 1627: Longbourn, Longbourn
+Chain 1628: Bennet, Bennet
+Chain 1629: Bennet, she
+Chain 1630: Collins, he
+Chain 1631: Bingley, her
+Chain 1632: Hertfordshire, country
+Chain 1633: Bennet, He
+Chain 1634: idea, It
+Chain 1635: Bennet, her
+Chain 1636: feelings, They
+Chain 1637: man, It
+Chain 1638: Bingley, them
+Chain 1639: Jane, he
+Chain 1640: Bennet, he
+Chain 1641: Wickham, He
+Chain 1642: occurrences, They
+Chain 1643: Bennet, her
+Chain 1644: Collins, her
+Chain 1645: Longbourn, Longbourn
+Chain 1646: Gardiner, his
+Chain 1647: nieces, They
+Chain 1648: part, It
+Chain 1649: grievances, They
+Chain 1650: Bingley, him
+Chain 1651: Collins, He
+Chain 1652: Jane, Jane
+Chain 1653: accident, It
+Chain 1654: Elizabeth, her
+Chain 1655: Gardiner, man
+Chain 1656: Bingley, his
+Chain 1657: Bingleys, him
+Chain 1658: Bennet, her
+Chain 1659: means, They
+Chain 1660: Darcy, his
+Chain 1661: Pemberley, Pemberley
+Chain 1662: Wickham, its
+Chain 1663: _, It
+Chain 1664: Collins, he
+Chain 1665: Hertfordshire, it
+Chain 1666: Elizabeth, she
+Chain 1667: Catherine, Catherine
+Chain 1668: Darcy, her
+Chain 1669: Caroline and Mrs. Hurst, them
+Chain 1670: head, It
+Chain 1671: Bingley, him
+Chain 1672: Bingley, Bingley
+Chain 1673: Lizzy, her
+Chain 1674: letter, His
+Chain 1675: Kitty, his
+Chain 1676: Kitty and Lydia, They
+Chain 1677: London, him
+Chain 1678: aunt, Their
+Chain 1679: Jane, Jane
+Chain 1680: Wickham, it
+Chain 1681: Derbyshire, Derbyshire
+Chain 1682: Hertfordshire, her
+Chain 1683: Elizabeth, she
+Chain 1684: Collins, her
+Chain 1685: none, It
+Chain 1686: that, It
+Chain 1687: dear, She
+Chain 1688: Catherine, Catherine
+Chain 1689: Charlotte, Charlotte
+Chain 1690: wind, It
+Chain 1691: Charlotte, Charlotte
+Chain 1692: William, he
+Chain 1693: Scarcely, their
+Chain 1694: Catherine, herself
+Chain 1695: Ladyship, it
+Chain 1696: Collins, her
+Chain 1697: Elizabeth, herself
+Chain 1698: Collins, Collins
+Chain 1699: Bourgh, Bourgh
+Chain 1700: Elizabeth, she
+Chain 1701: Ladyship, it
+Chain 1702: Bourgh, Bourgh
+Chain 1703: girls, Their
+Chain 1704: Catherine and her daughter, they
+Chain 1705: Collins, Collins
+Chain 1706: Charlotte, Charlotte
+Chain 1707: Rosings, his
+Chain 1708: Collins, her
+Chain 1709: Collins, he
+Chain 1710: Rosings, Their
+Chain 1711: Catherine, Catherine
+Chain 1712: Catherine, herself
+Chain 1713: Collins, him
+Chain 1714: Charlotte, her
+Chain 1715: Elizabeth, Elizabeth
+Chain 1716: Fitzwilliam, he
+Chain 1717: music, It
+Chain 1718: Elizabeth, herself
+Chain 1719: Fitzwilliam, Fitzwilliam
+Chain 1720: women, They
+Chain 1721: Catherine, Catherine
+Chain 1722: Catherine, her
+Chain 1723: ladies, They
+Chain 1724: Rosings, their
+Chain 1725: Netherfield, Netherfield
+Chain 1726: Elizabeth, She
+Chain 1727: family, It
+Chain 1728: Longbourn, he
+Chain 1729: he, Elizabeth
+Chain 1730: Jane, she
+Chain 1731: Darcy, his
+Chain 1732: Elizabeth, her
+Chain 1733: Darcy, his
+Chain 1734: Charlotte, Charlotte
+Chain 1735: Parsonage, it
+Chain 1736: Fitzwilliam, man
+Chain 1737: anything, It
+Chain 1738: Fitzwilliam, he
+Chain 1739: Parsonage, Parsonage
+Chain 1740: Saturday, it
+Chain 1741: Darcy, them
+Chain 1742: Bingley, him
+Chain 1743: Bingley, Bingley
+Chain 1744: That, it
+Chain 1745: This, it
+Chain 1746: XXXIV, herself
+Chain 1747: vain, It
+Chain 1748: pain, It
+Chain 1749: Darcy, her
+Chain 1750: This, it
+Chain 1751: feelings, They
+Chain 1752: Hertfordshire, country
+Chain 1753: Lucas, He
+Chain 1754: London, London
+Chain 1755: suspicion, It
+Chain 1756: Georgiana, Georgiana
+Chain 1757: Younge, her
+Chain 1758: This, it
+Chain 1759: Elizabeth, his
+Chain 1760: Darcy, her
+Chain 1761: style, It
+Chain 1762: Astonishment, it
+Chain 1763: Fitzwilliam and herself, their
+Chain 1764: Elizabeth, she
+Chain 1765: letter, His
+Chain 1766: Rosings, Rosings
+Chain 1767: Catherine and her daughter, them
+Chain 1768: Elizabeth, her
+Chain 1769: questions, Their
+Chain 1770: Colonel, it
+Chain 1771: father, He
+Chain 1772: Dawson, Dawson
+Chain 1773: mind, It
+Chain 1774: Darcy, Darcy
+Chain 1775: Reflection, it
+Chain 1776: Meryton, Meryton
+Chain 1777: Catherine, he
+Chain 1778: Maria, her
+Chain 1779: Longbourn, Longbourn
+Chain 1780: news, It
+Chain 1781: Lydia, they
+Chain 1782: Lydia, Lydia
+Chain 1783: Philips, it
+Chain 1784: Denny,
+and Wickham, and Pratt, and two or three more, they
+Chain 1785: Wickham, men
+Chain 1786: Kitty, her
+Chain 1787: Elizabeth, she
+Chain 1788: Bennet, Bennet
+Chain 1789: Maria, Maria
+Chain 1790: Kitty, Kitty
+Chain 1791: Wickham, it
+Chain 1792: Elizabeth, She
+Chain 1793: Wickham, it
+Chain 1794: Elizabeth, them
+Chain 1795: Jane, she
+Chain 1796: Darcy, him
+Chain 1797: dislike, It
+Chain 1798: Darcy, his
+Chain 1799: Bingley, himself
+Chain 1800: Bingley, him
+Chain 1801: Netherfield, Netherfield
+Chain 1802: No, it
+Chain 1803: Illustration, It
+Chain 1804: Brighton, Brighton
+Chain 1805: Philips, it
+Chain 1806: Forster, her
+Chain 1807: companion, He
+Chain 1808: Lydia, she
+Chain 1809: Kitty, She
+Chain 1810: Bennet, her
+Chain 1811: Brighton, him
+Chain 1812: sensations, They
+Chain 1813: Brighton, himself
+Chain 1814: Forster, her
+Chain 1815: Kitty, she
+Chain 1816: daughters, Their
+Chain 1817: Kitty, Kitty
+Chain 1818: Those, they
+Chain 1819: Meryton, Meryton
+Chain 1820: London, town
+Chain 1821: Pemberley, his
+Chain 1822: Longbourn, Longbourn
+Chain 1823: Jane, her
+Chain 1824: Derbyshire, Derbyshire
+Chain 1825: Birmingham, town
+Chain 1826: Elizabeth, her
+Chain 1827: Gardiner, his
+Chain 1828: Wickham, his
+Chain 1829: grounds, They
+Chain 1830: possibility, It
+Chain 1831: Pemberley, Pemberley
+Chain 1832: Elizabeth, her
+Chain 1833: Elizabeth, she
+Chain 1834: stream, Its
+Chain 1835: housekeeper came; a respectable looking elderly woman, much less
+fine, and more civil, They
+Chain 1836: This, it
+Chain 1837: Gardiner, her
+Chain 1838: master, It
+Chain 1839: _, It
+Chain 1840: Elizabeth, her
+Chain 1841: Darcy, Darcy
+Chain 1842: Elizabeth, she
+Chain 1843: Reynolds, Reynolds
+Chain 1844: Elizabeth, her
+Chain 1845: Elizabeth, She
+Chain 1846: letter, They
+Chain 1847: remarks, They
+Chain 1848: Gardiner, Her
+Chain 1849: her, Her
+Chain 1850: triumph, It
+Chain 1851: Gardiner, he
+Chain 1852: Hunsford, he
+Chain 1853: inspection, It
+Chain 1854: Bingley, his
+Chain 1855: Mr., He
+Chain 1856: Wickham, Wickham
+Chain 1857: XLIV, it
+Chain 1858: Darcy, Darcy
+Chain 1859: feelings, They
+Chain 1860: Bingley, Bingley
+Chain 1861: Bingley, Bingley
+Chain 1862: Darcy, herself
+Chain 1863: pleasure, It
+Chain 1864: Parsonage, country
+Chain 1865: Netherfield, Netherfield
+Chain 1866: Darcy, her
+Chain 1867: Bingley, Bingley
+Chain 1868: Gardiner, his
+Chain 1869: Pemberley, Pemberley
+Chain 1870: pause, It
+Chain 1871: Annesley, her
+Chain 1872: Pray, They
+Chain 1873: Georgiana, Georgiana
+Chain 1874: Elizabeth, him
+Chain 1875: Bingley, herself
+Chain 1876: Lizzy, his
+Chain 1877: Forster, she
+Chain 1878: Thoughtless, her
+Chain 1879: Imprudent, it
+Chain 1880: Lydia, her
+Chain 1881: Longbourn, it
+Chain 1882: Darcy, his
+Chain 1883: letter, It
+Chain 1884: friends, They
+Chain 1885: Darcy, she
+Chain 1886: hope, It
+Chain 1887: Darcy, his
+Chain 1888: Mr., Mr.
+Chain 1889: Gardiner, Gardiner
+Chain 1890: Pemberley, her
+Chain 1891: Darcy, him
+Chain 1892: Wickham, they
+Chain 1893: Scotland, Scotland
+Chain 1894: Jane, her
+Chain 1895: Elizabeth, her
+Chain 1896: Gardiner, her
+Chain 1897: Darcy, man
+Chain 1898: Lydia, she
+Chain 1899: thoughts, They
+Chain 1900: Wednesday, she
+Chain 1901: Mr. and Mrs. Gardiner, their
+Chain 1902: Wickham, her
+Chain 1903: Bennet, him
+Chain 1904: Kitty, Kitty
+Chain 1905: Unhappy, it
+Chain 1906: Mary, herself
+Chain 1907: Bennets, themselves
+Chain 1908: Lydia, she
+Chain 1909: Wickham, Wickham
+Chain 1910: Jane, her
+Chain 1911: Jane, her
+Chain 1912: BENNET, it
+Chain 1913: Elizabeth, she
+Chain 1914: Mary and Kitty, them
+Chain 1915: Kitty, Kitty
+Chain 1916: object, It
+Chain 1917: Clapham, Clapham
+Chain 1918: Forster, his
+Chain 1919: Lizzy, he
+Chain 1920: Collins, They
+Chain 1921: Brighton, town
+Chain 1922: Jane, she
+Chain 1923: This, it
+Chain 1924: Lydia, her
+Chain 1925: dread, It
+Chain 1926: impression, It
+Chain 1927: London, London
+Chain 1928: Kitty, her
+Chain 1929: mind, They
+Chain 1930: Bennet, her
+Chain 1931: Kitty, Kitty
+Chain 1932: Brighton, Brighton
+Chain 1933: Kitty, he
+Chain 1934: Jane, her
+Chain 1935: EDW, it
+Chain 1936: GARDINER, he
+Chain 1937: Wickham, him
+Chain 1938: No, it
+Chain 1939: Jane, he
+Chain 1940: Elizabeth, his
+Chain 1941: That, it
+Chain 1942: Elizabeth, her
+Chain 1943: Elizabeth, his
+Chain 1944: Jane, he
+Chain 1945: Wickham, Wickham
+Chain 1946: conduct, It
+Chain 1947: Elizabeth, her
+Chain 1948: Lizzy, her
+Chain 1949: Wickham, she
+Chain 1950: father, She
+Chain 1951: Lydia, her
+Chain 1952: Britain, its
+Chain 1953: Lydia, her
+Chain 1954: news, It
+Chain 1955: Park, it
+Chain 1956: Ashworth, her
+Chain 1957: Darcy, his
+Chain 1958: purport, It
+Chain 1959: Bennet, his
+Chain 1960: Wickham, it
+Chain 1961: Hertfordshire, His
+Chain 1962: Forster, men
+Chain 1963: Jane and Elizabeth, their
+Chain 1964: Jane, him
+Chain 1965: Longbourn, Longbourn
+Chain 1966: Wickham, herself
+Chain 1967: Wickham, his
+Chain 1968: replies, They
+Chain 1969: That, it
+Chain 1970: Newcastle, her
+Chain 1971: La, it
+Chain 1972: Jane, her
+Chain 1973: Younge, Younge
+Chain 1974: friend, They
+Chain 1975: Bennet, he
+Chain 1976: uncle, They
+Chain 1977: reason, It
+Chain 1978: Wickham, Wickham
+Chain 1979: Pemberley, She
+Chain 1980: Elizabeth, she
+Chain 1981: sisters, They
+Chain 1982: Lucas, himself
+Chain 1983: Bennet, she
+Chain 1984: Wednesday, Wednesday
+Chain 1985: Bennet, his
+Chain 1986: Bingley, his
+Chain 1987: Jane, her
+Chain 1988: La, it
+Chain 1989: Bingley, him
+Chain 1990: Elizabeth, his
+Chain 1991: Derbyshire, him
+Chain 1992: Darcy, him
+Chain 1993: Bingley, Bingley
+Chain 1994: presence, It
+Chain 1995: Bingley, he
+Chain 1996: Bingley, They
+Chain 1997: Newcastle, they
+Chain 1998: seat, It
+Chain 1999: Bennet, he
+Chain 2000: Bingley, his
+Chain 2001: Teasing, Her
+Chain 2002: love, They
+Chain 2003: Tuesday, Tuesday
+Chain 2004: Bingley, Bingley
+Chain 2005: Longbourn, him
+Chain 2006: Elizabeth, him
+Chain 2007: Elizabeth, Elizabeth
+Chain 2008: pleasure, It
+Chain 2009: views, They
+Chain 2010: Darcy, he
+Chain 2011: M^{rs, It
+Chain 2012: Bingley, his
+Chain 2013: Jane, him
+Chain 2014: party, It
+Chain 2015: out,--, He
+Chain 2016: Bennet, his
+Chain 2017: Mary, her
+Chain 2018: Elizabeth, Elizabeth
+Chain 2019: Kitty, Kitty
+Chain 2020: Bennet, her
+Chain 2021: Jane, her
+Chain 2022: Elizabeth, she
+Chain 2023: Bennet, her
+Chain 2024: source, He
+Chain 2025: end, He
+Chain 2026: Bingley, he
+Chain 2027: sister, She
+Chain 2028: Jane, Jane
+Chain 2029: feeling, It
+Chain 2030: Kitty, her
+Chain 2031: Jane, Jane
+Chain 2032: Bingley, Bingley
+Chain 2033: Bennets, they
+Chain 2034: attention, It
+Chain 2035: door, It
+Chain 2036: madam, She
+Chain 2037: Bennet, they
+Chain 2038: Elizabeth, she
+Chain 2039: Catherine, Her
+Chain 2040: Elizabeth, her
+Chain 2041: Darcy, him
+Chain 2042: Elizabeth, Elizabeth
+Chain 2043: infancy, It
+Chain 2044: marriage, Its
+Chain 2045: nephew, He
+Chain 2046: Darcy, their
+Chain 2047: Catherine, they
+Chain 2048: happiness, It
+Chain 2049: Catherine, she
+Chain 2050: Elizabeth, their
+Chain 2051: Elizabeth, she
+Chain 2052: Catherine, her
+Chain 2053: Darcy, his
+Chain 2054: Collins, Collins
+Chain 2055: Darcy, his
+Chain 2056: _, It
+Chain 2057: Elizabeth, his
+Chain 2058: Nay, his
+Chain 2059: all, It
+Chain 2060: Maria, him
+Chain 2061: Darcy, he
+Chain 2062: Elizabeth, her
+Chain 2063: feelings, They
+Chain 2064: Elizabeth, she
+Chain 2065: Elizabeth, she
+Chain 2066: Elizabeth, she
+Chain 2067: Jane, Jane
+Chain 2068: This, it
+Chain 2069: This, it
+Chain 2070: Bennet, her
+Chain 2071: Lizzy, him
+Chain 2072: Pemberley, she
+Chain 2073: Jane, her
+Chain 2074: Bennet, she
+Chain 2075: Bingley, Bingley
+Chain 2076: Pemberley, her
+Chain 2077: Bingley, his
+Chain 2078: Bennet, she
+Chain 2079: Bennet, Bennet
+Chain 2080: she, Bennet
+Chain 2081: Jane, their
+Chain 2082: Collins, her
+Chain 2083: Elizabeth, her
+Chain 2084: Darcy, his
+Chain 2085: foundation, It
+Chain 2086: Netherfield, it
+Chain 2087: Netherfield, him
+Chain 2088: Catherine, her
+Chain 2089: Lakes, it
+Chain 2090: Jane, she
+Chain 2091: Bennet, his
+Chain 2092: Collinses, themselves
+Chain 2093: Wickham, Wickham
+Chain 2094: Jane, His
+Chain 2095: Lydia, her
+Chain 2096: London or Bath, them
+Chain 2097: brother, He
