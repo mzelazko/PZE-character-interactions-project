@@ -8,11 +8,12 @@ Ashworth
 Bakewell
 Bennet
 Bennets
-Bingl
 Bingley
 Bingleys
 Bourgh
 Brighton
+Captain
+Captain Carter
 Caroline
 Caroline Bingley
 Carter
@@ -28,6 +29,10 @@ Cheapside
 Clapham
 Collins
 Collinses
+Colonel
+Colonel F.
+Colonel Fitzwilliam
+Colonel Forster
 Darcy
 Darcy Of Pemberley
 Dawson
@@ -78,6 +83,14 @@ Jones
 Kent
 King
 Kitty
+Lady
+Lady Anne
+Lady Anne Darcy
+Lady Catherine
+Lady Catherine De
+Lady Catherine De Bourgh
+Lady Lucas
+Lady Metcalfe
 Ladyship
 Lewis
 Lewis De Bourgh
@@ -87,8 +100,8 @@ Lizzie
 Lizzy
 Long
 Longbourn
+Lord
 Louisa
-Lu
 Lucas
 Lucas Lodge
 Lucases
@@ -104,9 +117,58 @@ Mary
 Mary King
 Matlock
 Meryton
-Metcalfe
 Miller
+Miss
+Miss Bennet
+Miss Bennets
+Miss Bingley
+Miss Darcy
+Miss De Bourgh
+Miss Eliza Bennet
+Miss Elizabeth
+Miss Elizabeth Bennet
+Miss King
+Miss Lu
+Miss Lucas
+Miss Lucases
+Miss Lydia
+Miss Lydia Bennet
+Miss Pope
 Morris
+Mr.
+Mr. Bennet
+Mr. Bingl
+Mr. Bingley
+Mr. Collins
+Mr. Darcy
+Mr. Denny
+Mr. Fitzwilliam Darcy
+Mr. Gardiner
+Mr. Hurst
+Mr. Jones
+Mr. Morris
+Mr. Philips
+Mr. Robinson
+Mr. Stone
+Mr. Wickham
+Mrs.
+Mrs. Annesley
+Mrs. Bennet
+Mrs. Bingley
+Mrs. Collins
+Mrs. Darcy
+Mrs. F.
+Mrs. Forster
+Mrs. Gardiner
+Mrs. Hill
+Mrs. Hurst
+Mrs. Jenkinson
+Mrs. Long
+Mrs. Nichols
+Mrs. Philips
+Mrs. Reynolds
+Mrs. Wickham
+Mrs. Younge
 Nicholls
 Nichols
 Niece
@@ -127,6 +189,11 @@ Robinson
 Rosings
 Sally
 Sarah
+Sir
+Sir Lewis
+Sir Lewis De Bourgh
+Sir William
+Sir William Lucas
 Stone
 United
 Vingt

@@ -7,7 +7,8 @@
     "Anne"
   ],
   "Anne Darcy": [
-    "Anne Darcy"
+    "Anne Darcy",
+    "Lady Anne Darcy"
   ],
   "Annesley": [
     "Annesley"
@@ -25,11 +26,8 @@
     "Bennet",
     "Bennets"
   ],
-  "Bingl": [
-    "Bingl",
-    "Bingley"
-  ],
-  "Bingleys": [
+  "Bingley": [
+    "Bingley",
     "Bingleys"
   ],
   "Bourgh": [
@@ -38,6 +36,12 @@
   ],
   "Brighton": [
     "Brighton"
+  ],
+  "Captain": [
+    "Captain"
+  ],
+  "Captain Carter": [
+    "Captain Carter"
   ],
   "Caroline": [
     "Caroline"
@@ -56,7 +60,8 @@
     "Catherine De"
   ],
   "Catherine De Bourgh": [
-    "Catherine De Bourgh"
+    "Catherine De Bourgh",
+    "Lady Catherine De Bourgh"
   ],
   "Chamberlayne": [
     "Chamberlayne"
@@ -79,6 +84,16 @@
   "Collins": [
     "Collins",
     "Collinses"
+  ],
+  "Colonel": [
+    "Colonel",
+    "Colonel F."
+  ],
+  "Colonel Fitzwilliam": [
+    "Colonel Fitzwilliam"
+  ],
+  "Colonel Forster": [
+    "Colonel Forster"
   ],
   "Darcy": [
     "Darcy"
@@ -103,7 +118,9 @@
     "Edw. Gardiner",
     "Gardiner",
     "Gardiners",
-    "M. Gardiner"
+    "M. Gardiner",
+    "Mr. Gardiner",
+    "Mrs. Gardiner"
   ],
   "Eliza": [
     "Eliza",
@@ -112,7 +129,8 @@
   "Eliza Bennet": [
     "Eliza Bennet",
     "Elizabeth Bennet",
-    "Lydia Bennet"
+    "Lydia Bennet",
+    "Miss Eliza Bennet"
   ],
   "Elizabeth": [
     "Elizabeth",
@@ -132,7 +150,8 @@
     "Fitzwilliam"
   ],
   "Fitzwilliam Darcy": [
-    "Fitzwilliam Darcy"
+    "Fitzwilliam Darcy",
+    "Mr. Fitzwilliam Darcy"
   ],
   "Forster": [
     "Forster",
@@ -212,6 +231,22 @@
   "Kitty": [
     "Kitty"
   ],
+  "Lady": [
+    "Lady"
+  ],
+  "Lady Anne": [
+    "Lady Anne"
+  ],
+  "Lady Catherine": [
+    "Lady Catherine",
+    "Lady Catherine De"
+  ],
+  "Lady Lucas": [
+    "Lady Lucas"
+  ],
+  "Lady Metcalfe": [
+    "Lady Metcalfe"
+  ],
   "Ladyship": [
     "Ladyship"
   ],
@@ -219,7 +254,9 @@
     "Lewis"
   ],
   "Lewis De Bourgh": [
-    "Lewis De Bourgh"
+    "Lewis De Bourgh",
+    "Miss De Bourgh",
+    "Sir Lewis De Bourgh"
   ],
   "Lix": [
     "Lix"
@@ -236,11 +273,11 @@
   "Longbourn": [
     "Longbourn"
   ],
+  "Lord": [
+    "Lord"
+  ],
   "Louisa": [
     "Louisa"
-  ],
-  "Lu": [
-    "Lu"
   ],
   "Lucas": [
     "Lucas",
@@ -279,14 +316,121 @@
   "Meryton": [
     "Meryton"
   ],
-  "Metcalfe": [
-    "Metcalfe"
-  ],
   "Miller": [
     "Miller"
   ],
+  "Miss": [
+    "Miss"
+  ],
+  "Miss Bennet": [
+    "Miss Bennet",
+    "Miss Bennets",
+    "Mrs. Bennet"
+  ],
+  "Miss Bingley": [
+    "Miss Bingley",
+    "Mrs. Bingley"
+  ],
+  "Miss Darcy": [
+    "Miss Darcy",
+    "Mrs. Darcy"
+  ],
+  "Miss Elizabeth": [
+    "Miss Elizabeth",
+    "Miss Elizabeth Bennet"
+  ],
+  "Miss King": [
+    "Miss King"
+  ],
+  "Miss Lu": [
+    "Miss Lu",
+    "Miss Lucas"
+  ],
+  "Miss Lucases": [
+    "Miss Lucases"
+  ],
+  "Miss Lydia": [
+    "Miss Lydia"
+  ],
+  "Miss Lydia Bennet": [
+    "Miss Lydia Bennet"
+  ],
+  "Miss Pope": [
+    "Miss Pope"
+  ],
   "Morris": [
     "Morris"
+  ],
+  "Mr.": [
+    "Mr.",
+    "Mrs."
+  ],
+  "Mr. Bennet": [
+    "Mr. Bennet"
+  ],
+  "Mr. Bingl": [
+    "Mr. Bingl",
+    "Mr. Bingley"
+  ],
+  "Mr. Collins": [
+    "Mr. Collins",
+    "Mrs. Collins"
+  ],
+  "Mr. Darcy": [
+    "Mr. Darcy"
+  ],
+  "Mr. Denny": [
+    "Mr. Denny"
+  ],
+  "Mr. Hurst": [
+    "Mr. Hurst",
+    "Mrs. Hurst"
+  ],
+  "Mr. Jones": [
+    "Mr. Jones"
+  ],
+  "Mr. Morris": [
+    "Mr. Morris"
+  ],
+  "Mr. Philips": [
+    "Mr. Philips",
+    "Mrs. Philips"
+  ],
+  "Mr. Robinson": [
+    "Mr. Robinson",
+    "Robinson"
+  ],
+  "Mr. Stone": [
+    "Mr. Stone"
+  ],
+  "Mr. Wickham": [
+    "Mr. Wickham",
+    "Mrs. Wickham"
+  ],
+  "Mrs. Annesley": [
+    "Mrs. Annesley"
+  ],
+  "Mrs. F.": [
+    "Mrs. F."
+  ],
+  "Mrs. Forster": [
+    "Mrs. Forster"
+  ],
+  "Mrs. Hill": [
+    "Mrs. Hill"
+  ],
+  "Mrs. Jenkinson": [
+    "Mrs. Jenkinson"
+  ],
+  "Mrs. Long": [
+    "Mrs. Long",
+    "Mrs. Younge"
+  ],
+  "Mrs. Nichols": [
+    "Mrs. Nichols"
+  ],
+  "Mrs. Reynolds": [
+    "Mrs. Reynolds"
   ],
   "Nicholls": [
     "Nicholls",
@@ -332,9 +476,6 @@
   "Right Honourable Lady Catherine De Bourgh": [
     "Right Honourable Lady Catherine De Bourgh"
   ],
-  "Robinson": [
-    "Robinson"
-  ],
   "Rosings": [
     "Rosings"
   ],
@@ -343,6 +484,19 @@
   ],
   "Sarah": [
     "Sarah"
+  ],
+  "Sir": [
+    "Sir"
+  ],
+  "Sir Lewis": [
+    "Sir Lewis"
+  ],
+  "Sir William": [
+    "Sir William"
+  ],
+  "Sir William Lucas": [
+    "Sir William Lucas",
+    "William Lucas"
   ],
   "Stone": [
     "Stone"
@@ -373,9 +527,6 @@
   ],
   "William Goulding": [
     "William Goulding"
-  ],
-  "William Lucas": [
-    "William Lucas"
   ],
   "Younge": [
     "Younge"

@@ -13,10 +13,6 @@ IGNORE_WORDS = {
     "Netherfield", "Pemberley Woods", "Waiter", "Savours", "Scotch", "Sermons"
 }
 
-TITLES = {
-    "Mr", "Mr.", "Mrs", "Mrs.", "Miss", "Sir", "Colonel", "Lady", "Lord", "Captain"
-}
-
 def load_raw_names(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
@@ -37,9 +33,6 @@ def clean_names(names):
             continue
 
         words = norm.split()
-
-        while words and words[0] in TITLES:
-            words = words[1:]
 
         if not words: # Mr
             continue
