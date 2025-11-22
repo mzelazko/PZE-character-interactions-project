@@ -3,6 +3,8 @@ import requests
 from collections import defaultdict, deque
 import re
 
+TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
+
 nlp = spacy.load("en_core_web_sm")
 
 def extract_characters():
@@ -154,8 +156,7 @@ def analyze_interactions(interactions, character_dict):
         print(f"  {pair[0]} <-> {pair[1]}: {count} interactions")
 
 def main():
-    text_path = "./data/pride_and_prejudice_cleaned.txt"
-    with open(text_path, "r", encoding="utf-8") as f:
+    with open(TEXT_PATH, "r", encoding="utf-8") as f:
         text = f.read()
     
     character_dict = extract_characters()

@@ -3,7 +3,7 @@ from pathlib import Path
 from difflib import SequenceMatcher
 from fuzzywuzzy import fuzz
 
-CLEANED_FILE = Path("./results/cleaned_characters.txt")
+CLEANED_FILE = Path("./results/character_extraction/cleaned_characters.txt")
 OUTPUT_DIR = Path("./results/aliases")
 LEV_FILE = OUTPUT_DIR / "aliases_levenshtein.json"
 FUZZY_FILE = OUTPUT_DIR / "aliases_fuzzy.json"

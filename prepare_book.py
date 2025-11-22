@@ -1,8 +1,11 @@
 import re
 
+TEXT_PATH = "./data/pride_and_prejudice.txt"
+CLEANED_TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
+
 # Removes preface, Gutenberg boilerplate and all illustration blocks
 # potential additions: remove any '\n' and '\r' characters
-def clean_justice_and_prejudice(text_path):
+def clean_pride_and_prejudice(text_path):
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
 
@@ -35,7 +38,7 @@ her into Derbyshire, had been the means of uniting them."""
     #     print(f"\n=== Illustration #{i} ===\n")
     #     print(m.group(0))
 
-    output_filename = "./data/justice_and_prejudice_cleaned.txt"
+    output_filename = CLEANED_TEXT_PATH
 
     
     with open(output_filename, "w", encoding="utf-8") as f:
@@ -43,8 +46,7 @@ her into Derbyshire, had been the means of uniting them."""
 
 
 def main():
-    text_path = "./data/pride_and_prejudice.txt"
-    clean_justice_and_prejudice(text_path)
+    clean_pride_and_prejudice(TEXT_PATH)
 
 if __name__ == "__main__":
     main()

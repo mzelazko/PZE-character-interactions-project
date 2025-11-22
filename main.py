@@ -1,8 +1,9 @@
 import character_extraction
 
-def main():
-    #character_extraction.ner_stanford("./data/pride_and_prejudice_cleaned.txt")
-    character_extraction.ner_spacy("./data/pride_and_prejudice_cleaned.txt")
+TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
 
+def main():
+    #character_extraction.ner_stanford(TEXT_PATH)
+    character_extraction.ner_spacy(TEXT_PATH)
 if __name__ == "__main__":
     main()

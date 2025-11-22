@@ -22,7 +22,7 @@ Team Members:
 ### What is done
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods (see highlights in [papers](./papers/))
-- Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results](./results)):
+- Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results/character_extraction](./results/character_extraction/)):
   - `en_core_web_lg` from the `Spacy` libarry
   - stanford NER
   - [GLiNER](https://github.com/urchade/GLiNER)

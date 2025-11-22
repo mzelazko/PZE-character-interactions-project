@@ -1,5 +1,14 @@
 from collections import defaultdict
 
+TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
+STANFORD_CHARACTER_OUTPUT = "./results/character_extraction/stanford_characters.txt"
+STANFORD_OCCURRENCES_OUTPUT = "./results/character_extraction/stanford_occurrences.txt"
+SPACY_CHARACTER_OUTPUT = "./results/character_extraction/spacy_characters.txt"
+SPACY_OCCURRENCES_OUTPUT = "./results/character_extraction/spacy_occurrences.txt"
+GLINER_CHARACTER_OUTPUT = "./results/character_extraction/gliner_characters.txt"
+#GLINER_OCCURRENCES_OUTPUT = "./results/character_extraction/gliner_occurrences.txt"
+COMBINED_CHARACTER_OUTPUT = "./results/character_extraction/combined_characters.txt"
+
 def ner_stanford(text_path):
     try:
         import stanza
@@ -31,11 +40,11 @@ def ner_stanford(text_path):
                 characters.add(name)
                 occurrences[name].append((i, sentence.text.strip()))
 
-    with open("./results/stanford_characters.txt", "w", encoding="utf-8") as f:
+    with open(STANFORD_CHARACTER_OUTPUT, "w", encoding="utf-8") as f:
         for name in sorted(characters):
             f.write(name + "\n")
 
-    with open("./results/stanford_occurrences.txt", "w", encoding="utf-8") as f:
+    with open(STANFORD_OCCURRENCES_OUTPUT, "w", encoding="utf-8") as f:
         for name, occs in sorted(occurrences.items()):
             f.write(f"\n==== {name} ====\n")
             for idx, sent in occs:
@@ -66,7 +75,7 @@ def ner_spacy(text_path):
     #print(f"Total unique PERSON entities: {len(characters)}\n {list(characters)}")
 
     # Save characters to a file
-    with open("./results/spacy_characters.txt", "w", encoding="utf-8") as f:
+    with open(SPACY_CHARACTER_OUTPUT, "w", encoding="utf-8") as f:
         for char in sorted(characters):
             f.write(char + "\n")
 
@@ -84,7 +93,7 @@ def ner_spacy(text_path):
                 occurrences[name].append((i, s.text.strip()))
 
     # Save occurrences to a file
-    with open("./results/spacy_occurrences.txt", "w", encoding="utf-8") as f:
+    with open(SPACY_OCCURRENCES_OUTPUT, "w", encoding="utf-8") as f:
         for name, occs in sorted(occurrences.items()):
             f.write(f"\n==== {name} ====\n")    
             for idx, sent in occs:
@@ -120,7 +129,7 @@ def ner_GLiNER2(text_path):
     from collections import Counter
 
     counter = Counter((e["text"], e["label"]) for e in all_entities)
-    output_path = "./results/gliner_characters.txt"
+    output_path = GLINER_CHARACTER_OUTPUT
 
     with open(output_path, "w", encoding="utf-8") as f:
             for (txt, lbl), cnt in counter.most_common():
@@ -145,14 +154,13 @@ def combine_ner_results(stanford_file, spacy_file, gliner_file, output_file):
 
 
 if __name__ == "__main__":
-    text_path = "./data/pride_and_prejudice_cleaned.txt"
-    # ner_stanford(text_path)
-    # ner_spacy(text_path)
-    # ner_GLiNER2(text_path)
+    ner_stanford(TEXT_PATH)
+    ner_spacy(TEXT_PATH)
+    ner_GLiNER2(TEXT_PATH)
 
     combine_ner_results(
-        "./results/stanford_characters.txt",
-        "./results/spacy_characters.txt",
-        "./results/gliner_characters.txt",
-        "./results/combined_characters.txt"
+        STANFORD_CHARACTER_OUTPUT,
+        SPACY_CHARACTER_OUTPUT,
+        GLINER_CHARACTER_OUTPUT,
+        COMBINED_CHARACTER_OUTPUT
     )

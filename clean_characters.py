@@ -1,7 +1,7 @@
 import re
 
-INPUT_FILE = "./results/combined_characters.txt"
-CLEANED_FILE = "./results/cleaned_characters.txt"
+INPUT_FILE = "./results/character_extraction/combined_characters.txt"
+CLEANED_FILE = "./results/character_extraction/cleaned_characters.txt"
 
 IGNORE_WORDS = {
     "And", "Or", "The", "A", "An",
