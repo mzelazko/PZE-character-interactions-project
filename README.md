@@ -22,11 +22,19 @@ Team Members:
 ### What is done
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods (see highlights in [papers](./papers/))
-- Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results](./results))  
+- Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results](./results)):
+  - `en_core_web_lg` from the `Spacy` libarry
+  - stanford NER
+  - [GLiNER](https://github.com/urchade/GLiNER)
+- Performed initial alias resolution ([character_alias_resolver.py](./character_alias_resolver.py) and [alias results](./results/aliases)) using three different methods:
+  - Levenshtein distance  
+    - one implementation written from scratch  
+    - one using the `fuzz` function from the `fuzzywuzzy` library with additional features
+  - Gestalt pattern matching using the `SequenceMatcher` class from the [difflib](https://docs.python.org/3/library/difflib.html) library
 - Performed initial tests for interaction detection ([interactions.py](./interactions.py))
 
 ### Tasks
-- Finish character extraction and coreference resolution
+- Finish character extraction, alias and coreference resolution
 - Define interaction between characters. Should it be a simple connection whenever two characters appear within *x* words of each other, or should it use more refined rules that consider dialogue, the narrator's descriptions, and other contextual factors (e.g. treating dialogue as more important than simple mention)?
 
 ## Research
