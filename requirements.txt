@@ -3,3 +3,4 @@ spacy
 stanza
 # NER tools
 gliner2
+rapidfuzz
