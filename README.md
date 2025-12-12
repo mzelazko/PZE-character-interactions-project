@@ -19,7 +19,7 @@ Team Members:
 
 ## Current State of The Project
 
-### What is done
+### Completed Tasks
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods (see highlights in [papers](./papers/))
 - Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results/character_extraction](./results/character_extraction/)):
@@ -37,7 +37,7 @@ Team Members:
   - Method 3 (LLM): Prompts an LLM with the text chunk and character list and asks it to respond with a list of interactions.
 
 
-### Tasks
+### Work in Progress
 - Gender mapping in first method needs refinement once the character list is finalized.
 - Use a better solution for chunking to avoid splitting characters in the same sentence across chunks.
 - Perform tests using different LLMs and various text chunk sizes.
