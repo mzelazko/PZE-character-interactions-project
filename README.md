@@ -39,7 +39,7 @@ Team Members:
 
 ### Tasks
 - Gender mapping in first method needs refinement once the character list is finalized.
-- Use a better soloution for chunking to avoid splitting characters in the same sentence across chunks.
+- Use a better solution for chunking to avoid splitting characters in the same sentence across chunks.
 - Perform tests using different LLMs and various text chunk sizes.
 
 ## Research
