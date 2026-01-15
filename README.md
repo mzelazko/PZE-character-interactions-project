@@ -19,7 +19,7 @@ Team Members:
 
 ## Current State of The Project
 
-### What is done
+### Completed Tasks
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods (see highlights in [papers](./papers/))
 - Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results/character_extraction](./results/character_extraction/)):
@@ -31,11 +31,16 @@ Team Members:
     - one implementation written from scratch  
     - one using the `fuzz` function from the `fuzzywuzzy` library with additional features
   - Gestalt pattern matching using the `SequenceMatcher` class from the [difflib](https://docs.python.org/3/library/difflib.html) library
-- Performed initial tests for interaction detection ([interactions.py](./interactions.py))
+- Interaction detection ([interactions.py](./interactions.py)) using three methods:
+  - Method 1: Pronoun-based matching. Finds the first character matching the gender. For plural pronouns, it picks the last 2 characters.
+  - Method 2 (fastcoref): Generates clusters for each text chunk. If a cluster contains a name, all words in that cluster are mapped to that character. Co-occurrence of different character clusters = interaction.
+  - Method 3 (LLM): Prompts an LLM with the text chunk and character list and asks it to respond with a list of interactions.
 
-### Tasks
-- Finish character extraction, alias and coreference resolution
-- Define interaction between characters. Should it be a simple connection whenever two characters appear within *x* words of each other, or should it use more refined rules that consider dialogue, the narrator's descriptions, and other contextual factors (e.g. treating dialogue as more important than simple mention)?
+
+### Work in Progress
+- Gender mapping in first method needs refinement once the character list is finalized.
+- Use a better solution for chunking to avoid splitting characters in the same sentence across chunks.
+- Perform tests using different LLMs and various text chunk sizes.
 
 ## Research
 
