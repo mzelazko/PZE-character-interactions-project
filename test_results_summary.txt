@@ -1,0 +1,62 @@
+=== PZE Project: Comprehensive Test Results ===
+
+1. Fragment Size Analysis
+------------------------------
+Fragment Size: 1000 chars -> 10 sentences.
+Fragment Size: 5000 chars -> 59 sentences.
+Fragment Size: 10000 chars -> 112 sentences.
+
+2. Coreference Resolution Example (First 1000 chars)
+------------------------------
+Clusters found: 8
+Original (excerpt): CHAPTER I   It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.  However little known the feelings or views of such a man may be on his...
+Resolved (excerpt): CHAPTER I   It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.  However little known the feelings or views of such a man may be on suc...
+
+3. Contextual Interaction Detection (First 20 sentences)
+------------------------------
+Sentence [3]: “My dear Mr. Bennet,” said his lady to him one day, “have you heard that
+Netherfield Park is let at last?”
+
+Mr. Bennet replied that he had not.
+Detected Characters: Bennet, Lady Catherine, Man
+
+Sentence [4]: “But it is,” returned she; “for Mrs. Long has just been here, and she
+told me all about it.”
+Detected Characters: Bennet, Lady Catherine, Longbourn, Man, Mrs. Long
+
+Sentence [5]: Mr. Bennet made no answer.
+Detected Characters: Bennet, Lady Catherine, Longbourn, Man, Mrs. Long
+
+Sentence [6]: “Do not you want to know who has taken it?” cried his wife, impatiently.
+Detected Characters: Bennet, Lady Catherine, Longbourn, Mrs. Long
+
+Sentence [7]: “_You_ want to tell me, and I have no objection to hearing it.”
+Detected Characters: Bennet, Longbourn, Mrs. Long
+
+Sentence [9]: “Why, my dear, you must know, Mrs. Long says that Netherfield is taken
+by a young man of large fortune from the north of England; that he came
+down on Monday in a chaise and four to see the place, and was so much
+delighted with it that he agreed with Mr. Morris immediately; that he is
+to take possession before Michaelmas, and some of his servants are to be
+in the house by the end of next week.”
+Detected Characters: Longbourn, Man, Morris, Mrs. Long
+
+Sentence [10]: “What is his name?”
+
+“Bingley.”
+
+“Is he married or single?”
+
+“Oh, single, my dear, to be sure!
+Detected Characters: Bingley, Longbourn, Man, Morris, Mrs. Long
+
+Sentence [11]: A single man of large fortune; four or
+five thousand a year.
+Detected Characters: Bingley, Longbourn, Man, Morris, Mrs. Long
+
+Sentence [12]: What a fine thing for our girls!”
+Detected Characters: Bingley, Longbourn, Man, Morris, Mrs. Long
+
+Sentence [13]: “How so?
+Detected Characters: Bingley, Man
+
