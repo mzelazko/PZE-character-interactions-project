@@ -1,279 +1,439 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import spacy
+import json
 import requests
-from collections import defaultdict, deque
 import re
-from gender_data import get_static_gender_map
+import sys
+from collections import defaultdict, deque
+from fastcoref import FCoref
 
-nlp = spacy.load("en_core_web_sm")
-def get_gender_map(character_dict):
-    gender_map = {}
-    static_gender_map = get_static_gender_map()
+TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
+CHARACTERS_PATH = "./final_characters.json"
+OLLAMA_API = "http://localhost:11434/api/generate"
+MODEL_NAME = "gemma3:12b-it-qat"
+
+def extract_characters():
+    """Load character list with variants from final_characters.json"""
+    with open(CHARACTERS_PATH, "r", encoding="utf-8") as f:
+        characters_data = json.load(f)
     
-    for name in character_dict.keys():
-        lower_name = name.lower()
-        
-        # Priority 1: Title-based detection (most reliable)
-        if any(title in lower_name for title in ["mr.", "sir"]):
-            gender_map[name] = "MALE"
-        elif any(title in lower_name for title in ["mrs.", "miss", "ms.", "lady"]):
-            gender_map[name] = "FEMALE"
-        else:
-            # Priority 2: Static name lookup
-            # Extract the first name (assuming it's the first word without a title)
-            first_name = name.split()[0].lower()
-            
-            if first_name in static_gender_map:
-                gender_map[name] = static_gender_map[first_name]
-            else:
-                # Priority 3: Unknown
-                gender_map[name] = "UNKNOWN"
-                
-    return gender_map
-
-def analyze_interactions_smart(occurrences, character_dict, gender_map):
-    print("Analyzing interactions (Method 1: Heuristic Pronoun Resolution)...")
-    interactions = defaultdict(list)
+    character_dict = {}
+    for char_name, char_info in characters_data.items():
+        aliases = [alias.lower() for alias in char_info.get("aliases", [])]
+        if aliases:
+            character_dict[char_name] = aliases
     
-    # Invert the character_dict for quick lookup: {alias: MasterName}
-    alias_to_master = {alias: master for master, aliases in character_dict.items() for alias in aliases}
+    return character_dict
+
+def find_character_in_text(text, character_dict):
+    """Find which character(s) are mentioned in text"""
+    text_lower = text.lower()
+    found = set()
     
-    # Get all sentence indices where characters appear
-    sentence_indices = sorted(list(set(idx for occs in occurrences.values() for idx, _ in occs)))
-    
-    # Create a map of sentence_index -> list of MasterNames in that sentence
-    sentence_to_chars = defaultdict(set)
-    for master_name, occs in occurrences.items():
-        for idx, _ in occs:
-            sentence_to_chars[idx].add(master_name)
-
-    # Track the last mentioned characters for pronoun resolution
-    last_male = None
-    last_female = None
-    last_person = None
-
-    for idx in sentence_indices:
-        present_chars = sentence_to_chars[idx]
-        
-        # Update last mentioned characters
-        for char_name in present_chars:
-            last_person = char_name
-            if gender_map.get(char_name) == "MALE":
-                last_male = char_name
-            elif gender_map.get(char_name) == "FEMALE":
-                last_female = char_name
-
-        # Check for pronouns in the sentence text
-        # This is a simplified check. A proper implementation would use coreference resolution.
-        # We need to find a sentence text from one of the occurrences for the current index
-        sentence_text = ""
-        for master_name in present_chars:
-            for occ_idx, text in occurrences[master_name]:
-                if occ_idx == idx:
-                    sentence_text = text
-                    break
-            if sentence_text:
+    for char_name, variants in character_dict.items():
+        for variant in variants:
+            if re.search(r'\b' + re.escape(variant) + r'\b', text_lower):
+                found.add(char_name)
                 break
-        
-        lower_sent = sentence_text.lower()
-        
-        if "he" in lower_sent.split() and last_male:
-            present_chars.add(last_male)
-        if "she" in lower_sent.split() and last_female:
-            present_chars.add(last_female)
+    
+    return found
 
-        if len(present_chars) > 1:
-            # Sort for consistent ordering
-            char_tuple = tuple(sorted(list(present_chars)))
-            interactions[char_tuple].append(idx)
+# ============================================================================
+# METHOD 1: SLIDING WINDOW WITH HEURISTIC PRONOUN RESOLUTION
+# ============================================================================
 
-    # Save to file
-    with open("interactions_smart.txt", "w", encoding="utf-8") as f:
-        for chars, indices in sorted(interactions.items(), key=lambda item: len(item[1]), reverse=True):
-            for idx in indices:
-                f.write(f"({idx}, {', '.join(chars)})\n")
-    print("Method 1 results saved to interactions_smart.txt")
+def resolve_pronouns_heuristic(sentence, recent_characters):
+    """Simple pronoun resolution using gender and recency"""
+    
+    # Gendered pronouns
+    male_pronouns = {'he', 'him', 'his', 'himself', 'mr'}
+    female_pronouns = {'she', 'her', 'hers', 'herself', 'miss', 'mrs'}
+    plural_pronouns = {'they', 'them', 'their', 'themselves'}
+    
+    # Gender mapping for characters
+    male_chars = {'Darcy', 'Bingley', 'Bennet', 'Collins', 'Wickham', 'William', 
+                  'Charles', 'George', 'Richard', 'John'}
+    female_chars = {'Elizabeth', 'Jane', 'Lydia', 'Kitty', 'Catherine', 
+                    'Mary', 'Charlotte', 'Lady Catherine', 'Georgiana', 'Caroline',
+                    'Maria', 'Lizzy', 'Harriet'}
+    
+    words = set(re.findall(r'\b\w+\b', sentence.lower()))
+    resolved = set()
+    
+    # Check for gendered pronouns
+    has_male_pronoun = bool(words & male_pronouns)
+    has_female_pronoun = bool(words & female_pronouns)
+    has_plural_pronoun = bool(words & plural_pronouns)
+    
+    # Resolve based on recent context
+    if has_male_pronoun:
+        for char in recent_characters:
+            if char in male_chars:
+                resolved.add(char)
+                break
+    
+    if has_female_pronoun:
+        for char in recent_characters:
+            if char in female_chars:
+                resolved.add(char)
+                break
+    
+    if has_plural_pronoun and len(recent_characters) >= 2:
+        resolved.update(list(recent_characters)[:2])
+    
+    return resolved
+
+def detect_interactions_sliding_window(text, character_dict):
+    """Detect interactions with heuristic pronoun resolution"""
+    interactions = []
+    lines = text.split('\n')
+    
+    # Keep track of recently mentioned characters (sliding window)
+    recent_characters = deque(maxlen=5)
+    
+    for line_num, line in enumerate(lines, 1):
+        if not line.strip():
+            continue
+        
+        # Find directly mentioned characters
+        direct_mentions = find_character_in_text(line, character_dict)
+        
+        # Try to resolve pronouns
+        pronoun_characters = resolve_pronouns_heuristic(line, recent_characters)
+        
+        # Combine direct and resolved
+        all_characters = direct_mentions | pronoun_characters
+        
+        # Update recent characters
+        for char in direct_mentions:
+            if char in recent_characters:
+                recent_characters.remove(char)
+            recent_characters.appendleft(char)
+        
+        # Record interaction if 2+ characters
+        if len(all_characters) >= 2:
+            interaction = tuple([line_num] + sorted(all_characters))
+            interactions.append(interaction)
+    
     return interactions
 
-def analyze_interactions_window(occurrences, character_dict):
-    print("Analyzing interactions (Method 2: Sliding Window)...")
-    interactions = defaultdict(list)
-    
-    # Flatten all occurrences into a single list of (sentence_idx, MasterName)
-    all_char_occurrences = []
-    for master_name, occs in occurrences.items():
-        for idx, _ in occs:
-            all_char_occurrences.append((idx, master_name))
-    
-    # Sort by sentence index
-    all_char_occurrences.sort()
-    
-    # Use a sliding window to find co-occurrences
-    window_size = 5 # Number of sentences to look forward/backward
-    
-    for i, (idx1, char1) in enumerate(all_char_occurrences):
-        # Look ahead in the window
-        for j in range(i + 1, len(all_char_occurrences)):
-            idx2, char2 = all_char_occurrences[j]
-            
-            # If the next character is outside the window, break
-            if idx2 - idx1 > window_size:
-                break
-            
-            # If it's a different character, record an interaction
-            if char1 != char2:
-                # Use the sentence index of the first character as the timestamp
-                interaction_tuple = tuple(sorted((char1, char2)))
-                interactions[interaction_tuple].append(idx1)
+# ============================================================================
+# METHOD 2: FASTCOREF
+# ============================================================================
 
-    # Save to file
-    with open("interactions_window.txt", "w", encoding="utf-8") as f:
-        for chars, indices in sorted(interactions.items(), key=lambda item: item[1], reverse=True):
-            # We only write unique indices for each pair
-            for idx in sorted(list(set(indices))):
-                f.write(f"({idx}, {', '.join(chars)})\n")
-    print("Method 2 results saved to interactions_window.txt")
-    return interactions
-
-def generate_statistics(interactions_dict, filename="interaction_statistics.txt"):
-    pair_counts = defaultdict(int)
-    for chars, indices in interactions_dict.items():
-        # Consider only pairs for simplicity
-        if len(chars) == 2:
-            pair_counts[chars] += len(indices)
+def match_mention_to_character(mention_text, character_dict):
+    """Match a coreference mention to a known character"""
+    mention_lower = mention_text.lower().strip()
     
-    with open(filename, "a", encoding="utf-8") as f:
-        f.write("\n==== Interaction Pair Counts ====\n")
-        for pair, count in sorted(pair_counts.items(), key=lambda item: item[1], reverse=True):
-            f.write(f"{pair[0]} - {pair[1]}: {count} interactions\n")
-
-# The main function now accepts the occurrences dictionary
-def main(occurrences):
-    # --- Re-implementing Alias Resolution and Master Name Mapping ---
-    
-    # 1. Get all raw mentions and their frequencies
-    all_mentions = defaultdict(int)
-    for name, occs in occurrences.items():
-        all_mentions[name] = len(occs)
-        
-    # 2. Sort all mentions by frequency
-    sorted_names = sorted(all_mentions.items(), key=lambda item: item[1], reverse=True)
-    
-    # 3. Use the top 15 names as the basis for the main characters
-    main_characters = [name for name, count in sorted_names[:15]]
-    
-    final_character_dict = defaultdict(list)
-    grouped_names = set()
-    alias_to_master = {}
-    
-    # Iterate through the main characters (most frequent first)
-    for master_name in main_characters:
-        if master_name in grouped_names:
-            continue
-            
-        # Prefer multi-word names as master names
-        if len(master_name.split()) < 2:
-            # Skip single-word names for now, they will be handled later if they are not aliases
-            continue
-            
-        # Normalize the master name (remove titles)
-        normalized_master = re.sub(r'^(mr|mrs|miss|lady|sir)\.?\s+', '', master_name, flags=re.I).lower()
-        
-        variants = []
-        
-        # Iterate through all frequent names to find aliases
-        for alias_name, count in sorted_names:
-            if alias_name in grouped_names:
-                continue
-            
-            normalized_alias = re.sub(r'^(mr|mrs|miss|ms|lady|sir)\.?\s+', '', alias_name, flags=re.I).lower()
-            
-            # Heuristic 1: Full name contains the alias name (e.g., 'Miss Elizabeth Bennet' contains 'Elizabeth')
-            if normalized_alias in normalized_master and len(normalized_alias) > 2:
-                variants.append(alias_name.lower())
-                grouped_names.add(alias_name)
-                
-            # Heuristic 2: Alias name is a single word and is the surname of the master name (e.g., 'Bennet' for 'Mr. Bennet')
-            if len(alias_name.split()) == 1 and alias_name.lower() in normalized_master.split():
-                variants.append(alias_name.lower())
-                grouped_names.add(alias_name)
-
-        # Ensure the master name itself is included
-        variants.append(master_name.lower())
-        
-        if variants:
-            final_character_dict[master_name] = list(set(variants))
-            for alias in variants:
-                alias_to_master[alias] = master_name
-            
-    # Now, handle the remaining single-word names that are frequent but were not grouped (e.g., 'Darcy', 'Elizabeth')
-    for name, count in sorted_names[:15]:
-        if name not in grouped_names and len(name.split()) == 1 and name.lower() not in ('mr', 'mrs', 'miss', 'sir', 'lady', 'ms'):
-            final_character_dict[name] = [name.lower()]
-            alias_to_master[name.lower()] = name
-            
-    # Final step: Re-normalize the master names to remove titles for cleaner keys
-    new_dict = {}
-    for master_name, variants in final_character_dict.items():
-        clean_name = re.sub(r'^(mr|mrs|miss|lady|sir)\.?\s+', '', master_name, flags=re.I).strip()
-        if not clean_name:
-            clean_name = master_name
-            
-        # Use the most frequent single name in the variants as the clean name if available
-        single_names = [v for v in variants if len(v.split()) == 1 and v not in ('mr', 'mrs', 'miss', 'sir', 'lady', 'ms')]
-        
-        if single_names:
-            # Find the most frequent one among the single names
-            # This is a simplification, we'll just use the first one for now
-            new_dict[single_names[0].capitalize()] = variants
-        else:
-            new_dict[master_name] = variants
-            
-    # Rebuild alias_to_master with the new master names
-    alias_to_master = {}
-    for master, aliases in new_dict.items():
+    for char_name, aliases in character_dict.items():
         for alias in aliases:
-            alias_to_master[alias] = master
-            
-    # Create the new occurrences dictionary with Master Names as keys
-    master_occurrences = defaultdict(list)
+            if alias in mention_lower or mention_lower in alias:
+                return char_name
+    return None
+
+def detect_interactions_fastcoref(text, character_dict, chunk_size=100):
+    """Detect interactions using fastcoref for coreference resolution with chunking"""
+    print("Loading fastcoref model...")
+    model = FCoref(device='cpu')
     
-    for raw_name, occs in occurrences.items():
-        # Find the master name for the raw mention
-        master_name = alias_to_master.get(raw_name.lower())
+    # Split text into lines for line number tracking
+    lines = text.split('\n')
+    
+    print(f"Processing {len(lines)} lines in chunks of {chunk_size}...")
+    
+    # Track character mentions across all chunks
+    line_characters = defaultdict(set)
+    
+    total_chunks = (len(lines) + chunk_size - 1) // chunk_size
+    
+    for chunk_idx in range(0, len(lines), chunk_size):
+        chunk_lines = lines[chunk_idx:chunk_idx + chunk_size]
+        chunk_text = '\n'.join(chunk_lines)
         
-        if master_name:
-            # Use the capitalized master name from new_dict as the key
-            master_occurrences[master_name].extend(occs)
+        current_chunk = chunk_idx // chunk_size + 1
+        print(f"Processing chunk {current_chunk}/{total_chunks}...")
+        
+        # Run coreference resolution on this chunk
+        try:
+            preds = model.predict(texts=[chunk_text])
             
-    occurrences = master_occurrences
-    character_dict = new_dict
+            # Get clusters (each cluster is a list of coreferent mentions)
+            clusters = preds[0].get_clusters(as_strings=True)
+            
+            # Map each cluster to a character
+            cluster_to_character = {}
+            for cluster_id, mentions in enumerate(clusters):
+                # Try to find a character name in the mentions
+                for mention in mentions:
+                    char = match_mention_to_character(mention, character_dict)
+                    if char:
+                        cluster_to_character[cluster_id] = char
+                        break
+            
+            # Get token-level clusters for position mapping
+            token_clusters = preds[0].get_clusters()
+            
+            # Build a map from character position to cluster (within chunk)
+            char_pos_to_cluster = {}
+            for cluster_id, token_positions in enumerate(token_clusters):
+                for position_tuple in token_positions:
+                    try:
+                        if isinstance(position_tuple, (list, tuple)) and len(position_tuple) >= 2:
+                            start = int(position_tuple[0])
+                            end = int(position_tuple[1])
+                            for pos in range(start, end + 1):
+                                char_pos_to_cluster[pos] = cluster_id
+                        elif isinstance(position_tuple, int):
+                            char_pos_to_cluster[position_tuple] = cluster_id
+                    except (ValueError, TypeError) as e:
+                        # Skip invalid position data
+                        continue
+            
+            # Track character positions in each line of this chunk
+            current_pos = 0
+            
+            for i, line in enumerate(chunk_lines):
+                line_num = chunk_idx + i + 1
+                line_chars = set()
+                
+                # Check direct mentions in this line
+                direct_mentions = find_character_in_text(line, character_dict)
+                line_chars.update(direct_mentions)
+                
+                # Check for pronouns/mentions resolved by coreference
+                line_start = current_pos
+                line_end = current_pos + len(line)
+                
+                for pos in range(line_start, line_end):
+                    if pos in char_pos_to_cluster:
+                        cluster_id = char_pos_to_cluster[pos]
+                        if cluster_id in cluster_to_character:
+                            line_chars.add(cluster_to_character[cluster_id])
+                
+                if len(line_chars) >= 2:
+                    line_characters[line_num] = line_chars
+                
+                current_pos = line_end + 1
+        
+        except Exception as e:
+            print(f"Warning: Error processing chunk {current_chunk}: {e}")
+            print("Falling back to direct mention detection for this chunk...")
+            for i, line in enumerate(chunk_lines):
+                line_num = chunk_idx + i + 1
+                direct_mentions = find_character_in_text(line, character_dict)
+                if len(direct_mentions) >= 2:
+                    line_characters[line_num] = direct_mentions
     
-    # --- End Re-implementing Alias Resolution and Master Name Mapping ---
+    interactions = []
+    for line_num in sorted(line_characters.keys()):
+        characters = sorted(line_characters[line_num])
+        interaction = tuple([line_num] + characters)
+        interactions.append(interaction)
     
-    print(f"Found {len(character_dict)} main characters after alias resolution.")
-    
-    # Get gender map for pronoun resolution
-    gender_map = get_gender_map(character_dict)
-    
-    # Clear previous statistics file
-    with open("interaction_statistics.txt", "w", encoding="utf-8") as f:
-        f.write("Interaction Analysis Report\n")
+    return interactions
 
-    # --- Method 1: Smart (Heuristic) Analysis ---
-    interactions1 = analyze_interactions_smart(occurrences, character_dict, gender_map)
-    generate_statistics(interactions1)
+# ============================================================================
+# METHOD 3: LLM (OLLAMA)
+# ============================================================================
 
-    # --- Method 2: Sliding Window Analysis ---
-    interactions2 = analyze_interactions_window(occurrences, character_dict)
-    with open("interaction_statistics.txt", "a", encoding="utf-8") as f:
-        f.write("\n\n==== Sliding Window Method ====")
-    generate_statistics(interactions2)
+def call_ollama(prompt, model=MODEL_NAME):
+    """Call local Ollama API with generate endpoint"""
+    try:
+        response = requests.post(
+            OLLAMA_API,
+            json={
+                "model": model,
+                "prompt": prompt,
+                "stream": False,
+                "options": {
+                    "temperature": 0.1,
+                    "top_p": 0.9,
+                }
+            },
+            timeout=200
+        )
+        
+        if response.status_code == 200:
+            result = response.json()
+            return result.get("response", "")
+        else:
+            print(f"Error: API returned status {response.status_code}")
+            print(f"Response: {response.text}")
+            return ""
+    except Exception as e:
+        print(f"Error calling Ollama: {e}")
+        return ""
 
-    print("\nAnalysis complete. Results are in interaction_statistics.txt, interactions_smart.txt, and interactions_window.txt")
+def parse_llm_response(response_text, character_names):
+    """Parse LLM response to extract line numbers and character names"""
+    interactions = []
+    lines = response_text.strip().split('\n')
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        
+        # Remove common prefixes
+        line = re.sub(r'^[-*•]\s*', '', line)
+        
+        # Try to match "Line X:" or "X:" patterns
+        match = re.match(r'(?:Line\s+)?(\d+)\s*[:)\-]\s*(.+)', line, re.IGNORECASE)
+        
+        if match:
+            line_num = int(match.group(1))
+            chars_text = match.group(2).strip()
+            
+            # Extract character names from the text
+            found_chars = set()
+            chars_text_lower = chars_text.lower()
+            
+            for char_name in character_names:
+                # Check if character name appears in the response
+                if char_name.lower() in chars_text_lower or char_name.replace('_', ' ').lower() in chars_text_lower:
+                    found_chars.add(char_name)
+            
+            if len(found_chars) >= 2:
+                interactions.append((line_num, found_chars))
+    
+    return interactions
+
+def detect_interactions_llm(text, character_dict, chunk_size=50):
+    """Detect interactions using local LLM"""
+    lines = text.split('\n')
+    character_names = list(character_dict.keys())
+    
+    print(f"Processing {len(lines)} lines in chunks of {chunk_size}...")
+    
+    # Prepare character list with aliases for prompt
+    char_descriptions = []
+    for char_name, aliases in character_dict.items():
+        # Take first few most common aliases
+        alias_str = ", ".join(aliases[:5])
+        char_descriptions.append(f"{char_name} (also: {alias_str})")
+    char_list = "; ".join(char_descriptions)
+    
+    all_interactions = []
+    total_chunks = (len(lines) + chunk_size - 1) // chunk_size
+    
+    for chunk_idx in range(0, len(lines), chunk_size):
+        chunk_lines = lines[chunk_idx:chunk_idx + chunk_size]
+        chunk_start_line = chunk_idx + 1
+        
+        # Number the lines for the chunk
+        numbered_text = ""
+        for i, line in enumerate(chunk_lines):
+            if line.strip():
+                numbered_text += f"{chunk_start_line + i}: {line}\n"
+        
+        if not numbered_text.strip():
+            continue
+        
+        current_chunk = chunk_idx // chunk_size + 1
+        print(f"Processing chunk {current_chunk}/{total_chunks} (lines {chunk_start_line}-{chunk_start_line + len(chunk_lines) - 1})...")
+        
+        # Create prompt for LLM
+        prompt = f"""Analyze this text excerpt from Pride and Prejudice. Find all lines where TWO OR MORE of these characters interact or are mentioned together: {char_list}
+
+        Text:
+        {numbered_text}
+
+        For each line where 2+ characters interact, respond ONLY with the line number and character names in this exact format:
+        Line X: Character1, Character2, Character3
+
+        Only list lines with actual interactions (conversations, mentions together, or related actions). Be concise."""
+
+        response = call_ollama(prompt)
+        
+        if response:
+            chunk_interactions = parse_llm_response(response, character_names)
+            
+            for line_num, chars in chunk_interactions:
+                all_interactions.append((line_num, sorted(chars)))
+            
+            print(f"  Found {len(chunk_interactions)} interactions in this chunk")
+        else:
+            print(f"  Warning: No response from LLM for chunk {current_chunk}")
+    
+    # Convert to final format and remove duplicates
+    interactions_dict = {}
+    for line_num, chars in all_interactions:
+        if line_num not in interactions_dict:
+            interactions_dict[line_num] = set(chars)
+        else:
+            interactions_dict[line_num].update(chars)
+    
+    # Convert to tuple format with deduplication of consecutive identical interactions
+    interactions = []
+    prev_chars = None
+    prev_line = None
+    
+    for line_num in sorted(interactions_dict.keys()):
+        characters = sorted(interactions_dict[line_num])
+        if len(characters) >= 2:
+            # Check if this is the same character set as previous line
+            curr_chars = tuple(characters)
+            
+            if curr_chars != prev_chars or (prev_line is not None and line_num > prev_line + 1):
+                interaction = tuple([line_num] + characters)
+                interactions.append(interaction)
+                prev_chars = curr_chars
+                prev_line = line_num
+            else:
+                prev_line = line_num
+    
+    return interactions
+
+def main():
+    # Parse command line arguments
+    if len(sys.argv) < 2:
+        print("Usage: python interactions_all.py [method] [output_file]")
+        print("\nAvailable methods:")
+        print("  1 or sliding   - Sliding window with heuristic pronoun resolution")
+        print("  2 or fastcoref - FastCoref coreference resolution")
+        print("  3 or llm       - Local LLM (Ollama) analysis")
+        print("\nExample: python interactions_all.py 1 interactions_output.txt")
+        sys.exit(1)
+    
+    method = sys.argv[1].lower()
+    output_path = sys.argv[2] if len(sys.argv) > 2 else "interactions_output.txt"
+    
+    # Load text and characters
+    print("Loading text...")
+    with open(TEXT_PATH, "r", encoding="utf-8") as f:
+        text = f.read()
+    
+    print("Loading characters...")
+    character_dict = extract_characters()
+    print(f"Tracking {len(character_dict)} characters\n")
+    
+    # Run selected method
+    if method in ['1', 'sliding', 'sliding_window']:
+        print("=== METHOD 1: SLIDING WINDOW WITH HEURISTIC PRONOUN RESOLUTION ===\n")
+        interactions = detect_interactions_sliding_window(text, character_dict)
+    
+    elif method in ['2', 'fastcoref', 'coref']:
+        print("=== METHOD 2: FASTCOREF COREFERENCE RESOLUTION ===\n")
+        interactions = detect_interactions_fastcoref(text, character_dict)
+    
+    elif method in ['3', 'llm', 'ollama']:
+        print("=== METHOD 3: LOCAL LLM (OLLAMA) ANALYSIS ===\n")
+        print(f"Using model: {MODEL_NAME}")
+        print(f"Make sure Ollama is running with: ollama run {MODEL_NAME}\n")
+        interactions = detect_interactions_llm(text, character_dict, chunk_size=50)
+    
+    else:
+        print(f"Error: Unknown method '{method}'")
+        print("Valid methods: 1/sliding, 2/fastcoref, 3/llm")
+        sys.exit(1)
+    
+    # Save results
+    print(f"\nFound {len(interactions)} interactions")
+    print(f"\nSaving to {output_path}...")
+    with open(output_path, "w", encoding="utf-8") as f:
+        for interaction in interactions:
+            f.write(", ".join(map(str, interaction)) + "\n")
+    
+    
+    print(f"\nAll interactions saved to {output_path}")
 
 if __name__ == "__main__":
-    
-    pass
+    main()

@@ -1,26 +1,13 @@
-import torch
-import re
 from collections import defaultdict
-from fastcoref import FCoref
 
-def strip_gutenberg_headers(text):
-    start_marker = "*** START OF THE PROJECT GUTENBERG"
-    end_marker = "*** END OF THE PROJECT GUTENBERG"
-    
-    start_idx = text.find(start_marker)
-    if start_idx != -1:
-        # Move to the line after the start marker
-        text = text[start_idx + len(start_marker):]
-        # Cut from the next newline to remove the remaining part of the marker line
-        newline_idx = text.find('\n')
-        if newline_idx != -1:
-            text = text[newline_idx + 1:]
-    
-    end_idx = text.find(end_marker)
-    if end_idx != -1:
-        text = text[:end_idx]
-    
-    return text.strip()
+TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
+STANFORD_CHARACTER_OUTPUT = "./results/character_extraction/stanford_characters.txt"
+STANFORD_OCCURRENCES_OUTPUT = "./results/character_extraction/stanford_occurrences.txt"
+SPACY_CHARACTER_OUTPUT = "./results/character_extraction/spacy_characters.txt"
+SPACY_OCCURRENCES_OUTPUT = "./results/character_extraction/spacy_occurrences.txt"
+GLINER_CHARACTER_OUTPUT = "./results/character_extraction/gliner_characters.txt"
+#GLINER_OCCURRENCES_OUTPUT = "./results/character_extraction/gliner_occurrences.txt"
+COMBINED_CHARACTER_OUTPUT = "./results/character_extraction/combined_characters.txt"
 
 def ner_stanford(text_path):
     try:
@@ -31,11 +18,14 @@ def ner_stanford(text_path):
         ) from e
 
     stanza.download('en')
-    nlp = stanza.Pipeline(lang='en', processors='tokenize,ner')
+    nlp = stanza.Pipeline(
+        lang='en',
+        processors='tokenize,ner',
+        device='cpu' # for newer GPUs set to 'cuda'
+        )
 
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = strip_gutenberg_headers(text)
 
     # text = text[:20000]
     doc = nlp(text)
@@ -50,11 +40,11 @@ def ner_stanford(text_path):
                 characters.add(name)
                 occurrences[name].append((i, sentence.text.strip()))
 
-    with open("./results/stanford_characters.txt", "w", encoding="utf-8") as f:
+    with open(STANFORD_CHARACTER_OUTPUT, "w", encoding="utf-8") as f:
         for name in sorted(characters):
             f.write(name + "\n")
 
-    with open("./results/stanford_occurrences.txt", "w", encoding="utf-8") as f:
+    with open(STANFORD_OCCURRENCES_OUTPUT, "w", encoding="utf-8") as f:
         for name, occs in sorted(occurrences.items()):
             f.write(f"\n==== {name} ====\n")
             for idx, sent in occs:
@@ -62,77 +52,7 @@ def ner_stanford(text_path):
 
     # print(f'Done. Found {len(characters)} unique PERSON entities')
 
-def resolve_coreferences(text):
-    """
-    Performs coreference resolution on the text using the lightweight fastcoref library.
-    Returns the text with anaphors replaced by their antecedents.
-    """
-    try:
-        # Force CPU to avoid potential GPU/memory issues
-        model = FCoref(device='cpu')
-        
-        # fastcoref processes text in chunks internally, but we pass the whole text
-        # We will process the text in smaller chunks if memory becomes an issue later.
-        preds = model.predict(texts=[text])
-        result = preds[0]
-        
-        # --- Manual Text Resolution based on successful test ---
-        clusters = result.clusters
-        char_map = result.char_map
-        text_list = list(text)
-        replacements = []
-        
-        for cluster in clusters:
-            # The first mention in the cluster is the antecedent (token indices)
-            antecedent_token_span = cluster[0]
-            
-            # Map token indices to character indices
-            # char_map[token_span] returns (text_idx, (start_char, end_char))
-            _, (antecedent_start, antecedent_end) = char_map[antecedent_token_span]
-            antecedent = text[antecedent_start:antecedent_end]
-            
-            # Iterate over all other mentions in the cluster (the anaphors)
-            for mention_token_span in cluster[1:]:
-                # Ensure the token span is in the char_map (it should be)
-                if mention_token_span in char_map:
-                    _, (mention_start, mention_end) = char_map[mention_token_span]
-                    
-                    # We only want to replace pronouns or short mentions, not full names
-                    # For simplicity, we replace all non-antecedent mentions for now
-                    replacements.append({
-                        'start': mention_start,
-                        'end': mention_end,
-                        'replacement': antecedent
-                    })
-
-        # Sort replacements by start index in reverse order
-        replacements.sort(key=lambda x: x['start'], reverse=True)
-
-        # Apply replacements
-        for rep in replacements:
-            start = rep['start']
-            end = rep['end']
-            replacement = rep['replacement']
-            
-            # Replace the slice of the text list
-            text_list[start:end] = list(replacement)
-            
-        resolved_text = "".join(text_list)
-        # --- End Manual Text Resolution ---
-
-        print(f"Coreference Resolution: {len(clusters)} clusters resolved.")
-        return resolved_text
-
-    except Exception as e:
-        print(f"Warning: Coreference resolution failed with fastcoref: {e}")
-        print("Returning original text.")
-        return text
-    finally:
-        # Clean up to free memory
-        del model
-        torch.cuda.empty_cache()
-
-def ner_spacy(text_path, use_coref=False):
+def ner_spacy(text_path):
     import spacy
     try:
         nlp = spacy.load("en_core_web_lg")
@@ -144,46 +64,103 @@ def ner_spacy(text_path, use_coref=False):
 
     with open(text_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = strip_gutenberg_headers(text)
 
-    if use_coref:
-        print("Applying Coreference Resolution...")
-        text = resolve_coreferences(text)
-        print("Coreference Resolution applied.")
+    # text = text[:20000]
 
-    # Process the text in chunks to avoid memory issues with large models
-    # We will process it paragraph by paragraph (split by double newline)
-    paragraphs = text.split('\n\n')
+    doc = nlp(text)
     
-    # Initialize global counters and collectors
-    characters = set()
+
+    # Extract PERSON entities
+    characters = set([ent.text for ent in doc.ents if ent.label_ == "PERSON"])
+    #print(f"Total unique PERSON entities: {len(characters)}\n {list(characters)}")
+
+    # Save characters to a file
+    with open(SPACY_CHARACTER_OUTPUT, "w", encoding="utf-8") as f:
+        for char in sorted(characters):
+            f.write(char + "\n")
+
+    # Split into sentences
+    sent_spans = list(doc.sents)
+
     occurrences = defaultdict(list)
-    sentence_index = 0
+
+    # Build occurrences in sentence order
+    for i, s in enumerate(sent_spans):
+        for ent in s.ents:
+            if ent.label_ == "PERSON":
+                #name = " ".join(ent.text.split())
+                name = ent.text.strip()
+                occurrences[name].append((i, s.text.strip()))
+
+    # Save occurrences to a file
+    with open(SPACY_OCCURRENCES_OUTPUT, "w", encoding="utf-8") as f:
+        for name, occs in sorted(occurrences.items()):
+            f.write(f"\n==== {name} ====\n")    
+            for idx, sent in occs:
+                f.write(f"[{idx}] {sent}\n")
+
+#
+def ner_GLiNER2(text_path):
+    try:
+        from gliner import GLiNER
+    except ImportError as e:
+        raise SystemExit(
+            "GLiNER isn't installed. Install with: pip install gliner2"
+        ) from e
     
-    for paragraph in paragraphs:
-        if not paragraph.strip():
-            continue
-            
-        # Process the paragraph with the spacy model
-        doc = nlp(paragraph)
-        
-        # Process sentences within the paragraph
-        for s in doc.sents:
-            # 1. Extract PERSON entities from the sentence
-            for ent in s.ents:
-                if ent.label_ == "PERSON":
-                    name = ent.text.strip()
-                    characters.add(name)
-                    # Use the global sentence index as the timestamp
-                    occurrences[name].append((sentence_index, s.text.strip()))
-            
-            sentence_index += 1
-            
-    
-    print(f"Done NER. Found {len(characters)} unique PERSON entities in {sentence_index} sentences.")
-    return occurrences
+    model = GLiNER.from_pretrained("urchade/gliner_medium-v2.1")
+
+    with open(text_path, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    #text = text[:20000]
+
+    # Most GLiNER models should work best when entity types are in lower case or title case
+    labels = ["person"]
+
+    chunk_size = 1500  # model takes max 384 tokens
+    all_entities = []
+
+    for start in range(0, len(text), chunk_size):
+        chunk = text[start:start + chunk_size]
+        entities = model.predict_entities(chunk, labels, threshold=0.5)
+        all_entities.extend(entities)
+
+    from collections import Counter
+
+    counter = Counter((e["text"], e["label"]) for e in all_entities)
+    output_path = GLINER_CHARACTER_OUTPUT
+
+    with open(output_path, "w", encoding="utf-8") as f:
+            for (txt, lbl), cnt in counter.most_common():
+                f.write(f"{txt}\t{lbl}\t{cnt}\n")
+
+    print(f"Saved {len(counter)} unique entities to {output_path}")
+
+def combine_ner_results(stanford_file, spacy_file, gliner_file, output_file):
+    sets = []
+    for file_path in [stanford_file, spacy_file, gliner_file]:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = [line.strip().split("\t")[0] for line in f if line.strip()]
+            sets.append(set(lines))
+
+    comined_characters = set().union(*sets)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        for char in sorted(comined_characters):
+            f.write(char + "\n")
+
+    print(f"Saved {len(comined_characters)} unique characters to {output_file}")
+
 
 if __name__ == "__main__":
-    text_path = "./data/pride_and_prejudice.txt"
-    ner_stanford(text_path)
-    ner_spacy(text_path)
+    ner_stanford(TEXT_PATH)
+    ner_spacy(TEXT_PATH)
+    ner_GLiNER2(TEXT_PATH)
+
+    combine_ner_results(
+        STANFORD_CHARACTER_OUTPUT,
+        SPACY_CHARACTER_OUTPUT,
+        GLINER_CHARACTER_OUTPUT,
+        COMBINED_CHARACTER_OUTPUT
+    )

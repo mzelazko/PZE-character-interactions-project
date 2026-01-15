@@ -1,4 +1,6 @@
+# NLP tools
 spacy
 stanza
-fastcoref
-torch
+# NER tools
+gliner2
+rapidfuzz
