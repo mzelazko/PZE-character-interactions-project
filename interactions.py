@@ -7,7 +7,7 @@ from collections import defaultdict, deque
 from fastcoref import FCoref
 
 TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
-CHARACTERS_PATH = "./results/final_characters.json"
+CHARACTERS_PATH = "./results/character_extraction/final_characters.json"
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODEL_NAME = "gemma3:12b-it-qat"
 
@@ -488,3 +488,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
