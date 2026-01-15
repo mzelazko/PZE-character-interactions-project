@@ -1,12 +1,13 @@
 import json
 import requests
 import re
-import sys
+import argparse
+from pathlib import Path
 from collections import defaultdict, deque
 from fastcoref import FCoref
 
 TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
-CHARACTERS_PATH = "./final_characters.json"
+CHARACTERS_PATH = "./results/character_extraction/final_characters.json"
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODEL_NAME = "gemma3:12b-it-qat"
 
@@ -296,39 +297,68 @@ def parse_llm_response(response_text, character_names):
     
     return interactions
 
-def detect_interactions_llm(text, character_dict, chunk_size=50):
-    """Detect interactions using local LLM"""
+def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10):
+    """Detect interactions using local LLM, splitting by paragraphs"""
     lines = text.split('\n')
     character_names = list(character_dict.keys())
     
-    print(f"Processing {len(lines)} lines in chunks of {chunk_size}...")
+    # Group lines into paragraphs (separated by empty lines)
+    paragraphs = []
+    current_paragraph = []
+    para_start_line = 1
+    
+    for i, line in enumerate(lines):
+        current_line_num = i + 1
+        
+        if line.strip():  # Non-empty line
+            current_paragraph.append((current_line_num, line))
+        else:  # Empty line = paragraph boundary
+            if current_paragraph:
+                paragraphs.append((para_start_line, current_paragraph))
+                current_paragraph = []
+            para_start_line = current_line_num + 1
+    
+    if current_paragraph:
+        paragraphs.append((para_start_line, current_paragraph))
+    
+    print(f"Text divided into {len(paragraphs)} paragraphs")
+    print(f"Processing in chunks of {paragraphs_per_chunk} paragraphs...\n")
     
     # Prepare character list with aliases for prompt
     char_descriptions = []
     for char_name, aliases in character_dict.items():
-        # Take first few most common aliases
         alias_str = ", ".join(aliases[:5])
         char_descriptions.append(f"{char_name} (also: {alias_str})")
     char_list = "; ".join(char_descriptions)
     
     all_interactions = []
-    total_chunks = (len(lines) + chunk_size - 1) // chunk_size
     
-    for chunk_idx in range(0, len(lines), chunk_size):
-        chunk_lines = lines[chunk_idx:chunk_idx + chunk_size]
-        chunk_start_line = chunk_idx + 1
+    # Process paragraphs in chunks
+    total_chunks = (len(paragraphs) + paragraphs_per_chunk - 1) // paragraphs_per_chunk
+    
+    for chunk_idx in range(0, len(paragraphs), paragraphs_per_chunk):
+        chunk_paragraphs = paragraphs[chunk_idx:chunk_idx + paragraphs_per_chunk]
         
-        # Number the lines for the chunk
+        # Build chunk text with line numbers and create mapping
         numbered_text = ""
-        for i, line in enumerate(chunk_lines):
-            if line.strip():
-                numbered_text += f"{chunk_start_line + i}: {line}\n"
+        line_mapping = {}  # Maps virtual line number in chunk to original line number
+        virtual_line = 1
+        
+        for para_start, para_lines in chunk_paragraphs:
+            for orig_line_num, line_content in para_lines:
+                numbered_text += f"{virtual_line}: {line_content}\n"
+                line_mapping[virtual_line] = orig_line_num
+                virtual_line += 1
+            numbered_text += "\n"
         
         if not numbered_text.strip():
             continue
         
-        current_chunk = chunk_idx // chunk_size + 1
-        print(f"Processing chunk {current_chunk}/{total_chunks} (lines {chunk_start_line}-{chunk_start_line + len(chunk_lines) - 1})...")
+        current_chunk = chunk_idx // paragraphs_per_chunk + 1
+        para_range_start = chunk_paragraphs[0][0]
+        para_range_end = chunk_paragraphs[-1][0] + len(chunk_paragraphs[-1][1])
+        print(f"Processing chunk {current_chunk}/{total_chunks} (paragraphs {chunk_idx + 1}-{min(chunk_idx + paragraphs_per_chunk, len(paragraphs))}, "
+              f"lines {para_range_start}-{para_range_end})...")
         
         # Create prompt for LLM
         prompt = f"""Analyze this text excerpt from Pride and Prejudice. Find all lines where TWO OR MORE of these characters interact or are mentioned together: {char_list}
@@ -346,8 +376,11 @@ def detect_interactions_llm(text, character_dict, chunk_size=50):
         if response:
             chunk_interactions = parse_llm_response(response, character_names)
             
-            for line_num, chars in chunk_interactions:
-                all_interactions.append((line_num, sorted(chars)))
+            # Convert virtual line numbers to original line numbers
+            for virtual_line_num, chars in chunk_interactions:
+                if virtual_line_num in line_mapping:
+                    orig_line_num = line_mapping[virtual_line_num]
+                    all_interactions.append((orig_line_num, sorted(chars)))
             
             print(f"  Found {len(chunk_interactions)} interactions in this chunk")
         else:
@@ -384,21 +417,47 @@ def detect_interactions_llm(text, character_dict, chunk_size=50):
 
 def main():
     # Parse command line arguments
-    if len(sys.argv) < 2:
-        print("Usage: python interactions_all.py [method] [output_file]")
-        print("\nAvailable methods:")
-        print("  1 or sliding   - Sliding window with heuristic pronoun resolution")
-        print("  2 or fastcoref - FastCoref coreference resolution")
-        print("  3 or llm       - Local LLM (Ollama) analysis")
-        print("\nExample: python interactions_all.py 1 interactions_output.txt")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Detect character interactions in Pride and Prejudice using different methods"
+    )
+    parser.add_argument(
+        "method",
+        choices=["1", "2", "3"],
+        help="Method: 1 (sliding window), 2 (fastcoref), 3 (LLM/Ollama)"
+    )
+    parser.add_argument(
+        "-o", "--output",
+        default=None,
+        help="Output file path (default: results/interactions/interactions_[method].txt)"
+    )
+    parser.add_argument(
+        "-t", "--text",
+        default=TEXT_PATH,
+        help=f"Input text file (default: {TEXT_PATH})"
+    )
     
-    method = sys.argv[1].lower()
-    output_path = sys.argv[2] if len(sys.argv) > 2 else "interactions_output.txt"
+    args = parser.parse_args()
+    method = args.method
+    
+    # Determine output path
+    if args.output:
+        output_path = args.output
+    else:
+        # Create default output path based on method
+        output_dir = Path("./results/interactions")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        method_name = {
+            "1": "sliding_window",
+            "2": "fastcoref",
+            "3": "llm"
+        }[method]
+        
+        output_path = str(output_dir / f"interactions_{method_name}.txt")
     
     # Load text and characters
     print("Loading text...")
-    with open(TEXT_PATH, "r", encoding="utf-8") as f:
+    with open(args.text, "r", encoding="utf-8") as f:
         text = f.read()
     
     print("Loading characters...")
@@ -406,24 +465,19 @@ def main():
     print(f"Tracking {len(character_dict)} characters\n")
     
     # Run selected method
-    if method in ['1', 'sliding', 'sliding_window']:
+    if method == '1':
         print("=== METHOD 1: SLIDING WINDOW WITH HEURISTIC PRONOUN RESOLUTION ===\n")
         interactions = detect_interactions_sliding_window(text, character_dict)
     
-    elif method in ['2', 'fastcoref', 'coref']:
+    elif method == '2':
         print("=== METHOD 2: FASTCOREF COREFERENCE RESOLUTION ===\n")
         interactions = detect_interactions_fastcoref(text, character_dict)
     
-    elif method in ['3', 'llm', 'ollama']:
+    elif method == '3':
         print("=== METHOD 3: LOCAL LLM (OLLAMA) ANALYSIS ===\n")
         print(f"Using model: {MODEL_NAME}")
         print(f"Make sure Ollama is running with: ollama run {MODEL_NAME}\n")
-        interactions = detect_interactions_llm(text, character_dict, chunk_size=50)
-    
-    else:
-        print(f"Error: Unknown method '{method}'")
-        print("Valid methods: 1/sliding, 2/fastcoref, 3/llm")
-        sys.exit(1)
+        interactions = detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10)
     
     # Save results
     print(f"\nFound {len(interactions)} interactions")
@@ -431,9 +485,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         for interaction in interactions:
             f.write(", ".join(map(str, interaction)) + "\n")
-    
-    
-    print(f"\nAll interactions saved to {output_path}")
 
 if __name__ == "__main__":
     main()
+
