@@ -1,0 +1,2773 @@
+17, Bennet, Mrs. Long
+53, Bennet, Bingley, Mr. Bingl
+57, Bennet, Bingley, Mr. Bingl
+64, Bennet, Lucas
+66, Bennet, Bingley, Mr. Bingl
+71, Bennet, Lucas, William
+73, Bennet, Lucas, William
+77, Bennet, Bingley, Mr. Bingl
+80, Bennet, Bingley, Lizzy, Mr. Bingl
+82, Bennet, Lizzy
+83, Bennet, Jane, Lydia
+86, Bennet, Bingley, Mr. Bingl
+102, Bennet, Elizabeth
+124, Bennet, Elizabeth
+126, Bennet, Elizabeth
+128, Bennet, Elizabeth
+131, Bennet, Elizabeth
+132, Elizabeth, Mrs. Long
+134, Bennet, Mrs. Long
+138, Bennet, Elizabeth
+141, Bennet, Elizabeth
+144, Bennet, Kitty
+147, Bennet, Kitty
+150, Bennet, Kitty
+153, Bennet, Elizabeth
+155, Bennet, Elizabeth
+159, Bennet, Bingley, Mr. Bingl
+175, Bennet, Elizabeth
+177, Bennet, Mary
+183, Bennet, Bingley, Caroline
+186, Bennet, Bingley, Caroline
+188, Bennet, Bingley, Caroline
+193, Bennet, Elizabeth
+204, Bennet, Kitty
+215, Bennet, Lydia
+218, Bennet, Pen
+228, Bennet, Lucas
+231, Lucas, William
+232, Bennet, Lucas
+242, Bennet, Bingley, Mr. Bingl
+243, Bingley, Mr. Bingl
+244, Bingley, Elizabeth, Jane, Mr. Bingl
+249, Bennet, Bingley, Mr. Bingl
+252, Bennet, Lucas
+254, Bennet, Lucas
+260, Bennet, Lucas
+261, Bingley, Elizabeth, Jane, Mr. Bingl
+265, Bingley, Man, Mr. Bingl
+269, Bingley, Man, Mr. Bingl
+270, Bingley, Mr. Bingl
+271, Darcy, Hurst
+277, Bingley, Darcy, Mr. Bingl
+285, Bingley, Darcy, Mr. Bingl
+289, Bingley, Darcy, Hurst
+295, Bennet, Darcy
+299, Bennet, Elizabeth
+300, Bennet, Bingley, Darcy, Elizabeth, Mr. Bingl
+305, Bingley, Darcy, Mr. Bingl
+315, Bingley, Mr. Bingl
+320, Bennet, Darcy
+321, Bingley, Darcy, Mr. Bingl
+323, Bennet, Bingley, Elizabeth, Mr. Bingl
+324, Bingley, Mr. Bingl
+327, Bennet, Bingley, Elizabeth, Mr. Bingl
+328, Bennet, Darcy, Elizabeth
+334, Bingley, Darcy, Mr. Bingl
+335, Bennet, Darcy, Elizabeth
+336, Bennet, Elizabeth
+343, Bennet, Elizabeth, Jane
+345, Bingley, Mary
+360, Bingley, Jane, Mr. Bingl
+361, Bingley, Jane, Lucas, Miss Lu, Mr. Bingl
+365, Bingley, Jane, Mr. Bingl
+366, Bingley, Lucas, Maria, Miss King, Mr. Bingl
+367, Bingley, Jane, Lizzy, Mr. Bingl
+375, Bennet, Hurst
+377, Bennet, Darcy
+384, Bennet, Lizzy
+385, Bennet, Darcy
+397, Elizabeth, Jane
+401, Elizabeth, Jane
+405, Elizabeth, Jane
+408, Elizabeth, Jane
+419, Elizabeth, Jane
+425, Elizabeth, Jane
+428, Bingley, Darcy
+436, Caroline, Elizabeth
+441, Elizabeth, Jane
+443, Elizabeth, Jane
+448, Bingley, Caroline, Elizabeth
+457, Bingley, Darcy, Mr. Bingl
+476, Bingley, Darcy
+489, Bingley, Darcy
+500, Bennet, Hurst
+509, Bennet, Lucas, William
+527, Bennet, Lucas
+532, Bennet, Lucas, Miss Lu
+536, Bennet, Lucas, Miss Lu
+539, Bingley, Charlotte, Lucas, Miss Lu
+541, Bennet, Jane
+546, Charlotte, Lucas, Miss Lu, Robinson
+548, Bingley, Robinson
+560, Jane, Mrs. Long
+565, Jane, Mrs. Long
+568, Jane, Mrs. Long
+572, Bingley, Jane
+576, Bingley, Jane
+582, Jane, Lucas, Miss Lu
+585, Elizabeth, Jane, Lizzy
+588, Elizabeth, Jane, Lizzy
+596, Elizabeth, Lucas, Miss Lu
+597, Darcy, Elizabeth
+599, Elizabeth, Mary
+609, Darcy, Lucas
+613, Bennet, Lucas
+623, Bingley, Elizabeth, Hurst, Jane
+628, Bingley, Elizabeth, Hurst, Jane
+629, Bingley, Hurst, Jane
+630, Bingley, Elizabeth, Hurst
+631, Bingley, Elizabeth, Hurst, Jane
+633, Bingley, Jane, Mr. Bingl
+636, Bingley, Elizabeth, Jane, Mr. Bingl
+638, Bingley, Jane, Mr. Bingl
+639, Jane, Lucas, Miss Lu
+643, Charlotte, Elizabeth
+656, Bingley, Elizabeth, Jane, Mr. Bingl
+660, Elizabeth, Jane
+673, Charlotte, Elizabeth
+683, Darcy, Elizabeth
+688, Bingley, Jane
+692, Charlotte, Jane
+703, Bingley, Darcy, Elizabeth, Mr. Bingl
+706, Bingley, Darcy, Elizabeth, Mr. Bingl
+728, Charlotte, Elizabeth
+729, Charlotte, Darcy, Elizabeth
+731, Darcy, Elizabeth, Lucas, Miss Lu
+733, Darcy, Elizabeth
+734, Darcy, Elizabeth, Lucas, Miss Lu
+735, Darcy, Elizabeth
+737, Darcy, Elizabeth, Lucas, Miss Lu
+738, Darcy, Elizabeth
+739, Darcy, Elizabeth, Lucas, Miss Lu
+740, Darcy, Elizabeth
+742, Darcy, Elizabeth, Lucas, Miss Lu
+743, Darcy, Elizabeth
+744, Darcy, Elizabeth, Lucas, Miss Lu
+746, Darcy, Elizabeth
+747, Darcy, Elizabeth, Lucas, Miss Lu
+749, Darcy, Elizabeth
+751, Darcy, Elizabeth, Lucas, Miss Lu
+752, Darcy, Elizabeth
+754, Darcy, Elizabeth, Lucas, Miss Lu
+755, Darcy, Elizabeth
+756, Darcy, Elizabeth, Lucas, Miss Lu
+757, Darcy, Elizabeth
+758, Darcy, Elizabeth, Lucas, Miss Lu
+759, Darcy, Elizabeth
+760, Darcy, Elizabeth, Lucas, Miss Lu
+761, Darcy, Elizabeth
+762, Darcy, Elizabeth, Lucas, Miss Lu
+764, Elizabeth, Mary
+765, Darcy, Elizabeth, Mary
+766, Darcy, Elizabeth, Lucas, Mary, Miss Lu
+781, Darcy, Lucas, William
+786, Darcy, Lucas, William
+790, Darcy, Lucas, William
+793, Bingley, Darcy, Lucas, William
+797, Darcy, Lucas, William
+799, Darcy, Lucas, William
+800, Bingley, Darcy, Lucas, William
+802, Darcy, Lucas, William
+804, Bingley, Darcy, Lucas, William
+806, Darcy, Lucas, William
+808, Darcy, Elizabeth
+821, Darcy, Elizabeth
+826, Elizabeth, William
+828, Elizabeth, William
+831, Darcy, Elizabeth
+832, Elizabeth, William
+835, Darcy, Elizabeth, William
+840, Darcy, Elizabeth
+842, Darcy, Elizabeth, William
+843, Darcy, Elizabeth
+846, Bingley, Elizabeth
+850, Bingley, Darcy
+852, Bingley, Darcy
+854, Bingley, Darcy
+860, Bingley, Elizabeth
+861, Darcy, Elizabeth
+864, Bingley, Darcy
+868, Bingley, Darcy
+870, Bingley, Darcy
+874, Bingley, Darcy, Elizabeth
+875, Bingley, Darcy
+878, Bingley, Darcy
+889, Bennet, Elizabeth
+892, Bennet, Elizabeth
+895, Bennet, Elizabeth, Jane, Lydia
+899, Bennet, Elizabeth, Jane, Lydia
+903, Bennet, Elizabeth, Jane, Lydia
+910, Elizabeth, Jane, Lydia, Philips
+912, Bingley, Elizabeth, Jane, Lydia, Mr. Bingl
+914, Bennet, Elizabeth, Jane, Lydia
+917, Bennet, Elizabeth, Jane, Lydia
+919, Elizabeth, Jane, Lydia, Philips
+921, Bingley, Elizabeth, Jane, Lydia, Mr. Bingl
+923, Bennet, Elizabeth, Jane, Lydia
+927, Bennet, Elizabeth, Jane, Lydia
+928, Elizabeth, Jane, Lydia, Philips
+930, Elizabeth, Jane, Lydia, Philips
+931, Bingley, Elizabeth, Jane, Lydia, Mr. Bingl
+934, Bennet, Elizabeth, Jane, Lydia
+961, Bennet, Lydia
+970, Bennet, Jane
+973, Bingley, Jane
+975, Bingley, Jane
+984, Bingley, Caroline
+986, Bennet, Lydia
+993, Bennet, Elizabeth, Jane
+996, Bennet, Elizabeth, Jane
+999, Bingley, Elizabeth, Hurst, Jane, Mr. Bingl
+1002, Elizabeth, Jane
+1004, Bennet, Elizabeth, Jane
+1009, Bennet, Elizabeth
+1026, Elizabeth, Jane
+1037, Bennet, Elizabeth
+1042, Bennet, Elizabeth
+1047, Bennet, Elizabeth
+1051, Bennet, Elizabeth
+1055, Bennet, Lizzy
+1063, Elizabeth, Mary
+1067, Elizabeth, Lydia
+1071, Elizabeth, Lydia
+1081, Bingley, Elizabeth, Hurst
+1086, Bingley, Elizabeth, Hurst
+1088, Darcy, Elizabeth
+1089, Darcy, Elizabeth, Hurst
+1090, Darcy, Elizabeth
+1092, Elizabeth, Hurst
+1094, Bennet, Elizabeth, Jane
+1095, Bingley, Elizabeth, Jane
+1096, Bennet, Elizabeth, Jane
+1097, Elizabeth, Jane
+1100, Bingley, Elizabeth, Jane
+1102, Elizabeth, Jane
+1105, Bennet, Elizabeth, Jane
+1106, Bennet, Bingley, Elizabeth, Jane
+1108, Apothecary, Bennet, Elizabeth, Jane
+1111, Bennet, Elizabeth, Jane
+1112, Bennet, Bingley, Elizabeth, Jane
+1113, Bennet, Elizabeth, Jane
+1114, Bingley, Elizabeth, Hurst
+1116, Bingley, Elizabeth
+1118, Bingley, Jane
+1120, Bingley, Elizabeth, Jane
+1128, Bingley, Elizabeth, Jane, Mr. Bingl
+1133, Bingley, Elizabeth, Jane
+1137, Bingley, Elizabeth, Mr. Bingl
+1139, Bingley, Elizabeth, Jane, Mr. Bingl
+1144, Bingley, Darcy, Elizabeth
+1145, Bingley, Elizabeth, Hurst
+1146, Elizabeth, Hurst
+1149, Bingley, Elizabeth, Jane
+1150, Bingley, Jane
+1151, Bingley, Elizabeth
+1152, Bingley, Hurst
+1155, Bingley, Hurst
+1157, Hurst, Louisa
+1159, Bingley, Louisa
+1163, Bingley, Louisa
+1167, Bingley, Louisa, Mr. Bingl
+1168, Bingley, Darcy
+1186, Bingley, Darcy
+1190, Darcy, Hurst
+1193, Bennet, Hurst, Jane
+1198, Bingley, Hurst
+1203, Bingley, Hurst
+1209, Bingley, Hurst
+1211, Elizabeth, Hurst, Jane
+1212, Elizabeth, Hurst
+1213, Bingley, Elizabeth
+1215, Bingley, Elizabeth
+1248, Bingley, Darcy
+1261, Bingley, Darcy
+1263, Bingley, Charles, Darcy
+1265, Charles, Darcy
+1267, Charles, Darcy
+1268, Bingley, Darcy
+1271, Charles, Darcy
+1273, Bingley, Darcy
+1280, Bingley, Elizabeth, Mr. Bingl
+1283, Bingley, Darcy
+1286, Bingley, Darcy
+1289, Bingley, Darcy
+1293, Bingley, Elizabeth
+1296, Bingley, Elizabeth
+1298, Bingley, Elizabeth
+1303, Bingley, Darcy
+1310, Bingley, Darcy
+1312, Darcy, Elizabeth
+1315, Darcy, Elizabeth
+1325, Darcy, Elizabeth
+1329, Darcy, Elizabeth
+1335, Darcy, Elizabeth
+1338, Bingley, Hurst
+1345, Bingley, Elizabeth
+1350, Bingley, Darcy
+1355, Bingley, Darcy
+1358, Bingley, Elizabeth
+1362, Bingley, Jones
+1364, Elizabeth, Jane
+1365, Bennet, Bingley
+1369, Bennet, Jones
+1374, Bingley, Elizabeth, Mr. Bingl
+1378, Bennet, Elizabeth
+1379, Bennet, Jane
+1380, Apothecary, Bennet, Colonel, Forster
+1381, Bennet, Bingley
+1385, Bennet, Jones
+1387, Bennet, Jane
+1388, Apothecary, Bennet, Colonel, Forster
+1389, Bennet, Bingley
+1392, Apothecary, Bennet
+1393, Bennet, Bingley
+1394, Bingley, Jane
+1396, Bingley, Jones
+1399, Apothecary, Bingley, Colonel, Forster
+1400, Bennet, Bingley
+1402, Bennet, Bingley
+1405, Bennet, Bingley
+1409, Bennet, Bingley
+1411, Bennet, Bingley, Mr. Bingl
+1412, Bennet, Jane
+1413, Apothecary, Bennet, Colonel, Forster
+1415, Bennet, Bingley
+1418, Bennet, Jones
+1425, Darcy, Elizabeth
+1427, Darcy, Elizabeth
+1429, Darcy, Elizabeth
+1431, Darcy, Elizabeth
+1434, Darcy, Elizabeth
+1435, Bingley, Elizabeth
+1437, Bennet, Elizabeth, Lizzy
+1438, Bingley, Elizabeth
+1440, Bingley, Elizabeth
+1441, Darcy, Elizabeth
+1453, Bennet, Darcy
+1458, Bennet, Bingley, Mr. Bingl
+1459, Bennet, Darcy
+1461, Bennet, Bingley, Mr. Bingl
+1462, Bingley, Mr. Bingl
+1465, Bingley, Mr. Bingl
+1469, Bennet, Darcy
+1470, Bennet, Darcy, Elizabeth
+1473, Bennet, Darcy, Elizabeth
+1479, Bennet, Elizabeth
+1480, Bingley, Mr. Bingl
+1482, Bingley, Elizabeth, Mr. Bingl
+1483, Bingley, Caroline, Darcy
+1484, Bennet, Bingley, Elizabeth, Mr. Bingl
+1485, Charlotte, Elizabeth, Lucas
+1486, Bennet, Charlotte, Elizabeth, Lucas
+1488, Bennet, Bingley, Lucas, Mr. Bingl, William
+1489, Bennet, Bingley, Mr. Bingl
+1490, Bingley, Caroline, Darcy
+1503, Bingley, Elizabeth
+1505, Bennet, Bingley, Jane
+1515, Darcy, Elizabeth
+1519, Darcy, Elizabeth
+1521, Darcy, Elizabeth
+1525, Darcy, Elizabeth
+1527, Bennet, Bingley, Mr. Bingl
+1530, Bingley, Mr. Bingl
+1531, Bennet, Bingley, Mr. Bingl
+1534, Bingley, Lydia, Mr. Bingl
+1543, Colonel, Forster, Lydia
+1545, Bingley, Lydia, Mr. Bingl
+1550, Bingley, Lydia, Mr. Bingl
+1555, Captain, Carter, Lydia
+1556, Colonel, Forster, Lydia
+1560, Bennet, Elizabeth, Jane
+1563, Bingley, Darcy, Elizabeth
+1573, Bingley, Elizabeth, Hurst
+1574, Bingley, Darcy, Elizabeth
+1576, Bingley, Darcy, Hurst, Mr. Bingl
+1577, Bingley, Darcy
+1578, Bingley, Hurst, Mr. Bingl
+1579, Bingley, Darcy, Elizabeth
+1582, Bingley, Darcy, Elizabeth
+1583, Bingley, Darcy
+1588, Bingley, Darcy
+1590, Bingley, Darcy
+1592, Bingley, Darcy
+1594, Bingley, Darcy
+1596, Bingley, Darcy
+1599, Bingley, Darcy
+1601, Darcy, Elizabeth
+1603, Darcy, Elizabeth
+1622, Darcy, Elizabeth, Jane
+1628, Darcy, Elizabeth
+1631, Bingley, Caroline, Darcy
+1635, Bingley, Darcy
+1637, Bingley, Mr. Bingl
+1643, Bingley, Elizabeth, Mr. Bingl
+1645, Darcy, Elizabeth
+1649, Darcy, Elizabeth
+1651, Darcy, Elizabeth
+1663, Bingley, Elizabeth
+1676, Bingley, Elizabeth
+1680, Bingley, Elizabeth
+1682, Bingley, Elizabeth
+1687, Darcy, Elizabeth
+1690, Darcy, Elizabeth
+1693, Bennet, Darcy, Elizabeth
+1700, Darcy, Elizabeth
+1703, Darcy, Elizabeth
+1706, Darcy, Elizabeth
+1717, Darcy, Elizabeth
+1722, Bingley, Darcy
+1731, Darcy, Elizabeth
+1736, Bingley, Darcy
+1739, Bingley, Darcy, Elizabeth
+1743, Darcy, Elizabeth
+1748, Bingley, Darcy, Elizabeth
+1749, Bingley, Elizabeth
+1754, Bingley, Hurst
+1755, Bingley, Elizabeth
+1756, Darcy, Elizabeth
+1765, Bingley, Elizabeth
+1766, Darcy, Elizabeth
+1783, Darcy, Elizabeth
+1785, Darcy, Elizabeth
+1792, Bingley, Darcy
+1796, Bingley, Darcy
+1799, Bingley, Darcy
+1807, Bingley, Darcy
+1809, Bingley, Darcy
+1815, Bingley, Darcy
+1819, Elizabeth, Hurst
+1822, Bingley, Elizabeth
+1825, Elizabeth, Hurst
+1828, Darcy, Elizabeth, Hurst
+1832, Darcy, Elizabeth, Hurst
+1835, Darcy, Elizabeth, Hurst
+1838, Darcy, Elizabeth, Hurst
+1861, Darcy, Jane
+1862, Bingley, Darcy
+1863, Bennet, Hurst
+1864, Bingley, Hurst
+1865, Bingley, Darcy, Elizabeth
+1866, Bennet, Hurst
+1867, Bingley, Darcy
+1868, Bingley, Darcy, Elizabeth
+1869, Bennet, Darcy, Hurst
+1870, Bingley, Darcy, Elizabeth
+1871, Bingley, Caroline, Darcy
+1872, Bingley, Caroline, Darcy, Elizabeth
+1874, Bingley, Caroline, Darcy
+1875, Bennet, Darcy, Hurst
+1876, Bingley, Caroline, Darcy, Elizabeth
+1932, Bingley, Elizabeth
+1936, Darcy, Elizabeth
+1942, Darcy, Elizabeth
+1943, Bingley, Darcy
+1946, Bingley, Darcy
+1948, Bingley, Darcy, Elizabeth
+1950, Bingley, Darcy, Elizabeth
+1958, Bingley, Elizabeth
+1961, Bingley, Elizabeth
+1965, Bingley, Elizabeth
+1966, Darcy, Elizabeth
+1971, Darcy, Elizabeth
+1976, Bingley, Darcy
+1977, Darcy, Elizabeth
+1981, Darcy, Elizabeth
+1998, Bingley, Elizabeth
+2004, Bingley, Darcy
+2013, Darcy, Elizabeth
+2017, Darcy, Elizabeth
+2022, Darcy, Elizabeth
+2025, Bingley, Hurst, Louisa
+2029, Bingley, Louisa
+2031, Darcy, Elizabeth
+2039, Bennet, Elizabeth
+2040, Elizabeth, Jane
+2041, Bennet, Elizabeth, Jane
+2042, Bennet, Elizabeth
+2043, Bennet, Jane
+2044, Elizabeth, Jane
+2045, Bennet, Elizabeth
+2046, Elizabeth, Jane
+2047, Bingley, Mr. Bingl
+2048, Bingley, Elizabeth, Jane, Mr. Bingl
+2049, Elizabeth, Jane
+2056, Bennet, Jane
+2057, Elizabeth, Jane
+2058, Bingley, Jane
+2059, Bingley, Darcy, Elizabeth
+2060, Darcy, Elizabeth
+2062, Darcy, Elizabeth
+2067, Darcy, Elizabeth
+2068, Bingley, Darcy
+2069, Darcy, Elizabeth
+2079, Bingley, Elizabeth, Jane
+2080, Bingley, Jane
+2081, Bingley, Elizabeth, Jane
+2085, Bingley, Darcy, Elizabeth, Jane
+2087, Bennet, Elizabeth, Jane
+2121, Bennet, Jane
+2123, Bennet, Lydia
+2125, Bennet, Lydia
+2127, Bennet, Elizabeth, Jane, Kitty, Mary
+2130, Bennet, Elizabeth, Jane, Kitty, Mary
+2133, Bennet, Elizabeth, Jane, Kitty, Mary
+2136, Bennet, Collins
+2140, Bennet, Collins
+2146, Elizabeth, Jane
+2167, Collins, William
+2169, Collins, William
+2175, Bennet, Collins, William
+2176, Collins, William
+2177, Catherine De, Collins, De Bourgh, Lady Catherine, William
+2181, Collins, William
+2192, Bennet, Collins, William
+2193, Collins, William
+2216, Elizabeth, Jane
+2220, Elizabeth, Lady Catherine
+2224, Bennet, Elizabeth
+2229, Bennet, Mary
+2233, Elizabeth, Mary
+2237, Bennet, Kitty, Lydia
+2245, Bennet, Collins, Elizabeth, Jane
+2251, Bennet, Collins
+2252, Bennet, Collins, Kitty, Lydia
+2253, Bennet, Collins
+2254, Bennet, Collins, Kitty, Lydia
+2255, Bennet, Collins
+2258, Bennet, Collins, Elizabeth
+2259, Bennet, Collins
+2262, Bennet, Collins
+2264, Bennet, Collins
+2275, Bennet, Collins, Elizabeth, Jane
+2277, Bennet, Collins
+2282, Bennet, Collins, Elizabeth
+2283, Bennet, Collins
+2292, Bennet, Collins
+2295, Bennet, Collins
+2298, Bennet, Catherine De, Collins, De Bourgh, Lady Catherine
+2299, Bennet, Catherine De, De Bourgh, Lady Catherine
+2300, Catherine De, Collins, De Bourgh, Lady Catherine
+2301, Bennet, Collins
+2302, Catherine De, Collins, De Bourgh, Lady Catherine
+2315, Bennet, Collins
+2316, Catherine De, Collins, De Bourgh, Lady Catherine
+2320, Bennet, Collins
+2324, Bennet, Collins
+2327, Bennet, Collins
+2329, Bennet, Collins
+2332, Bennet, Collins
+2335, Bennet, Collins
+2336, Catherine De, Collins, De Bourgh, Lady Catherine
+2345, Bennet, Lady Catherine
+2360, Bennet, Collins
+2365, Bennet, Collins
+2370, Bennet, Collins
+2376, Bennet, Collins
+2380, Bennet, Collins
+2381, Collins, Kitty, Lydia
+2389, Elizabeth, Kitty, Lydia
+2394, Collins, Elizabeth, Kitty, Lydia
+2397, Collins, Elizabeth, Kitty, Lydia
+2402, Bennet, Collins
+2407, Bennet, Collins
+2410, Bennet, Collins
+2420, Catherine De, Collins, De Bourgh, Lady Catherine
+2422, Catherine De, Collins, De Bourgh, Lady Catherine
+2424, Catherine De, Collins, De Bourgh, Lady Catherine
+2428, Catherine De, Collins, De Bourgh, Lady Catherine
+2430, Catherine De, Collins, De Bourgh, Lady Catherine
+2432, Catherine De, Collins, De Bourgh, Lady Catherine
+2435, Collins, Longbourn
+2438, Collins, Longbourn
+2440, Catherine De, Collins, De Bourgh, Lady Catherine
+2443, Bennet, Collins
+2446, Bennet, Collins
+2450, Catherine De, Collins, De Bourgh, Lady Catherine
+2451, Bennet, Collins
+2453, Bennet, Elizabeth
+2454, Bennet, Jane
+2455, Collins, Elizabeth
+2457, Collins, Elizabeth
+2459, Bennet, Elizabeth
+2461, Kitty, Lydia, Mary
+2462, Collins, Kitty, Lydia, Mary
+2463, Bennet, Collins
+2466, Collins, Kitty, Lydia, Mary
+2467, Bennet, Collins
+2468, Bennet, Elizabeth
+2469, Bennet, Collins
+2471, Bennet, Elizabeth
+2472, Bennet, Collins
+2473, Bennet, Elizabeth
+2474, Bennet, Collins
+2475, Bennet, Elizabeth
+2476, Bennet, Collins
+2481, Denny, Wickham
+2482, Kitty, Lydia
+2488, Denny, Kitty, Lydia, Wickham
+2492, Denny, Wickham
+2493, Denny, Kitty, Lydia, Wickham
+2496, Denny, Wickham
+2499, Bingley, Darcy, Wickham
+2500, Bingley, Darcy, Elizabeth
+2502, Bingley, Darcy, Wickham
+2525, Denny, Wickham
+2526, Denny, Lydia, Wickham
+2527, Denny, Wickham
+2528, Denny, Philips, Wickham
+2529, Denny, Wickham
+2531, Elizabeth, Jane, Philips
+2537, Collins, Jane
+2538, Collins, Philips
+2544, Elizabeth, Jane, Philips
+2548, Denny, Kitty, Lydia, Wickham
+2552, Denny, Kitty, Lydia, Philips, Wickham
+2560, Bennet, Collins
+2563, Elizabeth, Jane
+2568, Collins, Philips
+2587, Elizabeth, Jane, Kitty, Lydia
+2591, Collins, Philips
+2603, Collins, Philips
+2610, Elizabeth, Jane, Kitty, Lydia
+2613, Elizabeth, Wickham
+2636, Collins, Philips
+2643, Elizabeth, Lydia, Wickham
+2650, Elizabeth, Wickham
+2658, Elizabeth, Wickham
+2662, Elizabeth, Wickham
+2667, Elizabeth, Wickham
+2669, Elizabeth, Wickham
+2673, Elizabeth, Wickham
+2677, Elizabeth, Wickham
+2689, Elizabeth, Wickham
+2695, Elizabeth, Wickham
+2700, Elizabeth, Wickham
+2703, Elizabeth, Wickham
+2707, Darcy, Elizabeth
+2709, Darcy, Elizabeth
+2720, Elizabeth, Wickham
+2723, Elizabeth, Wickham
+2728, Elizabeth, Wickham
+2730, Denny, Elizabeth, Wickham
+2733, Elizabeth, Wickham
+2749, Darcy, Elizabeth
+2765, Darcy, Elizabeth
+2770, Darcy, Elizabeth
+2773, Darcy, Elizabeth
+2783, Darcy, Elizabeth
+2801, Elizabeth, Wickham
+2805, Darcy, Philips, Wickham
+2818, Elizabeth, Wickham
+2823, Elizabeth, Wickham
+2829, Elizabeth, Wickham
+2841, Elizabeth, Wickham
+2855, Bingley, Elizabeth, Mr. Bingl
+2862, Darcy, Elizabeth
+2865, Darcy, Elizabeth
+2874, Collins, Elizabeth, Philips
+2875, Collins, Philips
+2882, Elizabeth, Philips
+2889, Elizabeth, Wickham
+2891, Elizabeth, Wickham
+2897, Elizabeth, Wickham
+2900, Elizabeth, Wickham
+2912, Collins, Elizabeth
+2917, Elizabeth, Wickham
+2926, Elizabeth, Wickham
+2934, Collins, Elizabeth, Lydia
+2936, Collins, Lydia
+2938, Collins, Elizabeth
+2940, Collins, Lydia
+2941, Collins, Elizabeth
+2949, Elizabeth, Jane
+2960, Elizabeth, Jane
+2966, Elizabeth, Jane
+2971, Darcy, Lizzy
+2979, Darcy, Elizabeth, Wickham
+2989, Bingley, Jane, Mr. Bingl
+2993, Bingley, Caroline, Elizabeth, Jane, Mr. Bingl
+2995, Bennet, Collins, Elizabeth
+2996, Bingley, Caroline, Collins, Elizabeth, Jane, Mr. Bingl
+2997, Bingley, Caroline, Elizabeth, Jane, Mr. Bingl
+3003, Bennet, Collins, Elizabeth
+3006, Bennet, Elizabeth, Jane, Lydia
+3011, Darcy, Elizabeth, Wickham
+3015, Elizabeth, Lydia
+3027, Collins, Elizabeth
+3034, Catherine De, Collins, De Bourgh, Lady Catherine
+3036, Collins, Elizabeth
+3041, Collins, Elizabeth
+3042, Collins, Jane
+3045, Elizabeth, Wickham
+3049, Collins, Elizabeth
+3052, Collins, Elizabeth
+3058, Bennet, Elizabeth
+3059, Darcy, Elizabeth
+3060, Denny, Lydia
+3061, Darcy, Denny, Elizabeth
+3062, Darcy, Elizabeth
+3063, Bingley, Elizabeth, Mr. Bingl
+3065, Kitty, Lydia
+3066, Charlotte, Elizabeth, Lucas
+3067, Collins, Elizabeth
+3068, Elizabeth, Wickham
+3069, Darcy, Elizabeth
+3070, Bingley, Darcy, Elizabeth, Mr. Bingl
+3071, Charlotte, Elizabeth, Lucas
+3072, Darcy, Elizabeth
+3074, Collins, Elizabeth
+3079, Elizabeth, Wickham
+3082, Bingley, Darcy, Elizabeth, Mr. Bingl
+3083, Darcy, Elizabeth
+3084, Charlotte, Elizabeth, Lucas
+3085, Darcy, Elizabeth
+3139, Darcy, Elizabeth
+3140, Charlotte, Elizabeth
+3142, Elizabeth, Wickham
+3143, Darcy, Elizabeth
+3152, Darcy, Elizabeth
+3154, Darcy, Elizabeth
+3158, Darcy, Elizabeth
+3161, Darcy, Elizabeth
+3165, Darcy, Elizabeth
+3167, Darcy, Elizabeth
+3172, Darcy, Elizabeth
+3175, Darcy, Elizabeth
+3181, Darcy, Elizabeth
+3193, Darcy, Elizabeth
+3195, Darcy, Elizabeth
+3198, Darcy, Elizabeth
+3202, Darcy, Elizabeth
+3206, Darcy, Elizabeth
+3207, Darcy, Elizabeth, Lucas, William
+3210, Darcy, Lucas, William
+3212, Darcy, Lucas, William
+3216, Bingley, Elizabeth, Jane, Lucas, William
+3217, Bingley, Darcy, Jane, Lucas, William
+3222, Darcy, Elizabeth, Lucas, William
+3223, Bingley, Darcy, Jane, Lucas, William
+3226, Darcy, Elizabeth
+3228, Darcy, Elizabeth
+3231, Darcy, Elizabeth
+3236, Darcy, Elizabeth
+3238, Darcy, Elizabeth
+3241, Darcy, Elizabeth
+3247, Darcy, Elizabeth
+3250, Darcy, Elizabeth
+3253, Darcy, Elizabeth
+3259, Darcy, Elizabeth
+3261, Darcy, Elizabeth
+3268, Darcy, Elizabeth
+3276, Bennet, Darcy
+3281, Darcy, Elizabeth
+3284, Darcy, Elizabeth
+3291, Bingley, Elizabeth
+3294, Bingley, Elizabeth
+3312, Bingley, Elizabeth
+3317, Bingley, Elizabeth
+3320, Elizabeth, Jane
+3331, Elizabeth, Jane
+3336, Elizabeth, Jane
+3347, Elizabeth, Jane
+3349, Elizabeth, Jane
+3351, Elizabeth, Jane
+3358, Bingley, Elizabeth
+3365, Elizabeth, Jane
+3370, Bingley, Elizabeth
+3371, Elizabeth, Lucas
+3372, Collins, Elizabeth, Lucas
+3386, Darcy, Elizabeth
+3401, Collins, Elizabeth
+3409, Collins, Elizabeth
+3415, Darcy, Elizabeth
+3418, Collins, Elizabeth
+3419, Darcy, Elizabeth
+3426, Collins, Elizabeth
+3428, Collins, Elizabeth
+3429, Darcy, Elizabeth
+3433, Collins, Elizabeth
+3435, Bingley, Elizabeth, Jane, Mr. Bingl
+3442, Bennet, Elizabeth
+3466, Bennet, Elizabeth
+3467, Darcy, Elizabeth
+3468, Bennet, Elizabeth
+3472, Bennet, Elizabeth
+3476, Bennet, Elizabeth
+3489, Elizabeth, Lucas
+3493, Elizabeth, Mary
+3506, Elizabeth, Jane
+3507, Bingley, Darcy, Elizabeth
+3510, Bennet, Elizabeth
+3511, Bennet, Mary
+3513, Collins, Mary
+3516, Collins, Elizabeth
+3520, Collins, Elizabeth
+3522, Bennet, Lucas
+3524, Collins, Darcy
+3525, Bingley, Jane, Mr. Bingl
+3526, Bingley, Darcy, Mr. Bingl
+3527, Darcy, Elizabeth
+3528, Elizabeth, Wickham
+3529, Bennet, Bingley, Mr. Bingl
+3531, Collins, Darcy
+3533, Bennet, Lucas
+3535, Collins, Darcy
+3536, Bingley, Darcy, Mr. Bingl
+3537, Elizabeth, Wickham
+3539, Bennet, Lucas
+3541, Collins, Darcy
+3544, Bingley, Jane
+3545, Bingley, Darcy, Mr. Bingl
+3546, Elizabeth, Wickham
+3548, Bennet, Bingley, Mr. Bingl
+3550, Collins, Darcy
+3551, Bingley, Darcy, Mr. Bingl
+3552, Elizabeth, Wickham
+3554, Collins, Elizabeth
+3556, Collins, Elizabeth
+3558, Bennet, Lucas
+3560, Darcy, Elizabeth
+3561, Collins, Elizabeth
+3563, Collins, Lucas, Miss Lu
+3564, Elizabeth, Lucas, Miss Lu
+3565, Collins, Lucas, Miss Lu
+3567, Darcy, Elizabeth
+3570, Bennet, Bingley, Mr. Bingl
+3574, Bennet, Lucas
+3576, Darcy, Elizabeth
+3578, Bingley, Darcy, Mr. Bingl
+3579, Elizabeth, Wickham
+3581, Bennet, Bingley, Mr. Bingl
+3583, Bingley, Collins, Mr. Bingl
+3584, Darcy, Elizabeth
+3586, Bingley, Jane, Mr. Bingl
+3625, Bennet, Collins, Elizabeth
+3626, Collins, Elizabeth
+3629, Bennet, Elizabeth
+3632, Bennet, Elizabeth, Kitty
+3633, Bennet, Kitty
+3635, Bennet, Elizabeth
+3637, Bennet, Elizabeth
+3638, Collins, Elizabeth
+3639, Bennet, Elizabeth
+3641, Bennet, Elizabeth
+3646, Bennet, Elizabeth
+3648, Collins, Elizabeth
+3650, Bennet, Kitty
+3653, Collins, Elizabeth
+3655, Bennet, Collins
+3656, Collins, Elizabeth
+3671, Catherine De, Collins, De Bourgh, Elizabeth, Lady Catherine
+3672, Collins, Elizabeth
+3680, Catherine De, Collins, De Bourgh, Lady Catherine
+3686, Collins, Elizabeth
+3690, Collins, Elizabeth
+3713, Collins, Elizabeth
+3719, Collins, Elizabeth
+3726, Collins, Elizabeth
+3736, Collins, Elizabeth
+3742, Collins, Elizabeth
+3753, Collins, Elizabeth
+3761, Collins, Elizabeth
+3766, Collins, Elizabeth
+3790, Darcy, Elizabeth
+3795, Darcy, Elizabeth
+3808, Bennet, Collins
+3810, Bennet, Elizabeth
+3811, Bennet, Collins
+3813, Bennet, Collins
+3815, Bennet, Collins
+3820, Bennet, Collins
+3825, Bennet, Collins
+3830, Bennet, Collins
+3838, Darcy, Elizabeth
+3839, Bennet, Collins
+3869, Bennet, Elizabeth
+3871, Bennet, Elizabeth
+3875, Bennet, Elizabeth
+3877, Bennet, Elizabeth
+3881, Bennet, Collins, Elizabeth
+3882, Bennet, Collins
+3884, Bennet, Elizabeth
+3886, Bennet, Collins, Elizabeth
+3889, Collins, Elizabeth
+3891, Bennet, Elizabeth
+3901, Bennet, Elizabeth
+3903, Bennet, Elizabeth
+3905, Bennet, Jane
+3907, Bennet, Elizabeth
+3911, Collins, Elizabeth
+3917, Charlotte, Lucas, Lydia
+3923, Charlotte, Kitty, Lucas
+3927, Bennet, Lucas, Miss Lu
+3932, Elizabeth, Jane
+3934, Bennet, Lizzy
+3935, Bennet, Elizabeth, Jane
+3936, Bennet, Lizzy
+3943, Bennet, Elizabeth, Jane
+3948, Bennet, Elizabeth, Jane
+3951, Bennet, Collins
+3954, Bennet, Collins
+3957, Elizabeth, Jane, Kitty
+3958, Charlotte, Lucas, Lydia
+3959, Charlotte, Collins, Lucas
+3961, Bennet, Collins
+3965, Bennet, Collins
+3967, Bennet, Collins
+3993, Collins, Elizabeth
+3998, Collins, Elizabeth, Lucas, Miss Lu
+3999, Elizabeth, Wickham
+4010, Elizabeth, Wickham
+4017, Elizabeth, Wickham
+4022, Elizabeth, Wickham
+4026, Elizabeth, Wickham
+4040, Elizabeth, Jane
+4046, Elizabeth, Jane
+4062, Elizabeth, Jane
+4070, Elizabeth, Jane
+4073, Elizabeth, Jane
+4086, Elizabeth, Jane
+4089, Elizabeth, Jane
+4091, Elizabeth, Jane
+4094, Bingley, Darcy, Georgiana, Louisa
+4100, Elizabeth, Jane
+4102, Caroline, Charles, Elizabeth, Jane
+4103, Caroline, Elizabeth, Jane
+4110, Elizabeth, Jane
+4117, Elizabeth, Jane
+4119, Elizabeth, Jane
+4121, Elizabeth, Jane
+4126, Elizabeth, Jane
+4128, Elizabeth, Jane
+4132, Caroline, Elizabeth, Jane
+4143, Elizabeth, Jane
+4149, Elizabeth, Jane
+4157, Elizabeth, Jane
+4162, Elizabeth, Jane
+4166, Elizabeth, Jane
+4178, Elizabeth, Jane
+4180, Elizabeth, Jane
+4184, Bennet, Elizabeth, Jane
+4187, Bennet, Elizabeth, Jane
+4190, Bennet, Elizabeth, Jane
+4201, Collins, Elizabeth, Lucas, Miss Lu
+4206, Charlotte, Elizabeth
+4210, Collins, Elizabeth
+4215, Charlotte, Collins
+4220, Charlotte, Collins
+4223, Collins, Lucas, Miss Lu
+4228, Collins, Lucas, Miss Lu
+4235, Lucas, William
+4236, Bennet, Lucas
+4237, Bennet, William
+4239, Collins, Lucas
+4240, Collins, William
+4241, Collins, Lucas
+4242, Collins, William
+4243, Collins, Lucas
+4244, Charlotte, Elizabeth
+4246, Bennet, Lucas
+4247, Bennet, William
+4248, Collins, Lucas
+4249, Collins, William
+4250, Collins, Lucas
+4251, Charlotte, Younge
+4253, Charlotte, Elizabeth
+4254, Charlotte, Collins
+4255, Charlotte, Elizabeth
+4256, Charlotte, Collins
+4257, Charlotte, Elizabeth
+4258, Charlotte, Collins
+4259, Bennet, Collins
+4260, Collins, Lucas
+4261, Collins, William
+4262, Collins, Lucas
+4263, Collins, Elizabeth
+4267, Charlotte, Elizabeth
+4268, Collins, Elizabeth
+4278, Bennet, Collins
+4280, Bennet, Collins
+4284, Bennet, Collins
+4289, Bennet, Collins
+4292, Bennet, Collins
+4294, Collins, Lady Catherine
+4296, Collins, Lady Catherine
+4300, Collins, Lady Catherine
+4301, Bennet, Collins
+4313, Bennet, Charlotte, Elizabeth
+4325, Charlotte, Elizabeth
+4332, Charlotte, Elizabeth
+4334, Charlotte, Elizabeth
+4339, Charlotte, Elizabeth
+4343, Charlotte, Elizabeth
+4348, Charlotte, Elizabeth
+4357, Charlotte, Elizabeth
+4388, Lydia, William
+4397, Elizabeth, William
+4400, Elizabeth, Jane
+4406, Bennet, William
+4409, Bennet, Collins
+4411, Bennet, Elizabeth
+4419, Bennet, Lucas, William
+4422, Bennet, Charlotte, Lydia
+4428, Elizabeth, Jane
+4431, Kitty, Lucas, Lydia, Miss Lu
+4435, Bennet, Lucas
+4441, Charlotte, Elizabeth
+4444, Elizabeth, Jane
+4449, Caroline, Jane
+4451, Bennet, Collins
+4455, Charlotte, Collins
+4459, Collins, Lady Catherine
+4475, Elizabeth, Jane
+4482, Bingley, Elizabeth
+4486, Bingley, Caroline, Darcy, Mr. Bingl
+4491, Elizabeth, Jane
+4492, Bennet, Elizabeth, Jane
+4497, Bennet, Jane
+4501, Collins, Longbourn
+4511, Bennet, Lucas, Miss Lu
+4514, Bennet, Charlotte, Lucas
+4515, Bennet, Charlotte, Collins, Lucas
+4540, Bennet, Elizabeth
+4553, Bingley, Jane
+4559, Caroline, Darcy, Jane
+4569, Elizabeth, Jane
+4572, Caroline, Elizabeth
+4574, Elizabeth, Jane
+4590, Elizabeth, Jane
+4600, Elizabeth, Jane
+4613, Elizabeth, Jane
+4618, Elizabeth, Jane
+4621, Elizabeth, Jane
+4634, Charlotte, Collins, Elizabeth
+4637, Charlotte, Elizabeth
+4642, Elizabeth, Jane
+4645, Elizabeth, Jane
+4647, Elizabeth, Jane
+4654, Elizabeth, Jane
+4657, Elizabeth, Jane
+4662, Elizabeth, Jane
+4670, Bingley, Elizabeth
+4676, Darcy, Elizabeth
+4681, Darcy, Jane
+4683, Darcy, Elizabeth
+4689, Darcy, Jane
+4694, Darcy, Jane
+4708, Bingley, Elizabeth, Mr. Bingl
+4721, Bennet, Jane, Lizzy
+4722, Bennet, Lizzy
+4727, Bennet, Wickham
+4730, Bennet, Elizabeth
+4733, Bennet, Elizabeth
+4737, Elizabeth, Wickham
+4738, Darcy, Elizabeth
+4746, Bennet, Elizabeth
+4758, Charlotte, Collins
+4759, Bennet, Collins, Longbourn
+4760, Bennet, Collins
+4761, Bennet, Collins, Longbourn
+4768, Bennet, Gardiner
+4770, Bingley, Caroline, Gardiner
+4771, Bingley, Caroline, Man
+4772, Bennet, Bingley, Caroline, Gardiner
+4773, Bingley, Caroline, Gardiner
+4774, Bingley, Caroline, Man
+4775, Bennet, Bingley, Caroline, Gardiner
+4776, Elizabeth, Gardiner, Jane, Longbourn, Niece
+4780, Bennet, Elizabeth
+4788, Bennet, Jane, Lizzy
+4790, Bennet, Lizzy
+4792, Bennet, Collins, Lucas
+4793, Bennet, Lucas
+4794, Bennet, Longbourn, Lucas
+4795, Bennet, Lucas
+4797, Bennet, Elizabeth
+4799, Elizabeth, Gardiner, Jane
+4800, Elizabeth, Gardiner
+4802, Elizabeth, Gardiner, Jane
+4803, Elizabeth, Gardiner
+4807, Elizabeth, Gardiner
+4814, Elizabeth, Gardiner
+4820, Elizabeth, Gardiner
+4826, Elizabeth, Gardiner
+4833, Elizabeth, Gardiner, Jane
+4836, Gardiner, Lizzy
+4837, Elizabeth, Gardiner
+4850, Darcy, Jane
+4858, Elizabeth, Jane
+4861, Bingley, Elizabeth
+4872, Bennet, Bingley, Caroline
+4875, Elizabeth, Gardiner, Wickham
+4878, Bennet, Lucas, Philips
+4881, Gardiner, Wickham
+4882, Elizabeth, Gardiner, Wickham
+4884, Elizabeth, Gardiner, Wickham
+4888, Elizabeth, Gardiner
+4892, Gardiner, Wickham
+4901, Gardiner, Wickham
+4919, Elizabeth, Gardiner
+4976, Collins, Gardiner, Jane
+4977, Bennet, Collins
+4983, Bennet, Charlotte, Elizabeth
+4984, Charlotte, Elizabeth
+4996, Charlotte, Elizabeth
+5002, Charlotte, Elizabeth, Maria
+5003, Charlotte, Elizabeth
+5009, Charlotte, Elizabeth
+5026, Elizabeth, Jane
+5030, Elizabeth, Jane
+5031, Caroline, Jane
+5049, Elizabeth, Jane
+5059, Jane, Lizzy
+5061, Jane, Lizzy
+5068, Caroline, Jane
+5069, Caroline, Elizabeth
+5079, Bingley, Jane, Mr. Bingl
+5080, Elizabeth, Gardiner
+5082, Elizabeth, Wickham
+5093, Jane, Lizzy
+5095, Bingley, Elizabeth
+5097, Elizabeth, Gardiner
+5099, Elizabeth, William
+5100, Elizabeth, Maria
+5102, Elizabeth, Jane
+5104, Elizabeth, Jane
+5106, Darcy, Elizabeth
+5107, Elizabeth, Wickham
+5113, Elizabeth, Gardiner
+5171, Elizabeth, Wickham
+5175, Elizabeth, Wickham
+5187, Elizabeth, Lucas, Maria, William
+5196, Elizabeth, Gardiner, Jane
+5199, Elizabeth, Jane
+5208, Elizabeth, Gardiner
+5213, Elizabeth, Gardiner
+5218, Elizabeth, Gardiner
+5221, Elizabeth, Gardiner
+5224, Elizabeth, Gardiner
+5231, Elizabeth, Gardiner
+5234, Darcy, Elizabeth
+5239, Darcy, Elizabeth
+5244, Bingley, Darcy, Elizabeth
+5247, Bingley, Darcy, Elizabeth
+5251, Darcy, Elizabeth
+5254, Darcy, Elizabeth
+5257, Darcy, Elizabeth
+5260, Darcy, Elizabeth
+5267, Darcy, Elizabeth
+5273, Elizabeth, Gardiner
+5276, Elizabeth, Gardiner
+5295, Elizabeth, Jane
+5300, Charlotte, Collins, Elizabeth
+5305, Charlotte, Collins, Elizabeth
+5323, Charlotte, Collins, Elizabeth
+5330, Charlotte, Collins, Elizabeth
+5337, Charlotte, Collins, Elizabeth
+5344, Charlotte, Collins, Elizabeth
+5350, Charlotte, Collins, Elizabeth
+5352, Charlotte, Collins, Elizabeth
+5353, Charlotte, Collins, Elizabeth, William
+5354, Charlotte, Elizabeth
+5355, Charlotte, Elizabeth, Jane
+5359, Charlotte, Elizabeth
+5362, Charlotte, Elizabeth
+5364, Collins, Lady Catherine
+5368, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5375, Catherine De, Charlotte, De Bourgh, Lady Catherine, Maria
+5377, Catherine De, Charlotte, De Bourgh, Lady Catherine, Maria
+5379, Charlotte, Elizabeth
+5382, Charlotte, Elizabeth
+5387, Charlotte, Elizabeth
+5388, Elizabeth, Rosings
+5390, Collins, Elizabeth, Rosings
+5393, Elizabeth, Rosings
+5399, Elizabeth, Maria
+5402, Elizabeth, Maria
+5406, Elizabeth, Maria
+5411, Elizabeth, Maria
+5415, Elizabeth, Maria
+5420, Elizabeth, Maria
+5423, De Bourgh, Elizabeth
+5430, Charlotte, Collins
+5433, De Bourgh, William
+5438, Charlotte, Collins, Elizabeth, Jane
+5455, Collins, Lady Catherine
+5463, Elizabeth, William
+5473, Collins, Elizabeth
+5484, Bennet, Elizabeth, Lucas, Maria
+5492, Bennet, Collins, Elizabeth
+5497, Collins, De Bourgh, Sir Lewis
+5500, Lucas, Maria, William
+5502, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5507, Catherine De, Collins, De Bourgh, Jenkinson, Lady Catherine
+5509, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine, Lucas, Maria
+5511, Catherine De, Collins, De Bourgh, Lady Catherine
+5516, Catherine De, De Bourgh, Lady Catherine, Lucas, William
+5518, Catherine De, De Bourgh, Lady Catherine, Lucas, Maria
+5520, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5523, Bennet, Elizabeth, Wickham
+5524, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5531, Bennet, De Bourgh, Elizabeth
+5534, De Bourgh, Lucas, Maria
+5535, De Bourgh, Jenkinson
+5536, Catherine De, Collins, De Bourgh, Lady Catherine, Lucas, William
+5542, Bennet, Collins, Elizabeth, Lucas, Maria
+5543, Bennet, Catherine De, Collins, De Bourgh, Elizabeth, Lady Catherine, Lucas, Maria
+5544, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine, Lucas, Maria
+5547, Catherine De, Collins, De Bourgh, Lady Catherine, Lucas, William
+5553, Bennet, Charlotte, De Bourgh, Elizabeth, Lucas
+5554, De Bourgh, Jenkinson
+5555, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine, Lucas, Maria
+5560, De Bourgh, Jenkinson
+5561, Catherine De, Collins, De Bourgh, Lady Catherine, Lucas, William
+5566, Bennet, Charlotte, De Bourgh, Elizabeth, Lucas
+5567, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine, Lucas, Maria
+5571, Catherine De, Collins, De Bourgh, Lady Catherine
+5576, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5579, Catherine De, Collins, De Bourgh, Lady Catherine
+5581, Catherine De, De Bourgh, Lady Catherine, Lucas, Maria
+5583, Bennet, Catherine De, De Bourgh, Elizabeth, Lady Catherine
+5594, Bennet, Collins
+5600, Bennet, Collins
+5602, Bennet, Charlotte, Collins, Lucas
+5604, Bennet, Collins
+5606, Bennet, Collins
+5608, Bennet, Collins
+5610, Bennet, Collins
+5612, Bennet, Collins
+5615, Bennet, Collins
+5617, Elizabeth, Lady Catherine
+5625, Elizabeth, Lady Catherine
+5631, Elizabeth, Lady Catherine
+5636, Collins, Lady Catherine
+5642, Collins, Lady Catherine
+5646, Collins, Lady Catherine
+5650, Elizabeth, Lady Catherine
+5652, Elizabeth, Lady Catherine
+5656, Elizabeth, Lady Catherine
+5664, Elizabeth, Lady Catherine
+5667, Elizabeth, Lady Catherine
+5670, Elizabeth, Lady Catherine
+5674, Elizabeth, Lady Catherine
+5680, Collins, Lady Catherine, William
+5681, De Bourgh, Elizabeth, Jenkinson, Kitty
+5683, Collins, Lady Catherine, William
+5684, Collins, Lady Catherine
+5688, Collins, Lady Catherine, William
+5690, Collins, Lady Catherine
+5691, Lady Catherine, William
+5694, De Bourgh, Lady Catherine
+5696, Collins, Lady Catherine
+5700, Charlotte, Elizabeth
+5701, Collins, Elizabeth
+5703, Charlotte, Elizabeth
+5704, Collins, Elizabeth
+5752, Elizabeth, Lady Catherine
+5755, Collins, Lady Catherine
+5760, Charlotte, Elizabeth
+5770, Elizabeth, Lady Catherine
+5777, Bingley, Darcy, Elizabeth
+5778, Bingley, Darcy, Lady Catherine
+5782, Collins, Colonel, Elizabeth, William
+5788, Collins, Colonel, Darcy, William
+5792, Collins, Colonel, Darcy, William
+5795, Charlotte, Collins, Colonel, Darcy, Elizabeth, William
+5798, Charlotte, Collins, Colonel, Darcy, Elizabeth, William
+5799, Charlotte, Elizabeth
+5802, Charlotte, Darcy, Elizabeth
+5803, Darcy, Elizabeth
+5805, Darcy, Elizabeth
+5808, Collins, Colonel, Elizabeth, William
+5809, Collins, Darcy, Elizabeth
+5813, Darcy, Elizabeth
+5815, Charlotte, Colonel, Elizabeth, William
+5818, Charlotte, Darcy, Elizabeth
+5823, Colonel, Elizabeth, William
+5836, Colonel, Lady Catherine, William
+5839, Colonel, William
+5841, Colonel, William
+5843, Colonel, Lady Catherine, William
+5844, Darcy, Lady Catherine
+5846, Colonel, Lady Catherine, William
+5848, Darcy, Lady Catherine
+5851, Elizabeth, Lady Catherine
+5855, Darcy, Lady Catherine
+5856, Colonel, Darcy, Elizabeth, Georgiana, William
+5858, Colonel, Darcy, Elizabeth, Georgiana, William
+5860, Collins, Colonel, Elizabeth, William
+5861, Colonel, Elizabeth, William
+5864, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5865, Colonel, Darcy, Elizabeth, William
+5867, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5870, Colonel, Lady Catherine, William
+5873, Colonel, Lady Catherine, William
+5876, Colonel, Lady Catherine, William
+5878, Colonel, Elizabeth, Lady Catherine, William
+5879, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5882, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5884, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5886, Colonel, Darcy, Elizabeth, Lady Catherine, William
+5890, Darcy, Lady Catherine
+5903, Darcy, Lady Catherine
+5906, Colonel, Elizabeth, William
+5908, Colonel, Lady Catherine, William
+5911, Colonel, Elizabeth, William
+5912, Darcy, Elizabeth
+5915, Darcy, Elizabeth
+5921, Darcy, Elizabeth
+5923, Colonel, Elizabeth, William
+5924, Darcy, Elizabeth
+5925, Colonel, Elizabeth, William
+5927, Colonel, Elizabeth, William
+5929, Darcy, Elizabeth
+5937, Darcy, Elizabeth
+5939, Colonel, Darcy, Elizabeth, William
+5942, Colonel, Darcy, Elizabeth, William
+5950, Darcy, Elizabeth
+5953, Colonel, Darcy, William
+5959, Colonel, Elizabeth, William
+5964, Darcy, Elizabeth, William
+5967, Darcy, Elizabeth
+5972, Darcy, Elizabeth
+5979, Darcy, Elizabeth
+5983, Darcy, Elizabeth, Lady Catherine
+5984, Elizabeth, Lady Catherine
+5985, Darcy, Lady Catherine
+5988, Darcy, Lady Catherine
+5993, Darcy, Elizabeth
+5999, Elizabeth, Lady Catherine
+6002, Elizabeth, Lady Catherine
+6011, Elizabeth, Jane
+6014, Darcy, Elizabeth
+6020, Darcy, Elizabeth
+6024, Darcy, Elizabeth
+6031, Darcy, Elizabeth
+6032, Bingley, Darcy, Elizabeth, Mr. Bingl
+6033, Darcy, Elizabeth
+6049, Bingley, Elizabeth, Mr. Bingl
+6056, Darcy, Elizabeth
+6063, Darcy, Lady Catherine
+6067, Darcy, Elizabeth
+6070, Darcy, Elizabeth
+6072, Darcy, Elizabeth
+6079, Darcy, Elizabeth
+6084, Darcy, Elizabeth
+6087, Darcy, Elizabeth
+6091, Darcy, Elizabeth
+6094, Darcy, Elizabeth
+6096, Darcy, Elizabeth
+6098, Darcy, Elizabeth
+6100, Darcy, Elizabeth
+6102, Darcy, Elizabeth
+6104, Darcy, Elizabeth
+6107, Darcy, Elizabeth
+6111, Darcy, Elizabeth
+6115, Darcy, Elizabeth
+6117, Darcy, Elizabeth
+6119, Charlotte, Darcy, Elizabeth
+6121, Charlotte, Darcy, Elizabeth
+6124, Charlotte, Elizabeth
+6128, Charlotte, Elizabeth
+6130, Charlotte, Elizabeth
+6132, Charlotte, Elizabeth, Lady Catherine
+6133, Charlotte, Colonel, Elizabeth, William
+6140, Colonel, Elizabeth, William
+6142, Elizabeth, George, Wickham
+6143, Colonel, Elizabeth, William
+6144, Collins, Colonel, Darcy, William
+6145, Collins, Darcy
+6147, Collins, Darcy
+6148, Collins, Colonel, William
+6149, Collins, Darcy
+6150, Darcy, Elizabeth
+6153, Collins, Colonel, William
+6154, Collins, Darcy
+6155, Collins, Colonel, William
+6156, Collins, Elizabeth
+6161, Darcy, Elizabeth
+6164, Collins, Elizabeth
+6167, Colonel, Elizabeth, William
+6171, Colonel, Elizabeth, William
+6175, Collins, Darcy
+6180, Darcy, Elizabeth
+6183, Darcy, Elizabeth
+6187, Colonel, Elizabeth, William
+6196, Darcy, Elizabeth
+6199, Colonel, Elizabeth, William
+6205, Elizabeth, Jane
+6207, Colonel, Elizabeth, William
+6211, Colonel, Elizabeth, William
+6224, Darcy, Elizabeth
+6227, Darcy, Elizabeth
+6231, Colonel, Elizabeth, William
+6237, Colonel, Elizabeth, William
+6242, Colonel, Elizabeth, William
+6247, Colonel, Elizabeth, William
+6250, Colonel, Elizabeth, William
+6254, Darcy, Elizabeth
+6259, Colonel, Elizabeth, William
+6263, Darcy, Elizabeth
+6269, Colonel, Elizabeth, William
+6272, Colonel, Elizabeth, William
+6277, Colonel, Elizabeth, William
+6282, Colonel, Elizabeth, William
+6287, Bingley, Darcy, Elizabeth
+6290, Bingley, Darcy, Elizabeth
+6293, Bingley, Darcy, Elizabeth
+6301, Darcy, Elizabeth
+6305, Bingley, Darcy
+6315, Darcy, William
+6317, Darcy, William
+6320, Darcy, William
+6322, Darcy, William
+6325, Elizabeth, William
+6327, Elizabeth, William
+6329, Elizabeth, William
+6342, Elizabeth, William
+6345, Darcy, Elizabeth
+6363, Colonel, Elizabeth, William
+6368, Elizabeth, Jane
+6371, Bennet, Elizabeth
+6374, Bennet, Elizabeth
+6382, Collins, Elizabeth
+6385, Collins, Lady Catherine
+6397, Elizabeth, Jane
+6399, Elizabeth, Jane
+6408, Elizabeth, Jane
+6410, Elizabeth, Jane
+6415, Colonel, Elizabeth, William
+6420, Colonel, Elizabeth, William
+6423, Colonel, Elizabeth, William
+6425, Darcy, Elizabeth
+6427, Darcy, Elizabeth
+6437, Darcy, Elizabeth
+6448, Darcy, Elizabeth
+6454, Darcy, Elizabeth
+6459, Darcy, Elizabeth
+6463, Darcy, Elizabeth
+6467, Darcy, Elizabeth
+6470, Darcy, Elizabeth
+6474, Darcy, Elizabeth
+6476, Darcy, Elizabeth
+6478, Darcy, Elizabeth
+6482, Darcy, Elizabeth
+6486, Darcy, Elizabeth
+6489, Darcy, Elizabeth
+6491, Darcy, Elizabeth
+6496, Darcy, Elizabeth
+6498, Darcy, Elizabeth
+6500, Darcy, Elizabeth
+6503, Darcy, Elizabeth
+6505, Darcy, Elizabeth
+6508, Darcy, Elizabeth
+6519, Darcy, Elizabeth
+6524, Elizabeth, Wickham
+6529, Darcy, Elizabeth
+6532, Darcy, Elizabeth
+6538, Darcy, Elizabeth
+6546, Darcy, Elizabeth
+6549, Darcy, Elizabeth
+6562, Darcy, Elizabeth
+6565, Darcy, Elizabeth
+6570, Darcy, Elizabeth
+6572, Darcy, Elizabeth
+6575, Darcy, Elizabeth
+6578, Darcy, Elizabeth
+6586, Darcy, Elizabeth
+6591, Darcy, Elizabeth
+6609, Elizabeth, Lady Catherine
+6624, Darcy, Elizabeth
+6635, Darcy, Elizabeth
+6639, Darcy, Elizabeth
+6641, Darcy, Elizabeth
+6645, Darcy, Elizabeth
+6655, Darcy, Elizabeth
+6666, Darcy, Elizabeth
+6869, Darcy, Elizabeth
+6874, Darcy, Elizabeth
+6966, Elizabeth, Wickham
+6982, Elizabeth, Wickham
+6987, Bingley, Elizabeth, Jane
+6988, Darcy, Elizabeth
+6989, Colonel, Elizabeth, William
+6995, Bingley, Elizabeth, Wickham
+7001, Colonel, Darcy, Elizabeth, William
+7006, Darcy, Elizabeth, Wickham
+7021, Bingley, Elizabeth, Jane
+7022, Darcy, Elizabeth
+7024, Colonel, Elizabeth, William
+7030, Darcy, Elizabeth, Jane
+7034, Darcy, Elizabeth, Jane
+7042, Darcy, Elizabeth, Jane
+7058, Colonel, Darcy, Elizabeth, William
+7072, Collins, Lady Catherine
+7077, Collins, Darcy, Georgiana, Lady Catherine
+7082, Elizabeth, Lady Catherine
+7089, Colonel, Darcy, Lady Catherine, William
+7093, Colonel, Darcy, Lady Catherine, William
+7095, Darcy, Lady Catherine
+7098, Collins, Darcy, Georgiana, Lady Catherine
+7101, Bennet, Jane, Lady Catherine
+7105, Elizabeth, Lady Catherine
+7109, Elizabeth, Lady Catherine
+7113, Elizabeth, Lady Catherine
+7129, Collins, Lady Catherine
+7132, Collins, Lady Catherine
+7139, Darcy, Georgiana, Lady Anne, Lady Catherine
+7140, Collins, Lady Catherine
+7146, Collins, Elizabeth
+7148, Collins, Elizabeth, Lady Catherine
+7149, Elizabeth, Lady Catherine
+7153, Elizabeth, Lady Catherine
+7176, Elizabeth, Jane
+7187, Elizabeth, Jane
+7202, Elizabeth, Lady Catherine
+7205, Elizabeth, Maria
+7220, Collins, Elizabeth
+7224, Collins, Elizabeth
+7235, Charlotte, Collins, Elizabeth
+7241, Collins, Elizabeth
+7254, Collins, Elizabeth
+7258, Collins, Elizabeth
+7270, Collins, Elizabeth
+7273, Charlotte, Collins, Elizabeth
+7282, Collins, Elizabeth
+7286, Collins, Elizabeth
+7287, Collins, Elizabeth, Maria
+7295, Elizabeth, Maria
+7313, Elizabeth, Jane
+7318, Elizabeth, Jane
+7344, Elizabeth, Jane, Lydia
+7348, Elizabeth, Jane, Lydia
+7355, Elizabeth, Jane, Lydia
+7362, Elizabeth, Lydia
+7375, Elizabeth, Jane, Lydia
+7379, Elizabeth, Jane, Lydia
+7382, Elizabeth, Jane, Lydia
+7390, Elizabeth, Jane
+7397, Elizabeth, Jane
+7401, Darcy, Elizabeth
+7411, Kitty, Lydia
+7415, Jane, Lydia
+7418, Jane, Lydia
+7419, Bennet, Lydia
+7420, Collins, Lizzy, Lydia
+7421, Lizzy, Lydia
+7424, Kitty, Lydia
+7426, Forster, Lydia
+7428, Harriet, Lydia, Pen
+7429, Chamberlayne, Kitty, Lydia
+7430, Colonel, Forster, Kitty, Lydia
+7431, Denny, Kitty, Lydia, Pratt, Wickham
+7432, Forster, Kitty, Lydia
+7433, Denny, Kitty, Lydia, Pratt, Wickham
+7434, Forster, Kitty, Lydia
+7435, Colonel, Forster, Kitty, Lydia
+7436, Denny, Kitty, Lydia, Pratt, Wickham
+7438, Kitty, Lydia
+7441, Elizabeth, Kitty, Lydia
+7443, Bennet, Elizabeth, Jane
+7444, Bennet, Elizabeth
+7459, Kitty, Lydia
+7470, Lydia, Mary
+7478, Elizabeth, Lydia
+7482, Elizabeth, Wickham
+7502, Elizabeth, Jane
+7507, Elizabeth, Jane
+7518, Darcy, Elizabeth
+7522, Bingley, Elizabeth
+7524, Bingley, Elizabeth
+7526, Bingley, Elizabeth
+7528, Darcy, Elizabeth, Jane
+7531, Darcy, Elizabeth, Jane
+7540, Darcy, Elizabeth, Jane
+7547, Elizabeth, Jane
+7549, Darcy, Elizabeth, Jane
+7556, Darcy, Elizabeth, Jane
+7562, Darcy, Elizabeth
+7578, Elizabeth, Jane
+7581, Elizabeth, Jane
+7586, Darcy, Elizabeth
+7590, Darcy, Elizabeth
+7596, Bennet, Elizabeth
+7599, Darcy, Elizabeth
+7611, Elizabeth, Jane
+7615, Elizabeth, Jane
+7618, Elizabeth, Jane
+7621, Elizabeth, Jane
+7624, Elizabeth, Jane
+7625, Bingley, Elizabeth
+7627, Bingley, Elizabeth
+7630, Elizabeth, Jane
+7632, Elizabeth, Jane
+7634, Elizabeth, Jane
+7637, Elizabeth, Jane
+7641, Bennet, Elizabeth, Lizzy
+7643, Bennet, Philips
+7650, Bennet, Elizabeth, Lizzy
+7652, Bennet, Elizabeth, Lizzy
+7655, Bennet, Jane
+7658, Bennet, Elizabeth
+7661, Bennet, Elizabeth, Lizzy
+7662, Bennet, Collins
+7663, Bennet, Charlotte
+7668, Bennet, Elizabeth
+7670, Bennet, Collins
+7676, Elizabeth, Kitty, Lydia
+7678, Darcy, Elizabeth
+7679, Bingley, Elizabeth
+7680, Bennet, Elizabeth, Jane
+7681, Elizabeth, Wickham
+7686, Collins, Elizabeth
+7689, Elizabeth, Gardiner
+7690, Elizabeth, Lady Catherine
+7691, Bingley, Caroline, Elizabeth
+7692, Bennet, Kitty, Lydia
+7693, Bennet, Elizabeth, Lydia
+7695, Bennet, Elizabeth, Jane
+7714, Elizabeth, Kitty
+7716, Darcy, Elizabeth, Kitty
+7725, Forster, Lydia
+7728, Forster, Lydia
+7732, Bennet, Kitty, Lydia
+7740, Elizabeth, Kitty
+7744, Elizabeth, Jane, Kitty
+7746, Elizabeth, Lydia
+7749, Bennet, Elizabeth
+7750, Bennet, Elizabeth, Lydia
+7756, Bennet, Lydia
+7761, Bennet, Elizabeth
+7766, Bennet, Elizabeth
+7772, Bennet, Elizabeth
+7792, Bennet, Elizabeth
+7795, Bennet, Elizabeth
+7796, Elizabeth, Jane
+7798, Kitty, Lydia
+7815, Bennet, Lydia
+7816, Bennet, Elizabeth, Lydia
+7817, Bennet, Lydia
+7818, Elizabeth, Lydia
+7827, Bennet, Elizabeth, Lydia
+7828, Bennet, Lydia
+7829, Lydia, Wickham
+7834, Kitty, Lydia
+7836, Elizabeth, Lydia
+7838, Elizabeth, Wickham
+7853, Elizabeth, Wickham
+7857, Colonel, Darcy, Elizabeth, William
+7858, Elizabeth, Wickham
+7860, Elizabeth, Wickham
+7877, Elizabeth, Wickham
+7883, Elizabeth, Wickham
+7886, Elizabeth, Wickham
+7891, Elizabeth, Wickham
+7895, Elizabeth, Wickham
+7897, Elizabeth, Wickham
+7912, Darcy, Elizabeth
+7920, Forster, Lydia
+7921, Bennet, Kitty, Lydia
+7925, Bennet, Lydia
+7926, Bennet, Kitty, Lydia
+7927, Elizabeth, Wickham
+7934, Elizabeth, Wickham
+7937, Bennet, Elizabeth
+7945, Elizabeth, Jane
+7949, Kitty, Lydia
+7953, Forster, Lydia
+7955, Forster, Lydia
+7956, Bennet, Lydia
+7958, Elizabeth, Jane
+8039, Elizabeth, Gardiner
+8049, Elizabeth, Gardiner
+8052, Gardiner, Jane
+8058, Elizabeth, Gardiner
+8070, Elizabeth, Gardiner
+8080, Elizabeth, Gardiner
+8085, Elizabeth, Gardiner
+8090, Elizabeth, Gardiner
+8095, Elizabeth, Gardiner
+8113, Darcy, Elizabeth
+8121, Bingley, Elizabeth
+8125, Bingley, Darcy, Elizabeth
+8126, Darcy, Elizabeth
+8129, Darcy, Elizabeth
+8144, Darcy, Elizabeth
+8151, Darcy, Elizabeth
+8168, Darcy, Elizabeth
+8177, Elizabeth, Reynolds
+8179, Bennet, Elizabeth, Reynolds
+8180, Elizabeth, Reynolds
+8184, Bennet, Elizabeth, Jane
+8185, Bennet, Elizabeth, Jane, Reynolds
+8187, Bennet, Elizabeth, Jane, Reynolds
+8192, Elizabeth, Gardiner
+8195, Gardiner, Reynolds
+8196, Elizabeth, Gardiner, Reynolds
+8199, Elizabeth, Gardiner
+8200, Elizabeth, Gardiner, Reynolds
+8203, Elizabeth, Gardiner, Reynolds
+8206, Elizabeth, Gardiner, Reynolds
+8208, Elizabeth, Gardiner, Reynolds
+8210, Elizabeth, Gardiner, Reynolds
+8219, Elizabeth, Wickham
+8224, Gardiner, Reynolds
+8226, Gardiner, Reynolds
+8231, Gardiner, Reynolds
+8236, Gardiner, Reynolds
+8238, Gardiner, Reynolds
+8243, Gardiner, Reynolds
+8249, Elizabeth, Gardiner
+8251, Elizabeth, Gardiner
+8260, Elizabeth, Gardiner
+8263, Elizabeth, Reynolds
+8265, Elizabeth, Gardiner
+8279, Elizabeth, Reynolds
+8280, Elizabeth, Gardiner
+8308, Elizabeth, Reynolds
+8311, Darcy, Reynolds
+8319, Elizabeth, Reynolds
+8321, Elizabeth, Reynolds
+8326, Elizabeth, Reynolds
+8329, Elizabeth, Reynolds
+8347, Elizabeth, Gardiner
+8351, Bennet, Darcy, Elizabeth
+8354, Bennet, Darcy, Elizabeth
+8356, Bennet, Darcy, Elizabeth
+8357, Darcy, Elizabeth
+8364, Darcy, Elizabeth
+8367, Bennet, Gardiner
+8368, Darcy, Elizabeth
+8383, Darcy, Elizabeth
+8387, Bennet, Darcy
+8388, Bennet, Elizabeth
+8393, Darcy, Elizabeth
+8407, Bennet, Gardiner
+8408, Bennet, Elizabeth
+8413, Darcy, Elizabeth
+8423, Bennet, Gardiner
+8424, Bennet, Elizabeth
+8426, Bennet, Elizabeth
+8430, Bennet, Gardiner
+8431, Darcy, Elizabeth
+8441, Bennet, Gardiner
+8442, Bennet, Elizabeth
+8445, Darcy, Elizabeth
+8467, Darcy, Gardiner
+8476, Elizabeth, Gardiner
+8477, Darcy, Elizabeth
+8480, Darcy, Gardiner
+8481, Darcy, Elizabeth
+8489, Darcy, Elizabeth, Gardiner
+8490, Darcy, Gardiner
+8494, Elizabeth, Gardiner
+8495, Darcy, Elizabeth
+8503, Darcy, Elizabeth, Gardiner
+8504, Darcy, Gardiner
+8507, Darcy, Elizabeth
+8508, Darcy, Elizabeth, Gardiner
+8509, Darcy, Elizabeth
+8511, Darcy, Elizabeth, Gardiner
+8522, Darcy, Elizabeth
+8527, Darcy, Elizabeth
+8532, Darcy, Elizabeth
+8539, Darcy, Elizabeth
+8543, Darcy, Elizabeth, Gardiner
+8544, Darcy, Elizabeth
+8546, Darcy, Elizabeth
+8552, Darcy, Elizabeth, Gardiner
+8554, Darcy, Elizabeth
+8621, Darcy, Elizabeth
+8660, Darcy, Elizabeth
+8668, Darcy, Elizabeth
+8676, Darcy, Elizabeth
+8677, Bingley, Elizabeth
+8686, Bingley, Gardiner
+8687, Darcy, Elizabeth, Gardiner
+8688, Bingley, Darcy, Elizabeth, Gardiner
+8696, Bingley, Darcy, Elizabeth
+8723, Darcy, Elizabeth
+8729, Darcy, Elizabeth
+8753, Bennet, Darcy, Gardiner
+8755, Elizabeth, Gardiner
+8758, Elizabeth, Gardiner
+8763, Bingley, Elizabeth
+8767, Bingley, Elizabeth
+8769, Bingley, Elizabeth
+8771, Elizabeth, Gardiner
+8774, Darcy, Gardiner
+8780, Darcy, Elizabeth
+8790, Darcy, Elizabeth
+8802, Darcy, Elizabeth
+8805, Darcy, Elizabeth
+8807, Darcy, Elizabeth
+8817, Darcy, Elizabeth
+8825, Darcy, Elizabeth
+8827, Darcy, Elizabeth
+8834, Elizabeth, Gardiner
+8838, Darcy, Elizabeth
+8850, Bingley, Elizabeth
+8865, Bingley, Gardiner, Georgiana, Hurst
+8866, Bingley, Georgiana, Hurst
+8867, Annesley, Elizabeth, Gardiner
+8868, Annesley, Georgiana
+8869, Annesley, Elizabeth, Gardiner
+8870, Gardiner, Georgiana
+8871, Annesley, Bingley, Hurst
+8873, Bingley, Hurst
+8874, Annesley, Elizabeth, Gardiner
+8875, Annesley, Georgiana
+8876, Annesley, Elizabeth, Gardiner
+8877, Annesley, Bingley, Hurst
+8878, Annesley, Georgiana
+8879, Annesley, Elizabeth, Gardiner
+8880, Annesley, Darcy
+8881, Darcy, Elizabeth
+8883, Bingley, Elizabeth
+8884, Darcy, Elizabeth
+8886, Bingley, Darcy, Elizabeth
+8887, Bingley, Darcy
+8888, Darcy, Elizabeth
+8890, Bingley, Darcy, Elizabeth
+8891, Annesley, Georgiana
+8892, Bingley, Elizabeth
+8897, Bingley, Darcy, Elizabeth
+8898, Annesley, Georgiana
+8899, Bingley, Darcy, Elizabeth
+8906, Darcy, Elizabeth
+8912, Darcy, Gardiner
+8913, Bingley, Darcy, Gardiner, Georgiana
+8915, Bingley, Darcy, Elizabeth
+8916, Bingley, Darcy
+8919, Bingley, Darcy, Elizabeth
+8920, Bingley, Darcy
+8925, Darcy, Elizabeth
+8928, Bingley, Darcy
+8931, Darcy, Elizabeth
+8934, Darcy, Elizabeth, Georgiana
+8941, Bingley, Darcy, Elizabeth
+8949, Bingley, Darcy, Elizabeth
+8958, Bingley, Darcy, Elizabeth
+8959, Darcy, Elizabeth, Georgiana
+8966, Bingley, Darcy, Georgiana
+8976, Bingley, Darcy, Elizabeth
+8981, Bingley, Darcy, Elizabeth
+8986, Bingley, Darcy, Elizabeth
+8996, Bingley, Darcy, Elizabeth
+9002, Bingley, Darcy, Elizabeth
+9009, Bingley, Darcy, Elizabeth
+9016, Elizabeth, Gardiner
+9131, Darcy, Elizabeth
+9149, Darcy, Elizabeth
+9155, Darcy, Elizabeth
+9159, Darcy, Elizabeth
+9163, Darcy, Elizabeth
+9171, Darcy, Elizabeth
+9173, Darcy, Elizabeth
+9179, Darcy, Elizabeth
+9182, Darcy, Elizabeth
+9194, Darcy, Elizabeth
+9200, Darcy, Elizabeth
+9202, Darcy, Elizabeth
+9206, Darcy, Elizabeth
+9211, Elizabeth, Lydia
+9216, Darcy, Elizabeth
+9219, Darcy, Elizabeth
+9227, Darcy, Elizabeth
+9231, Darcy, Elizabeth
+9236, Darcy, Elizabeth
+9244, Darcy, Elizabeth
+9251, Elizabeth, Wickham
+9252, Darcy, Elizabeth
+9255, Elizabeth, Lydia
+9256, Elizabeth, Jane
+9258, Elizabeth, Wickham
+9269, Elizabeth, Lydia
+9278, Elizabeth, Jane
+9280, Elizabeth, Gardiner
+9297, Darcy, Elizabeth, Gardiner
+9299, Elizabeth, Gardiner
+9300, Darcy, Elizabeth
+9302, Elizabeth, Gardiner
+9306, Elizabeth, Gardiner
+9321, Elizabeth, Gardiner
+9324, Elizabeth, Gardiner
+9335, Elizabeth, Gardiner
+9337, Elizabeth, Gardiner
+9343, Elizabeth, Gardiner
+9348, Elizabeth, Gardiner
+9355, Elizabeth, Gardiner
+9361, Elizabeth, Gardiner, Jane
+9378, Elizabeth, Gardiner
+9381, Elizabeth, Gardiner
+9396, Elizabeth, Gardiner, Jane
+9399, Elizabeth, Gardiner
+9406, Elizabeth, Gardiner
+9409, Elizabeth, Gardiner
+9420, Elizabeth, Jane
+9421, Elizabeth, Jane, Lydia
+9423, Colonel, Darcy, Elizabeth, William
+9425, Elizabeth, Jane
+9431, Elizabeth, Forster, Lydia
+9433, Elizabeth, Lydia
+9437, Elizabeth, Jane
+9440, Elizabeth, Jane
+9442, Elizabeth, Jane
+9450, Elizabeth, Jane
+9457, Elizabeth, Jane
+9462, Elizabeth, Jane
+9468, Elizabeth, Jane
+9472, Elizabeth, Jane
+9476, Elizabeth, Jane
+9479, Elizabeth, Jane
+9481, Elizabeth, Gardiner
+9483, Elizabeth, Gardiner
+9485, Elizabeth, Gardiner
+9490, Elizabeth, Gardiner
+9492, Elizabeth, Gardiner
+9497, Elizabeth, Jane
+9500, Elizabeth, Jane
+9501, Elizabeth, Gardiner, Jane
+9506, Elizabeth, Gardiner, Jane
+9514, Elizabeth, Gardiner, Jane
+9534, Bennet, Gardiner
+9539, Bennet, Gardiner
+9548, Bennet, Gardiner
+9562, Bennet, Gardiner
+9576, Elizabeth, Kitty, Mary
+9583, Elizabeth, Mary
+9586, Elizabeth, Mary
+9590, Elizabeth, Mary
+9597, Elizabeth, Mary
+9608, Elizabeth, Jane
+9609, Jane, Lydia
+9610, Elizabeth, Jane, Lydia
+9612, Colonel, Forster, Jane
+9619, Denny, Elizabeth, Jane
+9620, Denny, Elizabeth, Jane, Wickham
+9622, Denny, Elizabeth, Jane
+9627, Colonel, Elizabeth, Forster, Jane
+9628, Colonel, Denny, Elizabeth, Forster, Jane
+9630, Elizabeth, Jane, Kitty
+9635, Kitty, Lydia
+9636, Elizabeth, Jane, Kitty, Lydia
+9639, Colonel, Elizabeth, Forster, Jane
+9641, Colonel, Elizabeth, Forster, Jane
+9643, Colonel, Elizabeth, Forster, Jane, Wickham
+9646, Colonel, Elizabeth, Forster, Jane
+9647, Colonel, Elizabeth, Forster, Jane, Wickham
+9651, Elizabeth, Jane
+9654, Elizabeth, Jane
+9656, Elizabeth, Jane
+9659, Elizabeth, Jane
+9661, Colonel, Elizabeth, Forster
+9662, Colonel, Forster
+9664, Elizabeth, Jane
+9666, Elizabeth, Jane
+9669, Harriet, Lydia
+9671, Harriet, Lydia
+9684, Lydia, Sally
+9686, Colonel, Forster, Lydia
+9691, Elizabeth, Lydia
+9694, Elizabeth, Jane
+9704, Elizabeth, Jane
+9713, Elizabeth, Jane
+9717, Elizabeth, Kitty, Mary
+9722, Elizabeth, Lucas
+9727, Elizabeth, Lucas
+9732, Elizabeth, Jane
+9735, Elizabeth, Jane
+9763, Bennet, Gardiner
+9764, Elizabeth, Gardiner, Jane
+9765, Bennet, Gardiner
+9767, Elizabeth, Gardiner, Jane
+9769, Elizabeth, Gardiner, Jane
+9770, Elizabeth, Jane, Lucas
+9772, Bennet, Colonel, Forster
+9774, Bennet, Gardiner
+9776, Elizabeth, Jane, Lucas
+9779, Elizabeth, Jane
+9780, Bennet, Colonel, Forster
+9782, Bennet, Gardiner
+9784, Elizabeth, Jane, Lucas
+9786, Elizabeth, Jane
+9787, Bennet, Colonel, Forster
+9789, Bennet, Gardiner
+9791, Elizabeth, Jane, Lucas
+9793, Elizabeth, Jane, Lucas
+9794, Bennet, Gardiner
+9796, Bennet, Colonel, Forster
+9798, Bennet, Gardiner
+9800, Elizabeth, Jane, Lucas
+9802, Elizabeth, Jane
+9803, Bennet, Colonel, Forster
+9805, Bennet, Gardiner
+9807, Bennet, Gardiner
+9808, Elizabeth, Jane, Lucas
+9810, Elizabeth, Jane
+9811, Bennet, Colonel, Forster
+9813, Bennet, Gardiner
+9815, Elizabeth, Jane, Lucas
+9818, Elizabeth, Jane
+9819, Bennet, Colonel, Forster
+9822, Bennet, Gardiner
+9824, Elizabeth, Jane, Lucas
+9826, Elizabeth, Jane
+9834, Elizabeth, Jane
+9841, Bennet, Collins
+9843, Bennet, Collins
+9845, Bennet, Collins, De Bourgh, Lady Catherine
+9856, Bennet, Charlotte, Collins
+9858, Bennet, Charlotte, Collins
+9861, Bennet, Collins
+9863, Bennet, Collins, De Bourgh, Lady Catherine
+9871, Bennet, Charlotte, Collins
+9876, Bennet, Collins
+9878, Colonel, Forster, Gardiner
+9879, Elizabeth, Gardiner
+9881, Gardiner, Jane
+9883, Bennet, Gardiner
+9884, Colonel, Forster, Gardiner
+9885, Gardiner, Jane
+9887, Elizabeth, Gardiner
+9889, Gardiner, Jane
+9891, Bennet, Gardiner
+9892, Colonel, Forster, Gardiner
+9893, Gardiner, Jane
+9896, Elizabeth, Gardiner
+9898, Gardiner, Jane
+9900, Bennet, Gardiner
+9901, Colonel, Forster, Gardiner
+9902, Gardiner, Jane
+9905, Bennet, Gardiner
+9906, Elizabeth, Gardiner
+9909, Bennet, Gardiner
+9911, Elizabeth, Gardiner
+9914, Gardiner, Jane
+9930, Bennet, Elizabeth
+9936, Bennet, Elizabeth
+9942, Bennet, Elizabeth
+9944, Bennet, Elizabeth
+9949, Elizabeth, Kitty
+9951, Bennet, Elizabeth
+9953, Elizabeth, Kitty
+9955, Bennet, Kitty
+9958, Bennet, Elizabeth
+9970, Bennet, Kitty
+9973, Bennet, Kitty
+9976, Bennet, Kitty
+9981, Bennet, Kitty
+9983, Bennet, Kitty
+9993, Elizabeth, Hill, Jane
+9996, Bennet, Hill
+9997, Elizabeth, Hill, Jane
+10001, Elizabeth, Hill, Jane
+10003, Bennet, Elizabeth, Hill, Jane
+10024, Bennet, Elizabeth
+10026, Bennet, Elizabeth
+10030, Bennet, Elizabeth
+10033, Bennet, Elizabeth
+10035, Bennet, Elizabeth
+10049, Elizabeth, Jane
+10064, Elizabeth, Wickham
+10074, Elizabeth, Jane
+10081, Elizabeth, Jane
+10084, Elizabeth, Jane
+10087, Elizabeth, Jane
+10089, Elizabeth, Jane
+10091, Darcy, Elizabeth
+10094, Bennet, Elizabeth, Jane
+10097, Bennet, Jane
+10100, Bennet, Elizabeth, Jane
+10104, Darcy, Elizabeth
+10107, Darcy, Elizabeth
+10111, Darcy, Elizabeth
+10113, Darcy, Elizabeth
+10116, Elizabeth, Jane
+10122, Bennet, Elizabeth
+10127, Bennet, Wickham
+10131, Bennet, Elizabeth
+10138, Elizabeth, Jane
+10143, Elizabeth, Jane
+10150, Elizabeth, Jane
+10161, Elizabeth, Jane
+10168, Elizabeth, Jane
+10177, Bennet, Elizabeth
+10179, Bennet, Elizabeth
+10181, Bennet, Elizabeth
+10183, Elizabeth, Kitty, Mary
+10184, Bennet, Jane, Kitty, Mary
+10187, Bennet, Jane, Lydia
+10194, Bennet, Jane, Lydia
+10199, Bennet, Elizabeth
+10201, Bennet, Kitty
+10202, Bennet, Lydia
+10204, Bennet, Jane
+10208, Bennet, Jane
+10212, Bennet, Elizabeth
+10216, Bennet, Jane
+10222, Bennet, Jane
+10229, Elizabeth, Kitty
+10237, Elizabeth, Hill
+10259, Bennet, Wickham
+10281, Bennet, Wickham
+10294, Bennet, Wickham
+10304, Elizabeth, Hill, Kitty
+10305, Lucas, Mrs. Long
+10306, Bennet, Lydia
+10348, Darcy, Elizabeth
+10352, Darcy, Elizabeth
+10359, Darcy, Elizabeth
+10370, Darcy, Elizabeth
+10380, Darcy, Elizabeth
+10386, Darcy, Elizabeth
+10404, Bennet, Gardiner
+10408, Gardiner, Lydia, Wickham
+10411, Gardiner, Wickham
+10414, Gardiner, Wickham
+10422, Colonel, Forster, Gardiner, Wickham
+10423, Gardiner, Wickham
+10424, Bennet, Elizabeth, Jane
+10426, Bennet, Lydia, Wickham
+10428, Bennet, Elizabeth, Jane
+10430, Bennet, Gardiner
+10434, Forster, Lydia, Wickham
+10436, Bennet, Elizabeth, Jane
+10438, Bennet, Lydia, Wickham
+10440, Bennet, Gardiner
+10445, Bennet, Lydia, Wickham
+10447, Bennet, Elizabeth, Jane
+10450, Bennet, Elizabeth, Jane
+10452, Bennet, Gardiner
+10454, Forster, Lydia, Wickham
+10455, Bennet, Elizabeth, Jane
+10459, Bennet, Gardiner
+10461, Forster, Lydia, Wickham
+10462, Bennet, Elizabeth, Jane
+10464, Forster, Lydia, Wickham
+10465, Bennet, Elizabeth, Jane
+10497, Elizabeth, Lydia
+10504, Elizabeth, Wickham
+10516, Elizabeth, Wickham
+10523, Elizabeth, Jane, Lydia
+10529, Elizabeth, Jane
+10533, Lydia, William
+10542, Elizabeth, Lydia
+10543, Jane, Lydia
+10546, Jane, Lydia
+10552, Hill, Lydia
+10562, Bennet, Lydia
+10576, Bennet, Elizabeth
+10579, Bennet, Elizabeth
+10584, Bennet, Lydia
+10589, Elizabeth, Wickham
+10599, Lydia, Wickham
+10605, Elizabeth, Jane
+10643, Darcy, Elizabeth
+10648, Elizabeth, Wickham
+10651, Elizabeth, Jane
+10654, Elizabeth, Lydia
+10688, Elizabeth, Jane
+10708, Darcy, Gardiner
+10712, Bennet, Elizabeth, Gardiner
+10714, Darcy, Gardiner
+10716, Darcy, Wickham
+10717, Darcy, Lydia
+10718, Darcy, Wickham
+10719, Darcy, Lydia
+10720, Darcy, Wickham
+10722, Darcy, Gardiner
+10723, Bennet, Darcy
+10724, Darcy, Gardiner
+10725, Bennet, Darcy
+10726, Darcy, Lydia
+10727, Darcy, Wickham
+10731, Darcy, Gardiner
+10732, Bennet, Darcy
+10733, Darcy, Lydia
+10734, Darcy, Wickham
+10738, Darcy, Gardiner
+10739, Bennet, Darcy
+10740, Darcy, Lydia
+10741, Darcy, Wickham
+10745, Darcy, Gardiner
+10746, Bennet, Darcy
+10747, Darcy, Lydia
+10748, Darcy, Wickham
+10752, Darcy, Gardiner
+10753, Bennet, Darcy
+10754, Darcy, Lydia
+10755, Darcy, Wickham
+10759, Darcy, Gardiner
+10760, Bennet, Darcy
+10761, Darcy, Lydia
+10762, Darcy, Wickham
+10766, Darcy, Gardiner
+10767, Bennet, Darcy
+10768, Darcy, Lydia
+10769, Darcy, Wickham
+10773, Darcy, Gardiner
+10774, Bennet, Darcy
+10775, Darcy, Lydia
+10776, Darcy, Wickham
+10780, Darcy, Gardiner
+10781, Bennet, Darcy
+10782, Darcy, Lydia
+10783, Darcy, Wickham
+10787, Darcy, Gardiner
+10788, Bennet, Darcy
+10789, Darcy, Lydia
+10790, Darcy, Wickham
+10794, Darcy, Gardiner
+10795, Bennet, Darcy
+10796, Darcy, Lydia
+10797, Darcy, Wickham
+10801, Darcy, Gardiner
+10802, Bennet, Darcy
+10803, Darcy, Lydia
+10804, Darcy, Wickham
+10808, Darcy, Gardiner
+10809, Bennet, Darcy
+10810, Darcy, Lydia
+10811, Darcy, Wickham
+10815, Darcy, Gardiner
+10816, Bennet, Darcy
+10817, Darcy, Lydia
+10818, Darcy, Wickham
+10822, Darcy, Gardiner
+10823, Bennet, Darcy
+10824, Darcy, Lydia
+10825, Darcy, Wickham
+10829, Darcy, Gardiner
+10830, Bennet, Darcy
+10831, Darcy, Lydia
+10832, Darcy, Wickham
+10836, Darcy, Gardiner
+10837, Bennet, Darcy
+10838, Darcy, Lydia
+10839, Darcy, Wickham
+10843, Darcy, Gardiner
+10844, Bennet, Darcy
+10845, Darcy, Lydia
+10846, Darcy, Wickham
+10850, Darcy, Gardiner
+10851, Bennet, Darcy
+10852, Darcy, Lydia
+10853, Darcy, Wickham
+10857, Darcy, Gardiner
+10859, Bennet, Darcy
+10861, Darcy, Lydia
+10864, Darcy, Wickham
+10868, Bennet, Darcy, Elizabeth
+10869, Darcy, Wickham
+10873, Bennet, Darcy, Elizabeth
+10874, Darcy, Wickham
+10878, Bennet, Darcy, Elizabeth
+10879, Darcy, Wickham
+10883, Bennet, Darcy, Elizabeth
+10884, Darcy, Wickham
+10888, Bennet, Darcy, Elizabeth
+10889, Darcy, Wickham
+10893, Bennet, Darcy, Elizabeth
+10894, Darcy, Wickham
+10898, Bennet, Darcy, Elizabeth
+10899, Darcy, Wickham
+10904, Bennet, Darcy, Elizabeth
+10905, Bennet, Elizabeth, Wickham
+10919, Bennet, Lydia
+10925, Darcy, Elizabeth
+10927, Elizabeth, Reynolds
+10938, Darcy, Elizabeth
+10941, Darcy, Elizabeth
+10944, Darcy, Elizabeth
+10948, Darcy, Elizabeth, Gardiner
+10951, Darcy, Elizabeth
+10957, Bingley, Elizabeth
+10961, Bingley, Elizabeth
+10967, Bingley, Darcy
+10971, Bingley, Darcy
+10978, Bingley, Darcy
+10980, Elizabeth, Wickham
+10986, Collins, Darcy
+10991, Collins, Darcy
+10994, Elizabeth, Wickham
+10998, Elizabeth, Wickham
+11002, Elizabeth, Wickham
+11011, Elizabeth, Wickham
+11016, Bennet, Lydia, Wickham
+11021, Elizabeth, Lydia
+11023, Elizabeth, Lydia
+11034, Bennet, Wickham
+11037, Bennet, Lucas, William
+11044, Bennet, Elizabeth
+11048, Bennet, Elizabeth
+11060, Bennet, Jane
+11068, Elizabeth, Philips
+11075, Bennet, Elizabeth
+11079, Bennet, Elizabeth, Lizzy
+11088, Darcy, Elizabeth
+11106, Bennet, Jane
+11109, Bennet, Bingley, Mr. Bingl
+11113, Bennet, Bingley, Mr. Bingl
+11117, Bennet, Bingley, Mr. Bingl
+11122, Bennet, Bingley, Mr. Bingl
+11124, Bennet, Bingley, Mr. Bingl
+11133, Elizabeth, Jane
+11139, Elizabeth, Jane
+11144, Bingley, Mr. Bingl
+11149, Bennet, Bingley, Mr. Bingl
+11152, Elizabeth, Jane, Kitty
+11153, Elizabeth, Jane
+11155, Elizabeth, Jane, Kitty
+11165, Bennet, Bingley, Darcy, Mr. Bingl
+11169, Elizabeth, Jane
+11171, Elizabeth, Jane
+11172, Bennet, Elizabeth, Jane
+11173, Elizabeth, Jane
+11174, Bennet, Elizabeth, Jane
+11176, Elizabeth, Jane
+11181, Elizabeth, Jane
+11189, Darcy, Elizabeth
+11194, Elizabeth, Jane
+11197, Elizabeth, Jane
+11200, Bingley, Darcy, Jane, Mr. Bingl
+11205, Bingley, Darcy, Elizabeth, Mr. Bingl
+11208, Darcy, Elizabeth
+11213, Bingley, Elizabeth, Mr. Bingl
+11214, Bennet, Bingley, Darcy, Mr. Bingl
+11216, Bingley, Darcy, Jane, Mr. Bingl
+11217, Bingley, Darcy, Elizabeth, Mr. Bingl
+11219, Bingley, Darcy, Elizabeth, Mr. Bingl
+11224, Darcy, Elizabeth
+11243, Bennet, Bingley, Mr. Bingl
+11245, Bennet, Bingley, Mr. Bingl
+11247, Bennet, Bingley, Mr. Bingl
+11259, Bingley, Elizabeth, Mr. Bingl
+11260, Darcy, Elizabeth
+11263, Bennet, Bingley, Mr. Bingl
+11269, Darcy, Elizabeth
+11272, Darcy, Elizabeth
+11274, Bingley, Elizabeth, Mr. Bingl
+11278, Bennet, Bingley, Mr. Bingl
+11283, Elizabeth, Jane
+11295, Bingley, Jane, Mr. Bingl
+11306, Bennet, Bingley, Mr. Bingl
+11310, Bennet, Bingley, Mr. Bingl
+11316, Bingley, Mr. Bingl
+11332, Darcy, Elizabeth
+11336, Elizabeth, Jane
+11346, Elizabeth, Jane
+11350, Elizabeth, Jane
+11356, Elizabeth, Jane
+11359, Elizabeth, Jane
+11361, Elizabeth, Jane
+11364, Bennet, Bingley
+11369, Bingley, Elizabeth
+11373, Bingley, Elizabeth, Jane
+11379, Darcy, Elizabeth
+11385, Bingley, Jane, Mr. Bingl
+11390, Darcy, Elizabeth
+11395, Darcy, Elizabeth
+11412, Darcy, Elizabeth
+11414, Darcy, Elizabeth
+11415, Bennet, Elizabeth
+11424, Darcy, Elizabeth
+11434, Darcy, Elizabeth
+11437, Darcy, Elizabeth
+11439, Bennet, Elizabeth
+11451, Bennet, Elizabeth
+11454, Darcy, Elizabeth
+11460, Bennet, Bingley, Jane
+11464, Bennet, Elizabeth, Jane
+11468, Bennet, Darcy
+11472, Bennet, Jane, Mrs. Long
+11474, Bennet, Mrs. Long
+11478, Bennet, Bingley
+11484, Elizabeth, Jane
+11488, Bennet, Elizabeth
+11490, Elizabeth, Lizzy
+11491, Elizabeth, Jane
+11498, Elizabeth, Jane
+11501, Darcy, Elizabeth
+11505, Darcy, Elizabeth
+11516, Bennet, Bingley
+11522, Bennet, Bingley
+11528, Bennet, Bingley
+11533, Bennet, Jane, Kitty
+11537, Bennet, Bingley, Jane, Mr. Bingl
+11542, Elizabeth, Jane, Kitty
+11545, Bennet, Jane
+11548, Elizabeth, Jane, Mary
+11551, Bennet, Elizabeth
+11553, Bennet, Mary
+11554, Bennet, Elizabeth
+11557, Bennet, Kitty
+11560, Bennet, Kitty
+11562, Bennet, Kitty
+11564, Bennet, Kitty
+11565, Elizabeth, Jane
+11567, Bennet, Elizabeth
+11577, Bennet, Elizabeth
+11581, Bennet, Bingley
+11584, Bennet, Bingley, Elizabeth
+11585, Bennet, Bingley
+11587, Bennet, Bingley, Elizabeth
+11589, Bennet, Bingley
+11593, Elizabeth, Jane
+11595, Darcy, Elizabeth
+11600, Bennet, Bingley
+11604, Bennet, Bingley
+11607, Bennet, Elizabeth
+11610, Bennet, Elizabeth
+11612, Bingley, Elizabeth, Jane
+11624, Elizabeth, Jane
+11628, Elizabeth, Jane
+11631, Elizabeth, Jane
+11643, Elizabeth, Kitty
+11654, Bingley, Elizabeth
+11657, Bingley, Elizabeth
+11659, Bingley, Elizabeth
+11661, Bingley, Elizabeth
+11663, Bingley, Elizabeth
+11665, Bingley, Elizabeth
+11672, Bennet, Jane, Kitty
+11674, Bennet, Kitty
+11675, Bennet, Bingley
+11685, Bingley, Jane
+11690, Bingley, Jane
+11697, Bingley, Elizabeth
+11700, Bennet, Bingley
+11703, Bennet, Jane
+11710, Bennet, Jane
+11715, Jane, Kitty, Mary
+11718, Bennet, Bingley, Longbourn
+11719, Bennet, Bingley
+11724, Bingley, Elizabeth, Jane
+11728, Bingley, Elizabeth
+11729, Bingley, Elizabeth, Jane
+11731, Bingley, Jane
+11735, Darcy, Elizabeth
+11745, Elizabeth, Jane
+11749, Bingley, Elizabeth, Jane
+11753, Bingley, Elizabeth
+11756, Bingley, Elizabeth, Jane
+11759, Bingley, Elizabeth, Jane
+11764, Elizabeth, Jane
+11769, Elizabeth, Jane
+11774, Bennet, Philips
+11779, Bennet, Bingley
+11789, Bingley, Elizabeth, Jane
+11797, Bennet, Bingley
+11801, Bingley, Lady Catherine
+11803, Bennet, Kitty, Lady Catherine
+11804, Elizabeth, Lady Catherine
+11808, Elizabeth, Lady Catherine
+11814, Bennet, Kitty, Lady Catherine
+11815, Bennet, Lady Catherine
+11816, Bennet, Elizabeth, Lady Catherine
+11818, Bennet, Elizabeth, Lady Catherine
+11821, Bennet, Elizabeth, Lady Catherine
+11823, Bennet, Elizabeth, Lady Catherine
+11825, Bennet, Elizabeth, Lady Catherine
+11830, Elizabeth, Lady Catherine
+11842, Bennet, Lady Catherine
+11845, Elizabeth, Lady Catherine
+11847, Elizabeth, Lady Catherine
+11851, Bennet, Lady Catherine
+11853, Elizabeth, Lady Catherine
+11855, Elizabeth, Lady Catherine
+11859, Bennet, Elizabeth, Lady Catherine
+11868, Elizabeth, Lady Catherine
+11880, Elizabeth, Lady Catherine
+11884, Elizabeth, Lady Catherine
+11886, Elizabeth, Lady Catherine
+11889, Elizabeth, Lady Catherine
+11894, Elizabeth, Lady Catherine
+11903, Elizabeth, Lady Catherine
+11909, Elizabeth, Lady Catherine
+11913, Darcy, Elizabeth
+11917, Darcy, Elizabeth
+11919, Darcy, Elizabeth
+11921, Darcy, Elizabeth
+11924, Jane, Lady Catherine
+11927, Elizabeth, Lady Catherine
+11929, Darcy, Lady Catherine
+11932, Darcy, Elizabeth
+11934, Elizabeth, Lady Catherine
+11940, Elizabeth, Lady Catherine
+11943, Darcy, Elizabeth, Lady Catherine
+11947, Elizabeth, Lady Catherine
+11950, Elizabeth, Lady Catherine
+11952, Darcy, Lady Catherine
+11956, Elizabeth, Lady Catherine
+11963, Elizabeth, Lady Catherine
+11971, Elizabeth, Lady Catherine
+11978, Elizabeth, Lady Catherine
+11983, Elizabeth, Lady Catherine
+11990, Elizabeth, Lady Catherine
+12004, Elizabeth, Lady Catherine
+12008, Elizabeth, Lady Catherine
+12012, Elizabeth, Lady Catherine
+12015, Elizabeth, Lady Catherine
+12017, Elizabeth, Lady Catherine
+12021, Elizabeth, Lady Catherine
+12023, Elizabeth, Lady Catherine
+12025, Elizabeth, Lady Catherine
+12027, Elizabeth, Lady Catherine
+12029, Bennet, Elizabeth, Lady Catherine
+12034, Bennet, Elizabeth, Lady Catherine
+12039, Bennet, Elizabeth, Lady Catherine
+12048, Bennet, Elizabeth, Lady Catherine
+12057, Bennet, Elizabeth, Lady Catherine
+12061, Bennet, Elizabeth, Lady Catherine
+12064, Bennet, Elizabeth, Lady Catherine
+12068, Bennet, Elizabeth, Lady Catherine
+12070, Bennet, Elizabeth, Lady Catherine
+12072, Bennet, Elizabeth, Lady Catherine
+12076, Bennet, Elizabeth, Lady Catherine
+12080, Elizabeth, Lady Catherine
+12088, Elizabeth, Lady Catherine
+12093, Elizabeth, Lady Catherine
+12096, Elizabeth, Lady Catherine
+12099, Elizabeth, Lady Catherine
+12103, Bennet, Elizabeth
+12105, Bennet, Elizabeth
+12107, Bennet, Elizabeth
+12113, Bennet, Elizabeth
+12122, Elizabeth, Lady Catherine
+12128, Bingley, Elizabeth, Jane
+12132, Elizabeth, Jane
+12134, Collins, Elizabeth
+12154, Darcy, Elizabeth
+12158, Darcy, Elizabeth, Lady Catherine
+12159, Bingley, Elizabeth
+12161, Darcy, Elizabeth
+12187, Bennet, Elizabeth
+12198, Collins, Elizabeth
+12202, Bennet, Elizabeth
+12204, Bennet, Collins
+12209, Collins, Elizabeth
+12226, Bennet, Elizabeth
+12227, Collins, Elizabeth
+12228, Catherine De, Darcy, De Bourgh, Lady Catherine
+12229, Bennet, Elizabeth
+12230, Collins, Elizabeth
+12232, Bennet, Elizabeth
+12236, Bennet, Elizabeth
+12238, Bennet, Elizabeth
+12240, Collins, Elizabeth
+12258, Bennet, Elizabeth
+12259, Collins, Elizabeth
+12261, Bennet, Elizabeth
+12262, Collins, Elizabeth
+12265, Bennet, Elizabeth
+12266, Collins, Elizabeth
+12268, Collins, Elizabeth
+12274, Collins, Wickham
+12275, Bennet, Elizabeth
+12277, Bennet, Elizabeth
+12302, Darcy, Elizabeth, Kitty
+12306, Bingley, Elizabeth, Jane, Kitty
+12308, Darcy, Elizabeth, Kitty
+12312, Darcy, Elizabeth
+12319, Darcy, Elizabeth
+12324, Darcy, Elizabeth
+12327, Darcy, Elizabeth
+12331, Darcy, Elizabeth
+12337, Darcy, Elizabeth
+12343, Darcy, Elizabeth
+12345, Darcy, Elizabeth
+12348, Darcy, Elizabeth
+12351, Darcy, Elizabeth
+12354, Darcy, Elizabeth
+12374, Darcy, Elizabeth
+12379, Darcy, Elizabeth
+12384, Darcy, Elizabeth
+12389, Darcy, Elizabeth
+12397, Darcy, Elizabeth
+12401, Darcy, Elizabeth
+12406, Darcy, Elizabeth
+12409, Darcy, Elizabeth
+12422, Darcy, Elizabeth
+12427, Darcy, Elizabeth
+12431, Darcy, Elizabeth
+12439, Darcy, Elizabeth
+12444, Darcy, Elizabeth
+12449, Darcy, Elizabeth
+12460, Darcy, Elizabeth
+12462, Darcy, Elizabeth
+12465, Darcy, Elizabeth
+12469, Darcy, Elizabeth
+12472, Darcy, Elizabeth
+12475, Darcy, Elizabeth
+12481, Darcy, Elizabeth
+12488, Darcy, Elizabeth, Georgiana
+12491, Darcy, Elizabeth
+12496, Darcy, Elizabeth
+12499, Darcy, Elizabeth
+12503, Bingley, Darcy, Elizabeth, Jane
+12504, Bingley, Darcy, Jane
+12508, Darcy, Elizabeth
+12510, Darcy, Elizabeth
+12512, Darcy, Elizabeth
+12516, Bingley, Darcy
+12525, Darcy, Elizabeth
+12528, Darcy, Elizabeth
+12531, Darcy, Elizabeth
+12534, Bingley, Darcy
+12537, Bingley, Darcy
+12540, Bingley, Darcy
+12543, Bingley, Darcy
+12545, Bingley, Darcy
+12547, Bingley, Elizabeth
+12551, Bingley, Darcy
+12561, Elizabeth, Jane
+12568, Bingley, Darcy, Elizabeth, Jane, Mr. Bingl
+12570, Darcy, Elizabeth
+12578, Elizabeth, Jane
+12581, Elizabeth, Jane
+12584, Elizabeth, George, Wickham
+12589, Elizabeth, Jane
+12592, Elizabeth, Jane
+12597, Elizabeth, Jane
+12600, Elizabeth, Jane
+12605, Elizabeth, Jane
+12609, Bingley, Elizabeth, Jane
+12611, Elizabeth, Jane
+12618, Elizabeth, Jane
+12623, Elizabeth, Jane
+12627, Darcy, Elizabeth
+12631, Elizabeth, Jane
+12636, Bingley, Elizabeth, Jane
+12640, Bingley, Elizabeth, Jane
+12644, Elizabeth, Jane
+12650, Bennet, Elizabeth
+12651, Bennet, Bingley, Darcy
+12653, Bennet, Bingley, Darcy, Elizabeth
+12658, Bennet, Elizabeth
+12662, Bingley, Elizabeth
+12663, Bennet, Bingley, Elizabeth
+12667, Bennet, Kitty, Lizzy
+12671, Bingley, Kitty, Mr. Bingl
+12674, Darcy, Kitty
+12675, Darcy, Elizabeth
+12679, Bennet, Lizzy
+12684, Bennet, Elizabeth
+12686, Darcy, Elizabeth
+12693, Bennet, Elizabeth
+12695, Darcy, Elizabeth
+12698, Bennet, Elizabeth
+12700, Darcy, Elizabeth
+12702, Darcy, Elizabeth, Kitty
+12707, Bennet, Elizabeth
+12711, Bennet, Elizabeth
+12717, Bennet, Elizabeth
+12721, Bennet, Elizabeth
+12724, Bennet, Elizabeth
+12732, Bennet, Lizzy
+12744, Bennet, Elizabeth
+12753, Bennet, Elizabeth
+12757, Bennet, Elizabeth
+12760, Bennet, Darcy, Lydia
+12761, Bennet, Darcy
+12766, Bennet, Darcy, Lydia
+12768, Bennet, Elizabeth
+12770, Bennet, Elizabeth
+12771, Bennet, Kitty, Mary
+12780, Bennet, Elizabeth
+12789, Bennet, Darcy
+12799, Bennet, Elizabeth
+12804, Bennet, Elizabeth
+12807, Bennet, Darcy
+12810, Bennet, Elizabeth
+12811, Bennet, Darcy
+12814, Bennet, Darcy
+12819, Bennet, Elizabeth
+12823, Bennet, Elizabeth
+12824, Bennet, Elizabeth, Wickham
+12825, Bennet, Elizabeth
+12833, Darcy, Elizabeth
+12839, Darcy, Elizabeth
+12843, Darcy, Elizabeth
+12848, Darcy, Elizabeth
+12863, Darcy, Elizabeth, Jane
+12866, Darcy, Elizabeth, Jane
+12868, Darcy, Elizabeth
+12875, Darcy, Elizabeth
+12877, Darcy, Elizabeth
+12879, Darcy, Elizabeth
+12881, Darcy, Elizabeth
+12883, Darcy, Elizabeth
+12885, Darcy, Elizabeth
+12889, Darcy, Elizabeth, Lydia
+12894, Elizabeth, Lady Catherine
+12895, Darcy, Elizabeth
+12897, Darcy, Lady Catherine
+12898, Bennet, Elizabeth, Jane
+12899, Darcy, Elizabeth, Lady Catherine
+12901, Bingley, Darcy, Elizabeth
+12903, Darcy, Elizabeth
+12904, Darcy, Elizabeth, Lady Catherine
+12906, Darcy, Elizabeth
+12907, Bennet, Elizabeth
+12908, Darcy, Elizabeth
+12911, Darcy, Elizabeth
+12912, Darcy, Elizabeth, Lady Catherine
+12914, Darcy, Elizabeth
+12916, Darcy, Elizabeth, Lady Catherine
+12918, Darcy, Elizabeth
+12951, Darcy, Elizabeth
+12958, Bingley, Jane
+12962, Bingley, Jane
+12965, Darcy, Georgiana
+12970, Charlotte, Collins, Lady Catherine
+12971, Bennet, Collins, Longbourn
+12974, Charlotte, Lady Catherine
+12975, Charlotte, Darcy, Elizabeth
+12978, Darcy, Elizabeth, Lucas, William
+12979, Darcy, Lucas, William
+12980, Darcy, Philips
+12981, Darcy, Lucas, William
+12984, Darcy, Lucas, William
+12986, Darcy, Philips
+12987, Darcy, Elizabeth, Philips
+12989, Bingley, Jane
+12991, Darcy, Elizabeth
+13004, Bennet, Jane, Lydia
+13007, Bennet, Bingley
+13011, Bennet, Elizabeth
+13018, Bennet, Jane
+13019, Bingley, Jane, Mr. Bingl
+13022, Bingley, Jane, Mr. Bingl
+13039, Bennet, Mary
+13047, Lydia, Wickham
+13057, Elizabeth, Lydia
+13059, Elizabeth, Lydia
+13068, Darcy, Elizabeth
+13070, Darcy, Elizabeth
+13074, Elizabeth, Jane
+13076, Elizabeth, Wickham
+13083, Darcy, Lydia
+13085, Darcy, Elizabeth
+13086, Darcy, Wickham
+13087, Bingley, Lydia
+13093, Bingley, Georgiana
+13094, Bingley, Elizabeth
+13095, Bingley, Darcy
+13096, Bingley, Georgiana
+13097, Bingley, Elizabeth
+13099, Elizabeth, Georgiana
+13105, Darcy, Georgiana
+13106, Darcy, Elizabeth
+13108, Elizabeth, Georgiana
+13111, Darcy, Lady Catherine
+13112, Elizabeth, Lady Catherine
+13113, Darcy, Lady Catherine
+13114, Elizabeth, Lady Catherine
+13115, Darcy, Lady Catherine
+13116, Darcy, Elizabeth
+13117, Darcy, Lady Catherine
+13119, Elizabeth, Lady Catherine
+13124, Darcy, Elizabeth
+13127, Elizabeth, Gardiner

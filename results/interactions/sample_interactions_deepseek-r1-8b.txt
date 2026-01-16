@@ -1,0 +1,22 @@
+1, Darcy, Elizabeth
+3, Darcy, Elizabeth
+5, Darcy, Elizabeth
+7, Darcy, Elizabeth
+9, Bingley, Elizabeth, Jane
+11, Bingley, Elizabeth, Jane
+13, Bennet, Darcy, Elizabeth
+15, Darcy, Elizabeth
+17, Darcy, Elizabeth
+19, Darcy, Elizabeth, Jane
+21, Darcy, Elizabeth
+23, Caroline, Darcy, Elizabeth
+24, Bingley, Jane
+26, Darcy, Elizabeth, Wickham
+28, Bennet, Elizabeth, Jane
+30, Darcy, Elizabeth
+32, Darcy, Elizabeth
+34, Bingley, Elizabeth, Jane
+36, Bingley, Elizabeth, Jane
+38, Darcy, Elizabeth
+40, Darcy, Elizabeth
+42, Bennet, Bingley, Caroline, Darcy, Elizabeth, Georgiana, Jane
