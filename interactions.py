@@ -327,7 +327,7 @@ def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10):
     # Prepare character list with aliases for prompt
     char_descriptions = []
     for char_name, aliases in character_dict.items():
-        alias_str = ", ".join(aliases[:5])
+        alias_str = ", ".join(aliases[:5]) # NOTE: Only first 5 aliases are used to avoid overwhelming the LLM with too many aliases
         char_descriptions.append(f"{char_name} (also: {alias_str})")
     char_list = "; ".join(char_descriptions)
     
