@@ -38,8 +38,7 @@ Team Members:
 
 
 ### Work in Progress
-- Gender mapping in first method needs refinement once the character list is finalized.
-- Perform tests using different LLMs and various text chunk sizes.
+- Explore other methods besides LLMs?
 
 ## Research
 
