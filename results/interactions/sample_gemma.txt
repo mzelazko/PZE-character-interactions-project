@@ -1,0 +1,25 @@
+1, Darcy, Elizabeth
+3, Bennet, Kitty, Lydia
+5, Elizabeth, Jane
+7, Darcy, Elizabeth, Wickham
+9, Bennet, Bingley, Elizabeth
+11, Darcy, Elizabeth
+13, Bennet, Bingley, Darcy, Elizabeth, Georgiana, Jane
+13, Bingley, Jane
+13, Darcy, Elizabeth
+15, Caroline, Darcy, Elizabeth
+17, Bennet, Bingley
+17, Bennet, Darcy
+17, Darcy, Elizabeth
+19, Bennet, Collins
+21, Bingley, Darcy
+23, Elizabeth, Wickham
+25, Captain, Colonel, Kitty, Lydia
+27, Darcy, Elizabeth
+29, Darcy, Elizabeth
+33, Lydia, Mary
+35, Bennet, Charlotte, Collins
+37, Bingley, Jane
+39, Elizabeth, Gardiner
+41, Darcy, Elizabeth, William
+43, Collins, Elizabeth, Lady Catherine
