@@ -34,7 +34,7 @@ Team Members:
 - Interaction detection ([interactions.py](./interactions.py)) using three methods:
   - Method 1: Pronoun-based matching. Finds the first character matching the gender. For plural pronouns, it picks the last 2 characters.
   - Method 2 (fastcoref): Generates clusters for each text chunk. If a cluster contains a name, all words in that cluster are mapped to that character. Co-occurrence of different character clusters = interaction.
-  - Method 3 (LLM): Prompts an LLM with the text chunk and character list and asks it to respond with a list of interactions.
+  - Method 3 (LLM): Prompts an LLM with the text chunk and asks it to respond with a list of interactions.
 
 
 ### Work in Progress
