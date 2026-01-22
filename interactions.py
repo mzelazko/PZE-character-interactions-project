@@ -9,7 +9,7 @@ from fastcoref import FCoref
 TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
 CHARACTERS_PATH = "./results/character_extraction/final_characters.json"
 OLLAMA_API = "http://localhost:11434/api/generate"
-MODEL_NAME = "gemma3:12b-it-qat"
+MODEL_NAME = "gemma3:12b-it-qat" #llama3.1:8b, gemma3:12b-it-qat, qwen3:14b
 
 def extract_characters():
     """Load character list with variants from final_characters.json"""
@@ -249,7 +249,7 @@ def call_ollama(prompt, model=MODEL_NAME):
                     "top_p": 0.9,
                 }
             },
-            timeout=200
+            timeout=300
         )
         
         if response.status_code == 200:
@@ -263,8 +263,17 @@ def call_ollama(prompt, model=MODEL_NAME):
         print(f"Error calling Ollama: {e}")
         return ""
 
-def parse_llm_response(response_text, character_names):
+def parse_llm_response(response_text, character_dict):
     """Parse LLM response to extract line numbers and character names"""
+    # Build character aliases mapping: alias -> canonical character name
+    alias_to_char = {}
+    for char_name, aliases in character_dict.items():
+        for alias in aliases:
+            alias_lower = alias.lower()
+            # Prefer longer names (e.g., "Lady Catherine" over "Catherine")
+            if alias_lower not in alias_to_char or len(alias) > len(alias_to_char.get(alias_lower, [""])[0]):
+                alias_to_char[alias_lower] = char_name
+    
     interactions = []
     lines = response_text.strip().split('\n')
     
@@ -283,13 +292,15 @@ def parse_llm_response(response_text, character_names):
             line_num = int(match.group(1))
             chars_text = match.group(2).strip()
             
-            # Extract character names from the text
+            # Extract character names from the text by matching aliases
             found_chars = set()
             chars_text_lower = chars_text.lower()
             
-            for char_name in character_names:
-                # Check if character name appears in the response
-                if char_name.lower() in chars_text_lower or char_name.replace('_', ' ').lower() in chars_text_lower:
+            # Sort aliases by length (longest first) to match full names before partial names
+            sorted_aliases = sorted(alias_to_char.keys(), key=len, reverse=True)
+            for alias in sorted_aliases:
+                if re.search(r'\b' + re.escape(alias) + r'\b', chars_text_lower):
+                    char_name = alias_to_char[alias]
                     found_chars.add(char_name)
             
             if len(found_chars) >= 2:
@@ -297,7 +308,7 @@ def parse_llm_response(response_text, character_names):
     
     return interactions
 
-def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10):
+def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=7):
     """Detect interactions using local LLM, splitting by paragraphs"""
     lines = text.split('\n')
     character_names = list(character_dict.keys())
@@ -360,21 +371,24 @@ def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10):
         print(f"Processing chunk {current_chunk}/{total_chunks} (paragraphs {chunk_idx + 1}-{min(chunk_idx + paragraphs_per_chunk, len(paragraphs))}, "
               f"lines {para_range_start}-{para_range_end})...")
         
-        # Create prompt for LLM
-        prompt = f"""Analyze this text excerpt from Pride and Prejudice. Find all lines where TWO OR MORE of these characters interact or are mentioned together: {char_list}
+        prompt = f"""
+        Analyze this text excerpt from Pride and Prejudice. Find all interactions of 2 or more characters
+        Use only one name per character in your output.
 
         Text:
         {numbered_text}
 
-        For each line where 2+ characters interact, respond ONLY with the line number and character names in this exact format:
-        Line X: Character1, Character2, Character3
-
-        Only list lines with actual interactions (conversations, mentions together, or related actions). Be concise."""
+        For EACH separate interaction on this excerpt, list only the line number and characters involved. 
+        Format: Line X: Char1, Char2, ...
+        Only group characters who interact with each other (conversation, shared action).
+        Do NOT include mentions where there is no direct or indirect interaction.
+        Be concise.
+        """
 
         response = call_ollama(prompt)
         
         if response:
-            chunk_interactions = parse_llm_response(response, character_names)
+            chunk_interactions = parse_llm_response(response, character_dict)
             
             # Convert virtual line numbers to original line numbers
             for virtual_line_num, chars in chunk_interactions:
@@ -386,33 +400,18 @@ def detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10):
         else:
             print(f"  Warning: No response from LLM for chunk {current_chunk}")
     
-    # Convert to final format and remove duplicates
-    interactions_dict = {}
+    # Convert to final format
+    interactions_by_line = defaultdict(set)
     for line_num, chars in all_interactions:
-        if line_num not in interactions_dict:
-            interactions_dict[line_num] = set(chars)
-        else:
-            interactions_dict[line_num].update(chars)
-    
-    # Convert to tuple format with deduplication of consecutive identical interactions
+        char_group = tuple(sorted(chars))
+        interactions_by_line[line_num].add(char_group)
+
     interactions = []
-    prev_chars = None
-    prev_line = None
-    
-    for line_num in sorted(interactions_dict.keys()):
-        characters = sorted(interactions_dict[line_num])
-        if len(characters) >= 2:
-            # Check if this is the same character set as previous line
-            curr_chars = tuple(characters)
-            
-            if curr_chars != prev_chars or (prev_line is not None and line_num > prev_line + 1):
-                interaction = tuple([line_num] + characters)
-                interactions.append(interaction)
-                prev_chars = curr_chars
-                prev_line = line_num
-            else:
-                prev_line = line_num
-    
+    for line_num in sorted(interactions_by_line.keys()):
+        for char_group in sorted(interactions_by_line[line_num]):
+            if len(char_group) >= 2:
+                interactions.append((line_num,) + char_group)
+
     return interactions
 
 def main():
@@ -477,7 +476,7 @@ def main():
         print("=== METHOD 3: LOCAL LLM (OLLAMA) ANALYSIS ===\n")
         print(f"Using model: {MODEL_NAME}")
         print(f"Make sure Ollama is running with: ollama run {MODEL_NAME}\n")
-        interactions = detect_interactions_llm(text, character_dict, paragraphs_per_chunk=10)
+        interactions = detect_interactions_llm(text, character_dict, paragraphs_per_chunk=7)
     
     # Save results
     print(f"\nFound {len(interactions)} interactions")
