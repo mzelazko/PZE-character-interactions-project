@@ -21,7 +21,5 @@
 35, Collins, Charlotte, Bennet
 37, Bingley, Jane
 39, Gardiner, Elizabeth
-41, Colonel, Elizabeth, William, Darcy
+41, Colonel, Elizabeth, Darcy
 43, Collins, Elizabeth, Catherine
-
-
