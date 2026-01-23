@@ -16,7 +16,7 @@
 31, Bingley, Mr. Bingley
 33, Lydia, Mary
 35, Bennet, Charlotte, Collins
-37, Bingley, Jane
-39, Elizabeth, Gardiner, Longbourn
+37, Bingley, Collins, Jane, Mr. Bingley
+39, Elizabeth, Gardiner
 41, Colonel, Darcy, Elizabeth, William
 43, Collins, De Bourgh, Denny, Elizabeth, Lady Catherine

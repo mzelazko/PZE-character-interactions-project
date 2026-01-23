@@ -1,31 +1,30 @@
-1, Darcy, Elizabeth
-3, Bennet, Kitty
-3, Bennet, Kitty, Lydia
-5, Bingley, Caroline, Darcy
-5, Bingley, Elizabeth, Jane, Mr. Bingley
-5, Elizabeth, Jane
-7, Darcy, Elizabeth
-9, Bennet, Bingley, Mr. Bingley
-9, Bingley, Elizabeth, Mr. Bingley
-11, Darcy, Elizabeth
-13, Bingley, Jane
-13, Darcy, Elizabeth
-15, Darcy, Elizabeth
-17, Bennet, Bingley, Miss King, Mr. Bingley
-17, Bennet, Elizabeth, Miss King
-17, Darcy, Elizabeth
-19, Bennet, Collins
-21, Bingley, Darcy
-23, Elizabeth, Wickham
-25, Captain, Carter, Colonel, Forster, Kitty, Lydia
-27, Darcy, Elizabeth
-29, Darcy, Elizabeth
-31, Bingley, Mr. Bingley
-33, Bennet, Lydia
-33, Lydia, Mary
-35, Charlotte, Collins
-37, Bingley, Jane
-39, Elizabeth, Gardiner
-41, Colonel, Elizabeth, William
-41, Darcy, Elizabeth
-43, De Bourgh, Denny, Elizabeth, Lady Catherine
+1, Miss Elizabeth Bennet, Mr. Darcy
+3, Miss Catherine Bennet, Miss Lydia Bennet, Mrs. Bennet
+3, Miss Catherine Bennet, Mrs. Bennet
+5, Miss Caroline Bingley, Mr. Fitzwilliam Darcy
+5, Miss Elizabeth Bennet, Miss Jane Bennet
+5, Miss Elizabeth Bennet, Miss Jane Bennet, Mr. Charles Bingley
+7, Miss Elizabeth Bennet, Mr. Fitzwilliam Darcy, Mr. George Wickham
+9, Miss Elizabeth Bennet, Mr. Charles Bingley
+9, Mr. Charles Bingley, Mrs. Bennet
+11, Miss Elizabeth Bennet, Mr. Darcy
+13, Miss Elizabeth Bennet, Mr. Darcy
+13, Miss Jane Bennet, Mr. Charles Bingley
+15, Miss Caroline Bingley, Miss Elizabeth Bennet, Mr. Darcy
+17, Miss Elizabeth Bennet, Miss Jane Bennet
+17, Miss Elizabeth Bennet, Mr. Darcy
+17, Miss Jane Bennet, Mr. Charles Bingley
+19, Mr. Collins, Mrs. Bennet
+21, Mr. Charles Bingley, Mr. Darcy
+23, Miss Elizabeth Bennet, Mr. George Wickham
+25, Captain Carter, Colonel Forster, Miss Catherine Bennet, Miss Lydia Bennet
+27, Miss Elizabeth Bennet, Mr. Darcy
+29, Miss Elizabeth Bennet, Mr. Fitzwilliam Darcy
+33, Miss Lydia Bennet, Miss Mary Bennet, Mrs. Bennet
+35, Miss Charlotte Lucas, Mr. Collins
+35, Mr. Collins, Mrs. Bennet
+37, Miss Jane Bennet, Mr. Charles Bingley
+37, Mr. Charles Bingley, Mr. Collins, Mr. Phillips
+39, Miss Elizabeth Bennet, Mrs. Gardiner
+41, Colonel Fitzwilliam, Miss Elizabeth Bennet, Mr. Darcy
+43, Lady Catherine de Bourgh, Miss Elizabeth Bennet, Rev. William Collins

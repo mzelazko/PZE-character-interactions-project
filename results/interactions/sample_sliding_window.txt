@@ -1,22 +1,22 @@
 1, Darcy, Elizabeth
 3, Bennet, Darcy, Elizabeth, Kitty, Lydia
-5, Bennet, Bingley, Caroline, Darcy, Elizabeth, Jane, Kitty, Mr. Bingley
+5, Bennet, Bingley, Caroline, Darcy, Elizabeth, Jane, Kitty, Lydia, Mr. Bingley
 7, Darcy, Elizabeth, Wickham
-9, Bennet, Bingley, Darcy, Elizabeth, Mr. Bingley
-11, Bennet, Darcy, Elizabeth, Pemberley Woods
+9, Bennet, Bingley, Elizabeth, Mr. Bingley, Wickham
+11, Bingley, Darcy, Elizabeth, Pemberley Woods
 13, Bennet, Bingley, Darcy, Elizabeth, Georgiana, Jane
 15, Bingley, Caroline, Darcy, Elizabeth
 17, Bennet, Bingley, Darcy, Elizabeth, Miss King, Mr. Bingley
-19, Bennet, Collins, Darcy, De Bourgh, Denny, Elizabeth, Lady Catherine, Rosings
-21, Bingley, Collins, Darcy, Elizabeth
-23, Darcy, Elizabeth, Wickham
+19, Bennet, Bingley, Collins, De Bourgh, Denny, Elizabeth, Lady Catherine, Rosings
+21, Bennet, Bingley, Darcy, Elizabeth, Lady Catherine
+23, Bingley, Elizabeth, Wickham
 25, Captain, Carter, Colonel, Elizabeth, Forster, Kitty, Lydia, Wickham
 27, Darcy, Elizabeth, Kitty
 29, Darcy, Elizabeth
 31, Bingley, Darcy, Mr. Bingley
 33, Elizabeth, Lydia, Mary
-35, Bennet, Bingley, Charlotte, Collins, Mary
-37, Bingley, Jane
-39, Bingley, Elizabeth, Gardiner, Jane, Longbourn
-41, Bingley, Colonel, Darcy, Elizabeth, William
-43, Collins, Darcy, De Bourgh, Denny, Elizabeth, Lady Catherine
+35, Bennet, Bingley, Charlotte, Collins, Lydia
+37, Bingley, Collins, Jane, Mr. Bingley
+39, Collins, Elizabeth, Gardiner, Jane
+41, Collins, Colonel, Darcy, Elizabeth, William
+43, Collins, De Bourgh, Denny, Elizabeth, Lady Catherine, William
