@@ -1,0 +1,22 @@
+1, Darcy, Elizabeth
+3, Kitty, Mrs. Bennet
+5, Elizabeth, Jane
+7, Darcy, Wickham
+9, Mr. Bingley, Mrs. Bennet
+11, Darcy, Elizabeth
+13, Darcy, Elizabeth
+15, Caroline Bingley, Elizabeth
+17, Miss Bennet, Mr. Bingley
+19, Mr. Collins, Mrs. Bennet
+21, Bingley, Mr. Darcy
+23, Elizabeth, Mr. Wickham
+25, Captain Carter, Colonel Forster, Kitty, Lydia
+27, Darcy, Elizabeth
+29, Elizabeth, Mr. Darcy
+31, Mr. Bingley, Mrs. Bennet
+33, Lydia, Mary
+35, Charlotte, Mr. Collins
+37, Mr. Bingley, Mr. Collins, Mr. Phillips
+39, Elizabeth, Mrs. Gardiner
+41, Elizabeth, Mr. Darcy
+43, Elizabeth, Lady Catherine de Bourgh

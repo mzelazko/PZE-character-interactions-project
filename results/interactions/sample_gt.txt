@@ -1,0 +1,25 @@
+1, Miss Elizabeth Bennet, Mr. Darcy
+3, Miss Catherine Bennet, Miss Lydia Bennet, Mrs. Bennet
+5, Miss Elizabeth Bennet, Miss Jane Bennet, Mr. Charles Bingley
+5, Miss Caroline Bingley, Mr. Fitzwilliam Darcy
+7, Miss Elizabeth Bennet, Mr. Fitzwilliam Darcy, Mr. George Wickham
+9, Miss Elizabeth Bennet, Mr. Charles Bingley
+11, Miss Elizabeth Bennet, Mr. Darcy
+13, Miss Elizabeth Bennet, Mr. Darcy
+13, Miss Jane Bennet, Mr. Charles Bingley
+13, Mrs. Bennet, Miss Elizabeth Bennet, Mr. Darcy, Miss Jane Bennet, Mr. Charles Bingley, Miss Georgiana Darcy
+15, Miss Caroline Bingley, Miss Elizabeth Bennet, Mr. Darcy
+17, Miss Jane Bennet, Miss Elizabeth Bennet, Mr. Charles Bingley, Mr. Darcy
+19, Mrs. Bennet, Mr. Collins, Miss Catherine Bennet
+21, Miss Elizabeth Bennet, Mr. Darcy, Mr. Charles Bingley
+23, Mr. George Wickham, Miss Elizabeth Bennet
+25, Miss Lydia Bennet, Miss Catherine Bennet, Colonel Forster, Captain Carter
+27, Miss Elizabeth Bennet, Mr. Darcy
+29, Miss Elizabeth Bennet, Mr. Darcy
+31, Mrs. Bingley, Mr. Charles Bingley
+33, Miss Lydia Bennet, Miss Mary Bennet
+35, Mr. Collins, Mrs. Bennet, Miss Charlotte Lucas
+37, Miss Jane Bennet, Mr. Charles Bingley
+39, Miss Elizabeth Bennet, Mrs. Gardiner
+41, Colonel Fitzwilliam, Miss Elizabeth Bennet, Mr. Darcy
+43, Lady Catherine de Bourgh, Miss Elizabeth Bennet, Rev. William Collins
