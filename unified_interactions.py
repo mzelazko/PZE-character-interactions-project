@@ -5,6 +5,7 @@ import spacy
 import spacy.cli
 from collections import defaultdict, deque
 from fastcoref import FCoref
+from textblob import TextBlob
 
 class InteractionAnalyzer:
     def __init__(self, char_dict_path, use_coref=True, device='cpu'):
@@ -16,7 +17,11 @@ class InteractionAnalyzer:
             'man', 'woman', 'lady', 'sir', 'miss', 'mrs', 'mr', 
             'longbourn', 'pemberley', 'netherfield', 'meryton', 
             'hertfordshire', 'derbyshire', 'london', 'england',
-            'woods', 'park', 'house', 'hall', 'street'
+            'woods', 'park', 'house', 'hall', 'street', 'colonel',
+            'captain', 'general', 'lieutenant', 'major', 'sergeant',
+            'master', 'mistress', 'servant', 'gentleman', 'gentlemen',
+            'friend', 'acquaintance', 'cousin', 'aunt', 'uncle', 'sister',
+            'brother', 'father', 'mother', 'daughter', 'son', 'family'
         }
         
         print("Loading SpaCy model...")
@@ -96,7 +101,7 @@ class InteractionAnalyzer:
                         return char_name
         
         # Check previous sentence if current has dialogue but no speaker
-        if '"' in sentence or '“' in sentence:
+        if ('"' in sentence or '“' in sentence) and prev_sentence:
             for pattern in patterns:
                 match = re.search(pattern, prev_sentence)
                 if match:
@@ -107,8 +112,12 @@ class InteractionAnalyzer:
                             
         return None
 
+    def get_sentiment(self, text):
+        """Calculate sentiment polarity using TextBlob."""
+        return TextBlob(text).sentiment.polarity
+
     def detect_interactions(self, sentences, decay=0.7, threshold=0.3):
-        """Detect interactions using contextual weighting and speaker detection."""
+        """Detect interactions using contextual weighting, speaker detection, and sentiment."""
         interactions = []
         context_weights = defaultdict(float)
         prev_sent = ""
@@ -145,11 +154,13 @@ class InteractionAnalyzer:
             active_chars = [char for char, weight in context_weights.items() if weight > threshold]
             
             if len(active_chars) >= 2:
+                sentiment_polarity = self.get_sentiment(sent)
                 interactions.append({
                     "sentence_index": i,
                     "characters": sorted(active_chars),
                     "text": sent,
-                    "speaker": speaker
+                    "speaker": speaker,
+                    "sentiment": sentiment_polarity
                 })
             
             prev_sent = sent
@@ -166,7 +177,7 @@ class InteractionAnalyzer:
         
         chapters = [c for c in chapters if c.strip()]
         
-        print(f"Processing chapters with Speaker Detection and Filtering...")
+        print(f"Processing chapters with Sentiment Analysis...")
         
         for i in range(0, len(chapters), 2):
             if i + 1 >= len(chapters):
@@ -190,20 +201,39 @@ class InteractionAnalyzer:
         with open(output_json, "w", encoding="utf-8") as f:
             json.dump(all_interactions, f, indent=2)
             
+        # Generate stats
         pair_counts = defaultdict(int)
+        sentiment_sums = defaultdict(float)
+        
         for inter in all_interactions:
             chars = inter['characters']
+            sentiment = inter['sentiment']
             for idx in range(len(chars)):
                 for jdx in range(idx + 1, len(chars)):
                     pair = tuple(sorted([chars[idx], chars[jdx]]))
                     pair_counts[pair] += 1
+                    sentiment_sums[pair] += sentiment
                     
-        sorted_pairs = sorted(pair_counts.items(), key=lambda x: x[1], reverse=True)
-        with open(output_stats, "w", encoding="utf-8") as f:
-            f.write(f"Total interactions: {len(all_interactions)}\n\n")
-            f.write("Top Character Pairs:\n")
-            for pair, count in sorted_pairs[:50]:
-                f.write(f"{pair[0]} <-> {pair[1]}: {count}\n")
+        # Calculate average sentiment
+        avg_sentiments = {pair: sentiment_sums[pair] / pair_counts[pair] for pair in pair_counts}
         
-        print(f"Analysis complete. Results: {output_json}, Stats: {output_stats}")
+        # Sort by count and sentiment
+        sorted_by_count = sorted(pair_counts.items(), key=lambda x: x[1], reverse=True)
+        sorted_by_sentiment = sorted(avg_sentiments.items(), key=lambda x: x[1], reverse=True)
+        
+        with open(output_stats, "w", encoding="utf-8") as f:
+            f.write(f"Total interactions (Sentiment-Aware): {len(all_interactions)}\n\n")
+            f.write("Top Character Pairs (by Count):\n")
+            for pair, count in sorted_by_count[:50]:
+                f.write(f"{pair[0]} <-> {pair[1]}: {count} (Avg Sentiment: {avg_sentiments[pair]:.4f})\n")
+            
+            f.write("\nMost Positive Relationships (Top 20):\n")
+            for pair, avg_sentiment in sorted_by_sentiment[:20]:
+                f.write(f"{pair[0]} <-> {pair[1]}: {avg_sentiment:.4f} (Count: {pair_counts[pair]})\n")
+
+            f.write("\nMost Negative Relationships (Top 20):\n")
+            for pair, avg_sentiment in sorted_by_sentiment[-20:]:
+                f.write(f"{pair[0]} <-> {pair[1]}: {avg_sentiment:.4f} (Count: {pair_counts[pair]})\n")
+        
+        print(f"Sentiment-aware analysis complete. Results: {output_json}, Stats: {output_stats}")
         return all_interactions
