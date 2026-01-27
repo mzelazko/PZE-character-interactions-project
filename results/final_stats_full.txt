@@ -1,52 +1,53 @@
-Total interactions: 4773
+Total interactions (Enhanced): 4481
 
-Darcy <-> Elizabeth: 999
-Elizabeth <-> Jane: 725
-Bingley <-> Elizabeth: 655
-Elizabeth <-> Miss King: 639
-Bennet <-> Elizabeth: 616
-Bingley <-> Miss King: 551
-Elizabeth <-> Wickham: 465
-Collins <-> Elizabeth: 456
-Bennet <-> Miss King: 399
-Elizabeth <-> Longbourn: 395
+Top Character Pairs:
+Darcy <-> Elizabeth: 1000
+Elizabeth <-> Jane: 729
+Bingley <-> Elizabeth: 656
+Bennet <-> Elizabeth: 618
+Elizabeth <-> Wickham: 469
+Collins <-> Elizabeth: 457
 Bingley <-> Jane: 364
-Elizabeth <-> Man: 351
-Elizabeth <-> Lady Catherine: 345
-Darcy <-> Miss King: 312
 Bennet <-> Jane: 304
 Bingley <-> Darcy: 290
 Darcy <-> Wickham: 287
+Elizabeth <-> Lady Catherine: 258
 Bennet <-> Bingley: 251
-Elizabeth <-> Pemberley Woods: 245
-Jane <-> Miss King: 236
-Darcy <-> Jane: 229
-Elizabeth <-> Lydia: 221
+Elizabeth <-> Longbourn: 237
+Darcy <-> Jane: 230
+Elizabeth <-> Lydia: 223
 Elizabeth <-> Gardiner: 219
 Charlotte <-> Elizabeth: 214
-Darcy <-> Lady Catherine: 209
 Elizabeth <-> Lucas: 198
-Collins <-> Lady Catherine: 198
-Darcy <-> Man: 194
 Bennet <-> Darcy: 193
-Darcy <-> Longbourn: 189
 Bennet <-> Collins: 189
-Bennet <-> Lady Catherine: 182
-Lydia <-> Wickham: 182
-Jane <-> Longbourn: 174
-Bennet <-> Longbourn: 167
-Jane <-> Wickham: 165
-Bingley <-> Longbourn: 162
-Jane <-> Lydia: 152
-Elizabeth <-> William: 148
-Lady Catherine <-> Miss King: 144
+Lydia <-> Wickham: 183
+Jane <-> Wickham: 166
+Darcy <-> Lady Catherine: 161
+Jane <-> Lydia: 153
+Elizabeth <-> William: 149
+Darcy <-> Longbourn: 146
+Collins <-> Lady Catherine: 146
 Charlotte <-> Collins: 144
+Darcy <-> William: 143
 Colonel <-> William: 142
-Darcy <-> William: 142
-Collins <-> Longbourn: 141
-Miss King <-> Wickham: 140
-Bennet <-> Lydia: 137
-Sir Lewis <-> William: 136
-Collins <-> Miss King: 136
-Longbourn <-> Miss King: 132
-Man <-> Miss King: 128
+Bennet <-> Lydia: 138
+Colonel <-> Elizabeth: 128
+Colonel <-> Forster: 126
+Collins <-> Lucas: 124
+Colonel <-> Darcy: 122
+Bingley <-> Wickham: 122
+De Bourgh <-> Denny: 120
+Charlotte <-> Lucas: 114
+Elizabeth <-> Kitty: 110
+Bingley <-> Hurst: 108
+Collins <-> Darcy: 107
+Elizabeth <-> Rosings: 103
+Bennet <-> Wickham: 101
+Collins <-> Rosings: 98
+Bingley <-> Longbourn: 97
+Bennet <-> Lady Catherine: 97
+Lucas <-> William: 96
+Gardiner <-> Jane: 94
+Darcy <-> Lucas: 92
+Collins <-> Jane: 92

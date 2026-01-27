@@ -11,6 +11,14 @@ class InteractionAnalyzer:
         self.use_coref = use_coref
         self.char_dict = self._load_char_dict(char_dict_path)
         
+        # List of generic terms to filter out from character detection
+        self.generic_filters = {
+            'man', 'woman', 'lady', 'sir', 'miss', 'mrs', 'mr', 
+            'longbourn', 'pemberley', 'netherfield', 'meryton', 
+            'hertfordshire', 'derbyshire', 'london', 'england',
+            'woods', 'park', 'house', 'hall', 'street'
+        }
+        
         print("Loading SpaCy model...")
         try:
             self.nlp = spacy.load("en_core_web_lg")
@@ -49,6 +57,10 @@ class InteractionAnalyzer:
                 _, (ant_start, ant_end) = char_map[antecedent_token_span]
                 antecedent = text[ant_start:ant_end]
                 
+                # Filter out generic antecedents
+                if antecedent.lower().strip() in self.generic_filters:
+                    continue
+                
                 for mention_token_span in cluster[1:]:
                     if mention_token_span in char_map:
                         _, (m_start, m_end) = char_map[mention_token_span]
@@ -62,37 +74,86 @@ class InteractionAnalyzer:
             print(f"Coreference resolution warning: {e}")
             return text
 
+    def detect_speaker(self, sentence, prev_sentence):
+        """Heuristic speaker detection for dialogue."""
+        # Look for patterns like: "..." said Elizabeth or Elizabeth said, "..."
+        patterns = [
+            r'said\s+([A-Z][a-z]+)',
+            r'([A-Z][a-z]+)\s+said',
+            r'replied\s+([A-Z][a-z]+)',
+            r'([A-Z][a-z]+)\s+replied',
+            r'cried\s+([A-Z][a-z]+)',
+            r'([A-Z][a-z]+)\s+cried'
+        ]
+        
+        # Check current sentence
+        for pattern in patterns:
+            match = re.search(pattern, sentence)
+            if match:
+                name = match.group(1)
+                for char_name, aliases in self.char_dict.items():
+                    if name.lower() in aliases:
+                        return char_name
+        
+        # Check previous sentence if current has dialogue but no speaker
+        if '"' in sentence or '“' in sentence:
+            for pattern in patterns:
+                match = re.search(pattern, prev_sentence)
+                if match:
+                    name = match.group(1)
+                    for char_name, aliases in self.char_dict.items():
+                        if name.lower() in aliases:
+                            return char_name
+                            
+        return None
+
     def detect_interactions(self, sentences, decay=0.7, threshold=0.3):
-        """Detect interactions using contextual weighting."""
+        """Detect interactions using contextual weighting and speaker detection."""
         interactions = []
         context_weights = defaultdict(float)
+        prev_sent = ""
         
         for i, sent in enumerate(sentences):
             sent_lower = sent.lower()
             current_mentions = set()
             
+            # 1. Direct Mention Detection with Filtering
             for char_name, aliases in self.char_dict.items():
                 for alias in aliases:
+                    # Skip generic aliases
+                    if alias in self.generic_filters:
+                        continue
                     if re.search(r'\b' + re.escape(alias) + r'\b', sent_lower):
                         current_mentions.add(char_name)
                         context_weights[char_name] = 1.0
                         break
             
-            # Decay
+            # 2. Speaker Detection
+            speaker = self.detect_speaker(sent, prev_sent)
+            if speaker:
+                current_mentions.add(speaker)
+                context_weights[speaker] = 1.0
+            
+            # 3. Decay
             for char in list(context_weights.keys()):
                 if char not in current_mentions:
                     context_weights[char] *= decay
                     if context_weights[char] < 0.1:
                         del context_weights[char]
             
+            # 4. Interaction Recording
             active_chars = [char for char, weight in context_weights.items() if weight > threshold]
             
             if len(active_chars) >= 2:
                 interactions.append({
                     "sentence_index": i,
                     "characters": sorted(active_chars),
-                    "text": sent
+                    "text": sent,
+                    "speaker": speaker
                 })
+            
+            prev_sent = sent
+            
         return interactions
 
     def process_book(self, text_path, output_json, output_stats):
@@ -103,12 +164,10 @@ class InteractionAnalyzer:
         chapters = re.split(r'(CHAPTER [IVXLCDM]+)', full_text)
         all_interactions = []
         
-        # Filter out empty strings from split
         chapters = [c for c in chapters if c.strip()]
         
-        print(f"Processing chapters...")
+        print(f"Processing chapters with Speaker Detection and Filtering...")
         
-        # Iterate through pairs of (Chapter Title, Content)
         for i in range(0, len(chapters), 2):
             if i + 1 >= len(chapters):
                 break
@@ -118,25 +177,19 @@ class InteractionAnalyzer:
             
             print(f"Analyzing {chapter_title.strip()}...")
             
-            # 1. Coref
             processed_text = self.resolve_coreferences(full_chapter)
-            
-            # 2. Sentences
             doc = self.nlp(processed_text)
             sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
             
-            # 3. Interactions
             chapter_inters = self.detect_interactions(sentences)
             for inter in chapter_inters:
                 inter['chapter'] = chapter_title.strip()
                 all_interactions.append(inter)
                 
-        # Save results
         os.makedirs(os.path.dirname(output_json), exist_ok=True)
         with open(output_json, "w", encoding="utf-8") as f:
             json.dump(all_interactions, f, indent=2)
             
-        # Generate stats
         pair_counts = defaultdict(int)
         for inter in all_interactions:
             chars = inter['characters']
@@ -148,6 +201,7 @@ class InteractionAnalyzer:
         sorted_pairs = sorted(pair_counts.items(), key=lambda x: x[1], reverse=True)
         with open(output_stats, "w", encoding="utf-8") as f:
             f.write(f"Total interactions: {len(all_interactions)}\n\n")
+            f.write("Top Character Pairs:\n")
             for pair, count in sorted_pairs[:50]:
                 f.write(f"{pair[0]} <-> {pair[1]}: {count}\n")
         
