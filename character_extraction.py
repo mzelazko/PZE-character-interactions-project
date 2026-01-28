@@ -3,7 +3,6 @@
 Complete character extraction and alias resolution pipeline for Pride and Prejudice
 Combines NER extraction, cleaning, alias grouping, and finalization into one workflow
 """
-import os
 import re
 import json
 from pathlib import Path
@@ -487,9 +486,9 @@ def main():
     print("\n" + "="*70)
     print("[7/7] PIPELINE COMPLETE!")
     print("="*70)
-    print(f"✓ Extracted and cleaned {len(cleaned)} character names")
-    print(f"✓ Created {len(final)} canonical character groups")
-    print(f"✓ Final output: {FINAL_JSON}")
+    print(f"Extracted and cleaned {len(cleaned)} character names")
+    print(f"Created {len(final)} canonical character groups")
+    print(f"Final output: {FINAL_JSON}")
     print("="*70)
 
 if __name__ == "__main__":
