@@ -317,7 +317,11 @@ def parse_occurrences_file(path):
     return {k: sorted(list(v)) for k, v in occ.items()}
 
 def cluster_names_greedy(names, counts, threshold=FINAL_SIM_THRESHOLD):
-    """Cluster names using greedy algorithm with fuzzy matching"""
+    """
+    Cluster character names using a greedy algorithm,
+    where similarity is calculated as the average of three metrics:
+    Levenshtein, FuzzyWuzzy, and SequenceMatcher
+    """
     try:
         from rapidfuzz import fuzz
     except ImportError:
@@ -338,8 +342,15 @@ def cluster_names_greedy(names, counts, threshold=FINAL_SIM_THRESHOLD):
         for other in names:
             if other in used:
                 continue
-            score = fuzz.token_sort_ratio(name, other)
-            if score >= threshold or name.lower() in other.lower() or other.lower() in name.lower():
+            # Compute average similarity across three metrics
+            # print(lev_similarity(name, other), fuzzy_similarity(name, other), seq_similarity(name, other))
+            avg_similarity = (
+                                     lev_similarity(name, other) +
+                                     fuzzy_similarity(name, other) +
+                                     seq_similarity(name, other)
+                             ) / 3
+            # Add to group if average similarity is above threshold or if one name is contained in the other
+            if avg_similarity >= threshold or name.lower() in other.lower() or other.lower() in name.lower():
                 group.append(other)
                 used.add(other)
         
