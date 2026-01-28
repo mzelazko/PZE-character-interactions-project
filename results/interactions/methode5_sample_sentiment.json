@@ -1,0 +1,450 @@
+[
+  {
+    "timestamp": 1,
+    "characters": [
+      "Darcy",
+      "Elizabeth"
+    ],
+    "sentiment": 0.0,
+    "text": "Elizabeth and Darcy walked through the garden together."
+  },
+  {
+    "timestamp": 2,
+    "characters": [
+      "Bennet",
+      "Darcy",
+      "Elizabeth",
+      "Kitty"
+    ],
+    "sentiment": 0.0,
+    "text": "Mrs. Bennet and Kitty were discussing the upcoming ball in the parlor."
+  },
+  {
+    "timestamp": 3,
+    "characters": [
+      "Bennet",
+      "Darcy",
+      "Elizabeth",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.0,
+    "text": "Lydia burst into the room and shouted the news about the regiment to them."
+  },
+  {
+    "timestamp": 4,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Jane",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.0,
+    "text": "Elizabeth and Jane were conversing in the drawing room, while Mr. Darcy and Caroline Bingley were wa..."
+  },
+  {
+    "timestamp": 5,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Jane",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.0,
+    "text": "Mr. Bingley entered the drawing room and asked the sisters if they would like tea."
+  },
+  {
+    "timestamp": 6,
+    "characters": [
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Jane",
+      "Lydia",
+      "Wickham"
+    ],
+    "sentiment": 0.25,
+    "text": "Wickham's arrival caused a stir, and Darcy's disapproval was evident to Elizabeth."
+  },
+  {
+    "timestamp": 7,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Jane",
+      "Wickham"
+    ],
+    "sentiment": -0.1,
+    "text": "When Mrs. Bennet introduced her daughters to Mr. Bingley, Elizabeth observed his reaction carefully."
+  },
+  {
+    "timestamp": 8,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Wickham"
+    ],
+    "sentiment": 0.0,
+    "text": "Both Elizabeth and Darcy realized their feelings for one another during their time at Pemberley."
+  },
+  {
+    "timestamp": 9,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Jane",
+      "Wickham"
+    ],
+    "sentiment": 0.0,
+    "text": "At the Netherfield ball, Elizabeth danced with Darcy while Jane spoke with Bingley."
+  },
+  {
+    "timestamp": 10,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Georgiana",
+      "Jane"
+    ],
+    "sentiment": 0.8,
+    "text": "Mrs. Bennet watched them all proudly, and Mr. Darcy's sister Georgiana observed from the side."
+  },
+  {
+    "timestamp": 11,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Georgiana",
+      "Jane"
+    ],
+    "sentiment": 0.0,
+    "text": "Caroline Bingley felt increasing jealousy toward Elizabeth as she saw her with Mr. Darcy."
+  },
+  {
+    "timestamp": 12,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Georgiana",
+      "Jane"
+    ],
+    "sentiment": 0.0,
+    "text": "The door opened and Miss Bennet entered, followed closely by her sister Elizabeth."
+  },
+  {
+    "timestamp": 13,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Darcy",
+      "Elizabeth",
+      "Georgiana"
+    ],
+    "sentiment": -0.1,
+    "text": "Mr. Bingley immediately rose to greet the former, while Mr. Darcy merely glanced at the latter with ..."
+  },
+  {
+    "timestamp": 14,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Caroline",
+      "Catherine De",
+      "Collins",
+      "Darcy",
+      "De Bourgh",
+      "Elizabeth",
+      "Lady Catherine"
+    ],
+    "sentiment": 0.55,
+    "text": "\"I must assure you, Mrs. Bennet,\" said Mr. Collins pompously, \"that Lady Catherine de Bourgh has bee..."
+  },
+  {
+    "timestamp": 15,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Catherine De",
+      "Collins",
+      "Darcy",
+      "De Bourgh",
+      "Elizabeth",
+      "Lady Catherine"
+    ],
+    "sentiment": 0.0,
+    "text": "She often invites me to Rosings for tea."
+  },
+  {
+    "timestamp": 16,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Catherine De",
+      "Collins",
+      "Darcy",
+      "De Bourgh",
+      "Elizabeth",
+      "Lady Catherine"
+    ],
+    "sentiment": 0.21428571428571427,
+    "text": "\"\n\nElizabeth remained seated in the corner, obscured by a large fern."
+  },
+  {
+    "timestamp": 17,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Catherine De",
+      "Collins",
+      "Darcy",
+      "De Bourgh",
+      "Elizabeth",
+      "Lady Catherine",
+      "Wickham"
+    ],
+    "sentiment": 0.11388888888888889,
+    "text": "She heard Mr. Darcy say to Bingley, \"She is tolerable, but not handsome enough to tempt me.\"\n\nMr. Wi..."
+  },
+  {
+    "timestamp": 18,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Wickham"
+    ],
+    "sentiment": 0.0,
+    "text": "He moved gracefully through the crowd, accepting compliments from the ladies."
+  },
+  {
+    "timestamp": 19,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Wickham"
+    ],
+    "sentiment": 0.0,
+    "text": "Finally, he turned to Elizabeth and bowed low."
+  },
+  {
+    "timestamp": 20,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Kitty",
+      "Lydia",
+      "Wickham"
+    ],
+    "sentiment": 0.1,
+    "text": "Lydia and Kitty ran up to the officers, laughing loudly, and demanded they all buy them ribbons."
+  },
+  {
+    "timestamp": 21,
+    "characters": [
+      "Carter",
+      "Elizabeth",
+      "Forster",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.7,
+    "text": "Colonel Forster and Captain Carter laughed in return and promised to do so."
+  },
+  {
+    "timestamp": 22,
+    "characters": [
+      "Carter",
+      "Elizabeth",
+      "Forster",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.0,
+    "text": "Elizabeth's hands trembled as she broke the seal."
+  },
+  {
+    "timestamp": 23,
+    "characters": [
+      "Carter",
+      "Darcy",
+      "Elizabeth",
+      "Forster",
+      "Kitty",
+      "Lydia"
+    ],
+    "sentiment": 0.0,
+    "text": "\"Be not alarmed, Madam, on receiving this letter...\" wrote Darcy."
+  },
+  {
+    "timestamp": 24,
+    "characters": [
+      "Carter",
+      "Darcy",
+      "Elizabeth",
+      "Forster"
+    ],
+    "sentiment": 0.0,
+    "text": "She read the pages with a mixture of pain and astonishment."
+  },
+  {
+    "timestamp": 25,
+    "characters": [
+      "Darcy",
+      "Elizabeth"
+    ],
+    "sentiment": 0.6,
+    "text": "Elizabeth walked up to Mr. Darcy and asked if he liked the dance."
+  },
+  {
+    "timestamp": 26,
+    "characters": [
+      "Darcy",
+      "Elizabeth"
+    ],
+    "sentiment": 0.0,
+    "text": "He did not answer, but turned his heel and walked away in silence."
+  },
+  {
+    "timestamp": 27,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth"
+    ],
+    "sentiment": 0.0,
+    "text": "Mr. Bingley walked into the room, and his wife immediately began to chide him for his lateness."
+  },
+  {
+    "timestamp": 28,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Lydia",
+      "Mary"
+    ],
+    "sentiment": 0.0,
+    "text": "\"If I may observe\u2014\" began Mary, but she was cut off by Lydia who shouted across the table to her mot..."
+  },
+  {
+    "timestamp": 29,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Charlotte",
+      "Collins",
+      "Lydia",
+      "Mary"
+    ],
+    "sentiment": 0.1,
+    "text": "Mr. Collins handed a flower to Charlotte, though his eyes were fixed apologetically on Mrs. Bennet."
+  },
+  {
+    "timestamp": 30,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Charlotte",
+      "Collins",
+      "Lydia",
+      "Mary"
+    ],
+    "sentiment": 0.0,
+    "text": "Mr. Collins, Mr. Phillips and Mr. Bingley enterd the room."
+  },
+  {
+    "timestamp": 31,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Charlotte",
+      "Collins",
+      "Jane",
+      "Lydia",
+      "Mary"
+    ],
+    "sentiment": 0.05833333333333334,
+    "text": "Mr. Bingley went straight to Jane, but the other stood aloof near the fireplace, staring at the floo..."
+  },
+  {
+    "timestamp": 32,
+    "characters": [
+      "Bennet",
+      "Bingley",
+      "Charlotte",
+      "Collins",
+      "Elizabeth",
+      "Gardiner",
+      "Jane"
+    ],
+    "sentiment": 0.0,
+    "text": "The children were immediately swept up by their cousins, while Mrs. Gardiner went quietly to sit wit..."
+  },
+  {
+    "timestamp": 33,
+    "characters": [
+      "Bingley",
+      "Collins",
+      "Elizabeth",
+      "Gardiner",
+      "Jane"
+    ],
+    "sentiment": 0.13636363636363635,
+    "text": "Elizabeth played a lively Scottish air."
+  },
+  {
+    "timestamp": 34,
+    "characters": [
+      "Bingley",
+      "Darcy",
+      "Elizabeth",
+      "Gardiner",
+      "Jane",
+      "William"
+    ],
+    "sentiment": 0.1,
+    "text": "Mr. Darcy drew near the piano to listen, while Colonel Fitzwilliam asked her to play it faster."
+  },
+  {
+    "timestamp": 35,
+    "characters": [
+      "Catherine De",
+      "Collins",
+      "Darcy",
+      "De Bourgh",
+      "Elizabeth",
+      "Gardiner",
+      "Lady Catherine",
+      "William"
+    ],
+    "sentiment": -0.4,
+    "text": "Lady Catherine de Bourgh walked alongside Elizabeth in the garden, speaking incessantly, while Mr. C..."
+  }
+]
