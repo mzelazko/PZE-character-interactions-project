@@ -105,6 +105,42 @@ def find_character_in_text(text, character_dict):
     return found
 
 # ============================================================================
+# DYNAMIC ALIAS CLUSTERING (NEW)
+# ============================================================================
+
+def update_character_aliases_dynamically(text, character_dict, blacklist):
+    """Scan text for potential new aliases and update character_dict"""
+    print("Running Dynamic Alias Clustering...")
+    
+    # 1. Identify potential new names (Capitalized words not in blacklist)
+    # Simple NER-like heuristic: Title Case words
+    potential_names = set(re.findall(r'\b[A-Z][a-z]+\b', text))
+    
+    # 2. Filter out common words and existing characters
+    existing_aliases = set()
+    for aliases in character_dict.values():
+        existing_aliases.update(aliases)
+    
+    new_candidates = [n for n in potential_names if n.lower() not in blacklist and n not in character_dict and n.lower() not in existing_aliases]
+    
+    # 3. Cluster candidates with existing characters
+    # If a candidate is a substring of an existing character or vice versa, add as alias
+    updates_count = 0
+    for candidate in new_candidates:
+        cand_lower = candidate.lower()
+        for canon, aliases in character_dict.items():
+            canon_lower = canon.lower()
+            # Check if candidate is part of canon name or vice versa
+            if (len(cand_lower) > 3 and cand_lower in canon_lower) or (len(canon_lower) > 3 and canon_lower in cand_lower):
+                if cand_lower not in character_dict[canon]:
+                    character_dict[canon].append(cand_lower)
+                    updates_count += 1
+                    break
+    
+    print(f"Dynamic Clustering: Added {updates_count} new aliases to character dictionary.")
+    return character_dict
+
+# ============================================================================
 # METHOD 1: SLIDING WINDOW WITH HEURISTIC PRONOUN RESOLUTION
 # ============================================================================
 
@@ -614,6 +650,11 @@ def main():
         default=TEXT_PATH,
         help=f"Input text file (default: {TEXT_PATH})"
     )
+    parser.add_argument(
+        "--no-dynamic",
+        action="store_true",
+        help="Disable Dynamic Alias Clustering"
+    )
     
     args = parser.parse_args()
     method = args.method
@@ -649,6 +690,11 @@ def main():
         character_dict = extract_characters(blacklist)
     else:
         character_dict = extract_characters_from_txt(blacklist)
+    
+    # Run Dynamic Alias Clustering
+    if not args.no_dynamic:
+        character_dict = update_character_aliases_dynamically(text, character_dict, blacklist)
+        
     print(f"Tracking {len(character_dict)} characters\n")
     
     # Run selected method

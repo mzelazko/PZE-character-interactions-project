@@ -1,0 +1,23 @@
+Total Interactions: 4490
+
+Top 20 Pairs:
+Darcy <-> Elizabeth: 689
+Elizabeth <-> William: 553
+Elizabeth <-> Miss Pope: 507
+Elizabeth <-> Jane: 494
+Bingley <-> Elizabeth: 484
+Bennet <-> Elizabeth: 456
+Bennet <-> Miss Pope: 417
+Darcy <-> Miss Pope: 412
+Bingley <-> Darcy: 409
+Bingley <-> Miss Pope: 403
+Bakewell <-> Elizabeth: 345
+Bingley <-> Jane: 344
+Bennet <-> Bingley: 332
+Darcy <-> William: 317
+Collins <-> Elizabeth: 314
+Bakewell <-> William: 269
+Bennet <-> William: 266
+Bennet <-> Jane: 258
+Elizabeth <-> Wickham: 253
+Jane <-> William: 231
