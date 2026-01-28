@@ -12,7 +12,7 @@
 Team Members:
 - Michał Żelazko, Manager
 - Norbert Zabost, Documentation
-- Polina Konetskaia, Github repo
+- Polina Konecka, Github repo
 - Damian Kantorowski
 - Rafał Wielądek
 
@@ -26,15 +26,22 @@ Team Members:
   - `en_core_web_lg` from the `Spacy` libarry
   - stanford NER
   - [GLiNER](https://github.com/urchade/GLiNER)
-- Performed initial alias resolution ([character_alias_resolver.py](./character_alias_resolver.py) and [alias results](./results/aliases)) using three different methods:
-  - Levenshtein distance  
-    - one implementation written from scratch  
-    - one using the `fuzz` function from the `fuzzywuzzy` library with additional features
-  - Gestalt pattern matching using the `SequenceMatcher` class from the [difflib](https://docs.python.org/3/library/difflib.html) library
-- Interaction detection ([interactions.py](./interactions.py)) using three methods:
-  - Method 1: Pronoun-based matching. Finds the first character matching the gender. For plural pronouns, it picks the last 2 characters.
+- Combined outputs from all models to maximize recall
+- Implemented and compared several string-based similarity methods for alias grouping:
+  - Levenshtein-based similarity (custom implementation),
+  - SequenceMatcher (difflib),
+  - Fuzzy string matching (FuzzyWuzzy / RapidFuzz).
+- Applied a final greedy clustering algorithm, which:
+  - sorts names by frequency,
+  - iteratively groups the closest variants under a canonical name,
+  - uses the average similarity score computed from Levenshtein, fuzzy matching, and SequenceMatcher, 
+  - merges names when one variant is contained within another  [final_characters](./results/final_characters.json)).
+- Interaction detection ([interactions.py](./interactions.py)) using five methods:
+  - Method 1: Sliding window + pronoun heuristics - co-occurrence in the same line or close context + simple heuristic pronoun resolution using gender and recency.
   - Method 2 (fastcoref): Generates clusters for each text chunk. If a cluster contains a name, all words in that cluster are mapped to that character. Co-occurrence of different character clusters = interaction.
-  - Method 3 (LLM): Prompts an LLM with the text chunk and asks it to respond with a list of interactions.
+  - Method 3 (Contextual Weighting): Uses decaying weights and Sentiment Analysis (TextBlob) with regex-based Speaker Detection.
+  - Method 4 (Local LLM analysis (Ollama)): Prompts an LLM with the text chunk and asks it to respond with a list of interactions.
+  - Method 5 (Advanced Contextual): Adds Zero-Shot Classification (BART) for deep dialogue  attribution
 
 
 ### Work in Progress
