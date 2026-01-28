@@ -1,0 +1,23 @@
+Total Interactions: 35
+
+Top 20 Pairs:
+Darcy <-> Elizabeth: 28
+Bingley <-> Elizabeth: 22
+Bingley <-> Darcy: 20
+Bennet <-> Bingley: 17
+Bennet <-> Elizabeth: 16
+Bennet <-> Darcy: 15
+Bingley <-> Jane: 12
+Elizabeth <-> Jane: 11
+Elizabeth <-> Lydia: 9
+Bennet <-> Jane: 9
+Darcy <-> Jane: 9
+Bingley <-> Collins: 9
+Elizabeth <-> Kitty: 8
+Bingley <-> Caroline: 8
+Bingley <-> Lydia: 8
+Caroline <-> Darcy: 8
+Caroline <-> Elizabeth: 8
+Bingley <-> Wickham: 8
+Darcy <-> Wickham: 8
+Elizabeth <-> Wickham: 8
