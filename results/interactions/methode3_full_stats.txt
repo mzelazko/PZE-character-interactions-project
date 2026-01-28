@@ -1,0 +1,23 @@
+Total Interactions: 3690
+
+Top 20 Pairs:
+Darcy <-> Elizabeth: 689
+Elizabeth <-> Jane: 494
+Bingley <-> Elizabeth: 484
+Bennet <-> Elizabeth: 456
+Bingley <-> Darcy: 409
+Bingley <-> Jane: 344
+Bennet <-> Bingley: 332
+Collins <-> Elizabeth: 314
+Bennet <-> Jane: 258
+Elizabeth <-> Wickham: 253
+Darcy <-> Jane: 229
+Elizabeth <-> Lady Catherine: 220
+Bennet <-> Darcy: 216
+Elizabeth <-> Gardiner: 215
+Elizabeth <-> Lydia: 196
+Darcy <-> Wickham: 188
+Bennet <-> Collins: 181
+Bennet <-> Lydia: 177
+Collins <-> Lady Catherine: 167
+Charlotte <-> Elizabeth: 158

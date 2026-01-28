@@ -1,0 +1,35 @@
+1, Darcy, Elizabeth
+2, Bennet, Darcy, Elizabeth, Kitty
+3, Bennet, Darcy, Elizabeth, Kitty, Lydia
+4, Bennet, Bingley, Caroline, Darcy, Elizabeth, Jane, Kitty, Lydia
+5, Bennet, Bingley, Caroline, Darcy, Elizabeth, Jane, Kitty, Lydia
+6, Bingley, Caroline, Darcy, Elizabeth, Jane, Lydia, Wickham
+7, Bennet, Bingley, Caroline, Darcy, Elizabeth, Jane, Wickham
+8, Bennet, Bingley, Darcy, Elizabeth, Wickham
+9, Bennet, Bingley, Darcy, Elizabeth, Jane, Wickham
+10, Bennet, Bingley, Darcy, Elizabeth, Georgiana, Jane
+11, Bennet, Bingley, Caroline, Darcy, Elizabeth, Georgiana, Jane
+12, Bennet, Bingley, Caroline, Darcy, Elizabeth, Georgiana, Jane
+13, Bennet, Bingley, Caroline, Darcy, Elizabeth, Georgiana
+14, Bennet, Bingley, Caroline, Catherine De, Collins, Darcy, De Bourgh, Elizabeth, Lady Catherine
+15, Bennet, Bingley, Catherine De, Collins, Darcy, De Bourgh, Elizabeth, Lady Catherine
+16, Bennet, Bingley, Catherine De, Collins, Darcy, De Bourgh, Elizabeth, Lady Catherine
+17, Bennet, Bingley, Catherine De, Collins, Darcy, De Bourgh, Elizabeth, Lady Catherine, Wickham
+18, Bingley, Darcy, Elizabeth, Wickham
+19, Bingley, Darcy, Elizabeth, Wickham
+20, Bingley, Darcy, Elizabeth, Kitty, Lydia, Wickham
+21, Carter, Elizabeth, Forster, Kitty, Lydia
+22, Carter, Elizabeth, Forster, Kitty, Lydia
+23, Carter, Darcy, Elizabeth, Forster, Kitty, Lydia
+24, Carter, Darcy, Elizabeth, Forster
+25, Darcy, Elizabeth
+26, Darcy, Elizabeth
+27, Bingley, Darcy, Elizabeth
+28, Bingley, Darcy, Elizabeth, Lydia, Mary
+29, Bennet, Bingley, Charlotte, Collins, Lydia, Mary
+30, Bennet, Bingley, Charlotte, Collins, Lydia, Mary
+31, Bennet, Bingley, Charlotte, Collins, Jane, Lydia, Mary
+32, Bennet, Bingley, Charlotte, Collins, Elizabeth, Gardiner, Jane
+33, Bingley, Collins, Elizabeth, Gardiner, Jane
+34, Bingley, Darcy, Elizabeth, Gardiner, Jane, William
+35, Catherine De, Collins, Darcy, De Bourgh, Elizabeth, Gardiner, Lady Catherine, William
