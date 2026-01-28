@@ -2,5 +2,12 @@
 spacy
 stanza
 # NER tools
-gliner2
-rapidfuzz
+gliner
+# Coreference resolution
+fastcoref==2.1.6
+# String matching / fuzzy tools
+fuzzywuzzy==0.18.0
+# Transformers
+transformers==4.57.6
+# Utilities
+tqdm>=4.66
