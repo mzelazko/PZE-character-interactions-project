@@ -1,14 +1,79 @@
 {
     "locations": [
-        "house", "park", "street", "hall", "room", "garden", "road", "town", "village", "city", "country", "london", "england", "place", "home"
+        "longbourn",
+        "pemberley",
+        "netherfield",
+        "meryton",
+        "hertfordshire",
+        "derbyshire",
+        "london",
+        "england",
+        "rosings",
+        "hunsford",
+        "brighton",
+        "gracechurch",
+        "grosvenor",
+        "house",
+        "park",
+        "street",
+        "hall",
+        "room",
+        "garden",
+        "road",
+        "town",
+        "village",
+        "city",
+        "country",
+        "london",
+        "england",
+        "place",
+        "home"
     ],
     "generic_titles": [
-        "lady", "gentleman", "sir", "madam", "master", "mistress", "servant", "captain", "colonel", "general", "major", "lieutenant", "sergeant"
+        "lady",
+        "man",
+        "woman",
+        "gentleman",
+        "sir",
+        "madam",
+        "master",
+        "mistress",
+        "servant",
+        "captain",
+        "colonel",
+        "general",
+        "major",
+        "lieutenant",
+        "sergeant",
+        "miss",
+        "miss king"
+
     ],
     "relationships": [
-        "friend", "acquaintance", "cousin", "aunt", "uncle", "sister", "brother", "father", "mother", "daughter", "son", "family", "parent", "child", "wife", "husband"
+        "friend",
+        "acquaintance",
+        "cousin",
+        "aunt",
+        "uncle",
+        "sister",
+        "brother",
+        "father",
+        "mother",
+        "daughter",
+        "son",
+        "family",
+        "parent",
+        "child",
+        "wife",
+        "husband"
     ],
     "meta": [
-        "chapter", "page", "volume", "book", "author", "preface", "index"
+        "chapter",
+        "page",
+        "volume",
+        "book",
+        "author",
+        "preface",
+        "index"
     ]
 }

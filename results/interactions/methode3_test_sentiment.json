@@ -96,7 +96,6 @@
       "Bingley",
       "Darcy",
       "Elizabeth",
-      "Pemberley Woods",
       "Wickham"
     ],
     "sentiment": 0.0,
@@ -110,7 +109,6 @@
       "Darcy",
       "Elizabeth",
       "Jane",
-      "Pemberley Woods",
       "Wickham"
     ],
     "sentiment": 0.0,
@@ -124,8 +122,7 @@
       "Darcy",
       "Elizabeth",
       "Georgiana",
-      "Jane",
-      "Pemberley Woods"
+      "Jane"
     ],
     "sentiment": 0.8,
     "text": "Mrs. Bennet watched them all proudly, and Mr. Darcy's sister Georgiana observed from the side."
@@ -139,8 +136,7 @@
       "Darcy",
       "Elizabeth",
       "Georgiana",
-      "Jane",
-      "Pemberley Woods"
+      "Jane"
     ],
     "sentiment": 0.0,
     "text": "Caroline Bingley felt increasing jealousy toward Elizabeth as she saw her with Mr. Darcy."
@@ -154,8 +150,7 @@
       "Darcy",
       "Elizabeth",
       "Georgiana",
-      "Jane",
-      "Miss King"
+      "Jane"
     ],
     "sentiment": 0.0,
     "text": "The door opened and Miss Bennet entered, followed closely by her sister Elizabeth."
@@ -168,8 +163,7 @@
       "Caroline",
       "Darcy",
       "Elizabeth",
-      "Georgiana",
-      "Miss King"
+      "Georgiana"
     ],
     "sentiment": -0.1,
     "text": "Mr. Bingley immediately rose to greet the former, while Mr. Darcy merely glanced at the latter with ..."
@@ -185,8 +179,7 @@
       "Darcy",
       "De Bourgh",
       "Elizabeth",
-      "Lady Catherine",
-      "Miss King"
+      "Lady Catherine"
     ],
     "sentiment": 0.55,
     "text": "\"I must assure you, Mrs. Bennet,\" said Mr. Collins pompously, \"that Lady Catherine de Bourgh has bee..."
@@ -201,9 +194,7 @@
       "Darcy",
       "De Bourgh",
       "Elizabeth",
-      "Lady Catherine",
-      "Miss King",
-      "Rosings"
+      "Lady Catherine"
     ],
     "sentiment": 0.0,
     "text": "She often invites me to Rosings for tea."
@@ -218,8 +209,7 @@
       "Darcy",
       "De Bourgh",
       "Elizabeth",
-      "Lady Catherine",
-      "Rosings"
+      "Lady Catherine"
     ],
     "sentiment": 0.21428571428571427,
     "text": "\"\n\nElizabeth remained seated in the corner, obscured by a large fern."
@@ -235,7 +225,6 @@
       "De Bourgh",
       "Elizabeth",
       "Lady Catherine",
-      "Rosings",
       "Wickham"
     ],
     "sentiment": 0.11388888888888889,
@@ -247,7 +236,6 @@
       "Bingley",
       "Darcy",
       "Elizabeth",
-      "Rosings",
       "Wickham"
     ],
     "sentiment": 0.0,
