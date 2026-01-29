@@ -43,10 +43,6 @@ Team Members:
   - Method 4 (Local LLM analysis (Ollama)): Prompts an LLM with the text chunk and asks it to respond with a list of interactions.
   - Method 5 (Advanced Contextual): Adds Zero-Shot Classification (BART) for deep dialogue  attribution
 
-
-### Work in Progress
-- Explore other methods besides LLMs?
-
 ## Research
 
 English and Polish Public domain books are available at https://www.gutenberg.org/ and https://wolnelektury.pl/.
