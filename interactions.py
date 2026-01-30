@@ -676,7 +676,7 @@ def main():
         print(f"Using model: {MODEL_NAME}")
         print(f"Using character list from: {CORRECT_CHARACTERS_PATH}")
         print(f"Make sure Ollama is running with: ollama run {MODEL_NAME}\n")
-        interactions = detect_interactions_llm(text, paragraphs_per_chunk=1)
+        interactions = detect_interactions_llm(text, paragraphs_per_chunk=7)
     
     # Save results
     print(f"\nFound {len(interactions)} interactions")
