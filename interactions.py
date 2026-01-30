@@ -37,7 +37,7 @@ CORRECT_CHARACTERS_PATH = "./results/character_extraction/correct_character_list
 BLACKLIST_PATH = "./data/universal_blacklist.json"
 GENDER_MAP_PATH = "./data/universal_gender_map.json"
 OLLAMA_API = "http://localhost:11434/api/generate"
-MODEL_NAME = "qwen3:14b" #llama3.1:8b, gemma3:12b-it-qat, qwen3:14b
+MODEL_NAME = "gemma3:12b-it-qat" #llama3.1:8b, gemma3:12b-it-qat, qwen3:14b
 
 def load_universal_resources():
     """Load blacklist and gender maps from external files for universality"""
