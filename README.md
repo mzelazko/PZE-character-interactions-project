@@ -12,9 +12,9 @@
 Team Members:
 - Michał Żelazko, Manager (planning, research on SOTA methods, implementation of book processing and NER tools, repo management, validating others work, presenting every week progress on the project to the professor)
 - Norbert Zabost, Documentation
-- Polina Konecka
-- Damian Kantorowski
-- Rafał Wielądek
+- Polina Konecka, NER tools
+- Damian Kantorowski, character interaction detection
+- Rafał Wielądek, character interaction detection
 
 ## Tech Stack
 | Layer | Technologies |
