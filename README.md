@@ -10,14 +10,26 @@
 ## Team 5
 
 Team Members:
-- Michał Żelazko, Manager
+- Michał Żelazko, Manager (planning, research on SOTA methods, implementation of book processing and NER tools, repo management, validating others work, presenting every week progress on the project to the professor)
 - Norbert Zabost, Documentation
-- Polina Konecka, Github repo
+- Polina Konecka
 - Damian Kantorowski
 - Rafał Wielądek
 
+## Tech Stack
+| Layer | Technologies |
+|--------|----------------|
+| **Language** | Python 3 |
+| **NER (character extraction)** | [spaCy](https://spacy.io/) (`en_core_web_lg`), [Stanza](https://stanfordnlp.github.io/stanza/) (English NER), [GLiNER](https://github.com/urchade/GLiNER) (`urchade/gliner_medium-v2.1`) |
+| **Coreference** | [fastcoref](https://github.com/shon-otmazgin/fastcoref) |
+| **Models & pipelines** | [Hugging Face Transformers](https://huggingface.co/docs/transformers)|
+| **Local LLM** | [Ollama](https://ollama.com/)|
+| **Alias matching & clustering** | [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) / [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz), `difflib.SequenceMatcher`, custom Levenshtein-style similarity, greedy clustering |
+| **Utilities** | `tqdm`, `requests` |
 
 ## Current State of The Project
+
+Detailed documentation is available in the [report](./report.pdf).
 
 ### Completed Tasks
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
@@ -53,13 +65,3 @@ We have lecture presentations from the Natural Language Processing course, kindl
 - A comprehensive overview of the methods used for creating character networks: [Extraction and Analysis of Fictional Character Networks](papers/Extraction%20and%20Analysis%20of%20Fictional%20Character%20Networks.pdf)
 - Character network analysis based on "A Song of Ice and Fire" novels and "Game of Thrones" series: https://networkofthrones.com/
 - Examples of character network visualizations on movies: https://moviegalaxies.com/discover/movies/all/
-
-
-
-## Notes
-
-- Prepare a few short text samples that highlight specific challenges the method may encounter and test how well it handles them. For example:
-
-  > A and B were discussing in the kitchen. C enters the room and says something to them.
-
-  > A and B were discussing in the kitchen, while D and E were in the garden. C enters the kitchen and says something.
