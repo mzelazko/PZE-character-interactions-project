@@ -24,7 +24,7 @@ Team Members:
 | **Coreference** | [fastcoref](https://github.com/shon-otmazgin/fastcoref) |
 | **Models & pipelines** | [Hugging Face Transformers](https://huggingface.co/docs/transformers)|
 | **Local LLM** | [Ollama](https://ollama.com/)|
-| **Alias matching & clustering** | [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) / [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz), `difflib.SequenceMatcher`, custom Levenshtein-style similarity, greedy clustering |
+| **Alias matching & clustering** | [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) / [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz) (Levenstein similarity), `difflib.SequenceMatcher` (Gestalt Pattern Matching), custom Levenshtein-style similarity, greedy clustering |
 | **Utilities** | `tqdm`, `requests` |
 
 ## Current State of The Project
