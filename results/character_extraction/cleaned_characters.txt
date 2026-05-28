@@ -1,60 +1,48 @@
 Adieu
-Ann
 Anne
 Anne Darcy
 Annesley
-Apothecary
-Ashworth
-Bakewell
+Archbishop
 Bennet
 Bennets
 Bingley
 Bingleys
-Bourgh
-Brighton
-Captain
 Captain Carter
 Caroline
 Caroline Bingley
 Carter
-Cath
 Catherine
-Catherine De
-Catherine De Bourgh
+Catherine de Bourgh
 Chamberlayne
 Charles
 Charlotte
 Charlotte Lucas
-Cheapside
-Clapham
+Clarke
 Collins
 Collinses
-Colonel
 Colonel F.
 Colonel Fitzwilliam
 Colonel Forster
+Colonel Miller
+Commerce
 Darcy
-Darcy Of Pemberley
 Dawson
-De
 De Bourgh
 Denny
-Dovedale
+Don’t
 E. Gardiner
 Edw. Gardiner
+Edw. Gardiner.
 Eliza
 Eliza Bennet
-Elizabe
 Elizabeth
 Elizabeth Bennet
-Elizabeth Drily
-Erine
 F.
 Fitzwilliam
 Fitzwilliam Darcy
+Fitzwilliam Darcy.
 Forster
 Forsters
-Gardener
 Gardiner
 Gardiners
 George
@@ -62,85 +50,64 @@ George Wickham
 George Wickham Esq.
 Georgiana
 Georgiana Darcy
+God
 Gouldings
-Grantley
 Haggerston
 Harriet
-Hatfield
-Haye Park
-Hertfordshire
+Harringtons
 Hill
-Hunsford
-Hunsford Parsonage
 Hurst
 Hursts
-Izabeth
 Jane
 Jane Bennet
 Jenkinson
 John
 Jones
-Kent
-King
 Kitty
-Lady
+L.
 Lady Anne
 Lady Anne Darcy
 Lady Catherine
-Lady Catherine De
-Lady Catherine De Bourgh
+Lady Catherine de Bourgh
 Lady Lucas
 Lady Metcalfe
-Ladyship
-Lewis
-Lewis De Bourgh
-Lix
-Lizabeth
+Lewis de Bourgh
 Lizzie
 Lizzy
 Long
-Longbourn
-Lord
 Louisa
 Lucas
-Lucas Lodge
 Lucases
 Lydia
 Lydia Bennet
+Lydia Wickham
 M. Gardiner
-Mamma
-Man
 Maria
 Maria Lucas
-Mark
 Mary
 Mary King
-Matlock
-Meryton
+Metcalfe
 Miller
-Miss
 Miss Bennet
 Miss Bennets
 Miss Bingley
 Miss Darcy
 Miss De Bourgh
+Miss Eliza
 Miss Eliza Bennet
-Miss Elizabeth
 Miss Elizabeth Bennet
-Miss King
-Miss Lu
+Miss Grantley
 Miss Lucas
-Miss Lucases
 Miss Lydia
 Miss Lydia Bennet
 Miss Pope
+Miss Watson
 Morris
-Mr.
 Mr. Bennet
-Mr. Bingl
 Mr. Bingley
 Mr. Collins
 Mr. Darcy
+Mr. Darcy of Pemberley
 Mr. Denny
 Mr. Fitzwilliam Darcy
 Mr. Gardiner
@@ -151,7 +118,6 @@ Mr. Philips
 Mr. Robinson
 Mr. Stone
 Mr. Wickham
-Mrs.
 Mrs. Annesley
 Mrs. Bennet
 Mrs. Bingley
@@ -168,34 +134,27 @@ Mrs. Nichols
 Mrs. Philips
 Mrs. Reynolds
 Mrs. Wickham
-Mrs. Younge
+Nay
 Nicholls
 Nichols
-Niece
-Parsonage
-Pemberley
-Pemberley Woods
 Pen
 Philips
 Philipses
 Pope
 Pratt
-Purvis Lodge
-Ramsgate
+Reynold
 Reynolds
 Richard
-Right Honourable Lady Catherine De Bourgh
 Robinson
-Rosings
+Rosing
 Sally
 Sarah
-Sir
-Sir Lewis
-Sir Lewis De Bourgh
+Scotch
+Sir Lewis de Bourgh
 Sir William
 Sir William Lucas
 Stone
-United
+Vain
 Vingt
 W.
 Watson

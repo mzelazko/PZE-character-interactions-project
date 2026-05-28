@@ -1,0 +1,581 @@
+{
+  "Elizabeth Bennet": {
+    "aliases": [
+      "Eliza",
+      "Eliza Bennet",
+      "Elizabeth",
+      "Elizabeth Bennet",
+      "Lizzie",
+      "Lizzy",
+      "Miss Eliza",
+      "Miss Eliza Bennet",
+      "Miss Elizabeth Bennet"
+    ]
+  },
+  "William Lucas": {
+    "aliases": [
+      "Lucas",
+      "Lucases",
+      "Sir William",
+      "Sir William Lucas",
+      "William Lucas"
+    ]
+  },
+  "Anne Darcy": {
+    "aliases": [
+      "Anne",
+      "Anne Darcy",
+      "Lady Anne",
+      "Lady Anne Darcy"
+    ]
+  },
+  "Catherine de Bourgh": {
+    "aliases": [
+      "Catherine",
+      "Catherine de Bourgh",
+      "Lady Catherine",
+      "Lady Catherine de Bourgh"
+    ]
+  },
+  "Colonel Forster": {
+    "aliases": [
+      "Colonel Forster",
+      "Forster",
+      "Forsters"
+    ]
+  },
+  "Fitzwilliam Darcy": {
+    "aliases": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy.",
+      "Mr. Fitzwilliam Darcy"
+    ]
+  },
+  "Lydia Bennet": {
+    "aliases": [
+      "Lydia Bennet",
+      "Miss Lydia",
+      "Miss Lydia Bennet"
+    ]
+  },
+  "Mr. Bennet": {
+    "aliases": [
+      "Bennet",
+      "Bennets",
+      "Mr. Bennet"
+    ]
+  },
+  "Mr. Bingley": {
+    "aliases": [
+      "Bingley",
+      "Bingleys",
+      "Mr. Bingley"
+    ]
+  },
+  "Mr. Collins": {
+    "aliases": [
+      "Collins",
+      "Collinses",
+      "Mr. Collins"
+    ]
+  },
+  "Mr. Gardiner": {
+    "aliases": [
+      "Gardiner",
+      "Gardiners",
+      "Mr. Gardiner"
+    ]
+  },
+  "Mr. Hurst": {
+    "aliases": [
+      "Hurst",
+      "Hursts",
+      "Mr. Hurst"
+    ]
+  },
+  "Mrs. Philips": {
+    "aliases": [
+      "Mrs. Philips",
+      "Philips",
+      "Philipses"
+    ]
+  },
+  "Mrs. Reynolds": {
+    "aliases": [
+      "Mrs. Reynolds",
+      "Reynold",
+      "Reynolds"
+    ]
+  },
+  "Captain Carter": {
+    "aliases": [
+      "Captain Carter",
+      "Carter"
+    ]
+  },
+  "Caroline Bingley": {
+    "aliases": [
+      "Caroline",
+      "Caroline Bingley"
+    ]
+  },
+  "Charlotte Lucas": {
+    "aliases": [
+      "Charlotte",
+      "Charlotte Lucas"
+    ]
+  },
+  "Colonel F.": {
+    "aliases": [
+      "Colonel F.",
+      "F."
+    ]
+  },
+  "Colonel Miller": {
+    "aliases": [
+      "Colonel Miller",
+      "Miller"
+    ]
+  },
+  "Edw. Gardiner": {
+    "aliases": [
+      "Edw. Gardiner",
+      "Edw. Gardiner."
+    ]
+  },
+  "Georgiana Darcy": {
+    "aliases": [
+      "Georgiana",
+      "Georgiana Darcy"
+    ]
+  },
+  "Jane Bennet": {
+    "aliases": [
+      "Jane",
+      "Jane Bennet"
+    ]
+  },
+  "Lady Metcalfe": {
+    "aliases": [
+      "Lady Metcalfe",
+      "Metcalfe"
+    ]
+  },
+  "Lewis de Bourgh": {
+    "aliases": [
+      "Lewis de Bourgh",
+      "Sir Lewis de Bourgh"
+    ]
+  },
+  "Maria Lucas": {
+    "aliases": [
+      "Maria",
+      "Maria Lucas"
+    ]
+  },
+  "Mary King": {
+    "aliases": [
+      "Mary",
+      "Mary King"
+    ]
+  },
+  "Miss De Bourgh": {
+    "aliases": [
+      "De Bourgh",
+      "Miss De Bourgh"
+    ]
+  },
+  "Miss Pope": {
+    "aliases": [
+      "Miss Pope",
+      "Pope"
+    ]
+  },
+  "Miss Watson": {
+    "aliases": [
+      "Miss Watson",
+      "Watson"
+    ]
+  },
+  "Mr. Darcy": {
+    "aliases": [
+      "Darcy",
+      "Mr. Darcy"
+    ]
+  },
+  "Mr. Denny": {
+    "aliases": [
+      "Denny",
+      "Mr. Denny"
+    ]
+  },
+  "Mr. Jones": {
+    "aliases": [
+      "Jones",
+      "Mr. Jones"
+    ]
+  },
+  "Mr. Morris": {
+    "aliases": [
+      "Morris",
+      "Mr. Morris"
+    ]
+  },
+  "Mr. Robinson": {
+    "aliases": [
+      "Mr. Robinson",
+      "Robinson"
+    ]
+  },
+  "Mr. Stone": {
+    "aliases": [
+      "Mr. Stone",
+      "Stone"
+    ]
+  },
+  "Mrs. Annesley": {
+    "aliases": [
+      "Annesley",
+      "Mrs. Annesley"
+    ]
+  },
+  "Mrs. Hill": {
+    "aliases": [
+      "Hill",
+      "Mrs. Hill"
+    ]
+  },
+  "Mrs. Jenkinson": {
+    "aliases": [
+      "Jenkinson",
+      "Mrs. Jenkinson"
+    ]
+  },
+  "Mrs. Long": {
+    "aliases": [
+      "Long",
+      "Mrs. Long"
+    ]
+  },
+  "Mrs. Nichols": {
+    "aliases": [
+      "Mrs. Nichols",
+      "Nichols"
+    ]
+  },
+  "Adieu": {
+    "aliases": [
+      "Adieu"
+    ]
+  },
+  "Archbishop": {
+    "aliases": [
+      "Archbishop"
+    ]
+  },
+  "Chamberlayne": {
+    "aliases": [
+      "Chamberlayne"
+    ]
+  },
+  "Charles": {
+    "aliases": [
+      "Charles"
+    ]
+  },
+  "Clarke": {
+    "aliases": [
+      "Clarke"
+    ]
+  },
+  "Colonel Fitzwilliam": {
+    "aliases": [
+      "Colonel Fitzwilliam"
+    ]
+  },
+  "Commerce": {
+    "aliases": [
+      "Commerce"
+    ]
+  },
+  "Dawson": {
+    "aliases": [
+      "Dawson"
+    ]
+  },
+  "Don’t": {
+    "aliases": [
+      "Don’t"
+    ]
+  },
+  "E. Gardiner": {
+    "aliases": [
+      "E. Gardiner"
+    ]
+  },
+  "Fitzwilliam": {
+    "aliases": [
+      "Fitzwilliam"
+    ]
+  },
+  "George": {
+    "aliases": [
+      "George"
+    ]
+  },
+  "George Wickham": {
+    "aliases": [
+      "George Wickham"
+    ]
+  },
+  "George Wickham Esq.": {
+    "aliases": [
+      "George Wickham Esq."
+    ]
+  },
+  "God": {
+    "aliases": [
+      "God"
+    ]
+  },
+  "Gouldings": {
+    "aliases": [
+      "Gouldings"
+    ]
+  },
+  "Haggerston": {
+    "aliases": [
+      "Haggerston"
+    ]
+  },
+  "Harriet": {
+    "aliases": [
+      "Harriet"
+    ]
+  },
+  "Harringtons": {
+    "aliases": [
+      "Harringtons"
+    ]
+  },
+  "John": {
+    "aliases": [
+      "John"
+    ]
+  },
+  "Kitty": {
+    "aliases": [
+      "Kitty"
+    ]
+  },
+  "L.": {
+    "aliases": [
+      "L."
+    ]
+  },
+  "Lady Lucas": {
+    "aliases": [
+      "Lady Lucas"
+    ]
+  },
+  "Louisa": {
+    "aliases": [
+      "Louisa"
+    ]
+  },
+  "Lydia": {
+    "aliases": [
+      "Lydia"
+    ]
+  },
+  "Lydia Wickham": {
+    "aliases": [
+      "Lydia Wickham"
+    ]
+  },
+  "M. Gardiner": {
+    "aliases": [
+      "M. Gardiner"
+    ]
+  },
+  "Miss Bennet": {
+    "aliases": [
+      "Miss Bennet"
+    ]
+  },
+  "Miss Bennets": {
+    "aliases": [
+      "Miss Bennets"
+    ]
+  },
+  "Miss Bingley": {
+    "aliases": [
+      "Miss Bingley"
+    ]
+  },
+  "Miss Darcy": {
+    "aliases": [
+      "Miss Darcy"
+    ]
+  },
+  "Miss Grantley": {
+    "aliases": [
+      "Miss Grantley"
+    ]
+  },
+  "Miss Lucas": {
+    "aliases": [
+      "Miss Lucas"
+    ]
+  },
+  "Mr. Darcy of Pemberley": {
+    "aliases": [
+      "Mr. Darcy of Pemberley"
+    ]
+  },
+  "Mr. Philips": {
+    "aliases": [
+      "Mr. Philips"
+    ]
+  },
+  "Mr. Wickham": {
+    "aliases": [
+      "Mr. Wickham"
+    ]
+  },
+  "Mrs. Bennet": {
+    "aliases": [
+      "Mrs. Bennet"
+    ]
+  },
+  "Mrs. Bingley": {
+    "aliases": [
+      "Mrs. Bingley"
+    ]
+  },
+  "Mrs. Collins": {
+    "aliases": [
+      "Mrs. Collins"
+    ]
+  },
+  "Mrs. Darcy": {
+    "aliases": [
+      "Mrs. Darcy"
+    ]
+  },
+  "Mrs. F.": {
+    "aliases": [
+      "Mrs. F."
+    ]
+  },
+  "Mrs. Forster": {
+    "aliases": [
+      "Mrs. Forster"
+    ]
+  },
+  "Mrs. Gardiner": {
+    "aliases": [
+      "Mrs. Gardiner"
+    ]
+  },
+  "Mrs. Hurst": {
+    "aliases": [
+      "Mrs. Hurst"
+    ]
+  },
+  "Mrs. Wickham": {
+    "aliases": [
+      "Mrs. Wickham"
+    ]
+  },
+  "Nay": {
+    "aliases": [
+      "Nay"
+    ]
+  },
+  "Nicholls": {
+    "aliases": [
+      "Nicholls"
+    ]
+  },
+  "Pen": {
+    "aliases": [
+      "Pen"
+    ]
+  },
+  "Pratt": {
+    "aliases": [
+      "Pratt"
+    ]
+  },
+  "Richard": {
+    "aliases": [
+      "Richard"
+    ]
+  },
+  "Rosing": {
+    "aliases": [
+      "Rosing"
+    ]
+  },
+  "Sally": {
+    "aliases": [
+      "Sally"
+    ]
+  },
+  "Sarah": {
+    "aliases": [
+      "Sarah"
+    ]
+  },
+  "Scotch": {
+    "aliases": [
+      "Scotch"
+    ]
+  },
+  "Vain": {
+    "aliases": [
+      "Vain"
+    ]
+  },
+  "Vingt": {
+    "aliases": [
+      "Vingt"
+    ]
+  },
+  "W.": {
+    "aliases": [
+      "W."
+    ]
+  },
+  "Webbs": {
+    "aliases": [
+      "Webbs"
+    ]
+  },
+  "Wickham": {
+    "aliases": [
+      "Wickham"
+    ]
+  },
+  "William": {
+    "aliases": [
+      "William"
+    ]
+  },
+  "William Collins": {
+    "aliases": [
+      "William Collins"
+    ]
+  },
+  "William Goulding": {
+    "aliases": [
+      "William Goulding"
+    ]
+  },
+  "Younge": {
+    "aliases": [
+      "Younge"
+    ]
+  }
+}

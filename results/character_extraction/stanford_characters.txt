@@ -24,8 +24,6 @@ Catherine’s
 Chamberlayne
 Charles
 Charlotte
-Charlotte
-Lucas
 Charlotte Lucas
 Charlotte’s
 Collins
@@ -87,28 +85,14 @@ King
 Kitty
 Kitty’s
 LYDIA BENNET
-Lady
-Catherine
-Lady
-Catherine de Bourgh
-Lady
-Catherine’s
-Lady
-Lucas
 Lady Anne
 Lady Catherine
-Lady Catherine
-de Bourgh
-Lady Catherine de
-Bourgh
 Lady Catherine de Bourgh
 Lady Catherine’s
 Lady Lucas
 Lady Metcalfe’s
 Ladyship
 Ladyship’s
-Lewis
-     de Bourgh
 Lewis de Bourgh
 Lewis de Bourgh’s
 Lizzie
@@ -122,9 +106,8 @@ Lucas Lodge
 Lucases
 Lucas’s
 Lydia
-Lydia
-     Wickham
 Lydia Bennet
+Lydia Wickham
 Lydia’s
 M. GARDINER
 Mamma

@@ -1,234 +1,156 @@
-Elizabeth	person	408
-Mr. Darcy	person	248
-Jane	person	144
-Mr. Collins	person	138
-Mrs. Bennet	person	127
-Lydia	person	110
-Mr. Bingley	person	104
-Mr. Bennet	person	82
-Wickham	person	82
-Lady Catherine	person	81
-Miss Bingley	person	76
-Bingley	person	65
-Darcy	person	64
-Mr. Wickham	person	60
-Charlotte	person	54
-Mrs. Gardiner	person	41
-she	person	36
-Kitty	person	35
-Miss Bennet	person	35
-Miss Darcy	person	35
-Mr. Gardiner	person	28
-Sir William	person	25
-Colonel Forster	person	25
-Mary	person	24
-Colonel Fitzwilliam	person	23
-Mrs. Hurst	person	21
-Mrs. Collins	person	21
-Mrs.
-Bennet	person	17
-Lady Lucas	person	16
-Mr.
-Darcy	person	16
-Miss Lucas	person	16
-Mrs. Philips	person	16
-he	person	16
-her	person	14
-Maria	person	13
-Mrs. Long	person	12
-Caroline	person	12
-She	person	12
-Lady
-Catherine	person	11
-Mr.
-Collins	person	11
-Georgiana	person	11
-Miss de Bourgh	person	10
-Mrs. Forster	person	10
-Mr.
-Bingley	person	9
-Mr. Hurst	person	9
-Sir William Lucas	person	9
-Lady Catherine de Bourgh	person	8
-Miss
-Bingley	person	7
-Mrs. Jenkinson	person	7
-Colonel
-Fitzwilliam	person	7
-Lizzy	person	6
-Mr.
-Bennet	person	6
-Charlotte Lucas	person	6
-Mr. Denny	person	6
-Mr.
-Wickham	person	6
-George Wickham	person	6
-Miss De Bourgh	person	6
-Mrs. Reynolds	person	6
-Mr. Jones	person	5
-your father	person	5
-Denny	person	5
-your uncle	person	5
-Elizabeth Bennet	person	4
-Charles	person	4
-Miss King	person	4
-He	person	4
-Mr. and Mrs. Gardiner	person	4
-mamma	person	4
-Mr. Robinson	person	3
-Miss Elizabeth Bennet	person	3
-Mr. Philips	person	3
-Captain Carter	person	3
-Catherine	person	3
-Mr.
-Hurst	person	3
-her Ladyship	person	3
-Fitzwilliam	person	3
-Mrs. Younge	person	3
-waiter	person	3
-her mother	person	3
-housekeeper	person	3
-Mrs. Annesley	person	3
-Colonel F.	person	3
-Mr.
-Gardiner	person	3
-Mrs. Hill	person	3
-Mrs. Wickham	person	3
-him	person	3
-Maria Lucas	person	2
-Miss
-Bennet	person	2
-Miss Eliza Bennet	person	2
-Eliza Bennet	person	2
-Sir
-William	person	2
-Colonel
-Forster	person	2
-izabeth	person	2
-Lady
-Catherine de Bourgh	person	2
-Lady Catherine de
-Bourgh	person	2
-Mrs.
-Philips	person	2
-Lady
-Lucas	person	2
-Miss
-Darcy	person	2
-Your father	person	2
-My father	person	2
-Eliza	person	2
-Mrs.
-Gardiner	person	2
-Mr. and Mrs. Collins	person	2
-Anne	person	2
-Mrs.
-Collins	person	2
-lizabeth	person	2
-your sister	person	2
-John	person	2
-papa	person	2
-Mary King	person	2
-Mrs.
-Forster	person	2
-Pratt	person	2
-Her aunt	person	2
-Mrs. F.	person	2
-Miss Lydia Bennet	person	2
-man	person	2
-Mr. Morris	person	1
-Mr. Bingl	person	1
-Miss
-King	person	1
-Miss
-Lucas	person	1
-Captain
-Carter	person	1
-CAROLINE BINGLEY	person	1
-apothecary	person	1
-Jane Bennet	person	1
-Miss
-Grantley	person	1
-Louisa	person	1
-Right Honourable Lady Catherine de Bourgh	person	1
-Sir Lewis
-     de Bourgh	person	1
-WILLIAM COLLINS	person	1
-Her Ladyship	person	1
-Miss Lydia	person	1
-Lady Anne Darcy	person	1
-Miss Elizabeth	person	1
-officer	person	1
-your honoured
-father	person	1
-De Bourgh	person	1
-Caroline Bingley	person	1
-Georgiana Darcy	person	1
+Anne
+Archbishop
+Bingley
+Bingleys
+CAROLINE BINGLEY
+Captain Carter
+Caroline
+Caroline Bingley
+Catherine
+Chamberlayne
+Charles
 Charlotte
-Lucas	person	1
-Mr. Fitzwilliam Darcy	person	1
-My
-father	person	1
+Charlotte Lucas
+Colonel F.
+Colonel Fitzwilliam
+Colonel Forster
+Colonel Miller
+Commerce
+Darcy
+De Bourgh
+Denny
+E. GARDINER
+EDW. GARDINER
+Eliza
+Eliza Bennet
+Elizabeth
+Elizabeth Bennet
+FITZWILLIAM DARCY
+Fitzwilliam
+Gardiners
+George Wickham
+George Wickham, Esq.
+Georgiana
+Georgiana Darcy
+Harriet
+He
+Her Ladyship
+Her aunt
+Her father
+Her mother
+I
+Jane
+Jane Bennet
+John
+Kitty
+LYDIA BENNET
+Lady Anne
+Lady Anne Darcy
 Lady Catherine
-de Bourgh	person	1
-Rosings	person	1
-Sir Lewis de Bourgh	person	1
-Lady Metcalfe	person	1
-Miss Pope	person	1
-Lord ----	person	1
-Ann	person	1
-Miss
-De Bourgh	person	1
-de	person	1
-younger son of an earl	person	1
-Your sister	person	1
-your
-sister	person	1
-your mother	person	1
-my father	person	1
-My excellent father	person	1
-FITZWILLIAM DARCY	person	1
-Mr.
-Darcy of Pemberley	person	1
-Lady Anne	person	1
-Mamma	person	1
-Harriet	person	1
-Kitty and
-Lydia	person	1
-Colonel
-Miller	person	1
-Mrs.
-Reynolds	person	1
-gardener	person	1
+Lady Catherine de Bourgh
+Lady Lucas
+Lady Metcalfe
+Lizzy
+Longbourn
+Lord ----
+Louisa
+Lucases
 Lydia
-     Wickham	person	1
-Sally	person	1
-LYDIA BENNET	person	1
-My mother	person	1
-My aunt Philips	person	1
-EDW. GARDINER	person	1
-General----	person	1
-William Goulding	person	1
-Lucases	person	1
-Mr. Stone	person	1
-Mr.
-     Darcy	person	1
-Mrs.
-     Younge	person	1
-your
-     uncle	person	1
-Elizabe	person	1
-Mrs. Nichols	person	1
-Miss Lu	person	1
-George Wickham, Esq.	person	1
-Mr. and
-Mrs. Collins	person	1
+Lydia Wickham
+M. GARDINER
+Mamma
+Maria
+Maria Lucas
+Mary
+Mary King
+Miss Bennet
+Miss Bennets
+Miss Bingley
+Miss Darcy
+Miss De Bourgh
+Miss Eliza
+Miss Eliza Bennet
+Miss Elizabeth Bennet
+Miss Grantley
+Miss King
+Miss Lucas
+Miss Lydia
+Miss Lydia Bennet
+Miss Pope
+Miss Watson
+Miss de Bourgh
+Mr. Bennet
+Mr. Bingley
+Mr. Collins
+Mr. Darcy
+Mr. Darcy of Pemberley
+Mr. Denny
+Mr. Fitzwilliam Darcy
+Mr. Gardiner
+Mr. Hurst
+Mr. Jones
+Mr. Morris
+Mr. Philips
+Mr. Robinson
+Mr. Stone
+Mr. Wickham
+Mr. and Mrs. Collins
+Mr. and Mrs. Gardiner
+Mrs. Annesley
+Mrs. Bennet
+Mrs. Bingley
+Mrs. Collins
+Mrs. Darcy
+Mrs. F.
+Mrs. Forster
+Mrs. Gardiner
+Mrs. Hill
+Mrs. Hurst
+Mrs. Jenkinson
+Mrs. Long
+Mrs. Nichols
+Mrs. Philips
+Mrs. Reynolds
+Mrs. Wickham
+My aunt Philips
+My father
+My mother
+Pen
+Pratt
+Reynolds
+Rosings
+Sally
+She
+Sir Lewis de Bourgh
+Sir William
+Sir William Lucas
+WILLIAM COLLINS
+Wickham
+William Goulding
+You
+Your father
+Your mother
+Your uncle
+apothecary
+colonel of the regiment
+gardener
+he
 her
-Ladyship	person	1
-you	person	1
-Lady
-Cath	person	1
-erine	person	1
-Mrs. Bingley	person	1
-Mrs. Darcy	person	1
-Gardiners	person	1
+her Ladyship
+her mother
+housekeeper
+mamma
+master
+mother
+my dear madam
+my uncle and aunt
+papa
+she
+them
+they
+waiter
+you
+your Ladyship
+your daughter
+your father
+your uncle

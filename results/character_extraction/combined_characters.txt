@@ -1,9 +1,9 @@
 Adieu
-Ann
 Anne
 Anne Darcy
 Annesley
 Anne’s
+Archbishop
 Ashworth
 Bakewell
 Bennet
@@ -13,42 +13,23 @@ Bingley
 Bingleys
 Bingleys’
 Bingley’s
-Bourgh
-Brighton
+Bromley
 CAROLINE BINGLEY
-CHAPTER L.
-CHAPTER LI
-CHAPTER LII
-CHAPTER XIII
-CHAPTER XIV
-CHAPTER XLVIII
-CHAPTER XVI
-CHAPTER XXI
-CHAPTER XXII
-CHAPTER XXIII
-CHAPTER XXVI
-CHAPTER XXXI
-CHAPTER XXXVI
-Captain
 Captain Carter
 Caroline
 Caroline Bingley
 Caroline’s
 Carter
-Cath
 Catherine
-Catherine de
 Catherine de Bourgh
 Catherine de Bourgh’s
 Catherine’s
 Chamberlayne
-Chapter XLVI
 Charles
 Charlotte
 Charlotte Lucas
 Charlotte’s
-Cheapside
-Clapham
+Clarke
 Collins
 Collinses
 Collins’s
@@ -56,9 +37,9 @@ Colonel
 Colonel F.
 Colonel Fitzwilliam
 Colonel Forster
+Colonel Miller
+Commerce
 Darcy
-Darcy of Pemberley
-Darcy!--and
 Darcy_
 Darcy’s
 Dawson
@@ -69,17 +50,16 @@ Don’t
 Dovedale
 E. GARDINER
 EDW. GARDINER
+EDW. GARDINER.
 Eliza
 Eliza Bennet
-Elizabe
 Elizabeth
 Elizabeth Bennet
 Elizabeth Bennet’s
-Elizabeth drily--“Mr
 Elizabeth’s
-Esq
 F.
 FITZWILLIAM DARCY
+FITZWILLIAM DARCY.
 Fitzwilliam
 Fitzwilliam Darcy
 Fitzwilliam’s
@@ -90,31 +70,32 @@ GARDINER
 Gardiner
 Gardiners
 Gardiner’s
-General----
 George
 George Wickham
+George Wickham,
 George Wickham, Esq.
 Georgiana
 Georgiana Darcy
+God
 God’s
 Gouldings
 Grantley
 Grantley’s
 Haggerston
 Harriet
-Hatfield
-Haye Park
+Harringtons
 He
 Her Ladyship
 Her aunt
-Hertfordshire
+Her father
+Her mother
 Hill
 His_
 Hunsford
-Hunsford Parsonage
 Hurst
 Hursts
 Hurst’s
+I
 I_
 Jane
 Jane Bennet
@@ -129,15 +110,13 @@ Jones’s
 Kent
 King
 Kitty
-Kitty and
 Kitty’s
-LIX
+L.
 LYDIA BENNET
-Lady
+La
 Lady Anne
 Lady Anne Darcy
 Lady Catherine
-Lady Catherine de
 Lady Catherine de Bourgh
 Lady Catherine’s
 Lady Lucas
@@ -145,7 +124,6 @@ Lady Metcalfe
 Lady Metcalfe’s
 Ladyship
 Ladyship’s
-Lewis
 Lewis de Bourgh
 Lewis de Bourgh’s
 Lizzie
@@ -161,6 +139,7 @@ Lucases
 Lucas’s
 Lydia
 Lydia Bennet
+Lydia Wickham
 Lydia’s
 M. GARDINER
 Mamma
@@ -172,33 +151,31 @@ Mary King
 Mary’s
 Matlock
 Meryton
-Michaelmas
+Metcalfe
 Miller
 Miller’s
-Miss
 Miss Bennet
 Miss Bennets
 Miss Bingley
 Miss Darcy
 Miss De Bourgh
+Miss Eliza
 Miss Eliza Bennet
-Miss Elizabeth
 Miss Elizabeth Bennet
+Miss Grantley
 Miss King
-Miss Lu
 Miss Lucas
-Miss Lucases
 Miss Lydia
 Miss Lydia Bennet
 Miss Pope
+Miss Watson
 Miss de Bourgh
 Morris
-Mr.
 Mr. Bennet
-Mr. Bingl
 Mr. Bingley
 Mr. Collins
 Mr. Darcy
+Mr. Darcy of Pemberley
 Mr. Denny
 Mr. Fitzwilliam Darcy
 Mr. Gardiner
@@ -209,10 +186,8 @@ Mr. Philips
 Mr. Robinson
 Mr. Stone
 Mr. Wickham
-Mr. and
 Mr. and Mrs. Collins
 Mr. and Mrs. Gardiner
-Mrs.
 Mrs. Annesley
 Mrs. Bennet
 Mrs. Bingley
@@ -229,10 +204,7 @@ Mrs. Nichols
 Mrs. Philips
 Mrs. Reynolds
 Mrs. Wickham
-Mrs. Younge
-My
 My aunt Philips
-My excellent father
 My father
 My mother
 Nay
@@ -240,7 +212,6 @@ Netherfield
 Nicholls
 Nichols
 Niece
-Parsonage
 Pemberley
 Pemberley Woods
 Pen
@@ -249,12 +220,9 @@ Philipses
 Philips’s
 Pope
 Pratt
-Purvis Lodge
-Ramsgate
 Reynolds
 Reynolds’
 Richard
-Right Honourable Lady Catherine de Bourgh
 Robinson
 Robinson’s
 Rosings
@@ -262,11 +230,8 @@ Rosings’
 Sally
 Sarah
 Scotch
-Sermons
 She
 She_
-Sir
-Sir Lewis
 Sir Lewis de Bourgh
 Sir William
 Sir William Lucas
@@ -274,6 +239,7 @@ Stone
 That_
 The _tête-à-tête_
 They_
+Vain
 Vingt
 W.
 WILLIAM COLLINS
@@ -288,47 +254,37 @@ William Goulding
 William Lucas
 William Lucas’s
 William’s
+You
 You_
 Younge
 Your father
-Your sister
+Your mother
+Your uncle
 _her_
 _you_
 a Colonel Fitzwilliam
 a Lady Catherine
 apothecary
-contemptuously,--“yes
-de
+colonel of the regiment
 de Bourgh
-erine
-father
 gardener
 he
 her
 her Ladyship
 her mother
-her,--
-him
 housekeeper
-izabeth
-lizabeth
 mamma
-man
-mark
-my father
-officer
+master
+mother
+my dear madam
+my uncle and aunt
 papa
-savours
 she
-sister
-uncle
-united
+them
+they
 waiter
 you
-younger son of an earl
-your
+your Ladyship
+your daughter
 your father
-your honoured
-your mother
-your sister
 your uncle
