@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pze-character-interactions"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "nltk",
+    "fuzzywuzzy==0.18.0",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+spacy = ["spacy"]
+stanza = ["stanza"]
+gliner = ["gliner", "transformers==4.57.6"]
+coref = ["fastcoref==2.1.6", "transformers==4.57.6"]
+all = [
+    "spacy",
+    "stanza",
+    "gliner",
+    "fastcoref==2.1.6",
+    "transformers==4.57.6",
+]
+
+[tool.setuptools]
+py-modules = ["character_extraction", "interactions", "prepare_book"]
+packages = ["character_pipeline"]
+
+[project.scripts]
+character-extraction = "character_pipeline.pipeline:main"
