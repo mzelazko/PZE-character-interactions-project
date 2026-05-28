@@ -27,6 +27,36 @@ Team Members:
 | **Alias matching & clustering** | [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) / [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz) (Levenstein similarity), `difflib.SequenceMatcher` (Gestalt Pattern Matching), custom Levenshtein-style similarity, greedy clustering |
 | **Utilities** | `tqdm`, `requests` |
 
+## Pipeline overview
+
+```mermaid
+flowchart LR
+  subgraph extract [Extract]
+    S[Stanza]
+    P[spaCy]
+    G[GLiNER]
+    C[Combine]
+  end
+  subgraph clean [Clean]
+    N[normalize + filter]
+  end
+  subgraph aliases [Aliases]
+    F[Fuzzy untitled]
+    R[Rule-based UF]
+  end
+  subgraph out [Output]
+    J[final_characters.json]
+  end
+  S --> C
+  P --> C
+  G --> C
+  C --> N --> F
+  N --> R --> J
+```
+
+Interaction detection is a separate step: `interactions.py` reads `final_characters.json`.
+
+
 ## Current State of The Project
 
 Detailed documentation is available in the [report](./report.pdf).
@@ -34,7 +64,7 @@ Detailed documentation is available in the [report](./report.pdf).
 ### Completed Tasks
 - Downloaded and cleaned the book for processing ([process_book.py](./process_book.py) and [data](./data))
 - Researched related work to identify state-of-the-art (SOTA) methods (see highlights in [papers](./papers/))
-- Tested three Named Entity Recognition (NER) models on the book ([character_extraction.py](./character_extraction.py) and [results/character_extraction](./results/character_extraction/)):
+- Tested three Named Entity Recognition (NER) models on the book ([character_pipeline](./character_pipeline/) / [character_extraction.py](./character_extraction.py) and [results/character_extraction](./results/character_extraction/)):
   - `en_core_web_lg` from the `Spacy` libarry
   - stanford NER
   - [GLiNER](https://github.com/urchade/GLiNER)
