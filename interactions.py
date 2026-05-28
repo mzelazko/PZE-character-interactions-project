@@ -32,7 +32,7 @@ except ImportError:
     HAS_TRANSFORMERS = False
 
 TEXT_PATH = "./data/pride_and_prejudice.txt"
-CHARACTERS_PATH = "./results/character_extraction/final_characters.json"
+CHARACTERS_PATH = "./results/final_characters.json"
 CORRECT_CHARACTERS_PATH = "./results/character_extraction/correct_character_list.txt"
 BLACKLIST_PATH = "./data/universal_blacklist.json"
 GENDER_MAP_PATH = "./data/universal_gender_map.json"
@@ -601,8 +601,10 @@ def main():
     )
     parser.add_argument(
         "method",
+        nargs="?",
+        default="1",
         choices=["1", "2", "3", "4", "5"],
-        help="Method: 1 (sliding window), 2 (fastcoref), 3 (contextual), 4 (LLM), 5 (contextual + DL)"
+        help="Method: 1 (sliding window), 2 (fastcoref), 3 (contextual), 4 (LLM), 5 (contextual + DL); default: 1",
     )
     parser.add_argument(
         "-o", "--output",

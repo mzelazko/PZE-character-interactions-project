@@ -1,57 +1,74 @@
-import difflib
 import re
 
 TEXT_PATH = "./data/pride_and_prejudice.txt"
 CLEANED_TEXT_PATH = "./data/pride_and_prejudice_cleaned.txt"
 REMOVED_LOG_PATH = "./data/pride_and_prejudice_removed.log"
 
-def remove_gutenberg_boilerplate(text: str) -> str:
-    """
-    Removes Gutenberg boilerplate from raw ebook text.
-    Potential additions: remove any excessive newlines.
-    Args:
-        text: Full contents of a Project Gutenberg .txt file.
-    """
-    start_marker = "*** START OF THE PROJECT GUTENBERG"
 
-    end_marker = """*** END OF THE PROJECT GUTENBERG"""
+def remove_gutenberg_boilerplate(text: str) -> tuple[str, str]:
+    """Return (novel region inside Gutenberg markers, text cut from raw file)."""
+    start_marker = "*** START OF THE PROJECT GUTENBERG"
+    end_marker = "*** END OF THE PROJECT GUTENBERG"
 
     idx_start = text.find(start_marker)
     if idx_start == -1:
         raise ValueError(f"Start marker not found: {start_marker!r}")
-    idx_start = text.find("\n", idx_start) + 1  # skip " EBOOK … ***\n"
+    idx_start = text.find("\n", idx_start) + 1
 
     idx_end = text.find(end_marker)
     if idx_end == -1:
         raise ValueError(f"End marker not found: {end_marker!r}")
 
-    text_cleaned = text[idx_start:idx_end].strip()
+    removed = text[:idx_start] + text[idx_end:]
+    content = text[idx_start:idx_end].strip()
+    return content, removed
 
-    return text_cleaned
 
-def _remove_illustration_blocks(text: str) -> str:
-    """Drop [Illustration ...] blocks, including multi-line publisher plates."""
+def _remove_illustration_blocks(text: str) -> tuple[str, str]:
+    """Drop [Illustration ...] blocks; return (kept text, removed blocks)."""
     lines = []
+    removed_parts: list[str] = []
     skipping = False
+    skip_buffer: list[str] = []
+
     for line in text.splitlines(keepends=True):
         if not skipping:
             if re.search(r"\[Illustration", line, re.IGNORECASE):
                 skipping = True
+                skip_buffer = [line]
                 if re.search(r"\[Illustration[^\]]*\]", line, re.IGNORECASE):
+                    removed_parts.append("".join(skip_buffer))
                     skipping = False
+                    skip_buffer = []
                 continue
         else:
+            skip_buffer.append(line)
             if re.search(r"\]\s*$", line):
+                removed_parts.append("".join(skip_buffer))
                 skipping = False
+                skip_buffer = []
             continue
         lines.append(line)
-    return "".join(lines)
+
+    return "".join(lines), "".join(removed_parts)
 
 
-def clean_gutenberg_pride_and_prejudice(text: str) -> str:
+def _dewrap_paragraphs(text: str) -> str:
+    """Join hard-wrapped lines within each paragraph into a single line."""
+    paragraphs = [" ".join(p.split()) for p in re.split(r"\n\s*\n", text) if p.strip()]
+    merged = []
+    for p in paragraphs:
+        if merged and p[:1].islower():
+            merged[-1] = merged[-1] + " " + p
+        else:
+            merged.append(p)
+    return "\n\n".join(merged)
+
+
+def clean_gutenberg_pride_and_prejudice(text: str) -> tuple[str, str]:
     """
-    Keeps only the Pride and Prejudice novel body: drops front matter and
-    back matter via markers, removes illustration blocks, adds CHAPTER I.
+    Keep only the Pride and Prejudice body; return (cleaned text, removed segments).
+    Dewrapping reformats lines in place — that text is not counted as removed.
     """
     start_marker = "It is a truth universally acknowledged,"
     end_marker = "had been the means of uniting them."
@@ -65,30 +82,32 @@ def clean_gutenberg_pride_and_prejudice(text: str) -> str:
         raise ValueError(f"End marker not found: {end_marker!r}")
     idx_end += len(end_marker)
 
-    text = text[idx_start:idx_end]
-    text = _remove_illustration_blocks(text)
-    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    removed = text[:idx_start]
+    if text[idx_end:].strip():
+        removed += text[idx_end:]
 
-    return f"CHAPTER I.\n\n{text}"
+    body = text[idx_start:idx_end]
+    body, illus_removed = _remove_illustration_blocks(body)
+    removed += illus_removed
+
+    body = _dewrap_paragraphs(body)
+    ready_text = f"CHAPTER I.\n\n{body}"
+    return ready_text, removed
 
 
 def main():
     with open(TEXT_PATH, "r", encoding="utf-8") as f:
         raw = f.read()
-    text = remove_gutenberg_boilerplate(raw)
-    ready_text = clean_gutenberg_pride_and_prejudice(text)
+
+    text, removed_gutenberg = remove_gutenberg_boilerplate(raw)
+    ready_text, removed_novel = clean_gutenberg_pride_and_prejudice(text)
 
     with open(CLEANED_TEXT_PATH, "w", encoding="utf-8") as f:
         f.write(ready_text)
 
-    # Save what was removed
-    removed = "".join(
-        line[2:]
-        for line in difflib.ndiff(raw.splitlines(True), ready_text.splitlines(True))
-        if line.startswith("- ")
-    )
     with open(REMOVED_LOG_PATH, "w", encoding="utf-8") as f:
-        f.write(removed)
+        f.write(removed_gutenberg + removed_novel)
+
 
 if __name__ == "__main__":
     main()
